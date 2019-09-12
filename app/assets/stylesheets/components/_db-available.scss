@@ -14,37 +14,36 @@
 
 .db-card {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 30px;
   margin: 50px;
 }
 
-.card-trip {
+.card-reuse {
   overflow: hidden;
   background: white;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
-.card-trip > img {
+.card-reuse > img {
   height: 200px;
   width: 100%;
   object-fit: cover;
 }
 
-.card-trip h2 {
+.card-reuse h2 {
   font-size: 16px;
   font-weight: bold;
   margin: 0;
 }
 
-.card-trip p {
+.card-reuse p {
   font-size: 12px;
   opacity: .7;
   margin: 0;
 }
 
-
-.card-trip .card-trip-infos {
+.card-reuse .card-reuse-infos {
   padding: 16px;
   display: flex;
   justify-content: space-between;
@@ -52,9 +51,11 @@
   position: relative;
 }
 
-.card-trip-infos .card-trip-user {
+.card-reuse-infos .card-reuse-user {
   position: absolute;
   right: 16px;
   top: -20px;
   width: 40px;
 }
+
+

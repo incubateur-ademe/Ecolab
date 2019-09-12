@@ -1,0 +1,2 @@
+class Kpi < ApplicationRecord
+end
