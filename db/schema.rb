@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_09_12_193447) do
+ActiveRecord::Schema.define(version: 2019_09_12_195326) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -36,6 +36,12 @@ ActiveRecord::Schema.define(version: 2019_09_12_193447) do
   create_table "metrics", force: :cascade do |t|
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.bigint "kpi_id"
+    t.bigint "ingredient_id"
+    t.index ["ingredient_id"], name: "index_metrics_on_ingredient_id"
+    t.index ["kpi_id"], name: "index_metrics_on_kpi_id"
   end
 
+  add_foreign_key "metrics", "ingredients"
+  add_foreign_key "metrics", "kpis"
 end
