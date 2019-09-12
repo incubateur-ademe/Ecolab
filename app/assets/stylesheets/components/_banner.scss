@@ -7,17 +7,37 @@
   position: relative;
 }
 
+
+
 .headers {
   color: white;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   position: absolute;
-  bottom: 60px;
-  left: 30px;
-  width: 51%;
+  bottom: 131px;
+  left: 90px;
+  width: 50%;
 }
 
-.headers p {
-  font-size: 25px;
+
+.headers h2 {
+  margin-bottom: 40px;
 }
 
+.searchbar #query {
+    background: #fff0;
+    width: 100px;
+    border: none;
+    border-bottom: white;
+    border-bottom: 2px solid white;
+    border-radius: 0px;
+    margin-bottom: 20px;
+  }
+
+  .searchbar #query::placeholder {
+    color: white;
+  }
+
+  .searchbar #query:active {
+    border-bottom: 4px solid white;
+  }
 
