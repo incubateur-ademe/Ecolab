@@ -1,7 +1,7 @@
 <div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
 
   <%= link_to root_path do %>
-    <img class="logo" src="<%= image_path('PO-POTES.png') %>"/>
+    <img class="logo" src="<%= image_path('ECOLAB.png') %>"/>
   <% end %>
 
 
@@ -12,24 +12,8 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-          <%= link_to "Add a meal", new_meal_path, class: "nav-link d-block d-sm-none" %>
-      </li>
-      <li class="nav-item active">
-        <%= link_to "My meals", my_meals_path, class: "nav-link d-block d-sm-none" %>
-      </li>
-      <li class="nav-item active">
-        <%= link_to "My orders", my_orders_path, class: "nav-link d-block d-sm-none" %>
-      </li>
-      <li class="nav-item active">
-        <%= link_to "My profile", "#", class: "nav-link d-block d-sm-none" %>
-      </li>
-      <li class="nav-item active">
-        <%= link_to "Log out", destroy_user_session_path, class: "nav-link d-block d-sm-none" %>
-      </li>
-
       <button class="border-none add-meal" type="button" >
-          <%= link_to "Add a meal", new_meal_path %>
+          <%= link_to "Add a meal", "new_meal_path" %>
         </button>
 
       <li class="dropdown align-self-center d-none d-sm-block mr-3">
@@ -37,15 +21,11 @@
           My kitchen
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-          <% if user_signed_in? %>
 
-          <%= link_to "My meals", my_meals_path, class: "dropdown-item" %>
-          <%= link_to "My orders", my_orders_path, class: "dropdown-item" %>
-          <%= link_to "My profile", "#", class: "dropdown-item d-block d-sm-none" %>
-          <%= link_to "Log out", destroy_user_session_path, method: :delete, class: "dropdown-item" %>
-          <% else %>
-            <%= link_to "Login", new_user_session_path, class: "nav-link" %>
-          <% end %>
+          <%= link_to "My meals", "#", class: "dropdown-item" %>
+          <%= link_to "My orders", "#", class: "dropdown-item" %>
+          <%= link_to "My profile", "#", class: "dropdown-item" %>
+          <%= link_to "Log out", "#", method: :delete, class: "dropdown-item" %>
         </div>
       </li>
 

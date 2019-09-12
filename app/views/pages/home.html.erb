@@ -1,2 +1,44 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+<div class="banner" style="background-image: linear-gradient(to right, rgba(0,0,0,.6),rgba(0,0,0,0)), url(<%= image_path('banner-pic.png') %>)">
+  <div class="headers">
+    <p>Cook, eat, share!</p>
+      <#%= render '/shared/search-bar' %>
+  </div>
+</div>
+
+<div class="card-container">
+  <div class="home-container">
+      <%= link_to "meals_path" do %>
+      <div>
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('ail.png') %>)">
+          Today's meals
+        </div>
+      </div>
+      <% end %>
+
+      <div>
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('fruits-straw.png') %>)">
+          Dessert
+        </div>
+      </div>
+
+      <div>
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('breakfast.png') %>)">
+          Last minute deals
+        </div>
+      </div>
+
+      <div>
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('ail.png') %>)">
+          Grandma's food
+        </div>
+      </div>
+
+      <div>
+        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('breakfast.png') %>)">
+          Italian
+        </div>
+      </div>
+
+    </div>
+</div>
+

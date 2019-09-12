@@ -7,6 +7,65 @@
   flex-grow: 0;
 }
 
-.navbar-lewagon .navbar-brand img {
-  width: 40px;
+.logo {
+  width: 150px;
+  margin-left: 30px;
 }
+
+.navbar-collapse {
+  margin-right: 30px;
+  margin-left: 5px;
+}
+
+.navbar-brand {
+  margin-right: none !important;
+}
+
+.nav-item {
+  text-align: center;
+}
+
+.dropdown {
+  margin-bottom: 8px;
+}
+
+.dropdown-toggle {
+  margin-top: 5px;
+}
+
+.avatar {
+  margin-left: 10px;
+  width: 60px;
+}
+
+.border-none {
+  border: none;
+}
+
+.add-meal {
+  padding-bottom: 5px;
+}
+
+.add-meal a {
+  text-decoration: none;
+  color: #036B70;
+  background-color: white;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 15px;
+}
+
+.add-meal a:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #036B70;
+  padding: 5px;
+
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+

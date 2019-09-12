@@ -1,0 +1,23 @@
+.banner {
+  background-size: cover;
+  background-position: center;
+  padding: 150px 0;
+  margin-bottom: 60px;
+  height: 450px;
+  position: relative;
+}
+
+.headers {
+  color: white;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+  width: 51%;
+}
+
+.headers p {
+  font-size: 25px;
+}
+
+
