@@ -1,4 +1,4 @@
-<%= form_tag "path", method: :get, class: "searchbar form-inline" do %>
+<%= form_tag ingredients_path, method: :get, class: "searchbar form-inline" do %>
   <%= text_field_tag :query,
     params[:query],
     class: "td form-control mr-3 w-75",

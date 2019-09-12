@@ -42,9 +42,9 @@
 
     </div>
 
-    <% @ingredients.each do |ing| %>
+    <% @ingredients.each do |ingredient| %>
 
-    <div class="invoices-card d-flex" id="invoice-div-<%= invoice.id %>">
+    <div class="invoices-card d-flex" id="invoice-div-<%= ingredient.id %>">
 
       <div class="invoice-infos infos-titre">
        <%= ingredient.name %>
@@ -59,22 +59,22 @@
       </div>
 
       <div class="invoice-infos">
-        <%= ingredient.kpi[0].value %>
+        <%= 3 %>
       </div>
 
       <div class="invoice-infos">
-          <%= ingredient.kpi[1].value %>
+          <%= 4 %>
       </div>
 
       <div class="invoice-infos">
-          <%= ingredient.kpi.label[2].value %>
+          <%= 5 %>
       </div>
 
-      <div class="invoice-infos infos-status">
-        <p class="<%= invoice.status.to_s %> mb-0">
-          <i class="fas fa-circle"></i> <%= invoice.status %>
+      <!-- <div class="invoice-infos infos-status">
+        <p class="<%#= invoice.status.to_s %> mb-0">
+          <i class="fas fa-circle"></i> <%= 0 %>
         </p>
-      </div>
+      </div>  -->
 
       <div class="invoice-infos">
         <p class="mb-0">
@@ -89,16 +89,16 @@
       <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
 
       <!-- Show -->
-      <%= link_to invoice_path(invoice.id), method: :get, class: 'dropdown-item' do %>
+      <%#= link_to invoice_path(invoice.id), method: :get, class: 'dropdown-item' do %>
           <i class="fas fa-search-plus"></i>Aperçu
-      <% end %>
+      <%# end %>
 
 
 
       <!-- Send -->
-      <%= link_to send_to_client_invoice_path(invoice.id), method: :post, class: 'dropdown-item' do %>
+      <%#= link_to send_to_client_invoice_path(invoice.id), method: :post, class: 'dropdown-item' do %>
         <i class="far fa-paper-plane"></i>Envoyer
-      <% end %>
+      <%# end %>
 
         <!-- Edit -->
         <%# if invoice.status == "draft" %>

@@ -1,0 +1,5 @@
+class AddingValuetoMetrics < ActiveRecord::Migration[5.2]
+  def change
+    add_column :metrics, :value, :float
+  end
+end
