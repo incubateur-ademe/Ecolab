@@ -13,22 +13,22 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <button class="border-none add-meal" type="button" >
-          <%= link_to "Consulter la BDD", ingredients_path %>
+          <%= link_to "Consulter la BDD", "#" %>
       </button>
       <button class="border-none add-meal" type="button" >
-          <%= link_to "Consulter la doc", ingredients_path %>
+          <%= link_to "Documentation", "#" %>
       </button>
 
       <li class="dropdown align-self-center d-none d-sm-block mr-3">
         <button class="dropdown-toggle border-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Autres actions
+          Autres secteurs
         </button>
         <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
 
-          <%= link_to "Action 1", "#", class: "dropdown-item" %>
-          <%= link_to "Action 2", "#", class: "dropdown-item" %>
-          <%= link_to "Action 3", "#", class: "dropdown-item" %>
-          <%= link_to "Action 4", "#", method: :delete, class: "dropdown-item" %>
+          <%= link_to "Alimentation", "#", class: "dropdown-item" %>
+          <%= link_to "Bâtiment", "#", class: "dropdown-item" %>
+          <%= link_to "Carbone", "#", class: "dropdown-item" %>
+          <%= link_to "Textile", "#", method: :delete, class: "dropdown-item" %>
         </div>
       </li>
     </ul>

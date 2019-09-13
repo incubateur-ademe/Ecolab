@@ -1,13 +1,19 @@
 <div class="banner" style="background-image: linear-gradient(to right, rgba(0,0,0,.6),rgba(0,0,0,0)), url(<%= image_path('fruits-straw.png') %>)">
-  <div class="headers">
-    <h2>Accompagner les acteurs de la transition écologique</h2>
-      <%= render '/shared/search-bar' %>
+  <div class="d-flex">
+    <div class="headers flex">
+      <h2>Accompagner les acteurs de la transition écologique</h2>
+        <%= render '/shared/search-bar' %>
+    </div>
+
+    <div class="flex">
+      <%#= link_to "Télécharger la base", "path", class: "add-meal" %>
+    </div>
   </div>
 </div>
 
 <div class="card-container">
   <div class="home-container">
-      <%= link_to "meals_path" do %>
+      <%= link_to "#" do %>
       <div>
         <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('ail.png') %>)">
           Légumes
