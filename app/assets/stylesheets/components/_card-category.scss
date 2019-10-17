@@ -2,13 +2,15 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 28px;
-  margin: 114px;
+  margin: 121px 63px 51px 36px;
 }
 
 .card-title {
   margin-bottom: -5.25rem;
   text-align: center;
   font-family: $body-font;
+  font-weight: bold;
+  font-size: 18px;
 }
 
 .category-container {
@@ -22,6 +24,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.card-container {
+  background-color: white;
+  padding: 25px 10px 10px 10px;
 }
 
 .card-category {
