@@ -1,52 +1,69 @@
-<div class="banner" style="background-image: linear-gradient(to right, rgba(0,0,0,.6),rgba(0,0,0,0)), url(<%= image_path('fruits-straw.png') %>)">
-  <div class="d-flex">
-    <div class="headers flex">
-      <h2>Accompagner les acteurs de la transition écologique</h2>
-        <%= render '/shared/search-bar' %>
-    </div>
 
-    <div class="flex">
-      <%#= link_to "Télécharger la base", "path", class: "add-meal" %>
+  <div class="hero" role="banner">
+    <div class="hero__container">
+    <!--   <h1>Découvrez l’impact environnemental de votre assiette</h1> -->
+      <p class="search_title">Découvrez l’impact environnemental de votre assiette</p>
+      <%= render '/shared/search-bar' %>
+      <p class="search_examples"> Exemples : Carotte, Pizza margherita, Brownie au chocolat, Brochette de boeuf, Café moulu</p>
     </div>
   </div>
-</div>
 
-<div class="card-container">
-  <div class="home-container">
-      <%= link_to "#" do %>
-      <div>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('ail.png') %>)">
-          Légumes
+
+<p class="card-title">Nos catégories</p>
+  <div class="card-container">
+    <div class="home-container">
+        <%= link_to "#" do %>
+        <div>
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('ail.png') %>)">
+            Légumes
+          </div>
         </div>
-      </div>
-      <% end %>
+        <% end %>
 
-      <div>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('fruits-straw.png') %>)">
-          Fruits
+        <div>
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('fruits-straw.png') %>)">
+            Fruits
+          </div>
         </div>
-      </div>
 
-      <div>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('breakfast.png') %>)">
-          Plats
+        <div>
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('breakfast.png') %>)">
+            Plats
+          </div>
         </div>
-      </div>
 
-      <div>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('ail.png') %>)">
-          Viandes
+        <div>
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('ail.png') %>)">
+            Viandes
+          </div>
         </div>
-      </div>
 
-      <div>
-        <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('breakfast.png') %>)">
-          Miam
+        <div>
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('breakfast.png') %>)">
+            Miam
+          </div>
         </div>
-      </div>
 
-    </div>
-</div>
+        <div>
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('breakfast.png') %>)">
+            Miam
+          </div>
+        </div>
+
+        <div>
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('breakfast.png') %>)">
+            Miam
+          </div>
+        </div>
+
+        <div>
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('breakfast.png') %>)">
+            Miam
+          </div>
+        </div>
+
+      </div>
+  </div>
 
 <!-- <div class="db-container">
   <div class="title">

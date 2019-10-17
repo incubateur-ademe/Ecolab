@@ -1,9 +1,17 @@
-<%= form_tag ingredients_path, method: :get, class: "searchbar form-inline" do %>
-  <%= text_field_tag :query,
+<%#= form_tag ingredients_path, method: :get, class: "searchbar form-inline" do %>
+  <%#= text_field_tag :query,
     params[:query],
     class: "td form-control mr-3 w-75",
     placeholder: "Chercher un aliment"
   %>
-<% end %>
+<%# end %>
 
+<form novalidate="novalidate" class="simple_form search" action="/" accept-charset="UTF-8" method="get"><input name="utf8" type="hidden" value="&#x2713;" />
+  <div class="search-form-control form-group">
+    <input class="form-control string required" type="text" placeholder="Rechercher un produit" name="search[query]" id="search_query" />
+    <button name="button" type="submit" class="btn btn-flat">
+      <i class="fas fa-search"></i>
+    </button>
+  </div>
+</form>
 

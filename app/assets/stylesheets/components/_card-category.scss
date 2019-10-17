@@ -1,12 +1,14 @@
 .home-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 30px;
-  margin: 100px;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 28px;
+  margin: 114px;
 }
 
-.card-container {
-// margin: 50px;
+.card-title {
+  margin-bottom: -5.25rem;
+  text-align: center;
+  font-family: $body-font;
 }
 
 .category-container {

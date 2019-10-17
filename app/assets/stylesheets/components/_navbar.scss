@@ -2,20 +2,27 @@
   justify-content: space-between;
   background: white;
   height: 60px;
+  position: relative;
 }
 
 .navbar-lewagon .navbar-collapse {
   flex-grow: 0;
 }
 
+.navbar-lewagon a {
+  font-family: $body-font;
+  font-size: 12px;
+}
+
 .logo {
-  width: 150px;
+  width: 120px;
   margin-left: 30px;
 }
 
 .navbar-collapse {
   margin-right: 30px;
   margin-left: 5px;
+  font-size: 12px;
 }
 
 .navbar-brand {
@@ -62,11 +69,15 @@
   color: white;
   background-color: #036B70;
   padding: 5px;
-
   padding-left: 10px;
   padding-right: 10px;
-  border-radius: 10px;
+  border-radius: 5px;
   border-width: 1px;
+}
+
+#navbarSupportedContent {
+  position: absolute;
+  left: 214px;
 }
 
 
