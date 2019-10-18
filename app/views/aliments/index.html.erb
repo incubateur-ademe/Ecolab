@@ -1,0 +1,111 @@
+<div class="invoices-array">
+
+    <div class="array-header d-flex">
+
+      <div class="array-header-column">
+        <h4>Ingredient</h4>
+      </div>
+      <div class="array-header-column">
+        <h4>Categorie</h4>
+      </div>
+      <div class="array-header-column">
+        <h4>Description</h4>
+      </div>
+      <div class="array-header-column">
+        <h4>CO2</h4>
+      </div>
+      <div class="array-header-column">
+        <h4>NH4+</h4>
+      </div>
+      <div class="array-header-column">
+        <h4>SO2</h4>
+      </div>
+      <div class="array-header-column invoice-actions">
+      </div>
+
+    </div>
+
+    <% @ingredients.each do |ingredient| %>
+
+    <div class="invoices-card d-flex" id="invoice-div-<%= ingredient.id %>">
+
+      <div class="invoice-infos infos-titre">
+       <%= ingredient.name %>
+      </div>
+
+      <div class="invoice-infos ">
+       <%= ingredient.category %>
+      </div>
+
+      <div class="invoice-infos">
+        <%= ingredient.description  %>
+      </div>
+
+      <div class="invoice-infos">
+        <%= 3 %>
+      </div>
+
+      <div class="invoice-infos">
+          <%= 4 %>
+      </div>
+
+      <div class="invoice-infos">
+          <%= 5 %>
+      </div>
+
+      <!-- <div class="invoice-infos infos-status">
+        <p class="<%#= invoice.status.to_s %> mb-0">
+          <i class="fas fa-circle"></i> <%= 0 %>
+        </p>
+      </div>  -->
+
+      <div class="invoice-infos">
+        <p class="mb-0">
+          <%=  "test" %> €
+        </p>
+      </div>
+
+
+      <div class="invoice-infos invoice-actions dropdown">
+
+      <i class="fas fa-ellipsis-h" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+
+      <!-- Show -->
+      <%#= link_to invoice_path(invoice.id), method: :get, class: 'dropdown-item' do %>
+          <i class="fas fa-search-plus"></i>Aperçu
+      <%# end %>
+
+
+
+      <!-- Send -->
+      <%#= link_to send_to_client_invoice_path(invoice.id), method: :post, class: 'dropdown-item' do %>
+        <i class="far fa-paper-plane"></i>Envoyer
+      <%# end %>
+
+        <!-- Edit -->
+        <%# if invoice.status == "draft" %>
+          <%#= link_to edit_invoice_path(invoice.id), class: 'dropdown-item' do %>
+            <!-- <i class="fas fa-edit"></i>Editer -->
+          <%# end %>
+        <%# end %>
+
+
+
+        <!-- Download -->
+        <!-- <button class="dropdown-item" type="button"><i class="fas fa-download"></i>Télécharger</button> -->
+
+
+
+        <!-- Print -->
+        <!-- <button class="dropdown-item" type="button"><i class="fas fa-print"></i>Imprimer</button> -->
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <% end %>
+
+  </div>

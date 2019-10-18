@@ -1,2 +1,0 @@
-class AlimentController < ApplicationController
-end
