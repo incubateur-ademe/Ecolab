@@ -162,3 +162,18 @@
 }
 
 /////////////////// PARTNERS /////////////////
+
+.home-container-usecasers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-gap: 10px;
+  margin: 121px 63px 63px 121px;
+}
+
+.home-container-usecasers .card-category-logo {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
