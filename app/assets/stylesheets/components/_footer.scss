@@ -1,22 +1,22 @@
 .footer {
-  background: #719192;
+  background: #6B7272;
   color: white;
   padding: 50px;
-  margin-top: 58px;
+  margin-top: 65px;
   position: relative;
 }
 
 .text-bloc {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-grid-gap: 40px;
+grid-gap: 100px;
 position: absolute;
-left: 500px;
+left: 300px;
 }
 
 .text-bloc .footer__links h2 {
 font-family: $headers-font;
-font-size: 12px;
+font-size: 14px;
 }
 
 .footer a:hover {
@@ -63,7 +63,7 @@ font-size: 12px;
   color: white;
   text-decoration: none;
   font-family: $body-font;
-  font-size: 10px;
+  font-size: 12px;
   font-weight: lighter;
 }
 
@@ -72,7 +72,7 @@ font-size: 12px;
 }
 
 .footer__logo {
-  width: 300px;
+  width: 600px;
   height: auto;
 }
 

@@ -61,9 +61,8 @@
 
 .card-container-logo {
   background-color: white;
-  padding: 25px 10px 10px 10px;
-  height: 210px;
-  margin-botton: 5px;
+  padding: 7px 10px 10px 10px;
+  height: 190px;
 }
 
 .card-title-logo {
@@ -72,6 +71,7 @@
   font-family: $body-font;
   font-weight: bold;
   font-size: 18px;
+  margin-top: 0px;
 }
 
 .home-container-logo {
@@ -207,7 +207,7 @@
   line-height: 1.4;
   opacity: .7;
   margin-bottom: 0;
-  margin-top: 8px;
+  margin-top: 6px;
 }
 
 .card-dev .card-dev-infos {

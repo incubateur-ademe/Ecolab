@@ -1,10 +1,8 @@
 .btn-flat-download {
-  color: $gray;
   padding: 8px 24px;
   border-radius: 4px;
-  background: #1EDD88;
+  background: $turquoise;
   transition: background 0.3s ease;
-  text-decoration: none;
   position: absolute;
   left: 480px;
   bottom: -400px;
@@ -12,16 +10,21 @@
   font-size: 12px;
 }
 
+.btn-flat-download a {
+ text-decoration: none;
+ color: white;
+}
+
 .btn-flat-download:hover {
-  background: #1BCB7F;
+  background: #475454;
   color: white;
 }
 
 .btn-flat-commencer {
-  color: $gray;
+  color: white;
   padding: 8px 24px;
   border-radius: 4px;
-  background: #1EDD88;
+  background: $turquoise;
   transition: background 0.3s ease;
   text-decoration: none;
   position: absolute;
@@ -31,7 +34,12 @@
   font-size: 12px;
 }
 
+.btn-flat-commencer a {
+ text-decoration: none;
+ color: white;
+}
+
 .btn-flat-commencer:hover {
-  background: #1BCB7F;
+  background: #475454;
   color: white;
 }
