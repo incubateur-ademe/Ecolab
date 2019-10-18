@@ -1,2 +1,0 @@
-class MetricsController < ApplicationController
-end

@@ -1,2 +1,0 @@
-class KpisController < ApplicationController
-end
