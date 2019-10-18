@@ -8,9 +8,8 @@
     </div>
   </div>
 
-
-  <div class="card-container">
-<p class="card-title">Nos catégories</p>
+<div class="card-container">
+  <p class="card-title">Nos catégories</p>
     <div class="home-container">
         <%= link_to "#" do %>
         <div>
@@ -83,6 +82,24 @@
     <div class="how">
       <%= link_to "Comment utiliser les données ?" %>
     </div>
+
+
+<div class="card-container-logo">
+  <p class="card-title-logo">Avec</p>
+    <div class="home-container-logo">
+        <%= link_to "#" do %>
+        <div>
+          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('breakfast.png') %>)">
+          </div>
+        </div>
+        <% end %>
+
+        <div>
+          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('fruits-straw.png') %>)">
+          </div>
+        </div>
+    </div>
+</div>
 
 
 

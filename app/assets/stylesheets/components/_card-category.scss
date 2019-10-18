@@ -5,6 +5,7 @@
   margin: 121px 63px 51px 36px;
 }
 
+
 .card-title {
   margin-bottom: -5.25rem;
   text-align: center;
@@ -26,6 +27,7 @@
   justify-content: center;
 }
 
+
 .card-container {
   background-color: white;
   padding: 25px 10px 10px 10px;
@@ -44,7 +46,57 @@
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
+
 .category-item {
   margin-right: 25px;
   width: 200px;
+}
+
+
+
+/////////////////// LOGO /////////////////
+
+.card-container-logo {
+  background-color: white;
+  padding: 25px 10px 10px 10px;
+  height: 210px;
+}
+
+.card-title-logo {
+  margin-bottom: -5.25rem;
+  text-align: center;
+  font-family: $body-font;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.home-container-logo {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+    /* grid-gap: 0px; */
+    margin: 121px 63px 51px 36px;
+    width: 700px;
+    position: absolute;
+    left: 486px;
+}
+
+.home-container-logo .card-category-logo {
+  height: 100px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-category-logo {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  // padding: 10px 15px;
+  font-size: 16px;
+  // font-weight: normal;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
