@@ -1,0 +1,2 @@
+class Aliment < ApplicationRecord
+end
