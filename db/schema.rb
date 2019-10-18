@@ -10,10 +10,35 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_18_154816) do
+ActiveRecord::Schema.define(version: 2019_10_18_155623) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "aliments", force: :cascade do |t|
+    t.integer "alim_code"
+    t.string "alim_nom_fr"
+    t.string "alim_nom_en"
+    t.string "alim_grp_nom_fr"
+    t.string "alim_ssgrp_nom_fr"
+    t.string "alim_ssssgrp_nom_fr"
+    t.float "indic_1"
+    t.float "indic_2"
+    t.float "indic_3"
+    t.float "indic_4"
+    t.float "indic_5"
+    t.float "indic_6"
+    t.float "indic_7"
+    t.float "indic_8"
+    t.float "indic_9"
+    t.float "indic_10"
+    t.float "indic_11"
+    t.float "indic_12"
+    t.float "indic_13"
+    t.float "indic_14"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "ingredients", force: :cascade do |t|
     t.string "name"

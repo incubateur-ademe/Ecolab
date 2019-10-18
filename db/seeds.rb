@@ -1,71 +1,33 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
-Ingredient.destroy_all
-Kpi.destroy_all
-Metric.destroy_all
-
-tableau = %w(fraise, champignon, puree, petits pois, poulet, viande)
-kpi = %w(CO2, NH4+, SO2)
-
-fraise = Ingredient.create!(name: "fraise",
-                            category: "fruit",
-                            description: "fraise gm")
-
-champignon = Ingredient.create!(name: "champignon",
-                            category: "legumes",
-                            description: "champi magique")
-
-puree = Ingredient.create!(name: "puree pdt",
-                            category: "plat",
-                            description: "bonne puree")
-
-poulet = Ingredient.create!(name: "poulet",
-                            category: "viande",
-                            description: "viande blanche")
-
-puts "created #{Ingredient.count} ingredients"
-
-co2 = Kpi.create!(label: "CO2",
-                            unit: "g")
-
-nh4 = Kpi.create!(label: "NH4+",
-                          unit: "g")
-
-so2 = Kpi.create!(label: "SO2",
-                          unit: "g")
-
-puts "created #{Kpi.count} indicateurs"
-
-metric1 = Metric.create!(value: 3,
-                         ingredient: fraise,
-                         kpi: co2)
-
-metric2 = Metric.create!(value: 4,
-                         ingredient: champignon,
-                         kpi: co2)
-
-metric3 = Metric.create!(value: 2.3,
-                         ingredient: puree,
-                         kpi: co2)
-
-metric4 = Metric.create!(value: 7,
-                         ingredient: poulet,
-                         kpi: co2)
-
-metric5 = Metric.create!(value: 2,
-                         ingredient: poulet,
-                         kpi: nh4)
-
-metric6 = Metric.create!(value: 1,
-                         ingredient: champignon,
-                         kpi: nh4)
-
-puts "created #{Metric.count} mesures"
+require 'open-uri'
+require 'csv'
 
 
+Aliment.destroy_all
 
+csv_options = { col_sep: ',', force_quotes: true, quote_char: '"' }
+filepath    = 'db/agribalyse.csv'
+
+CSV.foreach(filepath, csv_options) do |row|
+  Aliment.create(address: row[4],
+    alim_code: row[6],
+    alim_nom_fr: row[7],
+    alim_nom_en: row[7],
+    alim_grp_nom_fr: row[3],
+    alim_ssgrp_nom_fr: row[4],
+    alim_ssssgrp_nom_fr: row[5],
+    indic_1: row[9],
+    indic_2: row[10],
+    indic_3: row[11],
+    indic_4: row[12],
+    indic_4: row[13],
+    indic_5: row[14],
+    indic_6: row[15],
+    indic_7: row[16],
+    indic_8: row[17],
+    indic_9: row[18],
+    indic_10: row[19],
+    indic_11: row[20],
+    indic_12: row[21],
+    indic_13: row[22],
+    indic_14: row[23])
+end
