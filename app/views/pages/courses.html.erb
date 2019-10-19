@@ -1,9 +1,24 @@
     <div class="welcome-card">
-      <h2>Bonjour Jenn !</h2>
-      <p>Que souhaitez-vous faire aujourd'hui ?</p>
+      <h2>Que souhaitez-vous acheter aujourd'hui ?</h2>
+      <p>Grâce à notre simulateur calculez l'empreinte carbone de votre liste de course</p>
       <div class="two-actions-from-homepage-card">
-        <%= link_to "Créer une nouvelle facture", root_path, class: "button" %>
-        <%= link_to "Gérer mes factures", root_path, class: "second-button-on-the-right button-white-background-and-yellow-text" %>
+        <%#= link_to "Créer une nouvelle facture", root_path, class: "button" %>
+        <%#= link_to "Gérer mes factures", root_path, class: "second-button-on-the-right button-white-background-and-yellow-text" %>
       </div>
       <img class="illustration" src="<%= image_path('undraw_balloons_vxx5.svg') %>"/>
     </div>
+
+
+  <div class="column-title d-flex justify-content-between align-items-center">
+    <div>
+      <h3>Factures envoyées</h3>
+    </div>
+    <div class="invoices-counted-with-circle-blue">
+      3456
+    </div>
+  </div>
+
+<% simple_form_for :aliments, url: courses_path, method: :get do |f| %>
+  <%=   f.input :alim_nom_fr, label: "Nom" %>
+  <% end %>
+
