@@ -8,28 +8,31 @@
   width: 100px;
 }
 
+
 .filterpar {
   position: absolute;
   bottom: 330px;
   left: 32px;
   font-family: $body-font;
-  font-size: 12px;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .card-filter {
-  padding: 4px 4px;
-  border-radius: 2px;
-  background: $turquoise;
-  transition: background 0.3s ease;
-  font-size: 10px;
-  font-family: $body-font;
-  color: white;
-  width: 120px;
-  margin-right: 0px;
+  color: #4A4A4A;
+  height: 30px;
+  font-size: 12px;
+  border: 1px solid #4A4A4A;
+  padding: 6px 12px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
 }
 
 .card-filter:hover {
-  background: #475454;
+  opacity: 1;
+  color: $gray;
 }
 
 .card-filter a {

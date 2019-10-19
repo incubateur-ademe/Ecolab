@@ -43,3 +43,25 @@
   background: #475454;
   color: white;
 }
+
+.btn-flat-download-index {
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: $turquoise;
+  transition: background 0.3s ease;
+  position: absolute;
+  left: 1170px;
+  bottom: 294px;
+  width: 140px;
+  font-size: 12px;
+}
+
+.btn-flat-download-index a {
+ text-decoration: none;
+ color: white;
+}
+
+.btn-flat-download-index:hover {
+  background: #475454;
+  color: white;
+}

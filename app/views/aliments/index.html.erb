@@ -8,14 +8,19 @@
     </div>
   </div>
 
+<div class="container">
 <%= render '/shared/filters' %>
+</div>
 
+<button class="btn-flat-download-index">
+      <%= link_to "Télécharger" %>
+</button>
 
 <div class="aliments-array">
 
     <div class="array-header d-flex">
 
-      <div class="array-header-column">
+      <div class="array-header-column bold">
         <h4>Aliment</h4>
       </div>
       <div class="array-header-column">
@@ -198,4 +203,4 @@
 
     <% end %>
 
-  </div>
+
