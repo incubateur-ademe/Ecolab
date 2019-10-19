@@ -8,13 +8,27 @@
   font-family: $headers-font;
 }
 
+
+.form-inline .form-control {
+    display: inline-block;
+    width: 414px;
+    vertical-align: middle;
+
+}
+
 .form-control {
-    width: 90vh;
     border-radius: 42px;
     height: 37px !important;
     margin-top: 22px;
     font-size: 12px;
     font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.fas {
+    position: absolute;
+    left: 385px;
+    bottom: 20px;
 }
 
 
