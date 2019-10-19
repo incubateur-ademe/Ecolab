@@ -1,0 +1,34 @@
+<h5 class="filterpar">Filtrer par...</h5>
+  <div class="filter-container">
+
+      <div class="category-item">
+
+
+          <div class="card-filter dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown">
+          Aliment
+          </div>
+
+          <div class="dropdown-menu">
+            <% Aliment.pluck(:alim_nom_fr).each do |nom| %>
+              <li>
+                <%= link_to nom, aliments_path(:query => nom), class: "dropdown-item", as: :boolean %>
+              </li>
+            <% end %>
+          </div>
+      </div>
+
+      <div class="category-item">
+          <div class="card-filter dropdown-toggle" id="dropdownMenuButton" data-toggle="dropdown"  >
+            Catégorie
+          </div>
+
+          <div class="dropdown-menu">
+            <% ["entrées et plats composés", "fruits, légumes, légumineuses et oléagineux", "produits céréaliers", "viandes, œufs, poissons", "lait et produits laitiers", "boissons", "produits sucrés", "glaces et sorbets", "matières grasses", "aides culinaires et ingrédients divers", "aliments infantiles"].each do |group| %>
+              <li>
+                <%= link_to group, aliments_path(:query => group), class: "dropdown-item" %>
+              </li>
+            <% end %>
+          </div>
+      </div>
+  </div>
+</div>

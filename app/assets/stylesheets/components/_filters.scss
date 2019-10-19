@@ -1,0 +1,38 @@
+.filter-container {
+  display: flex;
+  height: 200px;
+  justify-content: flex-start ;
+  position: absolute;
+  bottom: 128px;
+  left: 32px;
+  width: 100px;
+}
+
+.filterpar {
+  position: absolute;
+  bottom: 330px;
+  left: 32px;
+  font-family: $body-font;
+  font-size: 12px;
+}
+
+.card-filter {
+  padding: 4px 4px;
+  border-radius: 2px;
+  background: $turquoise;
+  transition: background 0.3s ease;
+  font-size: 10px;
+  font-family: $body-font;
+  color: white;
+  width: 120px;
+  margin-right: 0px;
+}
+
+.card-filter:hover {
+  background: #475454;
+}
+
+.card-filter a {
+text-decoration: none;
+ color: white;
+}
