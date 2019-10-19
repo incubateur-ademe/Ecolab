@@ -5,6 +5,11 @@
   margin: 121px 63px 51px 36px;
 }
 
+.home-container a {
+  text-decoration: none;
+}
+
+
 .row {
   margin: 90px;
 }
@@ -48,6 +53,12 @@
   border-radius: 5px;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
+
+.card-category:hover {
+  // color: #CDD6D6;
+  box-shadow: 0 0 20px rgba(0,0,0,0.98);
+}
+
 
 
 .category-item {

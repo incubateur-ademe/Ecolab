@@ -53,5 +53,13 @@
 
 .search_examples {
   font-family: $body-font;
-  font-size: 14px;
+  font-size: 12px;
+}
+
+.search_examples a {
+  text-decoration: underline;
+}
+
+.search_examples a:hover {
+  color: green;
 }
