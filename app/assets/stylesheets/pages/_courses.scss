@@ -1,0 +1,24 @@
+.top-div-homepage {
+  display: flex;
+  margin-top: 90px;
+  justify-content: space-between;
+}
+
+.welcome-card {
+  // background: $yellow;
+  // background: #F64451;
+  // background: #f9454b;
+  background: $purple;
+  border-radius: 10px;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  p {
+    font-size: 18px;
+  }
+  .two-actions-from-homepage-card {
+    padding-top: 7px;
+  }
+  .second-button-on-the-right {
+    margin-left: 15px;
+  }
+}
