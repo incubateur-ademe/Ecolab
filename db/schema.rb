@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_18_161756) do
+ActiveRecord::Schema.define(version: 2019_10_21_123002) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -45,6 +45,15 @@ ActiveRecord::Schema.define(version: 2019_10_18_161756) do
     t.datetime "updated_at", null: false
   end
 
+  create_table "fruit_leg_saison_months", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.bigint "month_id"
+    t.bigint "saison_id"
+    t.index ["month_id"], name: "index_fruit_leg_saison_months_on_month_id"
+    t.index ["saison_id"], name: "index_fruit_leg_saison_months_on_saison_id"
+  end
+
   create_table "ingredients", force: :cascade do |t|
     t.string "name"
     t.string "category"
@@ -73,6 +82,21 @@ ActiveRecord::Schema.define(version: 2019_10_18_161756) do
     t.index ["kpi_id"], name: "index_metrics_on_kpi_id"
   end
 
+  create_table "months", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "name_of_month"
+  end
+
+  create_table "saisons", force: :cascade do |t|
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "name_of_fruit_or_legume"
+    t.string "category"
+  end
+
+  add_foreign_key "fruit_leg_saison_months", "months"
+  add_foreign_key "fruit_leg_saison_months", "saisons"
   add_foreign_key "metrics", "ingredients"
   add_foreign_key "metrics", "kpis"
 end
