@@ -7,9 +7,9 @@ def set_result
   #check if ask_month is in month attribute array from fruitleg model
   if match_fruit_to_user_input.month.include?(ask_month)
   #if yes, then
-  result = "Go ! aucun souci pour manger/cuisiner #{ask_fruit} en #{ask_month}"
+  self.result = "👍🏼 Go ! aucun souci pour te régaler de #{ask_fruit} en #{ask_month.capitalize}"
   #if no, then
-  else result = "Bof !"
+  else self.result = "👎🏼 Bof ! Je te conseille plutôt ..."
   end
 end
 

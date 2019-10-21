@@ -16,5 +16,25 @@
   font-weight: bold;
 }
 
+.reponse-saison-positive {
+  justify-items: center;
+  font-family: $body-font;
+  background-color: #F2EEE5;
+  color: $gray;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
+.reponse-saison-negative {
+  justify-items: center;
+  font-family: $body-font;
+  background-color: #FFFFFF;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 20px;
+}
+
 
 
