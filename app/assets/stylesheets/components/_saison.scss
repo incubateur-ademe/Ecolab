@@ -1,0 +1,20 @@
+.home-container-saison {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+  grid-gap: 28px;
+  margin: 121px 63px 51px 36px;
+}
+
+.bigger {
+  font-size: 24px;
+}
+
+.phrase-saison {
+  justify-items: center;
+  padding-left: 78px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+
+
