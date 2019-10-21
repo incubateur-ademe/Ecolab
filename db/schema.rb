@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_10_18_161756) do
+ActiveRecord::Schema.define(version: 2019_10_21_152532) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -40,7 +40,10 @@ ActiveRecord::Schema.define(version: 2019_10_18_161756) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "dum", force: :cascade do |t|
+  create_table "fruitlegs", force: :cascade do |t|
+    t.string "label"
+    t.string "category"
+    t.string "month", array: true
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
@@ -71,6 +74,14 @@ ActiveRecord::Schema.define(version: 2019_10_18_161756) do
     t.float "value"
     t.index ["ingredient_id"], name: "index_metrics_on_ingredient_id"
     t.index ["kpi_id"], name: "index_metrics_on_kpi_id"
+  end
+
+  create_table "simulations", force: :cascade do |t|
+    t.string "ask_month"
+    t.string "ask_fruit"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.string "result"
   end
 
   add_foreign_key "metrics", "ingredients"

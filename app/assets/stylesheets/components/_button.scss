@@ -5,7 +5,7 @@
   transition: background 0.3s ease;
   position: absolute;
   left: 480px;
-  bottom: -400px;
+  bottom: -564px;
   width: 180px;
   font-size: 12px;
 }
@@ -17,6 +17,54 @@
 
 .btn-flat-download:hover {
   background: #475454;
+  color: white;
+}
+
+.btn-flat-valider {
+  padding: 8px 24px;
+    border-radius: 33px;
+    transition: background 0.3s ease;
+    position: absolute;
+    left: 10px;
+    bottom: -41px;
+    width: 180px;
+    font-size: 12px;
+    background-color: #F8CC8F;
+    border: none;
+    color: white;
+}
+
+.btn-flat-valider a {
+ text-decoration: none;
+ color: white;
+}
+
+.btn-flat-valider:hover {
+  background: #F3AC45;
+  color: white;
+}
+
+.btn-flat-recette {
+  padding: 8px 24px;
+    border-radius: 33px;
+    transition: background 0.3s ease;
+    width: 182px;
+    font-size: 12px;
+    position: absolute;
+    bottom: 15px;
+    height: 50px;
+    background-color: #F8CC8F;
+    border: none;
+    color: white;
+}
+
+.btn-flat-recette a {
+ text-decoration: none;
+ color: white;
+}
+
+.btn-flat-recette:hover {
+  background: #F3AC45;
   color: white;
 }
 

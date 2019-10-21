@@ -1,0 +1,52 @@
+<%#= simple_form_for(@simulation) do |f| %>
+<%#= f.input :ask_month, as: :check_boxes, collection: Fruitleg::MONTH, label: false, prompt: "Mois", :class => 'mt-4' %>
+
+<%#= f.input :ask_fruit, class: "searchbar form-inline search-form-control" %>
+<%#= f.submit "Valider", class: "button"  %>
+<%# end %>
+
+<div class="welcome-card">
+  <h2>Que souhaitez-vous acheter aujourd'hui ?</h2>
+    <p>Grâce à notre simulateur calculez l'empreinte carbone de votre liste de course</p>
+      <div class="two-actions-from-homepage-card">
+        <%#= link_to "Créer une nouvelle facture", root_path, class: "button" %>
+        <%#= link_to "Gérer mes factures", root_path, class: "second-button-on-the-right button-white-background-and-yellow-text" %>
+      </div>
+  <img class="illustration" src="<%= image_path('undraw_balloons_vxx5.svg') %>"/>
+</div>
+
+
+
+<!-- //////////////////// TEST FRUITS ET LEGUMES DE SAISON /////////////// -->
+
+  <div class="card-container">
+    <p class="card-title bigger"> 🍊 Il n’y a pas que Netflix qui vous fournit en saisons.</p>
+      <div class="home-container-saison">
+
+        <div class="phrase-saison">
+          <p>Nous sommes en </p>
+
+            <div class="searchbar form-inline search-form-control">
+              <%= simple_form_for(@simulation) do |f| %>
+              <%= f.input :ask_month, collection: Fruitleg::MONTH, label: false, prompt: "Mois", class: "dropdown-menu" %>
+            </div>
+
+          <p>Je voudrais manger ou cuisiner</p>
+
+            <div class="searchbar form-inline search-form-control">
+              <%= f.input :ask_fruit, label: false, class: "dropdown-menu" %>
+              <%= f.submit "Valider", class: "btn-flat-valider" %>
+              <% end %>
+            </div>
+
+        </div>
+
+        <div class= "reponse-saison-positive d-flex">
+        <%= @simulation.result %>
+        <a class="btn-flat-recette" href="https://www.marmiton.org/recettes/recherche.aspx?type=all&aqt=<%= @simulation.ask_fruit %>" > Trouver une recette sur Marmiton</a>
+        </div>
+
+      </div>
+    </div>
+</div>
+

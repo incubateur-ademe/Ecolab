@@ -1,0 +1,8 @@
+
+
+<%= simple_form_for(@fruitleg) do |f| %>
+<%= f.input :month, as: :check_boxes, collection: Fruitleg::MONTHS, label: false, prompt: "Mois", :class => 'mt-4' %>
+
+<%= f.input :label, class: "searchbar form-inline search-form-control" %>
+<%= f.submit "Valider", class: "button"  %>
+<% end %>
