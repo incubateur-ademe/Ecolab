@@ -9,16 +9,20 @@
     </div>
 
 
-  <div class="column-title d-flex justify-content-between align-items-center">
-    <div>
-      <h3>Factures envoyées</h3>
-    </div>
-    <div class="invoices-counted-with-circle-blue">
-      3456
-    </div>
-  </div>
 
-<% simple_form_for :aliments, url: courses_path, method: :get do |f| %>
-  <%=   f.input :alim_nom_fr, label: "Nom" %>
-  <% end %>
+<!-- //////////////////// TEST FRUITS ET LEGUMES DE SAISON /////////////// -->
 
+<div class="card-container">
+  <p class="card-title bigger"> 🍊 Il n’y a pas que Netflix qui vous fournit en saison.</p>
+    <div class="home-container-saison">
+      <div class="phrase-saison">
+      <p>Nous sommes le</p>
+        <% simple_form_for(@fruit_saison) do |f| %>
+        <%= f.input :name_of_month, as: :string, required: false, input_html: {class: "datepicker"} %>
+      <p>Je voudrais manger ou cuisiner</p>
+        <%= f.input :name_of_fruit_or_legume, label: 'Fruit ou légume' %>
+        <%= f.submit "Valider", class: "button"  %>
+        <% end %>
+      </div>
+    </div>
+</div>

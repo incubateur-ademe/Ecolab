@@ -30,3 +30,8 @@ CSV.foreach(filepath, csv_options) do |row|
     indic_13: row[21],
     indic_14: row[22])
 end
+
+pommedeterre = Fruitleg.create(label: "pomme de terre",
+  category: "legume",
+  month: ["fevrier", "decembre", "avril"]
+  )

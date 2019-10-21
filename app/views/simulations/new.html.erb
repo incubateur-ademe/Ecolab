@@ -1,0 +1,6 @@
+<%= simple_form_for(@simulation) do |f| %>
+<%= f.input :ask_month, as: :check_boxes, collection: Fruitleg::MONTH, label: false, prompt: "Mois", :class => 'mt-4' %>
+
+<%= f.input :ask_fruit, class: "searchbar form-inline search-form-control" %>
+<%= f.submit "Valider", class: "button"  %>
+<% end %>
