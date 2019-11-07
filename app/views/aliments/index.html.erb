@@ -1,5 +1,5 @@
 
-<div class="header_search">
+<div class="header_search" style="background-image: url(<%= image_path('breakfast.png') %>)" >
   <%= render '/shared/search-bar' %>
     <button class="btn-flat-download-index ml-3">
       <%= link_to "Télécharger" %>
@@ -19,7 +19,7 @@
 <%#= render '/shared/filters' %>
 <!-- </div> -->
 <div class="search-agribalyse-title-container">
-  <h1 class="title-search">Résultats de votre recherche pour "<%= params[:query] %>"</h1>
+  <h1 class="title-search">Résultats de votre recherche pour <strong>"<%= params[:query] %>"</strong></h1>
   <p class="number-results"><%= @aliments.count %> résultats</p>
 </div>
 
@@ -28,22 +28,22 @@
 
       <div class="product-card">
         <div class="product-card-header">
-          <h2><%= alim.alim_nom_fr %></h2>
+          <h2><%= alim.alim_nom_fr[0..30] %></h2>
           <p><%= alim.alim_ssgrp_nom_fr.capitalize %></p>
         </div>
 
         <div class="product-card-infos">
 
-          <p class="impact m-2">IMPACT ECOLOGIQUE</p>
+          <p class="impact m-2"><strong>🌏 IMPACT ECOLOGIQUE</strong></p>
 
 
           <div class="metrics-score-infos">
             <div class="3-metrics">
-              <p class="metric">hello</p>
-              <p class="metric">hello</p>
-              <p class="metric">hello</p>
+              <p class="metric">Changement climatique : <strong><%=alim.indic_1 %></strong></p>
+              <p class="metric">Appauvrissement de la couche d'ozone : <strong><%=alim.indic_2 %></strong></p>
+              <p class="metric">Exposition aux particules fines : <strong><%=alim.indic_3 %></strong></p>
             </div>
-            <div class="ecoscore">
+            <div class="ecoscore mr-2">
               <h3>45</h3>
             </div>
           </div>

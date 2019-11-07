@@ -94,14 +94,15 @@
 
 .btn-flat-download-index {
   padding: 8px 24px;
-  border-radius: 4px;
-  background: $turquoise;
+  border-radius: 30px;
+  background: $gray;
   transition: background 0.3s ease;
   // position: absolute;
   // left: 1170px;
   // bottom: 294px;
-  width: 140px;
-  font-size: 12px;
+  width: 120px;
+  font-size: 10px;
+  border-color: transparent;
 }
 
 .btn-flat-download-index a {
@@ -115,14 +116,15 @@
 }
 
 .button-details-product-fiche {
-  background-color: $gray;
-  border-radius: 5px;
+  background-color: transparent;
+  border-radius: 30px;
   text-decoration: none;
-  width: 150px;
-  font-size: 12px;
+  width: 100px;
+  font-size: 10px;
+  margin-left: 87px;
 }
 
 .button-details-product-fiche a {
  text-decoration: none;
- color: white;
+ color: $gray;
 }
