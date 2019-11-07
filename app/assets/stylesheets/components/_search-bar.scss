@@ -63,3 +63,11 @@
 .search_examples a:hover {
   color: green;
 }
+
+.header_search {
+  margin: 22px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}

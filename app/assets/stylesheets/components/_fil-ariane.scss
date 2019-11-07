@@ -1,0 +1,23 @@
+.fil-ariane-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+  background-color: #F8F8F8;
+}
+
+.fil-ariane-bar p {
+  font-family: $body-font;
+  margin: 10px 30px;
+  font-size: 12px;
+}
+
+.fil-ariane-bar #accueil {
+  margin-left: 100px !important;
+}
+
+.fil-ariane-bar i {
+  margin-left: 20px;
+  color: black;
+  font-size: 10px;
+}

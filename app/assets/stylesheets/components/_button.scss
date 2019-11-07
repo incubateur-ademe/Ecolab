@@ -97,9 +97,9 @@
   border-radius: 4px;
   background: $turquoise;
   transition: background 0.3s ease;
-  position: absolute;
-  left: 1170px;
-  bottom: 294px;
+  // position: absolute;
+  // left: 1170px;
+  // bottom: 294px;
   width: 140px;
   font-size: 12px;
 }
@@ -112,4 +112,17 @@
 .btn-flat-download-index:hover {
   background: #475454;
   color: white;
+}
+
+.button-details-product-fiche {
+  background-color: $gray;
+  border-radius: 5px;
+  text-decoration: none;
+  width: 150px;
+  font-size: 12px;
+}
+
+.button-details-product-fiche a {
+ text-decoration: none;
+ color: white;
 }

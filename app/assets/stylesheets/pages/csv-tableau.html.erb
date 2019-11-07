@@ -1,0 +1,182 @@
+<div class="aliments-array">
+
+    <div class="array-header d-flex">
+
+      <div class="array-header-column bold">
+        <h4>Aliment</h4>
+      </div>
+      <div class="array-header-column">
+        <h4>Groupe</h4>
+      </div>
+      <div class="array-header-column">
+        <h4>Sous-groupe</h4>
+      </div>
+      <div class="array-header-column">
+        <h4>Catégorie</h4>
+      </div>
+
+      <!-- INDICATEURS -->
+
+
+
+      <div class="array-header-column">
+        <h4 class="array-header-column my-popover">Changement climatique</h4>
+      </div>
+
+
+      <div class="array-header-column">
+        <h4>Appauvrissement de la couche d'ozone</h4>
+      </div>
+
+      <div class="array-header-column">
+        <h4>Exposition aux particules fines</h4>
+      </div>
+
+      <div class="array-header-column">
+        <h4>Acidification</h4>
+      </div>
+
+      <div class="array-header-column">
+        <h4>Eutrophisation aquatique (eau douce)</h4>
+      </div>
+
+      <div class="array-header-column">
+        <h4>Eutrophisation aquatique (marine)</h4>
+      </div>
+
+      <div class="array-header-column">
+        <h4>Eutrophisation terrestre</h4>
+      </div>
+
+      <div class="array-header-column">
+        <h4>Ionisation, effet sur la santé</h4>
+      </div>
+
+      <div class="array-header-column">
+        <h4>Ecotoxicité d'eau douce</h4>
+      </div>
+
+      <div class="array-header-column">
+        <h4>Usage des terres</h4>
+      </div>
+
+      <div class="array-header-column">
+        <h4>Oxydation photochimique</h4>
+      </div>
+
+      <div class="array-header-column">
+        <h4>Consommation d'énergie non renouvelable</h4>
+      </div>
+
+      <div class="array-header-column">
+        <h4>Consommation de ressources non renouvelables</h4>
+      </div>
+
+      <div class="array-header-column">
+        <h4>Consommation d'eau</h4>
+      </div>
+
+
+
+
+
+<!--       <div class="array-header-column aliment-actions">
+      </div> -->
+
+    </div>
+
+    <% @aliments.each do |alim| %>
+
+    <div class="aliments-card d-flex" id="aliment-div-<%= alim.id %>">
+
+      <div class="aliment-infos infos-titre">
+       <%= alim.alim_nom_fr %>
+      </div>
+
+      <div class="aliment-infos ">
+       <%= alim.alim_grp_nom_fr %>
+      </div>
+
+      <div class="aliment-infos">
+        <%= alim.alim_ssgrp_nom_fr  %>
+      </div>
+
+      <div class="aliment-infos">
+        <%= alim.alim_ssssgrp_nom_fr  %>
+      </div>
+
+      <div class="aliment-infos">
+        <%= alim.indic_1 %>
+      </div>
+
+      <div class="aliment-infos">
+          <%= alim.indic_2 %>
+      </div>
+
+      <div class="aliment-infos">
+          <%= alim.indic_3 %>
+      </div>
+
+      <div class="aliment-infos">
+        <%= alim.indic_4 %>
+      </div>
+
+      <div class="aliment-infos">
+          <%= alim.indic_5 %>
+      </div>
+
+      <div class="aliment-infos">
+          <%= alim.indic_6 %>
+      </div>
+
+     <div class="aliment-infos">
+        <%= alim.indic_7 %>
+      </div>
+
+      <div class="aliment-infos">
+          <%= alim.indic_8 %>
+      </div>
+
+      <div class="aliment-infos">
+          <%= alim.indic_9 %>
+      </div>
+
+      <div class="aliment-infos">
+        <%= alim.indic_10 %>
+      </div>
+
+      <div class="aliment-infos">
+          <%= alim.indic_11 %>
+      </div>
+
+      <div class="aliment-infos">
+          <%= alim.indic_12 %>
+      </div>
+
+      <div class="aliment-infos">
+          <%= alim.indic_13 %>
+      </div>
+
+      <div class="aliment-infos">
+          <%= alim.indic_14 %>
+      </div>
+
+      <!-- <div class="aliment-infos infos-status">
+        <p class="<%#= aliment.status.to_s %> mb-0">
+          <i class="fas fa-circle"></i> <%=  %>
+        </p>
+      </div>  -->
+
+
+      <div class="aliment-infos aliment-actions dropdown">
+
+      <i class="fas fa-ellipsis-h" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></i>
+      <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+
+         <!--  <i class="fas fa-search-plus"></i><p>Aperçu</p> -->
+      <%# end %>
+          </div>
+        </div>
+      </div>
+<% end %>
+

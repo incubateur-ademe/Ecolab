@@ -1,0 +1,74 @@
+.search-agribalyse-title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.search-agribalyse-title-container .title-search {
+  font-size: 20px;
+  margin: 30px 40px;
+}
+
+.search-agribalyse-title-container .number-results {
+  font-size: 12px;
+  // margin: 30px 100px;
+}
+
+.product-card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 10px 30px 30px 30px;
+  grid-template-rows: auto;
+}
+
+.product-card {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  width: 270px;
+  height: 200px;
+  border-radius: 0px;
+  margin: 20px;
+}
+
+.product-card-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 5px;
+}
+
+.product-card-header h2 {
+  font-size: 18px;
+}
+
+.product-card-header p {
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.product-card-infos {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: $joli-gris;
+  height: 130px;
+  font-size: 8px;
+}
+
+.product-card-infos .impact {
+  font-size: 10px;
+}
+
+.metrics-score-infos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 5px;
+}
+
+.3-metrics {
+ height: fit-content;
+}
+
