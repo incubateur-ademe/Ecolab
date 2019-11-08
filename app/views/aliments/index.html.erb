@@ -15,9 +15,22 @@
     <i class="fas fa-chevron-right"></i>
   <p><strong>"<%= params[:query] %>"</strong></p>
 </div>
+
+<button class="btn-flat-download-index ml-3">
+    <%= link_to "Trier par nom", :controller => :aliments, :action => :index, :sort => :alim_nom_fr, :query => params[:query]%>
+</button>
+
+<button class="btn-flat-download-index ml-3">
+    <%= link_to "Trier par date", :controller => :aliments, :action => :index, :sort => :created_at, :query => params[:query]%>
+</button>
+
+<!-- <button class="btn-flat-download-index ml-3"> -->
+    <%#= link_to "Trier par score", :controller => :aliments, :action => :order_by_name, :query => params[:query]%>
+<!-- </button> -->
 <!-- <div class="container"> -->
 <%#= render '/shared/filters' %>
 <!-- </div> -->
+
 <div class="search-agribalyse-title-container">
   <h1 class="title-search">Résultats de votre recherche pour <strong>"<%= params[:query] %>"</strong></h1>
   <p class="number-results"><%= @aliments.count %> résultats</p>
@@ -29,7 +42,7 @@
       <div class="product-card">
         <div class="product-card-header">
           <h2><%= alim.alim_nom_fr[0..30] %></h2>
-          <p><%= alim.alim_ssgrp_nom_fr.capitalize %></p>
+          <p><%= alim.alim_ssgrp_nom_fr %></p>
         </div>
 
         <div class="product-card-infos">
