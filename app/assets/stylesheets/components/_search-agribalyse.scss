@@ -20,7 +20,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
-  background-color: #DCEDFA;
+  background-color: white;
 }
 
 .product-card {
@@ -29,7 +29,7 @@
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
   width: 270px;
   height: 200px;
-  border-radius: 3px;
+  border-radius: 5px;
   margin: 20px;
 }
 
