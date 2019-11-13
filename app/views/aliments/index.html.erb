@@ -16,13 +16,7 @@
   <p><strong>"<%= params[:query] %>"</strong></p>
 </div>
 
-<button class="btn-flat-download-index ml-3">
-    <%= link_to "Trier par nom", :controller => :aliments, :action => :index, :sort => :alim_nom_fr, :query => params[:query]%>
-</button>
 
-<button class="btn-flat-download-index ml-3">
-    <%= link_to "Trier par date", :controller => :aliments, :action => :index, :sort => :created_at, :query => params[:query]%>
-</button>
 
 <!-- <button class="btn-flat-download-index ml-3"> -->
     <%#= link_to "Trier par score", :controller => :aliments, :action => :order_by_name, :query => params[:query]%>
@@ -35,6 +29,16 @@
   <h1 class="title-search">Résultats de votre recherche pour <strong>"<%= params[:query] %>"</strong></h1>
   <p class="number-results"><%= @aliments.count %> résultats</p>
 </div>
+
+<p class="ml-4 mt-2"> Trier par :
+  <a class="tri-criteria-name">
+      <%= link_to "nom", :controller => :aliments, :action => :index, :sort => :alim_nom_fr, :query => params[:query]%>
+  </a>
+
+  <a class="tri-criteria-name">
+      <%= link_to "score", :controller => :aliments, :action => :index, :sort => :created_at, :query => params[:query]%>
+  </a>
+</p>
 
   <div class="product-card-container">
     <% @aliments.each do |alim| %>
@@ -62,7 +66,7 @@
           </div>
 
           <button class="button-details-product-fiche">
-            <%= link_to "Voir détails" %>
+            <%= link_to "Voir détails", aliment_path(alim) %>
           </button>
 
 
