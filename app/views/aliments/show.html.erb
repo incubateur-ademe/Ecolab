@@ -1,6 +1,409 @@
-<h1><%= @aliment.alim_nom_fr.capitalize %></h1>
-<p><%= @aliment.alim_grp_nom_fr %></p>
-<p><%= @aliment.alim_ssgrp_nom_fr %></p>
-<p><%= @aliment.indic_1 %></p>
-<p><%= @aliment.indic_2 %></p>
-<p><%= @aliment.indic_3 %></p>
+<div class="header_search" style="background-image: url(<%= image_path('breakfast.png') %>)" >
+  <%= render '/shared/search-bar' %>
+    <button class="btn-flat-download-index ml-3">
+      <%= link_to "Télécharger" %>
+    </button>
+</div>
+
+<div class="fil-ariane-bar">
+  <p id="accueil">Accueil</p>
+    <i class="fas fa-chevron-right"></i>
+  <p>Données</p>
+    <i class="fas fa-chevron-right"></i>
+  <p>Alimentation</p>
+    <i class="fas fa-chevron-right"></i>
+  <p><strong>"<%= @aliment.alim_nom_fr.capitalize %>"</strong></p>
+</div>
+
+
+<div class="m-5">
+  <h2 class="mb-3"><%= @aliment.alim_nom_fr.capitalize %></h2>
+    <div class="d-inline-flex">
+    <p class="badge badge-info mr-3"><%= link_to @aliment.alim_grp_nom_fr, aliments_path(:query => @aliment.alim_grp_nom_fr)%></p>
+    <p class="badge badge-warning mr-3"><%= link_to @aliment.alim_ssgrp_nom_fr, aliments_path(:query => @aliment.alim_ssgrp_nom_fr)%></p>
+    <p class="badge badge-danger mr-3"><%= link_to @aliment.alim_ssssgrp_nom_fr, aliments_path(:query => @aliment.alim_ssssgrp_nom_fr)%></p>
+</div>
+
+
+<!-- <div class="aliments-array">
+
+    <div class="array-header d-flex">
+
+      <div class="array-header-column bold">
+        <h4>Aliment</h4>
+      </div>
+      <div class="array-header-column">
+        <h4>Groupe</h4>
+      </div>
+      <div class="array-header-column">
+        <h4>Sous-groupe</h4>
+      </div>
+      <div class="array-header-column">
+        <h4>Catégorie</h4>
+      </div>
+
+  INDICATEURS -->
+
+
+  <p>Détail de l’impact écologique</p>
+
+<div class="d-inline-flex">
+  <div class="aliments-array">
+    <div class="array-header d-flex">
+            <div class="array-header-column">
+              <h4>Indicateur</h4>
+            </div>
+
+            <div class="array-header-column">
+              <h4>Mesure</h4>
+            </div>
+
+            <div class="array-header-column">
+              <h4>Unité</h4>
+            </div>
+
+          </div>
+
+          <%# @aliments.each do |alim| %>
+
+          <div class="aliments-card d-flex" id="aliment-div-1">
+            <div class="aliment-infos infos-titre">
+              Changement climatique
+            </div>
+
+            <div class="aliment-infos">
+              <%= @aliment.indic_1 %>
+            </div>
+
+            <div class="aliment-infos">
+              unité
+            </div>
+           </div>
+
+           <div class="aliments-card d-flex" id="aliment-div-2">
+            <div class="aliment-infos infos-titre">
+              Appauvrissement de la couche d'ozone
+            </div>
+
+            <div class="aliment-infos">
+              <%= @aliment.indic_2 %>
+            </div>
+
+            <div class="aliment-infos">
+              unité
+            </div>
+           </div>
+
+           <div class="aliments-card d-flex" id="aliment-div-3">
+            <div class="aliment-infos infos-titre">
+              Exposition aux particules fines
+            </div>
+
+            <div class="aliment-infos">
+              <%= @aliment.indic_3 %>
+            </div>
+
+            <div class="aliment-infos">
+              unité
+            </div>
+           </div>
+
+           <div class="aliments-card d-flex" id="aliment-div-4">
+            <div class="aliment-infos infos-titre">
+             Acidification
+            </div>
+
+            <div class="aliment-infos">
+              <%= @aliment.indic_4 %>
+            </div>
+
+            <div class="aliment-infos">
+              unité
+            </div>
+           </div>
+
+           <div class="aliments-card d-flex" id="aliment-div-5">
+            <div class="aliment-infos infos-titre">
+              Eutrophisation aquatique (eau douce)
+            </div>
+
+            <div class="aliment-infos">
+              <%= @aliment.indic_5 %>
+            </div>
+
+            <div class="aliment-infos">
+              unité
+            </div>
+           </div>
+
+           <div class="aliments-card d-flex" id="aliment-div-6">
+            <div class="aliment-infos infos-titre">
+            Eutrophisation aquatique (marine)
+            </div>
+
+            <div class="aliment-infos">
+              <%= @aliment.indic_6 %>
+            </div>
+
+            <div class="aliment-infos">
+              unité
+            </div>
+           </div>
+
+           <div class="aliments-card d-flex" id="aliment-div-7">
+            <div class="aliment-infos infos-titre">
+              Eutrophisation terrestre
+            </div>
+
+            <div class="aliment-infos">
+              <%= @aliment.indic_7 %>
+            </div>
+
+            <div class="aliment-infos">
+              unité
+            </div>
+           </div>
+
+           <div class="aliments-card d-flex" id="aliment-div-8">
+            <div class="aliment-infos infos-titre">
+             Ionisation, effet sur la santé
+            </div>
+
+            <div class="aliment-infos">
+              <%= @aliment.indic_8 %>
+            </div>
+
+            <div class="aliment-infos">
+              unité
+            </div>
+           </div>
+
+           <div class="aliments-card d-flex" id="aliment-div-9">
+            <div class="aliment-infos infos-titre">
+              Ecotoxicité d'eau douce
+            </div>
+
+            <div class="aliment-infos">
+              <%= @aliment.indic_9 %>
+            </div>
+
+            <div class="aliment-infos">
+              unité
+            </div>
+           </div>
+
+
+           <div class="aliments-card d-flex" id="aliment-div-10">
+            <div class="aliment-infos infos-titre">
+              Usage des terres
+            </div>
+
+            <div class="aliment-infos">
+              <%= @aliment.indic_10 %>
+            </div>
+
+            <div class="aliment-infos">
+              unité
+            </div>
+           </div>
+
+           <div class="aliments-card d-flex" id="aliment-div-11">
+            <div class="aliment-infos infos-titre">
+              Oxydation photochimique
+            </div>
+
+            <div class="aliment-infos">
+              <%= @aliment.indic_11 %>
+            </div>
+
+            <div class="aliment-infos">
+              unité
+            </div>
+           </div>
+
+           <div class="aliments-card d-flex" id="aliment-div-12">
+            <div class="aliment-infos infos-titre">
+              Consommation d'énergie non renouvelable
+            </div>
+
+            <div class="aliment-infos">
+              <%= @aliment.indic_12 %>
+            </div>
+
+            <div class="aliment-infos">
+              unité
+            </div>
+           </div>
+
+           <div class="aliments-card d-flex" id="aliment-div-13">
+            <div class="aliment-infos infos-titre">
+              Consommation de ressources non renouvelables
+            </div>
+
+            <div class="aliment-infos">
+              <%= @aliment.indic_13 %>
+            </div>
+
+            <div class="aliment-infos">
+              unité
+            </div>
+           </div>
+
+           <div class="aliments-card d-flex" id="aliment-div-14">
+            <div class="aliment-infos infos-titre">
+              Consommation d'eau
+            </div>
+
+            <div class="aliment-infos">
+              <%= @aliment.indic_14 %>
+            </div>
+
+            <div class="aliment-infos">
+              unité
+            </div>
+      </div>
+  </div>
+
+  <div class="fiche-info-bdd">
+    <div class="fiche-infos">
+      <h2>Comment comprendre ces données ?</h2>
+      <p>Ces chiffres ont été établis en suivant la méthode du d’analyse du cycle de vie (ACV).
+        <br></br>
+      Pour comprendre les valeurs présentées et les modes d’analyse, vous pouvez consulter notre documentation.</p>
+      <button class="button-details-product-fiche mb-3">
+       <%= link_to "Documentation" %>
+      </button>
+    </div>
+  </div>
+</div>
+
+<p>Aliments associés</p>
+
+
+<div class="product-card-container">
+
+    <% aliments = Aliment.all %>
+    <% sql_query = "aliments.alim_nom_fr ILIKE :query" %>
+
+    <%# @associated_search_first3 = aliments.where(sql_query, query: ) %>
+
+    <%# @associated_search.each do |asso_alim| %>
+
+          <div class="product-card">
+            <div class="product-card-header">
+              <h2>Carotte</h2>
+              <p>Legumes</p>
+            </div>
+
+            <div class="product-card-infos">
+
+              <p class="impact m-2"><strong>🌏 IMPACT ECOLOGIQUE</strong></p>
+
+
+              <div class="metrics-score-infos">
+                <div class="3-metrics">
+                  <p class="metric">Changement climatique : <strong>34</strong></p>
+                  <p class="metric">Appauvrissement de la couche d'ozone : <strong>45</strong></p>
+                  <p class="metric">Exposition aux particules fines : <strong>36</strong></p>
+                </div>
+                <div class="ecoscore mr-2">
+                  <h3>45</h3>
+                </div>
+              </div>
+
+              <button class="button-details-product-fiche">
+                <%= link_to "Détails" %>
+              </button>
+            </div>
+          </div>
+
+          <div class="product-card">
+            <div class="product-card-header">
+              <h2>Carotte</h2>
+              <p>Legumes</p>
+            </div>
+
+            <div class="product-card-infos">
+
+              <p class="impact m-2"><strong>🌏 IMPACT ECOLOGIQUE</strong></p>
+
+
+              <div class="metrics-score-infos">
+                <div class="3-metrics">
+                  <p class="metric">Changement climatique : <strong>34</strong></p>
+                  <p class="metric">Appauvrissement de la couche d'ozone : <strong>45</strong></p>
+                  <p class="metric">Exposition aux particules fines : <strong>36</strong></p>
+                </div>
+                <div class="ecoscore mr-2">
+                  <h3>45</h3>
+                </div>
+              </div>
+
+              <button class="button-details-product-fiche">
+                <%= link_to "Détails" %>
+              </button>
+            </div>
+          </div>
+
+                    <div class="product-card">
+            <div class="product-card-header">
+              <h2>Carotte</h2>
+              <p>Legumes</p>
+            </div>
+
+            <div class="product-card-infos">
+
+              <p class="impact m-2"><strong>🌏 IMPACT ECOLOGIQUE</strong></p>
+
+
+              <div class="metrics-score-infos">
+                <div class="3-metrics">
+                  <p class="metric">Changement climatique : <strong>34</strong></p>
+                  <p class="metric">Appauvrissement de la couche d'ozone : <strong>45</strong></p>
+                  <p class="metric">Exposition aux particules fines : <strong>36</strong></p>
+                </div>
+                <div class="ecoscore mr-2">
+                  <h3>45</h3>
+                </div>
+              </div>
+
+              <button class="button-details-product-fiche">
+                <%= link_to "Détails" %>
+              </button>
+            </div>
+          </div>
+
+                    <div class="product-card">
+            <div class="product-card-header">
+              <h2>Carotte</h2>
+              <p>Legumes</p>
+            </div>
+
+            <div class="product-card-infos">
+
+              <p class="impact m-2"><strong>🌏 IMPACT ECOLOGIQUE</strong></p>
+
+
+              <div class="metrics-score-infos">
+                <div class="3-metrics">
+                  <p class="metric">Changement climatique : <strong>34</strong></p>
+                  <p class="metric">Appauvrissement de la couche d'ozone : <strong>45</strong></p>
+                  <p class="metric">Exposition aux particules fines : <strong>36</strong></p>
+                </div>
+                <div class="ecoscore mr-2">
+                  <h3>45</h3>
+                </div>
+              </div>
+
+              <button class="button-details-product-fiche">
+                <%= link_to "Détails" %>
+              </button>
+            </div>
+          </div>
+
+      <%# end %>
+</div>
+
+
+
+
