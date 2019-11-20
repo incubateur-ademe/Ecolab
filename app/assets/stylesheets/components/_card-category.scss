@@ -246,3 +246,30 @@
 }
 
 
+.cartels-infos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 28px;
+}
+
+.fiche-info-score {
+  background-color: white;
+  width: 300px;
+  height: fit-content;
+  border-radius: 5px;
+  margin : 0px 20px 20px 0px;
+}
+
+.fiche-info-score h2 {
+  color: black;
+  font-size: 18px;
+  margin: 14px;
+}
+
+.fiche-info-score p {
+  color: black;
+  font-size: 12px;
+  margin: 14px;
+}
+
+
