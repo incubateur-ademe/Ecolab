@@ -15,7 +15,7 @@
   </div>
 
 <div class="card-container">
-  <p class="card-title">Nos catégories</p>
+  <p class="card-title">Catégories</p>
     <div class="home-container">
         <%= link_to aliments_path(:query => "Plats composés") do %>
         <div>
@@ -109,28 +109,28 @@
 
 <!-- //////////////////// LOGO ADEME ET AGRIBALYSE ////////////////////////// -->
 
-<div class="card-container-logo">
+<!-- <div class="card-container-logo">
   <p class="card-title-logo">Avec</p>
     <div class="home-container-logo">
-        <%= link_to "#" do %>
+        <%#= link_to "#" do %>
         <div>
-          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('ademe-logo.jpg') %>)">
+          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%#= image_path('ademe-logo.jpg') %>)">
           </div>
         </div>
-        <% end %>
+        <%# end %>
 
         <div>
-          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('logo_agribalyse.jpg') %>)">
+          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%#= image_path('logo_agribalyse.jpg') %>)">
           </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 
 <!-- ////////////////////USECASE////////////////////////// -->
 <div class="card-container-usecase">
-  <p class="card-title">Ils utilisent nos données</p>
+  <p class="card-title">Exemple de réutilisateurs</p>
     <div class="home-container-usecase">
 
       <div class="card-usecase">
@@ -174,40 +174,40 @@
 
 <!-- /////////////////////// PARTNERS /////////////////////// -->
 
-<div class="card-container-usecase">
+<!-- <div class="card-container-usecase">
   <p class="card-title-logo">Partenariats en cours</p>
     <div class="home-container-usecasers">
         <div>
-          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('frigo-magic-logo-couleur.jpg') %>)">
+          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%#= image_path('frigo-magic-logo-couleur.jpg') %>)">
           </div>
         </div>
 
         <div>
-          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('karbon.png') %>)">
+          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%#= image_path('karbon.png') %>)">
           </div>
         </div>
 
         <div>
-          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('beta-logo.png') %>)">
+          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%#= image_path('beta-logo.png') %>)">
           </div>
         </div>
 
         <div>
-          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('off.png') %>)">
+          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%#= image_path('off.png') %>)">
           </div>
         </div>
 
         <div>
-          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('marmiton-logo.png') %>)">
+          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%#= image_path('marmiton-logo.png') %>)">
           </div>
         </div>
 
         <div>
-          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('ademe-logo.jpg') %>)">
+          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%#= image_path('ademe-logo.jpg') %>)">
           </div>
         </div>
     </div>
-</div>
+</div> -->
 
 
 
@@ -227,46 +227,7 @@
 
 <!-- /////////////// FOOTERS /////////// -->
 
-<footer class="footer" role="contentinfo">
-    <div class="container">
-      <div class="footer__logo">
-        <img src= <%= image_path('ademe-logo.jpg') %>>
-        <div class="footer-reseaux">
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-        </div>
-      </div>
 
-      <div class="text-bloc">
-        <ul class="footer__links">
-          <li><h2>Ecolab</h2></li>
-          <li><a href="https://www.data.gouv.fr/reference">Qui sommes-nous ?</a></li>
-          <li><a href="https://www.data.gouv.fr/terms">Les start-ups d’état</a></li>
-          <li><a href="https://www.data.gouv.fr/api">Mentions légales</a></li>
-          <li><a href="https://www.data.gouv.fr/api">Contactez-nous !</a></li>
-        </ul>
-
-        <ul class="footer__links">
-          <li><h2>Aidez-nous à améliorer cet outil</h2></li>
-          <li><a href="https://www.data.gouv.fr/reference">Contribuer sur Github</a></li>
-          <li><a href="https://www.data.gouv.fr/terms">Envoyer une suggestion</a></li>
-          <li><a href="https://www.data.gouv.fr/api">Proposez vos données</a></li>
-        </ul>
-
-        <ul class="footer__links">
-          <li><h2>En collaboration avec</h2></li>
-          <li><a href="https://www.data.gouv.fr/reference">Ademe</a></li>
-          <li><a href="https://www.data.gouv.fr/terms">Agribalyse</a></li>
-          <li><a href="https://www.data.gouv.fr/api">Beta.gouv</a></li>
-        </ul>
-      </div>
-
-      <ul class="footer__links"></ul>
-    </div>
-  </footer>
 
 
 </div>

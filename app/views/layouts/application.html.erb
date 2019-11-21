@@ -16,7 +16,50 @@
     <%#= render 'shared/flash'  %>
 
     <%= yield %>
+
+    <footer class="footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__logo">
+        <img src= <%= image_path('ademe-logo.jpg') %>>
+        <div class="footer-reseaux">
+          <a href="#"><i class="fab fa-github"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+
+      <div class="text-bloc">
+        <ul class="footer__links">
+          <li><h2>Ecolab</h2></li>
+          <li><a href="https://www.data.gouv.fr/reference">Qui sommes-nous ?</a></li>
+          <li><a href="https://www.data.gouv.fr/terms">Les start-ups d’état</a></li>
+          <li><a href="https://www.data.gouv.fr/api">Mentions légales</a></li>
+          <li><a href="https://www.data.gouv.fr/api">Contactez-nous !</a></li>
+        </ul>
+
+        <ul class="footer__links">
+          <li><h2>Aidez-nous à améliorer cet outil</h2></li>
+          <li><a href="https://www.data.gouv.fr/reference">Contribuer sur Github</a></li>
+          <li><a href="https://www.data.gouv.fr/terms">Envoyer une suggestion</a></li>
+          <li><a href="https://www.data.gouv.fr/api">Proposez vos données</a></li>
+        </ul>
+
+        <ul class="footer__links">
+          <li><h2>En collaboration avec</h2></li>
+          <li><a href="https://www.data.gouv.fr/reference">Ademe</a></li>
+          <li><a href="https://www.data.gouv.fr/terms">Agribalyse</a></li>
+          <li><a href="https://www.data.gouv.fr/api">Beta.gouv</a></li>
+        </ul>
+      </div>
+
+      <ul class="footer__links"></ul>
+    </div>
+  </footer>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
+
+
   </body>
 </html>
