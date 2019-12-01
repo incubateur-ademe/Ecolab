@@ -8,10 +8,6 @@
 <div class="welcome-card">
   <h2>Que souhaitez-vous acheter aujourd'hui ?</h2>
     <p>Grâce à notre simulateur calculez l'empreinte carbone de votre liste de course</p>
-      <div class="two-actions-from-homepage-card">
-        <%#= link_to "Créer une nouvelle facture", root_path, class: "button" %>
-        <%#= link_to "Gérer mes factures", root_path, class: "second-button-on-the-right button-white-background-and-yellow-text" %>
-      </div>
   <img class="illustration" src="<%= image_path('undraw_balloons_vxx5.svg') %>"/>
 </div>
 
@@ -33,17 +29,24 @@
 
           <p>Je voudrais manger ou cuisiner</p>
 
-            <div class="searchbar form-inline search-form-control">
-              <%= f.input :ask_fruit, label: false, class: "dropdown-menu" %>
+            <div class="searchbar form-inline search-form-control ">
+              <%#= f.input :ask_fruit, label: false, class: "dropdown-menu" %>
+              <%= f.input :ask_fruit, collection: Fruitleg::FL, label: false, prompt: "Choisissez parmi ces fruits et légumes", class: "dropdown-menu" %>
               <%= f.submit "Valider", class: "btn-flat-valider" %>
               <% end %>
-            </div>
+                </div>
+
+              <%= link_to "Nouvelle simulation", new_simulation_path, class: "nouvelle"  %>
 
         </div>
 
         <div class= "reponse-saison-positive d-flex">
         <%= @simulation.result %>
+        <% if @ok = true%>
         <a class="btn-flat-recette" href="https://www.marmiton.org/recettes/recherche.aspx?type=all&aqt=<%= @simulation.ask_fruit %>" target="_blank"> Trouver une recette sur Marmiton</a>
+        <% else %>
+        <span></span>
+        <% end %>
         </div>
 
       </div>

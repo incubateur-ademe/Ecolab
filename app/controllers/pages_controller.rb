@@ -4,4 +4,7 @@ class PagesController < ApplicationController
 
   def courses
   end
+
+  def discover
+  end
 end
