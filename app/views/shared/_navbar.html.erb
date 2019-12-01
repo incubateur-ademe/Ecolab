@@ -10,12 +10,17 @@
   </button>
 
 
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <li class="dropdown align-self-center d-none d-sm-block mr-3">
+  <li class="dropdown align-self-center d-none d-sm-block mr-3">
         <button class="dropdown-toggle border-none" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Données
         </button>
-      </li>
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+
+          <%= link_to "Alimentation", 'https://uncomposteurici.gitbook.io/poubellesbattle/', class: "dropdown-item" %>
+          <%= link_to "Bâtiment", 'https://www.ademe.fr/sites/default/files/assets/documents/guide-pratique-compostage-et-paillage.pdf', class: "dropdown-item" %>
+        </div>
+  </li>
+
     <ul class="navbar-nav mr-auto">
       <button class="border-none add-meal" type="button" >
           <%= link_to "Etudes de cas", "#" %>
