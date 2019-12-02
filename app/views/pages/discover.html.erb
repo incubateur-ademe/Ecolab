@@ -1,29 +1,49 @@
 <div class="banner-ecolab" style="background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)), url(https://raw.githubusercontent.com/lewagon/fullstack-images/master/uikit/background.png);">
-  <div class="container">
-    <h1>Les données d’impact environnemental au plus près des usages des citoyens</h1>
+    <h1 class="banner-ecolab-title">Les données d’impact environnemental au plus près des usages des citoyens</h1>
     <p>Accessibles à tous, en OpenData et API, pour vos projets, votre application, ou par curiosité</p>
+</div>
+
+<div class="bloc-alimentation">
+  <img class="picto-alim" alt="avatar" src="https://kitt.lewagon.com/placeholder/users/JenniferStephan" />
+  <div class="explain-alim">
+    <h2>Alimentation</h2>
+    <p>Vous y découvrirez l’impact environnemental de votre assiette.</p>
+    <button class="btn-flat-download">
+      <%= link_to "Découvrir les données", 'https://ecolab-panthere.gitbook.io/documentation-ecolab-et-agribalyse/' %>
+    </button>
   </div>
+
 </div>
 
-<div>
-</div>
 
-<div>
-</div>
 
-<div>
-</div>
+<section class="section">
+  <h2 class="section__title">Utilisez ces données dans vos produits et services</h2>
 
-<section class="section section-grey">
-  <div class="container">
-    <h2 class="section__title">Utilisez ces données dans vos produits et services</h2>
-
-    <div class="row">
-      <p class="text-p">Disponibles en OpenData, ces données  sont libres, en simple consultation, ou pour être réutilisées dans votre service</p>
-      <p class="text-p">Yuka, Marmiton, Carrefour utilisent déjà ces données visibles dans leurs produits et applications mobiles. </p>
-      <p class="text-p">Format CSV, API, retrouvez toutes les informations techniques sur les méthodes d’intégrations dans notre documentation</p>
+  <div class="element-text">
+    <div class="text-p">
+      <strong class="titre-p mb-2">Des données ouvertes, pour tous</strong>
+      <p>Disponibles en OpenData, ces données  sont libres, en simple consultation, ou pour être réutilisées dans votre service</p>
+      </div>
+    <div class="text-p">
+      <strong class="titre-p mb-2">Dans votre application préférée</strong>
+      <p>Yuka, Marmiton, Carrefour utilisent déjà ces données visibles dans leurs produits et applications mobiles. </p>
+    </div>
+    <div class="text-p">
+      <strong class="titre-p mb-2">Un guide pour les développeurs</strong>
+      <p>Format CSV, API, retrouvez toutes les informations techniques sur les méthodes d’intégrations dans notre documentation</p>
     </div>
   </div>
+
+  <div class="place-du-button-et-lien">
+    <button class="btn-flat-download">
+      <%= link_to "Guide d’utilisation", 'https://ecolab-panthere.gitbook.io/documentation-ecolab-et-agribalyse/' %>
+    </button>
+    <div class="how">
+      <%= link_to "Voir les études de cas" %>
+    </div>
+  </div>
+
 </section>
 
 
