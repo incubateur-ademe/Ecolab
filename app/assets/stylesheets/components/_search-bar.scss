@@ -58,10 +58,11 @@
 
 .search_examples a {
   text-decoration: underline;
+  color: black;
 }
 
 .search_examples a:hover {
-  color: green;
+  color: $green;
 }
 
 .header_search {

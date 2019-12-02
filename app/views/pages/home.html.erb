@@ -87,25 +87,34 @@
 
 <!-- //////////////////// TEXTE AGRIBALYSE ////////////////////////// -->
 
-    <section class="section section-grey">
-      <div class="container">
+    <section class="section">
         <h2 class="section__title">Agribalyse, données  ADEME de référence pour 2500 produits agro-alimentaires</h2>
 
-        <div class="row">
-          <p class="text-p">2500 produits, 14 indicateurs, toutes les informations sur l’alimentation et son impact sur l’environnement</p>
-          <p class="text-p">Un comité scientifique de validation et une méthodologie d’après l’analyse de cycle de vie des produits</p>
-          <p class="text-p">Un outil pratique à intégrer en phase d’éco-conception ou directement dans vos application via API</p>
+        <div class="element-text">
+          <div class="text-p">
+            <strong class="titre-p mb-2">Données</strong>
+            <p>2500 produits, 14 indicateurs, toutes les informations sur l’alimentation et son impact sur l’environnement</p>
+            </div>
+          <div class="text-p">
+            <strong class="titre-p mb-2">Données</strong>
+            <p>Un comité scientifique de validation et une méthodologie d’après l’analyse de cycle de vie des produits</p>
+          </div>
+          <div class="text-p">
+            <strong class="titre-p mb-2">Données</strong>
+            <p>Un outil pratique à intégrer en phase d’éco-conception ou directement dans vos application via API</p>
+          </div>
         </div>
-      </div>
+
+        <div class="place-du-button-et-lien">
+          <button class="btn-flat-download">
+            <%= link_to "Télécharger", 'https://ecolab-panthere.gitbook.io/documentation-ecolab-et-agribalyse/' %>
+          </button>
+          <div class="how">
+            <%= link_to "Comment utiliser les données ?" %>
+          </div>
+        </div>
+
     </section>
-
-    <button class="btn-flat-download">
-      <%= link_to "Télécharger", 'https://ecolab-panthere.gitbook.io/documentation-ecolab-et-agribalyse/' %>
-    </button>
-    <div class="how">
-      <%= link_to "Comment utiliser les données ?" %>
-    </div>
-
 
 <!-- //////////////////// LOGO ADEME ET AGRIBALYSE ////////////////////////// -->
 
@@ -220,7 +229,7 @@
         <h2>Développeurs, intégrez ces données à votre produit</h2>
         <p>API, données CSV, calcul de score, licence de ré-utilisation</p>
       </div>
-      <button class="btn-flat-commencer">
+      <button class="btn-flat-download">
         <%= link_to "Commencer" %>
       </button>
   </div>

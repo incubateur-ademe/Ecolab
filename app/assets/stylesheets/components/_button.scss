@@ -1,13 +1,11 @@
 .btn-flat-download {
   padding: 8px 24px;
-  border-radius: 4px;
-  background: $turquoise;
+  border-radius: 50px;
+  background: transparent;
+  border: $red 1px solid;
   transition: background 0.3s ease;
-  position: absolute;
-  left: 480px;
-  bottom: -420px;
-  width: 180px;
-  font-size: 14px;
+  width: 150px;
+  font-size: 12px;
 }
 
 .nouvelle {
@@ -17,13 +15,17 @@
 
 .btn-flat-download a {
  text-decoration: none;
- color: white;
+ color: $red;
 }
 
 .btn-flat-download:hover {
-  background: #475454;
+  background: $red;
+}
+
+.btn-flat-download a:hover {
   color: white;
 }
+
 
 .btn-flat-valider {
   padding: 8px 24px;

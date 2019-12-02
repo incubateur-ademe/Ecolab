@@ -1,21 +1,22 @@
 .section {
   margin-top: 50px;
-  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+
 }
 
-.row {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 28px;
-  margin: 114px;
+.element-text {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 125px;
 }
 
 .text-p {
   height: 100px;
   width: 300px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-weight: lighter;
   color: $gray;
   font-size: 14px;
@@ -28,28 +29,26 @@
   font-size: 22px;
   font-weight: bold;
   width: 860px;
-  margin-left: 152px;
+  // margin-left: 152px;
 }
 
-.section__title .section__subtitle {
-  margin-bottom: -5.25rem;
-  text-align: center;
-  font-family: $body-font;
-  font-weight: lighter;
-  font-size: 14px;
+.place-du-button-et-lien {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  margin-top: 25px;
+  margin-bottom: 45px;
 }
 
 
-.how {
-  position: absolute;
-  left: 680px;
-  bottom: -420px;
-  text-decoration: none;
-  font-size: 14px;
+.how a {
+  text-decoration: underline;
   color: $gray;
-}
-
-a {
-  text-decoration: none;
-  color: $gray;
+  font-size: 12px;
+  margin-left: 20px;
   }
+
+.how a:hover {
+  color: black;
+  font-weight: bold;
+}

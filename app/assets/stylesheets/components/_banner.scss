@@ -16,7 +16,7 @@
   // padding: var(--space-l);
   // max-width: 1200px;
   // margin: 0 auto;
-  background-image: url("banner-custom2.png");
+  background-image: url("banner-ecolab-duo.png");
 }
 
 .hero h1 {
@@ -31,7 +31,9 @@
 .hero .search_title {
   margin: var(--space-s) auto;
   color: var(--theme-dark-text);
-  font-size: 1.5em;
+  font-size: 1.3em;
+  width: 431px;
+  text-align: center;
 }
 
 .hero-color p {

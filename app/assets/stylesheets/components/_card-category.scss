@@ -197,14 +197,16 @@
 /////////////////// CARD DEV /////////////////
 .card-dev {
   overflow: hidden;
-  position:relative;
   width: 80%;
-  height: 120px;
+  height: 150px;
   background: white;
-  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  // box-shadow: 0 0 15px rgba(0,0,0,0.2);
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  margin: 0px 52px 29px 120px;
+  padding: 30px;
+  margin: 0px 52px 65px 120px;
 }
 
 .card-dev h2 {
