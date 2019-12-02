@@ -130,7 +130,17 @@
   border: white 2px solid;
 }
 
+.button-details-product-fiche:hover {
+  color: black;
+  border: black 2px solid;
+}
+
 .button-details-product-fiche a {
  text-decoration: none;
  color: white;
+}
+
+.button-details-product-fiche a:hover {
+ text-decoration: none;
+ color: black;
 }
