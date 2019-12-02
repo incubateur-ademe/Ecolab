@@ -16,11 +16,28 @@
   // margin: 30px 100px;
 }
 
+.results {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.result-summary {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.result-summary h4 {
+ margin: 20px 14px 0px 27px;
+ font-size: 20px;
+}
+
 .product-card-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: auto;
-  background-color: white;
+  // background-color: white;
 }
 
 .product-card {

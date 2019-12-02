@@ -40,41 +40,57 @@
   </a>
 </p>
 
-  <div class="product-card-container">
-    <% @aliments.each do |alim| %>
 
-      <div class="product-card">
-        <div class="product-card-header">
-          <div class="product-title-category">
-          <h2><%= alim.alim_nom_fr[0..30] %></h2>
-          <p><%= alim.alim_ssgrp_nom_fr %></p>
-          </div>
-          <div class="ecoscore">
-              <p class="cate">Ecoscore</p>
-              <h3 class="score">45</h3>
-          </div>
-        </div>
+  <div class="results">
+    <div class="result-summary">
+      <h4>Fruits, légumes, légumineuses et oléagineux</h4>
+      <h4>Viandes, œufs, poissons</h4>
+      <h4>Entrées et plats composés</h4>
+      <h4>Matières grasses</h4>
+      <h4>Produits céréaliers</h4>
+      <h4>Lait et produits laitiers</h4>
+      <h4>Boissons</h4>
+      <h4>Aliments infantiles</h4>
+      <h4>Produits sucrés</h4>
+      <h4>Glaces et sorbets</h4>
+      <h4>Aides culinaires et ingrédients divers</h4>
+    </div>
+    <div class="product-card-container">
+      <% @aliments.each do |alim| %>
 
-        <div class="product-card-infos">
-
-          <p class="impact m-3 text-center"><strong>IMPACT ECOLOGIQUE</strong></p>
-
-
-          <div class="metrics-score-infos">
-            <div class="3-metrics">
-              <p class="metric">Changement climatique : <strong><%=alim.indic_1 %></strong></p>
-              <p class="metric">Appauvrissement de la couche d'ozone : <strong><%=alim.indic_2 %></strong></p>
-              <p class="metric">Exposition aux particules fines : <strong><%=alim.indic_3 %></strong></p>
+        <div class="product-card">
+          <div class="product-card-header">
+            <div class="product-title-category">
+            <h2><%= alim.alim_nom_fr[0..30] %></h2>
+            <p><%= alim.alim_ssgrp_nom_fr %></p>
+            </div>
+            <div class="ecoscore">
+                <p class="cate">Ecoscore</p>
+                <h3 class="score">45</h3>
             </div>
           </div>
 
-          <button class="button-details-product-fiche">
-            <%= link_to "Détails", aliment_path(alim) %>
-          </button>
-        </div>
-      </div>
+          <div class="product-card-infos">
 
-    <% end %>
+            <p class="impact m-3 text-center"><strong>IMPACT ECOLOGIQUE</strong></p>
+
+
+            <div class="metrics-score-infos">
+              <div class="3-metrics">
+                <p class="metric">Changement climatique : <strong><%=alim.indic_1 %></strong></p>
+                <p class="metric">Appauvrissement de la couche d'ozone : <strong><%=alim.indic_2 %></strong></p>
+                <p class="metric">Exposition aux particules fines : <strong><%=alim.indic_3 %></strong></p>
+              </div>
+            </div>
+
+            <button class="button-details-product-fiche">
+              <%= link_to "Détails", aliment_path(alim) %>
+            </button>
+          </div>
+        </div>
+
+      <% end %>
+    </div>
   </div>
 
 
