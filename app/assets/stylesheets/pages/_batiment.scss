@@ -13,7 +13,15 @@
 
 .titre-wip {
   font-size: 33px;
-  width: 352px;
+  font-weight: 600;
+  width: 400px;
+}
+
+.para-wip {
+  font-size: 17px;
+  font-weight: lighter;
+  color: grey;
+  width: 400px;
 }
 
 .work-in-progress {
@@ -30,6 +38,7 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
+  margin-right: 210px;
 }
 
 .form-control {
