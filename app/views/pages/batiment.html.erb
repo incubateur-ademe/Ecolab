@@ -8,9 +8,9 @@
   </div>
 
   <div class="contact-form">
-    <%= text_field_tag :name, params[:name], class: "td form-control w-80", placeholder: "Votre nom"%>
-    <%= text_field_tag :email, params[:email], class: "td form-control w-80", placeholder: "Votre email"%>
-    <%= text_field_tag :message, params[:message], class: "td form-control w-80", placeholder: "Votre message"%>
+    <%= text_field_tag :name, params[:name], class: "td form-control w-80", placeholder: "Votre nom", label: "Votre Nom"%>
+    <%= text_field_tag :email, params[:email], class: "td form-control w-80", id: "message", placeholder: "Votre email"%>
+    <%= text_field_tag :message, params[:message], class: "td form-control w-80"%>
   </div>
 </div>
 

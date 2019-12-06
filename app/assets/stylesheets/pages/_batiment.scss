@@ -6,22 +6,22 @@
 .wip-content {
   display: flex;
   flex-direction: row;
-  padding-left: 50px;
-  padding-top: 50px;
+  padding-left: 60px;
+  padding-top: 60px;
   justify-content: space-between;
 }
 
 .titre-wip {
   font-size: 33px;
   font-weight: 600;
-  width: 400px;
+  width: 500px;
 }
 
 .para-wip {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: lighter;
   color: grey;
-  width: 400px;
+  width: 500px;
 }
 
 .work-in-progress {
@@ -29,9 +29,11 @@
   flex-direction: column;
 }
 
+
 .illustration-wip {
     width: 435px;
     height: 450px;
+    margin-bottom: 40px;
 }
 
 .contact-form {
@@ -45,7 +47,7 @@
   width: 400px !important;
 }
 
-.contact-form .td .form-control .message {
+.form-control #message {
   height: 300px !important;
   width: 400px !important;
 }
