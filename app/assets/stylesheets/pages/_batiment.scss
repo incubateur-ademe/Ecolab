@@ -1,4 +1,31 @@
-.container {
+.container-wip {
   background-color: white;
   height: 600px;
+}
+
+.wip-content {
+  display: flex;
+  flex-direction: row;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.titre-wip {
+  font-size: 33px;
+  width: 352px;
+}
+
+.work-in-progress {
+  display: flex;
+  flex-direction: column;
+}
+
+.illustration-wip {
+    width: 435px;
+    height: 450px;
+}
+
+.td .form-control .message {
+  height: 300px !important;
+  width: 400px !important;
 }
