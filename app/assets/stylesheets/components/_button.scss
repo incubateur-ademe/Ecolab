@@ -102,7 +102,7 @@
 .btn-flat-download-index {
   padding: 8px 24px;
   border-radius: 30px;
-  background: $purple;
+  background: $red;
   transition: background 0.3s ease;
   // position: absolute;
   // left: 1170px;
@@ -118,7 +118,7 @@
 }
 
 .btn-flat-download-index:hover {
-  background: #475454;
+  background: $light-red;
   color: white;
 }
 
