@@ -4,14 +4,18 @@
   <div class="work-in-progress">
     <h1 class="titre-wip">Cette page est en construction 🚧</h1>
     <p class="para-wip">Nous mettons tout en oeuvre pour la développer au plus vite. En attendant, n'hésitez pas à nous contacter pour en savoir plus !</p>
-    <img class="illustration-wip" src="<%= image_path('undraw_balloons_vxx5.svg') %>"/>
+    <img class="illustration-wip" src="<%= image_path('wip.png') %>"/>
   </div>
 
-  <div class="contact-form">
+  <div class="contact-form mt-5">
     <%= text_field_tag :name, params[:name], class: "td form-control w-80", placeholder: "Votre nom", label: "Votre Nom"%>
-    <%= text_field_tag :email, params[:email], class: "td form-control w-80", id: "message", placeholder: "Votre email"%>
-    <%= text_field_tag :message, params[:message], class: "td form-control w-80"%>
+    <%= text_field_tag :email, params[:email], class: "td form-control w-80", placeholder: "Votre email"%>
+    <%= text_field_tag :message, params[:message], placeholder: "Ecrivez ici votre message", class: "td form-control w-80 h-80"%>
+    <button class="btn-flat-download-index">
+    <%= link_to "Envoyer" %>
+   </button>
   </div>
+
 </div>
 
 
