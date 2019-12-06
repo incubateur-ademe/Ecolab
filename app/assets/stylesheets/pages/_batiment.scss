@@ -8,6 +8,7 @@
   flex-direction: row;
   padding-left: 50px;
   padding-top: 50px;
+  justify-content: space-between;
 }
 
 .titre-wip {
@@ -27,6 +28,12 @@
 
 .contact-form {
   padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-control {
+  width: 400px !important;
 }
 
 .contact-form .td .form-control .message {
