@@ -14,12 +14,16 @@
   border-radius: 30px;
   height: 3em;
   background-color: black;
-  color: white;
   border: transparent;
 }
 
 .btn-discover a {
   text-decoration: none;
+  color: white;
+}
+
+.btn-discover a:hover {
+  background-color: grey;
 }
 
 .btn-discover:hover {
