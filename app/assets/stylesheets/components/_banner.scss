@@ -16,8 +16,18 @@
   // padding: var(--space-l);
   // max-width: 1200px;
   // margin: 0 auto;
+}
+
+.hero__container .hero_alim_image {
   background-image: url("banner-ecolab-duo.png");
 }
+
+.hero__container .hero_landing_image {
+  background-image: url("banner-ecolab-landing.png");
+}
+
+
+
 
 .hero h1 {
   margin-bottom: 0;
