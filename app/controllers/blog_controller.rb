@@ -2,8 +2,8 @@ require 'kramdown'
 
 class BlogController < ApplicationController
   def article
-    file_path = lookup_context.find_template("#{controller_path}/#{action_name}")
-      .identifier.sub(".html.erb", ".md")
+    file_path = lookup_context.find_file("#{controller_path}/#{params[:title]}.md").identifier
+    
     @name = "Ecolab"
 
     # Compiled with ERB

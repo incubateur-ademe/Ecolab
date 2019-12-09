@@ -6,7 +6,7 @@ Rails.application.routes.draw do
   get "/batiment", to: "pages#batiment"
   get "/alimentation", to: "pages#home"
   get "/agribalyse", to: "pages#home"
-  get "/blog", to: "blog#article"
+  get "/blog/:title", to: "blog#article"
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   resources :aliments, only: [:index, :order_by_name, :show]
