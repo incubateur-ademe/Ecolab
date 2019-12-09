@@ -7,4 +7,7 @@ class PagesController < ApplicationController
 
   def discover
   end
+
+  def nouscontacter
+  end
 end
