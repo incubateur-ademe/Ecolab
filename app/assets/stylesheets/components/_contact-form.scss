@@ -1,0 +1,29 @@
+
+//// embed mailchimp form on landing page ////////////
+
+#mc_embed_signup {
+    background: #fff;
+    clear: left;
+    font: 14px Helvetica,Arial,sans-serif;
+    width: -webkit-fill-available;
+}
+
+#mc_embed_signup .mc-field-group.input-group ul {
+    margin: 0;
+    padding: 0px 0 0px 25px;
+    list-style: none;
+}
+
+#mce-EMAIL {
+  border-radius: 50px;
+}
+
+#mc-embedded-subscribe {
+    padding: 8px 24px;
+    border-radius: 50px !important;
+    background: transparent;
+    border: #FF647C 1px solid;
+    transition: background 0.3s ease;
+    width: 150px !important;
+    font-size: 12px !important;
+}
