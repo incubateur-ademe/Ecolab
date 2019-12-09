@@ -122,6 +122,24 @@
   color: white;
 }
 
+.btn-flat-inscription {
+    padding: 8px 24px;
+    border-radius: 30px;
+    background: $red !important;
+    transition: background 0.3s ease;
+    width: 120px;
+    font-size: 12px;
+    border-color: transparent;
+    height: fit-content;
+    margin-left: 15px;
+}
+
+.btn-flat-inscription:hover {
+  background: $light-red;
+  color: white;
+}
+
+
 .button-details-product-fiche {
   background-color: transparent;
   border-radius: 30px;
