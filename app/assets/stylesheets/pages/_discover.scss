@@ -1,36 +1,10 @@
-.banner-ecolab {
-  background-size: cover;
-  background-position: center;
-  padding: 150px;
+.nom-produit {
+  font-weight: lighter;
+  font-size: 25px;
+  letter-spacing: 1px;
 }
 
-.banner-ecolab-title {
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
-    width: 444px;
-    margin-left: 3px;
-}
-
-.banner-ecolab p {
-  font-size: 16px;
-  color: white;
-  opacity: .7;
-  // text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
-  width: 444px;
-}
-
-.bloc-alimentation {
-  display: flex;
-  flex-direction: row;
-}
-
-.picto-alim {
-  border-radius: 50%;
-  width: 80px;
-}
-
-.explain-alim {
-  display: flex;
-  flex-direction: column;
+.description-produit {
+  font-size: 12px;
+  font-weight: 200;
 }

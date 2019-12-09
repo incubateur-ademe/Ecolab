@@ -8,6 +8,20 @@
   font-size: 12px;
 }
 
+.btn-discover {
+  width: 150px;
+  font-size: 11px;
+  border-radius: 30px;
+  height: 3em;
+  background-color: black;
+  color: white;
+  border: transparent;
+}
+
+.btn-discover:hover {
+  background-color: $grey;
+}
+
 .nouvelle {
   left: 348px;
   position: absolute;

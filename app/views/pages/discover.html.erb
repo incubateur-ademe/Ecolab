@@ -1,24 +1,51 @@
 <div class="hero" role="banner">
-    <div class="hero__container_landing">
+    <div class="hero__container hero__container_landing">
     <!--   <h1>Découvrez l’impact environnemental de votre assiette</h1> -->
       <p class="search_title">Les données d’impact environnemental au plus près des usages des citoyens</p>
       <%#= render '/shared/search-bar' %>
       <p class="search_examples">Accessibles à tous, en OpenData et API, pour vos projets, votre application, ou par curiosité</p>
     </div>
 </div>
-<!-- <div class="bloc-alimentation">
-  <img class="picto-alim" alt="avatar" src="https://kitt.lewagon.com/placeholder/users/JenniferStephan" />
-  <div class="explain-alim">
-    <h2>Alimentation</h2>
-    <p>Vous y découvrirez l’impact environnemental de votre assiette.</p>
-    <button class="btn-flat-download">
-      <%#= link_to "Découvrir les données", 'https://ecolab-panthere.gitbook.io/documentation-ecolab-et-agribalyse/' %>
-    </button>
+
+<!-- ///////////////// section produits ALIM / BATIMENT / CARBONE ////////////// -->
+
+<section class="section-produit">
+  <div class="d-flex flex-row">
+    <img class="avatar" alt="avatar" src="https://source.unsplash.com/random" />
+
+    <div class="product-info-alim d-flex flex-column ml-3 mb-3">
+      <h3 class="nom-produit">Alimentation</h3>
+      <p class="description-produit">Vous y découvrirez l’impact environnemental de votre assiette. </p>
+      <button class="btn-discover"><%= link_to "Découvrir les données", alimentation_path %></button>
+    </div>
   </div>
+</section>
 
-</div> -->
+<section class="section-produit">
+  <div class="d-flex flex-row justify-content-end">
+    <img class="avatar" alt="avatar" src="https://source.unsplash.com/random" />
 
+    <div class="product-info-alim d-flex flex-column mr-3 mb-3">
+      <h3 class="nom-produit">Bâtiment</h3>
+      <p class="description-produit">Vous y découvrirez l’impact environnemental de votre logement et sa consommation énergétique. </p>
+      <button class="btn-discover"><%= link_to "Découvrir les données", batiment_path %></button>
+    </div>
+  </div>
+</section>
 
+<section class="section-produit">
+  <div class="d-flex flex-row">
+    <img class="avatar" alt="avatar" src="https://source.unsplash.com/random" />
+
+    <div class="product-info-alim d-flex flex-column ml-3 mb-3">
+      <h3>Transport</h3>
+      <p>Vous y découvrirez l’impact environnemental de vos déplacements. </p>
+      <button class="btn-discover"><%= link_to "Découvrir les données", batiment_path %></button>
+    </div>
+  </div>
+</section>
+
+<!-- ///////////////// FIN section produits ALIM / BATIMENT / CARBONE ////////////// -->
 
 <section class="section">
   <h2 class="section__title">Utilisez ces données dans vos produits et services</h2>
@@ -48,6 +75,7 @@
   </div>
 
 </section>
+
 
 
 <div class="card-container-usecase">
@@ -90,7 +118,7 @@ grâce au soutien de nos partenaires</p>
 
 <section class="section section-white mailing-list" id="mailing-list">
     <div class="container container-small">
-        <h2 class="text-center mb-4">Vous souhaitez suivre les évolutions d’Ecolab ?</h2>
+        <h2 class="section__title text-center mb-4">Vous souhaitez suivre les évolutions d’Ecolab ?</h2>
         <form action="https://ademe.us4.list-manage.com/subscribe/post?u=dd3cdc6d20bea07d06708a7e4&amp;id=872c13b269" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
             <div id="mc_embed_signup_scroll">
               <label for="mce-EMAIL">Pour être informé·e des nouveautés, inscrivez-vous à notre newsletter :</label>
