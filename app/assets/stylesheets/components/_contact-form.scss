@@ -28,7 +28,7 @@
 //     list-style: none;
 // }
 
-#mce-EMAIL input {
+input#mce-EMAIL {
     height: 2.5rem;
     box-shadow: 0 2px 6px rgba(0,0,0,0.08);
     border: 1px solid #E7E7E7;
@@ -38,10 +38,15 @@
     margin-bottom: 20px;
 }
 
-.link_slack {
+.mailing-list__social-container a {
   text-decoration: none;
   margin-left: 10px;
   font-size: small;
+  color: grey !important;
+}
+
+.mailing-list__social-container a:hover {
+  color: black !important;
 }
 
 // #mc-embedded-subscribe {
