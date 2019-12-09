@@ -4,11 +4,16 @@
     <div class="work-in-progress">
       <h1 class="titre-wip">Vous souhaitez suivre les évolutions d’Ecolab ?</h1>
       <p class="para-wip">Laissez-nous ici votre contact et rejoignez notre communauté.</p>
-      <img class="illustration-wip" src="<%= image_path('wip.png') %>"/>
+      <img class="illustration-wip" src="<%= image_path('contact.png') %>"/>
     </div>
 
     <div class="contact-form mt-5">
-
+      <%= text_field_tag :name, params[:name], class: "td form-control w-80", placeholder: "Votre nom", label: "Votre Nom"%>
+      <%= text_field_tag :email, params[:email], class: "td form-control w-80", placeholder: "Votre email"%>
+      <%= text_field_tag :message, params[:message], placeholder: "Ecrivez ici votre message", class: "td form-control w-80 h-80"%>
+      <button class="btn-flat-download-index">
+        <%= link_to "Envoyer" %>
+      </button>
     </div>
 
   </div>
