@@ -1,9 +1,11 @@
 Rails.application.routes.draw do
-  root to: 'pages#home'
+  root to: 'pages#discover'
   get "/courses", to: "pages#courses"
   get "/nouscontacter", to: "pages#nouscontacter"
   get "/discover", to: "pages#discover"
   get "/batiment", to: "pages#batiment"
+  get "/alimentation", to: "pages#home"
+  get "/agribalyse", to: "pages#home"
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   resources :aliments, only: [:index, :order_by_name, :show]
   get "/order_by_name", to: "aliments#order_by_name"
