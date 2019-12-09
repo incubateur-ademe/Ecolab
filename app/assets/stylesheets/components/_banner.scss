@@ -7,7 +7,7 @@
   background: var(--theme-background-color);
 }
 
-.hero__container {
+.hero__container_alim {
   min-height: 22em;
   display: flex;
   flex-direction: column;
@@ -16,16 +16,21 @@
   // padding: var(--space-l);
   // max-width: 1200px;
   // margin: 0 auto;
-  // background-image: url("banner-ecolab-duo.png");
-}
-
-.hero__container .hero_alim_image {
   background-image: url("banner-ecolab-duo.png");
 }
 
-.hero__container .hero_landing_image {
-  background-image: url("banner-ecolab-landing.png");
+.hero__container_landing {
+  min-height: 22em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // padding: var(--space-l);
+  // max-width: 1200px;
+  // margin: 0 auto;
+  background-image: url("banner-ecolab-alim.png");
 }
+
 
 
 .hero h1 {
