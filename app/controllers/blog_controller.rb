@@ -14,4 +14,10 @@ class BlogController < ApplicationController
     # Convert MD to HTML
     @content = Kramdown::Document.new(result).to_html
   end
+  def list
+    @articles = Dir.glob("#{Rails.root}/app/views/blog/*.md").map do |mdFileName|
+    mdFileName
+    end
+  end
+
 end
