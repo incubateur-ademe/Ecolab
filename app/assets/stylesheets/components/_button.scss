@@ -15,7 +15,7 @@
 
 .btn-flat-download a {
  text-decoration: none;
- color: $red;
+ color: $red !important;
 }
 
 .btn-flat-download:hover {
@@ -23,7 +23,7 @@
 }
 
 .btn-flat-download a:hover {
-  color: white;
+  color: white !important;
 }
 
 
