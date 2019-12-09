@@ -1,5 +1,11 @@
-# Hi, <%= @name %>
+---
+titre: Mon premier article
+categorie: Bâtiment
+date: 08/12/2019
+image: egg.png
+---
 
+# Mon premier article
 
 Voilà un paragraphe de texte
 

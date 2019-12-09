@@ -1,6 +1,10 @@
 <h1>Liste d'articles</h1>
 <ul>
 <% @articles.each do |article| %>
-  <li><%= article %></li>
+  <li>
+      <a href="<%= article['url'] %>"><%= article['titre']%></a>
+      <%= article['date'] %>
+      <img width="200px" src="<%= image_path(article['image']) %>" />
+  </li>
 <% end %>
 </ul>
