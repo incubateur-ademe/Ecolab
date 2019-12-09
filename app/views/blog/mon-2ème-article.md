@@ -1,8 +1,9 @@
 ---
 titre: Mon deuxième article
-categorie: Alimentation
+catégorie: Alimentation
 date: 09/12/2019
 image: ail.png
+intro: Dans cet article nous allons parler de rien et de tout
 ---
 
 
