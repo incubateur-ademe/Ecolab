@@ -15,6 +15,9 @@ gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
 
+gem 'kramdown', require: false
+gem 'front_matter_parser'
+
 group :development do
   gem 'web-console', '>= 3.3.0'
 end
