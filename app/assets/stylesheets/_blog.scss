@@ -1,20 +1,34 @@
-header {
-  margin-bottom: 1rem;
-}
+.blog-post {
+  header {
+    margin-bottom: 1rem;
+  }
 
-header img {
-  margin: 1rem 0;
-}
+  header img {
+    margin: 1rem 0;
+  }
 
-header .badge {
-  padding: 6px;
-  border-radius: 20px;
-}
+  header .badge {
+    padding: 6px;
+    border-radius: 20px;
+  }
 
-#articles #tags {
-  margin-top: 1rem;
-}
+  #articles #tags {
+    margin-top: 1rem;
+  }
 
-.article-card {
-  height: 20rem;
+  .article-card {
+    height: 20rem;
+  }
+
+  table td {
+    border: 1px solid #00c48c;
+    padding: 0.3rem;
+  }
+
+  table th {
+    background: #00c48c;
+    border: 1px solid white;
+    padding: 0.3rem;
+    color: white;
+  }
 }
