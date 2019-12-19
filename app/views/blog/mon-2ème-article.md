@@ -1,6 +1,8 @@
 ---
 titre: Mon deuxième article
 catégorie: se nourrir
+tags:
+  - tag3
 date: 09/12/2019
 image: ail.png
 intro: Dans cet article nous allons parler de rien et de tout

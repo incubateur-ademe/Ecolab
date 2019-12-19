@@ -16,11 +16,11 @@ class BlogController < ApplicationController
       parsed.front_matter.merge({'url' => "/blog/#{parsed['catégorie']}/#{file_path.split('/').last}"})    
     end
 
-    @articles = if !params[:categorie] 
+    @articles = if !params[:query] 
       all_articles
     else 
       all_articles.filter do |article|
-        article['catégorie'] == params[:categorie]
+        article['catégorie'] == params[:query] || article['tags'].include?(params[:query])
       end
     end
     
