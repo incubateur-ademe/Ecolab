@@ -6,14 +6,11 @@ image: ail.png
 intro: Dans cet article nous allons parler de rien et de tout
 ---
 
-
-# Mon deuxième article
-
 Voilà mon introduction
 
 ## Voilà mon premier titre secondaire
 
-J'argument en utilisant l'argument incroyablement bien calé : 
+J'argument en utilisant l'argument incroyablement bien calé :
 
 > Un argument extrêmement pertinent
 

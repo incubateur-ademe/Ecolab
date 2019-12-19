@@ -3,6 +3,10 @@
     <div class="col-md-8 blog-main">
    
       <div class="blog-post">
+      <header>
+        <h1><%= @meta['titre'] %></h1>
+        <small>Publié le <%=@meta['date']%></small>
+      </header>
         <%= raw @content %>
       </div><!-- /.blog-post -->
 

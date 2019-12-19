@@ -6,7 +6,7 @@ class BlogController < ApplicationController
   
     # Handle the frontmatter
     parsed = FrontMatterParser::Parser.parse_file(file_path)
-
+    @meta = parsed
     # Convert MD to HTML
     @content = Kramdown::Document.new(parsed.content).to_html
   end
