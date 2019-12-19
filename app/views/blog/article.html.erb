@@ -4,12 +4,14 @@
       <div class="blog-post">
       <header>
         <h1><%= @meta['titre'] %></h1>
-        <small>Publié le <%=@meta['date']%></small>
+        <small>Publié le <%=@meta['date']%> dans <a href="/blog/<%=@meta['catégorie']%>">
+        <span class="badge badge-info"><%=@meta['catégorie']%></span></a>
+        </small>
         <img width="100%" src="<%= image_path(@meta['image']) %>" />
       </header>
         <%= raw @content %>
       </div><!-- /.blog-post -->
-
+      <span class="badge badge-light">alimentation</span>
 
     </div><!-- /.blog-main -->
 

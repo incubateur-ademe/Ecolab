@@ -1,6 +1,6 @@
 ---
 titre: 2,8 Terres
-catégorie: Général
+catégorie: général
 date: 08/12/2019
 image: egg.png
 intro: Il faudrait 2,8 Terre si toute l'humanité vivait comme les Français.
