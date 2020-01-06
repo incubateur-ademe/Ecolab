@@ -1,11 +1,19 @@
-<main role="main" class="container">
+<main role="main" class="container" >
   <div class="row">
-    <div class="col-md-8 blog-main">
-   
+    <div class="col-md-8 blog-main mx-auto">
       <div class="blog-post">
+      <header>
+        <h1><%= @meta['titre'] %></h1>
+        <small>Publié le <%=@meta['date']%> dans <a href="/blog/<%=@meta['catégorie']%>">
+        <span class="badge badge-info"><%=@meta['catégorie']%></span></a>
+        </small>
+        <img width="100%" src="<%= image_path(@meta['image']) %>" />
+      </header>
         <%= raw @content %>
       </div><!-- /.blog-post -->
-
+      <p><% @meta['tags'].each do |tag| %>
+        <a href="/blog/<%=tag%>"><span class="badge badge-light"><%= tag %></span></a>
+      <% end %></p>
 
     </div><!-- /.blog-main -->
 

@@ -8,7 +8,9 @@ Rails.application.routes.draw do
   get "/agribalyse", to: "pages#home"
   
   get "/blog", to: "blog#list"
-  get "/blog/:title", to: "blog#article"
+  # query can be a tag or a category
+  get "/blog/:query", to: "blog#list"
+  get "/blog/:categorie/:title", to: "blog#article"
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
   resources :aliments, only: [:index, :order_by_name, :show]
