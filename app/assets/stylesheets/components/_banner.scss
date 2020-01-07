@@ -22,7 +22,7 @@
 }
 
 .hero__container_landing {
-  min-height: 35em;
+  min-height: 25em;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,16 +57,16 @@
 .hero .banner_title {
   margin: var(--space-s) auto;
   color: var(--theme-dark-text);
-  font-size: 1.9em;
+  font-size: 1.5em;
   font-weight: bold;
-  width: 550px;
+  width: 450px;
   text-align: center;
 }
 
 .hero .banner_subtitle {
   font-family: $body-font;
-  font-size: 20px;
-  width: 400px;
+  font-size: 14px;
+  width: 350px;
   margin-top: 1em;
   text-align: center;
 }

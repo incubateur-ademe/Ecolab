@@ -10,37 +10,39 @@
 <!-- ///////////////// section produits ALIM / BATIMENT / CARBONE ////////////// -->
 
 <section class="section-produit" id="alim">
-  <div class="d-flex flex-row">
-    <img class="avatar" alt="avatar" src="https://source.unsplash.com/random" />
+  <div class="d-flex flex-row" style="
+    margin-top: 20px;">
+    <%= image_tag("manger.png", {:style => "width:20vh; margin: 10px; height: 20vh; border-radius: 50%; "}) %>
 
     <div class="product-info-alim d-flex flex-column ml-3 mb-3 mt-3">
       <h3 class="nom-produit">Se nourrir</h3>
       <p class="description-produit">Aider vos utilisateurs à découvrir l’impact environnemental de votre assiette. </p>
-      <button class="btn-discover"><%= link_to "Découvrir les données", alimentation_path %></button>
+      <button class="btn-discover alim"><%= link_to "Découvrir les données", batiment_path %></button>
     </div>
   </div>
 </section>
 
 <section class="section-produit">
   <div class="d-flex flex-row justify-content-end">
-    <img class="avatar" alt="avatar" src="https://source.unsplash.com/random" />
+    <%= image_tag("habiter.png", {:style => "width:20vh; margin: 10px; height: 20vh; border-radius: 50%; "}) %>
 
     <div class="product-info-alim d-flex flex-column ml-3 mr-5 mb-3">
       <h3 class="nom-produit">Se loger / Habiter</h3>
       <p class="description-produit">Aider vos utilisateurs à découvrir l’impact environnemental de votre logement et sa consommation énergétique. </p>
-      <button class="btn-discover"><%= link_to "Découvrir les données", batiment_path %></button>
+      <button class="btn-discover log"><%= link_to "Découvrir les données", batiment_path %></button>
     </div>
   </div>
 </section>
 
 <section class="section-produit" id="trans">
-  <div class="d-flex flex-row">
-    <img class="avatar" alt="avatar" src="https://source.unsplash.com/random" />
+  <div class="d-flex flex-row" style="
+    margin-bottom: 0px;">
+    <%= image_tag("velo.png", {:style => "width:20vh; margin: 10px; height: 20vh; border-radius: 50%; "}) %>
 
     <div class="product-info-alim d-flex flex-column ml-3 mb-5">
-      <h3 class="nom-produit">Impact climat (premier zoom : se déplacer) </h3>
+      <h3 class="nom-produit">Impact climat "Se déplacer" </h3>
       <p class="description-produit">Aider vos utilisateurs à découvrir l’impact environnemental de vos déplacements. </p>
-      <button class="btn-discover"><%= link_to "Découvrir les données", batiment_path %></button>
+      <button class="btn-discover trans"><%= link_to "Découvrir les données", batiment_path %></button>
     </div>
   </div>
 </section>
@@ -67,10 +69,10 @@
 
   <div class="place-du-button-et-lien">
     <button class="btn-flat-download">
-      <%= link_to "Guide d’utilisation", 'https://ecolab-panthere.gitbook.io/documentation-ecolab-et-agribalyse/' %>
+      <%= link_to "Guide d’utilisation", 'https://beta-gouv-fr-ecolab.gitbook.io/ecolab-1/' %>
     </button>
     <div class="how">
-      <%= link_to "Voir les études de cas" %>
+      <%= link_to "Voir les études de cas", batiment_path %>
     </div>
   </div>
 
