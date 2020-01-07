@@ -1,3 +1,7 @@
+.body {
+  background-color: #E5E7FA !important;
+}
+
 .section {
   margin-top: 0px;
   align-items: center;
@@ -11,15 +15,15 @@
 .section-produit {
   padding-left: 100px;
   padding-top: 20px;
-  background-color: $light-gray;
+  background-color: $light-blue;
 }
 
 .section-produit#trans {
-  margin-bottom: 30px;
+  margin-bottom: 0px;
 }
 
 .section-produit#alim {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .element-text {
