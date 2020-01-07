@@ -2,6 +2,8 @@
 titre: Apporter l'information environnementale au plus près des usages des citoyens
 catégorie: général
 tags:
+  - tag1
+  - tag2
 date: 06/01/2020
 image: pollution.png
 intro: Pourquoi nous avons créé Ecolab
@@ -30,7 +32,7 @@ Comme les citoyens, les applications ou sites web souhaitent également pouvoir 
 Ecolab est un service porté par l’[ADEME](https://www.ademe.fr) pour susciter des comportements plus durables en apportant une information environnementale fiable au cœur des applications et services les plus utilisés par les particuliers dans leurs différents processus de décisions et d’achats. Il vise donc à mobiliser et à mettre à disposition des entreprises, associations ou collectifs qui créent ces applications, les données environnementales nécessaires et les accompagne jusqu’à leur diffusion auprès des utilisateurs.
 > Pour renforcer l'impact auprès des citoyens, le service met en lien les experts de l'ADEME avec les réutilisateurs des données qu'ils produisent et les accompagne dans leur intégration.
 
-Il est construit selon [l’approche Startup d’État ](https://beta.gouv.fr/) depuis mars 2019, grâce à l’appui stratégique et opérationnel de la DINUM. 
+Il est construit selon [l’approche Startup d’État ](https://beta.gouv.fr/) depuis mars 2019, grâce à l’appui stratégique et opérationnel de la DINUM.
 
 ## De nombreux cas d'utilisation possibles. Bientôt le vôtre ?
 Le service vise à progressivement couvrir les 3 champs suivants :
