@@ -14,8 +14,15 @@ Mais l'enjeu est de taille : passer d'une empreinte de [11,2 tonnes](https://www
 
 Faire correspondre ces enjeux globaux avec les actions à l'échelle individuelle et collective n'est évident pour personne. Et pris dans nos habitudes et nos routines quotidiennes, il est difficile de savoir que faire.
 
-> "Je n'ai pas trouvé, je chercherai une prochaine fois" ...
+~~~~~~~~~~~~
+~~~~~~~
+"Je n'ai pas trouvé, je chercherai une prochaine fois" ...
+~~~~~~~~
+~~~~~~~~~~~~~~~~~~
+
+
 Pour avoir de l'impact, l'information doit arriver au moment où on se pose la question, où on prend la décision.
+
 
 Mettre progressivement en place des premières actions peut permettre de déconstruire l'idée que l'on se trouve face à un mur, un défi hors d'atteinte. Encore faut-il accéder à des informations fiables.
 
