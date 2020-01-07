@@ -4,9 +4,11 @@ Rails.application.routes.draw do
   get "/nouscontacter", to: "pages#nouscontacter"
   get "/discover", to: "pages#discover"
   get "/batiment", to: "pages#batiment"
-  get "/alimentation", to: "pages#home"
-  get "/agribalyse", to: "pages#home"
-  
+  get "/alimentation", to: "pages#batiment"
+  get "/agribalyse", to: "pages#batiment"
+
+  get "/testalim", to: "pages#home"
+
   get "/blog", to: "blog#list"
   # query can be a tag or a category
   get "/blog/:query", to: "blog#list"
