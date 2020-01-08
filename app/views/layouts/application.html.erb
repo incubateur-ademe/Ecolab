@@ -11,12 +11,15 @@
     <meta name="google-site-verification" content="7-UegUQZf2AqbnhDoJ6ZXk8OPS-B-TSnCFsMK8fngUw" />
   </head>
   <body>
-    <%= render 'shared/navbar'  %>
+    <div style="background-color: $light-blue;">
+      <%= render 'shared/navbar'  %>
     <%#= render 'shared/flash'  %>
     <%= yield %>
     <%= render 'shared/footer'  %>
     <%= javascript_include_tag 'application' %>
     <%= javascript_pack_tag 'application' %>
+    </div>
+
 
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>

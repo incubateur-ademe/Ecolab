@@ -1,8 +1,10 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
-  height: 60px;
-  position: relative;
+  height: 65px;
+  position: fixed;
+  font-size: 1px;
+  width: 100%;
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -11,7 +13,7 @@
 
 .navbar-lewagon a {
   font-family: $body-font;
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .logo {
@@ -74,6 +76,10 @@
 #navbarSupportedContent {
   position: absolute;
   left: 214px;
+}
+
+.donnees {
+  font-size: 14px;
 }
 
 

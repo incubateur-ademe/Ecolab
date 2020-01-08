@@ -9,12 +9,27 @@
 }
 
 .btn-discover {
-  width: 150px;
-  font-size: 11px;
+  width: 200px;
+  font-size: 12px;
   border-radius: 30px;
-  height: 3em;
-  background-color: black;
+  height: 2.6em;
   border: transparent;
+}
+
+.btn-discover.simple {
+  background-color: $gray;
+}
+
+.btn-discover.alim {
+  background-color: $red;
+}
+
+.btn-discover.log {
+  background-color: $yellow;
+}
+
+.btn-discover.trans {
+  background-color: $green;
 }
 
 .btn-discover a {
@@ -22,12 +37,21 @@
   color: white;
 }
 
-.btn-discover a:hover {
-  background-color: grey;
+.btn-discover.simple:hover {
+  background-color: $light-gray;
 }
 
-.btn-discover:hover {
-  background-color: grey;
+
+.btn-discover.alim:hover {
+  background-color: $light-red;
+}
+
+.btn-discover.log:hover {
+  background-color: $light-yellow;
+}
+
+.btn-discover.trans:hover {
+  background-color: $light-green;
 }
 
 .nouvelle {
