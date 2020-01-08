@@ -10,6 +10,7 @@
 
 .btn-discover {
   width: 200px;
+  color: white;
   font-size: 12px;
   border-radius: 30px;
   height: 2.6em;
@@ -39,6 +40,7 @@
 
 .btn-discover.simple:hover {
   background-color: $light-gray;
+  color: $gray;
 }
 
 
