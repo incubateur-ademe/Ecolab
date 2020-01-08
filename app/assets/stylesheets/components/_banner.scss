@@ -1,3 +1,8 @@
+
+
+
+
+
 .hero {
   width: 100%;
   background: var(--theme-background-white);
@@ -22,17 +27,17 @@
 }
 
 .hero__container_landing {
-  min-height: 25em;
+  min-height: 15em;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  justify-content: space-around;
   align-items: center;
   // padding: var(--space-l);
   // max-width: 1200px;
   // margin: 0 auto;
-  background-image: url("banner-ecolab-landing.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  // background-image: url("banner-ecolab-landing.png");
+  // background-repeat: no-repeat;
+  // background-size: cover;
 }
 
 
@@ -55,18 +60,19 @@
 }
 
 .hero .banner_title {
-  margin: var(--space-s) auto;
-  color: var(--theme-dark-text);
-  font-size: 1.5em;
-  font-weight: bold;
-  width: 450px;
-  text-align: center;
+    /* margin: var(--space-s) auto; */
+    color: var(--theme-dark-text);
+    font-size: 1.5em;
+    font-weight: bold;
+    width: 400px;
+    text-align: center;
+    margin-top: 0px;
 }
 
 .hero .banner_subtitle {
   font-family: $body-font;
   font-size: 14px;
-  width: 350px;
+  width: 400px;
   margin-top: 1em;
   text-align: center;
 }
