@@ -29,16 +29,20 @@
 .element-text {
   display: flex;
   flex-direction: row;
+  align-content: space-around;
   text-align: center;
   margin-top: 125px;
+  width: 100%;
 }
 
 .text-p {
+  display: flex;
+  flex-direction: column;
   height: 100px;
-  width: 300px;
+  width: 400px;
   font-weight: lighter;
   color: $gray;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .section__title {
