@@ -32,6 +32,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background: linear-gradient(0deg, #E5E7FA, #AFA4F3);
   // padding: var(--space-l);
   // max-width: 1200px;
   // margin: 0 auto;
@@ -62,7 +63,7 @@
 .hero .banner_title {
     /* margin: var(--space-s) auto; */
     color: var(--theme-dark-text);
-    font-size: 1.7em;
+    font-size: 2em;
     font-weight: bold;
     width: 350px;
     text-align: center;
