@@ -3,6 +3,10 @@
   background: var(--theme-background-white);
 }
 
+.hero svg {
+  margin: 0 2rem;
+}
+
 .hero-color {
   background: var(--theme-background-color);
 }
@@ -58,7 +62,7 @@
   color: var(--theme-dark-text);
   font-size: 2em;
   font-weight: bold;
-  max-width: 350px;
+  max-width: 56rem;
   text-align: center;
   margin: 0 1rem;
 }
@@ -66,7 +70,6 @@
 .hero .banner_subtitle {
   font-family: $body-font;
   font-size: 1em;
-  width: 350px;
   margin-top: 1em;
   text-align: center;
 }
