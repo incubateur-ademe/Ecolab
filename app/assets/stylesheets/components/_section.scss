@@ -1,5 +1,5 @@
 .body {
-  background-color: #E5E7FA !important;
+  background-color: #e5e7fa !important;
 }
 
 .section {
@@ -13,9 +13,9 @@
 }
 
 .section-produit {
-  padding-left: 100px;
+  padding-left: 10vw;
   padding-top: 20px;
-  background-color: #6C61F8;
+  background-color: #6c61f8;
 }
 
 .section-produit#trans {
@@ -63,13 +63,12 @@
   margin-bottom: 45px;
 }
 
-
 .how a {
   text-decoration: underline;
   color: $gray;
   font-size: 12px;
   margin-left: 20px;
-  }
+}
 
 .how a:hover {
   color: black;

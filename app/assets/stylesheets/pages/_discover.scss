@@ -8,6 +8,18 @@
 .description-produit {
   font-size: 14px;
   font-weight: 200;
-  width: 400px;
+  max-width: 25rem;
   color: white;
+}
+
+// Example: Hide starting at `min-width: 0`, and then show at the `sm` breakpoint
+
+.section-produit img {
+  display: none;
+}
+
+@include media-breakpoint-up(sm) {
+  .section-produit img {
+    display: block;
+  }
 }
