@@ -1,5 +1,5 @@
 ---
-titre: Apporter l'information environnementale au plus près des usages des citoyens
+titre: L'information environnementale au plus près des citoyens
 catégorie: général
 tags:
   - historique
