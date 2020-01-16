@@ -4,7 +4,7 @@ catégorie: général
 tags:
   - historique
 date: 06/01/2020
-image: pollution.png
+image: mobile-forêt.png
 intro: Pourquoi nous avons créé Ecolab
 ---
 
