@@ -14,9 +14,7 @@ Mais l'enjeu est de taille : passer d'une empreinte de [11,2 tonnes](https://www
 Faire correspondre ces enjeux globaux avec les actions à l'échelle individuelle et collective n'est évident pour personne. Et pris dans nos habitudes et nos routines quotidiennes, il est difficile de savoir que faire.
 
 ```
-~~~~~~~
 "Je n'ai pas trouvé, je chercherai une prochaine fois" ...
-~~~~~~~~
 ```
 
 Pour avoir de l'impact, l'information doit arriver au moment où on se pose la question, où on prend la décision.
@@ -45,10 +43,10 @@ Il est construit selon [l’approche Startup d’État ](https://beta.gouv.fr/) 
 
 Le service vise à progressivement couvrir les 3 champs suivants :
 
-> - Se nourrir
-> - Se loger / Habiter
-> - Impact climat
->   - premier zoom : se déplacer
+- Se nourrir
+- Se loger / Habiter
+- Impact climat
+  - premier zoom : se déplacer
 
 L'objectif est ainsi de permettre aux applications d'apporter des informations à leurs utilisateurs à différents moments : lors des courses alimentaires, lors du choix d'un logement, lors d'un déplacement...
 Et parce que ce sont les applications qui connaissent le mieux leurs utilisateurs, l'idée d'Ecolab est de leur fournir un contenu fiable, issu de l'expertise de l'ADEME, sans pour autant nécessairement préjuger de la forme qu'il doit prendre dans chaque service. Nous donnons des indications, des bonnes pratiques ; aux partenaires de les intégrer ensuite.
