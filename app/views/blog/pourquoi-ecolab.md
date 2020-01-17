@@ -2,7 +2,7 @@
 titre: L'information environnementale au plus près des citoyens
 catégorie: général
 tags:
-  - historique
+  - vision
 date: 06/01/2020
 image: mobile-forêt.png
 intro: Pourquoi nous avons créé Ecolab
@@ -13,9 +13,8 @@ Mais l'enjeu est de taille : passer d'une empreinte de [11,2 tonnes](https://www
 
 Faire correspondre ces enjeux globaux avec les actions à l'échelle individuelle et collective n'est évident pour personne. Et pris dans nos habitudes et nos routines quotidiennes, il est difficile de savoir que faire.
 
-```
-"Je n'ai pas trouvé, je chercherai une prochaine fois" ...
-```
+>"Je n'ai pas trouvé, je chercherai une prochaine fois" ...
+
 
 Pour avoir de l'impact, l'information doit arriver au moment où on se pose la question, où on prend la décision.
 
