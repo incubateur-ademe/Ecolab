@@ -29,12 +29,11 @@
   flex-direction: column;
 }
 
-
 .illustration-wip {
-    width: 500px;
-    height: 350px;
-    padding-bottom: 8px;
-    margin-top: 30px;
+  width: 500px;
+  height: 350px;
+  padding-bottom: 8px;
+  margin-top: 30px;
 }
 
 .contact-form {
@@ -45,10 +44,10 @@
 }
 
 .form-control {
-  width: 400px !important;
+  max-width: 400px !important;
 }
 
 .form-control #message {
-    width: 400px !important;
-    height: 300px !important;
+  max-width: 400px !important;
+  height: 300px !important;
 }

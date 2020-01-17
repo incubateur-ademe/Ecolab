@@ -1,5 +1,5 @@
 .body {
-  background-color: #E5E7FA !important;
+  background-color: #e5e7fa !important;
 }
 
 .section {
@@ -8,14 +8,14 @@
   justify-content: center;
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 1rem;
   background-color: white;
 }
 
 .section-produit {
-  padding-left: 100px;
+  padding-left: 10vw;
   padding-top: 20px;
-  background-color: #6C61F8;
+  background-color: #6c61f8;
 }
 
 .section-produit#trans {
@@ -29,30 +29,29 @@
 .element-text {
   display: flex;
   flex-direction: row;
-  align-content: space-around;
   text-align: center;
-  margin-top: 125px;
   width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .text-p {
   display: flex;
   flex-direction: column;
-  height: 100px;
-  width: 400px;
+  max-width: 400px;
   font-weight: lighter;
   color: $gray;
   font-size: 16px;
+  margin-bottom: 2rem;
 }
 
 .section__title {
-  margin-bottom: -5.25rem;
   text-align: center;
   font-family: $body-font;
   font-size: 22px;
   font-weight: bold;
-  width: 860px;
-  // margin-left: 152px;
+  max-width: 860px;
+  margin: 2rem 0;
 }
 
 .place-du-button-et-lien {
@@ -61,15 +60,15 @@
   align-items: baseline;
   margin-top: 25px;
   margin-bottom: 45px;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
-
 
 .how a {
   text-decoration: underline;
   color: $gray;
-  font-size: 12px;
   margin-left: 20px;
-  }
+}
 
 .how a:hover {
   color: black;

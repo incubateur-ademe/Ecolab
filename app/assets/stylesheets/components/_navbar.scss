@@ -1,8 +1,6 @@
 .navbar-lewagon {
   justify-content: space-between;
   background: white;
-  height: 65px;
-  position: fixed;
   font-size: 1px;
   width: 100%;
 }
@@ -43,26 +41,25 @@
 //   margin-top: 5px;
 // }
 
-
 .border-none {
   border: none;
 }
 
-.add-meal {
-  padding-bottom: 5px;
+.navbar-nav button {
+  padding: 0.4rem;
+  background: white;
 }
 
-.add-meal a {
+.navbar-nav button a {
   text-decoration: none;
-  color: #036B70;
+  color: #036b70;
   background-color: transparent;
   padding: 5px;
   padding-left: 10px;
   padding-right: 10px;
   border-radius: 15px;
 }
-
-.add-meal a:hover {
+.navbar-nav button a:hover {
   text-decoration: none;
   color: white;
   background-color: $green;
@@ -81,5 +78,3 @@
 .donnees {
   font-size: 14px;
 }
-
-

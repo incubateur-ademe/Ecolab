@@ -4,14 +4,14 @@
 
 .titre-news {
   text-align: left;
-    font-size: 2em;
-    margin: 26px 26px 26px 0;
-    font-weight: 600;
+  font-size: 2em;
+  margin: 26px 26px 26px 0;
+  font-weight: 600;
 }
 
 .newsletter {
-  height: 200px;
-  margin: 40px;
+  margin: 2rem;
   justify-content: space-between;
   align-items: flex-start;
+  flex-wrap: wrap;
 }

@@ -1,11 +1,10 @@
-
-
-
-
-
 .hero {
   width: 100%;
   background: var(--theme-background-white);
+}
+
+.hero svg {
+  margin: 0 2rem;
 }
 
 .hero-color {
@@ -32,7 +31,7 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(0deg, #E5E7FA, #AFA4F3);
+  background: linear-gradient(0deg, #e5e7fa, #afa4f3);
   // padding: var(--space-l);
   // max-width: 1200px;
   // margin: 0 auto;
@@ -40,8 +39,6 @@
   // background-repeat: no-repeat;
   // background-size: cover;
 }
-
-
 
 .hero h1 {
   margin-bottom: 0;
@@ -61,19 +58,18 @@
 }
 
 .hero .banner_title {
-    /* margin: var(--space-s) auto; */
-    color: var(--theme-dark-text);
-    font-size: 2em;
-    font-weight: bold;
-    width: 350px;
-    text-align: center;
-    margin-top: 0px;
+  /* margin: var(--space-s) auto; */
+  color: var(--theme-dark-text);
+  font-size: 2em;
+  font-weight: bold;
+  max-width: 56rem;
+  text-align: center;
+  margin: 0 1rem;
 }
 
 .hero .banner_subtitle {
   font-family: $body-font;
   font-size: 1em;
-  width: 350px;
   margin-top: 1em;
   text-align: center;
 }

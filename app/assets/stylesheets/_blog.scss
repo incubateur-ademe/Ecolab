@@ -1,4 +1,30 @@
+#blog h1 {
+  margin: 2rem;
+  margin-right: 0;
+}
+#blog .searchbar input {
+  min-width: 19rem;
+}
+#blog h3 {
+  font-size: 1.5rem;
+}
+
 .blog-post {
+  blockquote {
+    margin-left: 0.6rem;
+    border-left: 4px solid $blue;
+    padding-left: 0.6rem;
+    opacity: 0.75;
+  }
+  padding-top: 1rem;
+  h1 {
+    font-size: 2rem;
+  }
+  #blog h2 {
+    font-size: 1.6rem;
+    margin-top: 0.6rem;
+    margin-right: 0;
+  }
   header {
     margin-bottom: 1rem;
   }
@@ -12,7 +38,7 @@
     border-radius: 20px;
   }
 
-  #articles #tags {
+  #blog .tags {
     margin-top: 1rem;
   }
 

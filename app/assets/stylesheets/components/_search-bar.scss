@@ -8,29 +8,26 @@
   font-family: $headers-font;
 }
 
-
 .form-inline .form-control {
-    display: inline-block;
-    width: 414px;
-    vertical-align: middle;
-
+  display: inline-block;
+  max-width: 414px;
+  vertical-align: middle;
 }
 
 .form-control {
-    border-radius: 42px;
-    height: 37px !important;
-    margin-top: 22px;
-    font-size: 12px;
-    font-weight: 200;
-    margin-bottom: 20px;
+  border-radius: 42px;
+  height: 37px !important;
+  margin-top: 22px;
+  font-size: 12px;
+  font-weight: 200;
+  margin-bottom: 20px;
 }
 
 .fas .fa-search {
-    position: absolute;
-    left: 375px;
-    bottom: 26px;
+  position: absolute;
+  left: 375px;
+  bottom: 26px;
 }
-
 
 .search-form-control .btn {
   position: absolute;
@@ -41,21 +38,21 @@
 
 .search-form-control .form-control {
   height: 3.5rem;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
-  border: 1px solid #E7E7E7;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+  border: 1px solid #e7e7e7;
 }
 
 .search-form-control .form-control:focus {
-  border: 1px solid #1EDD88;
+  border: 1px solid #1edd88;
   outline: none !important;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
 }
 
 .search_examples {
   font-family: $body-font;
   font-size: 14px;
   width: 350px;
-    text-align: center;
+  text-align: center;
 }
 
 .search_examples a {
