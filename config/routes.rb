@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get "/alimentation", to: "pages#batiment"
   get "/agribalyse", to: "pages#batiment"
 
-  get "/bon%*8jourjesuis*&><unlienincopiable5%*)(453amoinsdetrerayman", to: "pages#home"
+  get "/testalim", to: "pages#home"
 
   get "/blog", to: "blog#list"
   # query can be a tag or a category
@@ -15,7 +15,8 @@ Rails.application.routes.draw do
   get "/blog/:categorie/:title", to: "blog#article"
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  resources :aliments, only: [:index, :order_by_name, :show]
+  resources :aliments, only: [:order_by_name, :show]
+  get "/agriba5793lyse2indechiffrable34amoinsdetrerayman6789", to: "aliments#index", as: 'aliments'
   get "/order_by_name", to: "aliments#order_by_name"
 
 end
