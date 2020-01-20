@@ -15,8 +15,9 @@ Rails.application.routes.draw do
   get "/blog/:categorie/:title", to: "blog#article"
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
-  resources :aliments, only: [:order_by_name, :show]
+
   get "/agriba5793lyse2indechiffrable34amoinsdetrerayman6789", to: "aliments#index", as: 'aliments'
+  get "/agriba5793lyse2indechiffrable34amoinsdetrerayman6790/:id", to: "aliments#show", as: 'aliment'
   get "/order_by_name", to: "aliments#order_by_name"
 
 end
