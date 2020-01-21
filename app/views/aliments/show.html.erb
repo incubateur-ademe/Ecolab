@@ -25,7 +25,7 @@
       </div>
 
   <!-- CARTELS INFOS   -->
-  <div class="d-flex mt-3">
+  <!-- <div class="d-flex mt-3">
     <div class="fiche-info-score">
       <div class="fiche-infos">
         <h2>Comment comprendre ces données ?</h2>
@@ -33,7 +33,7 @@
           <br></br>
         Pour comprendre les valeurs présentées et les modes d’analyse, vous pouvez consulter notre documentation.</p>
         <button class="button-details-product-fiche mb-3">
-         <%= link_to "Documentation" %>
+         <%#= link_to "Documentation" %>
         </button>
       </div>
     </div>
@@ -44,7 +44,7 @@
           <br></br>
         Pour comprendre les valeurs présentées et les modes d’analyse, vous pouvez consulter notre documentation.</p>
         <button class="button-details-product-fiche mb-3">
-         <%= link_to "Documentation" %>
+         <%#= link_to "Documentation" %>
         </button>
       </div>
     </div>
@@ -55,11 +55,11 @@
           <br></br>
         Pour comprendre les valeurs présentées et les modes d’analyse, vous pouvez consulter notre documentation.</p>
         <button class="button-details-product-fiche mb-3">
-         <%= link_to "Documentation" %>
+         <%#= link_to "Documentation" %>
         </button>
       </div>
     </div>
-  </div>
+  </div> -->
 
 
 
@@ -67,7 +67,7 @@
   <!-- INDICATEURS    -->
 
 
-    <p>Détail de l’impact écologique</p>
+    <p>Détail de l’impact environnemental</p>
 
   <div class="d-inline-flex">
     <div class="aliments-array">
@@ -293,137 +293,13 @@
           <br></br>
         Pour comprendre les valeurs présentées et les modes d’analyse, vous pouvez consulter notre documentation.</p>
         <button class="button-details-product-fiche mb-3">
-         <%= link_to "Documentation" %>
+         <%= link_to "Documentation publiée le 8 avril" %>
         </button>
       </div>
     </div>
   </div>
 
-  <p>Aliments associés</p>
 
-
-  <div class="product-card-container">
-
-      <% aliments = Aliment.all %>
-      <% sql_query = "aliments.alim_nom_fr ILIKE :query" %>
-
-      <%# @associated_search_first3 = aliments.where(sql_query, query: ) %>
-
-      <%# @associated_search.each do |asso_alim| %>
-
-            <div class="product-card">
-              <div class="product-card-header">
-                <h2>Carotte</h2>
-                <p>Legumes</p>
-              </div>
-
-              <div class="product-card-infos">
-
-                <p class="impact m-2"><strong>🌏 IMPACT ECOLOGIQUE</strong></p>
-
-
-                <div class="metrics-score-infos">
-                  <div class="3-metrics">
-                    <p class="metric">Changement climatique : <strong>34</strong></p>
-                    <p class="metric">Appauvrissement de la couche d'ozone : <strong>45</strong></p>
-                    <p class="metric">Exposition aux particules fines : <strong>36</strong></p>
-                  </div>
-                  <div class="ecoscore mr-2">
-                    <h3>45</h3>
-                  </div>
-                </div>
-
-                <button class="button-details-product-fiche">
-                  <%= link_to "Détails" %>
-                </button>
-              </div>
-            </div>
-
-            <div class="product-card">
-              <div class="product-card-header">
-                <h2>Carotte</h2>
-                <p>Legumes</p>
-              </div>
-
-              <div class="product-card-infos">
-
-                <p class="impact m-2"><strong>🌏 IMPACT ECOLOGIQUE</strong></p>
-
-
-                <div class="metrics-score-infos">
-                  <div class="3-metrics">
-                    <p class="metric">Changement climatique : <strong>34</strong></p>
-                    <p class="metric">Appauvrissement de la couche d'ozone : <strong>45</strong></p>
-                    <p class="metric">Exposition aux particules fines : <strong>36</strong></p>
-                  </div>
-                  <div class="ecoscore mr-2">
-                    <h3>45</h3>
-                  </div>
-                </div>
-
-                <button class="button-details-product-fiche">
-                  <%= link_to "Détails" %>
-                </button>
-              </div>
-            </div>
-
-                      <div class="product-card">
-              <div class="product-card-header">
-                <h2>Carotte</h2>
-                <p>Legumes</p>
-              </div>
-
-              <div class="product-card-infos">
-
-                <p class="impact m-2"><strong>🌏 IMPACT ECOLOGIQUE</strong></p>
-
-
-                <div class="metrics-score-infos">
-                  <div class="3-metrics">
-                    <p class="metric">Changement climatique : <strong>34</strong></p>
-                    <p class="metric">Appauvrissement de la couche d'ozone : <strong>45</strong></p>
-                    <p class="metric">Exposition aux particules fines : <strong>36</strong></p>
-                  </div>
-                  <div class="ecoscore mr-2">
-                    <h3>45</h3>
-                  </div>
-                </div>
-
-                <button class="button-details-product-fiche">
-                  <%= link_to "Détails" %>
-                </button>
-              </div>
-            </div>
-
-                      <div class="product-card">
-              <div class="product-card-header">
-                <h2>Carotte</h2>
-                <p>Legumes</p>
-              </div>
-
-              <div class="product-card-infos">
-
-                <p class="impact m-2"><strong>🌏 IMPACT ECOLOGIQUE</strong></p>
-
-
-                <div class="metrics-score-infos">
-                  <div class="3-metrics">
-                    <p class="metric">Changement climatique : <strong>34</strong></p>
-                    <p class="metric">Appauvrissement de la couche d'ozone : <strong>45</strong></p>
-                    <p class="metric">Exposition aux particules fines : <strong>36</strong></p>
-                  </div>
-                  <div class="ecoscore mr-2">
-                    <h3>45</h3>
-                  </div>
-                </div>
-
-                <button class="button-details-product-fiche">
-                  <%= link_to "Détails" %>
-                </button>
-              </div>
-            </div>
-
-        <%# end %>
 </div>
 
 
