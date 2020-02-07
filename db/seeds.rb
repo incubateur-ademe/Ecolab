@@ -4,7 +4,7 @@ require 'csv'
 
 Aliment.destroy_all
 
-csv_options = { col_sep: ',', force_quotes: true, quote_char: '"' }
+csv_options = { col_sep: ';', force_quotes: true, quote_char: '"', encoding:'iso-8859-1:utf-8' }
 filepath    = 'db/agribalyse.csv'
 
 CSV.foreach(filepath, csv_options) do |row|
@@ -31,14 +31,5 @@ CSV.foreach(filepath, csv_options) do |row|
     indic_14: row[22])
 end
 
-Fruitleg.destroy_all
-
-csv_options = { col_sep: ',', force_quotes: true, quote_char: '"' }
-filepath    = 'db/FetLsaison.csv'
-
-CSV.foreach(filepath, csv_options) do |row|
-    Fruitleg.create(label: row[0],
-      month: Array.new.push(row[1], row[2], row[3], row[4], row[5], row[6], row[7], row[8], row[9], row[10], row[11], row[12]))
-  end
 
 
