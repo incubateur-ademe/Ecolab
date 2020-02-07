@@ -13,7 +13,8 @@ class AlimentsController < ApplicationController
       aliments = Aliment.order(params[:sort] => :asc)
       sql_query = ""
       @aliments = aliments.where(sql_query, query: "%#{params[:query]}%")
-    elsif !params[:sort].present? && !params[:query].present?
+    elsif !params[:query].present?
+      aliments = Aliment.order(created_at: :asc)
       sql_query = ""
       @aliments = aliments.where(sql_query, query: "%#{params[:query]}%")
     end
