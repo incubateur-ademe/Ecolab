@@ -4,7 +4,7 @@ require 'csv'
 
 Aliment.destroy_all
 
-csv_options = { col_sep: ',', force_quotes: true, quote_char: '"' }
+csv_options = { col_sep: ',', force_quotes: true, quote_char: '"', headers: true }
 filepath    = 'db/agribalyse.csv'
 
 CSV.foreach(filepath, csv_options) do |row|

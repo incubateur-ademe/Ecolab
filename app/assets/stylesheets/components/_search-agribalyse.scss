@@ -18,7 +18,6 @@
 }
 
 .results {
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -36,7 +35,7 @@
 
 .product-card-container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: auto;
   // background-color: white;
 }
@@ -127,4 +126,16 @@
 
 .tri-criteria-name a {
   font-weight: lighter;
+}
+
+@media(max-width: 992px) {
+  .product-card-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .product-card-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
