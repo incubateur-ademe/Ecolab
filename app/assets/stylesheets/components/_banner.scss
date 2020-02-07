@@ -11,19 +11,7 @@
   background: var(--theme-background-color);
 }
 
-.hero__container_alim {
-  min-height: 35em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  // padding: var(--space-l);
-  // max-width: 1200px;
-  // margin: 0 auto;
-  background-image: url("banner-ecolab-duo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
+
 
 .hero__container_landing {
   min-height: 15em;

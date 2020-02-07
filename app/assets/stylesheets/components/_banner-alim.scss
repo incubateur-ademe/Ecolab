@@ -1,37 +1,10 @@
-.hero {
-  width: 100%;
-  background: var(--theme-background-white);
-}
-
-.hero svg {
-  margin: 0 2rem;
-}
-
-.hero-color {
-  background: var(--theme-background-color);
-}
-
 .hero__container_alim {
-  min-height: 35em;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  // padding: var(--space-l);
-  // max-width: 1200px;
-  // margin: 0 auto;
-  background-image: url("banner-ecolab-duo.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.hero__container_landing {
   min-height: 15em;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(0deg, #e5e7fa, #afa4f3);
+  background: linear-gradient(0deg, white, $agri-beigasse);
   // padding: var(--space-l);
   // max-width: 1200px;
   // margin: 0 auto;
