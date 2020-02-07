@@ -9,6 +9,19 @@
   text-decoration: none;
 }
 
+@media(max-width: 992px) {
+  .home-container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media(max-width: 768px) {
+  .home-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+
 
 .row {
   margin: 20px;
