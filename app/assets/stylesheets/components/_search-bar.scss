@@ -1,5 +1,6 @@
 .search-form-control {
-  position: relative;
+  // position: relative;
+  margin-left: 1em;
 }
 
 .search_title {
@@ -54,6 +55,7 @@
   font-size: 14px;
   width: 350px;
   text-align: center;
+  margin-left: 2em;
 }
 
 .search_examples a {
@@ -62,7 +64,7 @@
 }
 
 .search_examples a:hover {
-  color: $green;
+  color: $agri-vert;
 }
 
 .header_search {
