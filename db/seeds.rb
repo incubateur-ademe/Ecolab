@@ -30,7 +30,7 @@ CSV.foreach(filepath, csv_options) do |row|
     indic_13: row[26],
     indic_14: row[27],
     score: row[13],
-    dqr: row[28])
+    dqr: row[30])
 end
 
 
