@@ -10,10 +10,11 @@
               <%= render '/shared/search-bar' %>
             <p class="search_examples">
               Exemples :
-              <%= link_to "Carotte", aliments_path(:query => "Carotte")%>,
-              <%= link_to "Pizza margherita", aliments_path(:query => "Pizza margherita")%>,
-              <%= link_to "Brownie au chocolat", aliments_path(:query => "Brownie au chocolat")%>,
-              <%= link_to "Café expresso", aliments_path(:query => "Café expresso")%>
+              <%= link_to "Avocat", aliments_path(:query => "Avocat")%>,
+              <%= link_to "Pain", aliments_path(:query => "Pain")%>,
+              <%= link_to "Tomate", aliments_path(:query => "Tomate")%>,
+              <%= link_to "Café", aliments_path(:query => "Café")%>,
+              <%= link_to "Fromage", aliments_path(:query => "Fromage")%>
               </p>
         </div>
       <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
@@ -24,45 +25,45 @@
 <div class="card-container">
   <p class="card-title">Catégories</p>
     <div class="home-container">
-        <%= link_to aliments_path(:query => "Plats composés") do %>
+        <%#= link_to aliments_path(:query => "Plats composés") do %>
         <div>
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('breakfast.png') %>)">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('breakfast.png') %>)">
             Plats composés
           </div>
         </div>
-        <% end %>
+        <%# end %>
 
         <%= link_to aliments_path(:query => "fruits crus") do %>
         <div>
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('fruits-straw.png') %>)">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('fruits-straw.png') %>)">
             Fruits & légumes
           </div>
         </div>
         <% end %>
 
-        <%= link_to aliments_path(:query => "Viandes et poissons") do %>
+        <%#= link_to aliments_path(:query => "Viandes et poissons") do %>
         <div>
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('meat.png') %>)">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('meat.png') %>)">
             Viandes et poissons
           </div>
         </div>
-        <% end %>
+        <%# end %>
 
-        <%= link_to aliments_path(:query => "Confiserie") do %>
+        <%#= link_to aliments_path(:query => "Confiserie") do %>
         <div>
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('candy.png') %>)">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('candy.png') %>)">
             Confiserie
           </div>
         </div>
-        <% end %>
+        <%# end %>
 
-        <%= link_to aliments_path(:query => "Condiments") do %>
+        <%#= link_to aliments_path(:query => "Condiments") do %>
         <div>
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('pickles.png') %>)">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('pickles.png') %>)">
             Condiments
           </div>
         </div>
-        <% end %>
+        <%# end %>
 
         <%= link_to aliments_path(:query => "Boissons") do %>
         <div>
@@ -80,13 +81,13 @@
         </div>
         <% end %>
 
-        <%= link_to aliments_path(:query => "Lait, oeufs") do %>
+        <%#= link_to aliments_path(:query => "Lait, oeufs") do %>
         <div>
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('egg.png') %>)">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('egg.png') %>)">
             Lait, oeufs
           </div>
         </div>
-        <% end %>
+        <%# end %>
 
       </div>
   </div>
