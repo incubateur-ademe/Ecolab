@@ -57,37 +57,27 @@
     </div> -->
     <div class="product-card-container">
       <% @aliments.each do |alim| %>
+              <div class="product-card">
+                <div class="product-card-header">
+                  <div class="product-title-category">
+                  <h2><%= alim.alim_nom_fr[0..60] %></h2>
+                  <p class="badge-cate" id="text-badge"><%= alim.alim_ssssgrp_nom_fr %></p>
+                  </div>
+                </div>
 
-        <div class="product-card">
-          <div class="product-card-header">
-            <div class="product-title-category">
-            <h2><%= alim.alim_nom_fr[0..30] %></h2>
-            <p><%= alim.alim_ssgrp_nom_fr %></p>
-            </div>
-            <div class="ecoscore">
-                <p class="cate">Score</p>
-                <h3 class="score"><%= alim.score %></h3>
-            </div>
-          </div>
+                <img src="https://source.unsplash.com/random" alt="">
 
-          <div class="product-card-infos">
+                <div class="ecoscore">
+                  <p class="cate">Score environnemental</p>
+                  <h3 class="score"><%= alim.score %></h3>
+                </div>
 
-            <p class="impact m-3 text-center"><strong>IMPACT ENVIRONNEMENTAL</strong></p>
+                  <button class="btn-discover simple">
+                    <%= link_to "Détails", aliment_path(alim) %>
+                  </button>
 
-
-            <div class="metrics-score-infos">
-              <div class="3-metrics">
-                <p class="metric">Changement climatique : <strong><%=alim.indic_1 %></strong></p>
-                <p class="metric">Appauvrissement de la couche d'ozone : <strong><%=alim.indic_2 %></strong></p>
-                <p class="metric">Exposition aux particules fines : <strong><%=alim.indic_3 %></strong></p>
               </div>
-            </div>
 
-            <button class="button-details-product-fiche">
-              <%= link_to "Détails", aliment_path(alim) %>
-            </button>
-          </div>
-        </div>
 
       <% end %>
     </div>

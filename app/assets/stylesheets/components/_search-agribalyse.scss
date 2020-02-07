@@ -45,32 +45,40 @@
   background: white;
   box-shadow: 0 0 2px rgba(0,0,0,0.1);
   width: 270px;
-  height: 250px;
+  height: 300px;
   border-radius: 3px;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 1em;
 }
 
 .product-card:hover {
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(0,0,0,0.7);
 }
 
 .product-card-header {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 5px 5px -9px 5px;
+  min-width: fit-content;
+  margin-top: 1em;
+  text-align: center;
 }
 
 .product-title-category {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  align-items: center;
+}
+
+.product-card img {
+  height: 80px;
+  width: 200px;
 }
 
 .ecoscore {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+  min-width: fit-content;
+  text-align: center;
 }
 
 .ecoscore .cate {

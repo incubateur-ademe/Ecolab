@@ -18,3 +18,17 @@ color: black;
 .badge-danger {
   background-color: #F4BACB;
 }
+
+.badge-cate {
+  font-size: 8px;
+  max-width: fit-content;
+  background-color: #F4BACB;
+  padding-left: 0.9em;
+  padding-right: 0.9em;
+  border-radius: 30px;
+}
+
+#text-badge {
+  font-size: 10px;
+  color: white;
+}
