@@ -1,0 +1,79 @@
+.hero {
+  width: 100%;
+  background: var(--theme-background-white);
+}
+
+.hero svg {
+  margin: 0 2rem;
+}
+
+.hero-color {
+  background: var(--theme-background-color);
+}
+
+.hero__container_alim {
+  min-height: 35em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // padding: var(--space-l);
+  // max-width: 1200px;
+  // margin: 0 auto;
+  background-image: url("banner-ecolab-duo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero__container_landing {
+  min-height: 15em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: linear-gradient(0deg, #e5e7fa, #afa4f3);
+  // padding: var(--space-l);
+  // max-width: 1200px;
+  // margin: 0 auto;
+  // background-image: url("banner-ecolab-landing.png");
+  // background-repeat: no-repeat;
+  // background-size: cover;
+}
+
+.hero h1 {
+  margin-bottom: 0;
+  font-family: $headers-font;
+}
+
+.hero-color h1 {
+  color: var(--theme-light-text);
+}
+
+.hero .search_title {
+  margin: var(--space-s) auto;
+  color: var(--theme-dark-text);
+  font-size: 1.7em;
+  width: 450px;
+  text-align: center;
+}
+
+.hero .banner_title {
+  /* margin: var(--space-s) auto; */
+  color: var(--theme-dark-text);
+  font-size: 2em;
+  font-weight: bold;
+  max-width: 56rem;
+  text-align: center;
+  margin: 0 1rem;
+}
+
+.hero .banner_subtitle {
+  font-family: $body-font;
+  font-size: 1em;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.hero-color p {
+  color: var(--theme-light-text);
+}
