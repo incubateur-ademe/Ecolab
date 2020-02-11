@@ -87,6 +87,7 @@
   background-color: white;
   padding: 7px 10px 10px 10px;
   height: 190px;
+  text-align: center;
 }
 
 .card-title-logo {
@@ -99,30 +100,25 @@
 }
 
 .home-container-logo {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2em;
+  justify-content: center;
     /* grid-gap: 0px; */
-    margin: 121px 63px 51px 36px;
-    width: 700px;
-    position: absolute;
-    left: 486px;
 }
 
 .home-container-logo .card-category-logo {
-  height: 100px;
-  width: 100px;
+  height: 150px;
+  width: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: 0em 4em 0 0;
 }
 
-.card-category-logo {
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: left;
-    text-align: center;
-    border-radius: 5px;
-}
+
 
 /////////////////// USECASES /////////////////
 .home-container-usecase {
