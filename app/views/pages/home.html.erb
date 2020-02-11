@@ -26,13 +26,13 @@
 
 <div class="card-container-logo">
     <div class="home-container-logo">
-        <%= link_to "https://www.ademe.fr/" do %>
+        <%= link_to "https://www.ademe.fr/", target: "_blank" do %>
         <div>
           <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('ademe-logo.jpg') %>)">
           </div>
         </div>
         <% end %>
-        <%= link_to "https://agribalyse.fr" do %>
+        <%= link_to "https://agribalyse.fr", target: "_blank" do %>
         <div>
           <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agibalyse-Couleurs.png') %>)">
           </div>
@@ -123,15 +123,15 @@
 
         <div class="element-text">
           <div class="text-p">
-            <strong class="titre-p mb-2">Données</strong>
+<!--             <strong class="titre-p mb-2">Données</strong> -->
             <p>2500 produits, 14 indicateurs, toutes les informations sur l’alimentation et son impact sur l’environnement</p>
             </div>
           <div class="text-p">
-            <strong class="titre-p mb-2">Données</strong>
+<!--             <strong class="titre-p mb-2">Données</strong> -->
             <p>Un comité scientifique de validation et une méthodologie d’après l’analyse de cycle de vie des produits</p>
           </div>
           <div class="text-p">
-            <strong class="titre-p mb-2">Données</strong>
+<!--             <strong class="titre-p mb-2">Données</strong> -->
             <p>Un outil pratique à intégrer en phase d’éco-conception ou directement dans vos application via API</p>
           </div>
         </div>
@@ -153,48 +153,42 @@
 <!-- ////////////////////USECASE////////////////////////// -->
 
 
-<!-- <div class="card-container-usecase">
+<div class="card-container-usecase">
   <p class="card-title">Exemple de réutilisateurs</p>
     <div class="home-container-usecase">
 
-      <div class="card-usecase"> -->
-        <!-- <img src= <%#= image_path('yuka-usecase.png') %> >
+      <div class="card-usecase">
+        <img src= <%= image_path('yuka-usecase.png') %> >
         <div class="card-usecase-infos">
           <div>
             <h2>Comment Yuka a calculé son score produit</h2>
-            <p>Short description here!</p>
-          </div> -->
-          <!-- <h2 class="card-usecase-pricing">£99.99</h2>
-          <img class="card-usecase-user avatar-bordered" src= <%#= image_path('yuka-logo.png') %> >
+          </div>
+          <img class="card-usecase-user avatar-bordered" src= <%= image_path('yuka-logo.png') %> >
         </div>
-      </div> -->
+      </div>
 
-      <!-- <div class="card-usecase">
-        <img src= <%#= image_path('carrefour-usecase.jpg') %> >
+      <div class="card-usecase">
+        <img src= <%= image_path('carrefour-usecase.jpg') %> >
         <div class="card-usecase-infos">
           <div>
             <h2>Comment Carrefour a réduit l’impact de ses plats préparés</h2>
-            <p>Short description here!</p>
           </div>
-         <h2 class="card-usecase-pricing">£99.99</h2> -->
-          <!-- <img class="card-usecase-user avatar-bordered" src= <%#= image_path('carrefour-logo.jpg') %> > -->
-    <!--     </div>
-      </div> -->
+          <img class="card-usecase-user avatar-bordered" src= <%= image_path('carrefour-logo.jpg') %> >
+        </div>
+      </div>
 
-      <!-- <div class="card-usecase">
-        <img src= <%#= image_path('marmiton-usecase.png') %> >
+      <div class="card-usecase">
+        <img src= <%= image_path('marmiton-usecase.png') %> >
           <div class="card-usecase-infos">
           <div>
             <h2>Marmiton et le calcul d’impact de recettes complexes</h2>
-            <p>Short description here!</p>
           </div>
-          <h2 class="card-usecase-pricing">£99.99</h2> -->
-          <!-- <img class="card-usecase-user avatar-bordered" src= <%#= image_path('marmiton-logo.png') %> > -->
-<!--         </div>
+          <img class="card-usecase-user avatar-bordered" src= <%= image_path('marmiton-logo.png') %> >
+         </div>
       </div>
 
     </div>
-</div> -->
+</div>
 
 <!-- /////////////////////// PARTNERS /////////////////////// -->
 
@@ -249,9 +243,8 @@
       </button>
   </div>
 
-<!-- /////////////// FOOTERS /////////// -->
 
-
+<%= render '/shared/newsletter' %>
 
 
 </div>
