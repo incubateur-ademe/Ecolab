@@ -25,10 +25,12 @@
 <%#= render '/shared/filters' %>
 <!-- </div> -->
 
-<div class="search-agribalyse-title-container">
-  <h1 class="title-search">Résultats de votre recherche pour <strong>"<%= params[:query] %>"</strong></h1>
-  <p class="number-results"><%= @aliments.count %> résultats</p>
-</div>
+  <div class="search-agribalyse-title-container">
+    <h1 class="title-search">Résultats de votre recherche pour <strong>"<%= params[:query] %>" dans</strong></h1>
+    <%= image_tag('Agibalyse-Couleurs.png', size: "50") %>
+    <p class="number-results"><%= @aliments.count %> résultats</p>
+  </div>
+
 
 <p class="ml-4 mt-2"> Trier par :
   <a class="tri-criteria-name">

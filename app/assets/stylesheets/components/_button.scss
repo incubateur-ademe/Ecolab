@@ -2,9 +2,9 @@
   padding: 8px 24px;
   border-radius: 50px;
   background: transparent;
-  border: $red 1px solid;
+  border: $agri-orange 1px solid;
   transition: background 0.3s ease;
-  width: 150px;
+  max-width: fit-content;
   font-size: 12px;
 }
 
@@ -63,11 +63,11 @@
 
 .btn-flat-download a {
  text-decoration: none;
- color: $red !important;
+ color: $agri-orange !important;
 }
 
 .btn-flat-download:hover {
-  background: $red;
+  background: $agri-orange;
 }
 
 .btn-flat-download a:hover {

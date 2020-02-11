@@ -2,19 +2,23 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: baseline;
+  align-items: center;
   background-color: white;
+}
+
+.search-agribalyse-title-container img {
+margin-left: 0em;
 }
 
 
 .search-agribalyse-title-container .title-search {
-  font-size: 20px;
-  margin: 30px 40px;
+font-size: 20px;
+  margin: 30px 18px;
 }
 
 .search-agribalyse-title-container .number-results {
   font-size: 12px;
-  // margin: 30px 100px;
+  margin: 0 23px;
 }
 
 .results {
