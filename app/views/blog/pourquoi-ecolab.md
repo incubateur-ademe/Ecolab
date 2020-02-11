@@ -50,6 +50,6 @@ Le service vise à progressivement couvrir les 3 champs suivants :
 L'objectif est ainsi de permettre aux applications d'apporter des informations à leurs utilisateurs à différents moments : lors des courses alimentaires, lors du choix d'un logement, lors d'un déplacement...
 Et parce que ce sont les applications qui connaissent le mieux leurs utilisateurs, l'idée d'Ecolab est de leur fournir un contenu fiable, issu de l'expertise de l'ADEME, sans pour autant nécessairement préjuger de la forme qu'il doit prendre dans chaque service. Nous donnons des indications, des bonnes pratiques ; aux partenaires de les intégrer ensuite.
 
-Devenez partenaires et réutilisateurs de nos données, [contactez-nous](https://ecolab.ademe.fr/nouscontacter) !
+Devenez partenaires et réutilisateurs de nos données, [contactez-nous](mailto:contact@ecolab.beta.gouv.fr) !
 
 `Découvrez bientôt les premiers cas d'usage`
