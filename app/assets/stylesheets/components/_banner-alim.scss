@@ -50,3 +50,19 @@
 .hero-color p {
   color: var(--theme-light-text);
 }
+
+.texts-banner {
+  justify-content: center;
+}
+
+@media(max-width: 768px) {
+  .hero .search_title {
+    width: 700px;
+  }
+}
+
+@media(max-width: 640px) {
+  .hero .search_title {
+    width: 400px;
+  }
+}
