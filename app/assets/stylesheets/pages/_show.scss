@@ -1,0 +1,15 @@
+@media(max-width: 640px) {
+  .aliment-section {
+    flex-direction: column;
+  }
+  .section-badge {
+    flex-direction: column;
+  }
+  .aliments-array {
+    width: 348px;
+  }
+  .tableau-donnees-bloc {
+    flex-direction: column;
+    margin: 0px;
+  }
+}

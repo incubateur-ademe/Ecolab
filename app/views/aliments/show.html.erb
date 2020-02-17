@@ -13,10 +13,10 @@
   <p><strong>"<%= params[:query] %>"</strong></p>
 </div>
 
-<div class="d-flex  mt-5 ml-5">
+<div class="aliment-section d-flex  mt-5 ml-5">
   <div class="aliment-section-titre">
       <h2 class="mb-3"><%= @aliment.alim_nom_fr.capitalize %></h2>
-        <div class="d-inline-flex">
+        <div class="section-badge d-inline-flex">
           <p class="badge badge-info mr-3"><%= link_to @aliment.alim_grp_nom_fr, aliments_path(:query => @aliment.alim_grp_nom_fr)%></p>
           <p class="badge badge-warning mr-3"><%= link_to @aliment.alim_ssgrp_nom_fr, aliments_path(:query => @aliment.alim_ssgrp_nom_fr)%></p>
           <p class="badge badge-danger mr-3"><%= link_to @aliment.alim_ssssgrp_nom_fr, aliments_path(:query => @aliment.alim_ssssgrp_nom_fr)%></p>
@@ -42,7 +42,7 @@
   </div>
 </div>
 
-  <div class="d-inline-flex m-5">
+  <div class="tableau-donnees-bloc d-inline-flex m-5">
     <div class="aliments-array">
       <div class="array-header d-flex">
               <div class="array-header-column">
