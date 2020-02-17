@@ -9,6 +9,8 @@
 }
 
 .btn-discover {
+  text-align: center;
+  padding-top: 0.5em;
   width: 200px;
   color: white;
   font-size: 12px;
@@ -41,6 +43,7 @@
 .btn-discover.simple:hover {
   background-color: $light-gray;
   color: black;
+  text-decoration: none;
 }
 
 
