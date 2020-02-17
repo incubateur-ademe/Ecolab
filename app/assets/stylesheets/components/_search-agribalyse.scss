@@ -140,6 +140,16 @@ font-size: 20px;
   font-weight: lighter;
 }
 
+.aliment-score {
+background-color: white;
+    padding: 2em;
+    margin-left: 4em;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    text-align: center;
+}
+
 @media(max-width: 992px) {
   .product-card-container {
     grid-template-columns: 1fr 1fr 1fr;

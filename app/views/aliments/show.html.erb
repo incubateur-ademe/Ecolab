@@ -13,65 +13,35 @@
   <p><strong>"<%= params[:query] %>"</strong></p>
 </div>
 
-
-<div class="m-5">
-    <h2 class="mb-3"><%= @aliment.alim_nom_fr.capitalize %></h2>
-      <div class="d-inline-flex">
-        <p class="badge badge-info mr-3"><%= link_to @aliment.alim_grp_nom_fr, aliments_path(:query => @aliment.alim_grp_nom_fr)%></p>
-        <p class="badge badge-warning mr-3"><%= link_to @aliment.alim_ssgrp_nom_fr, aliments_path(:query => @aliment.alim_ssgrp_nom_fr)%></p>
-        <p class="badge badge-danger mr-3"><%= link_to @aliment.alim_ssssgrp_nom_fr, aliments_path(:query => @aliment.alim_ssssgrp_nom_fr)%></p>
-      </div>
-
-  <!-- CARTELS INFOS   -->
-  <!-- <div class="d-flex mt-3">
-    <div class="fiche-info-score">
-      <div class="fiche-infos">
-        <h2>Comment comprendre ces données ?</h2>
-        <p>Ces chiffres ont été établis en suivant la méthode du d’analyse du cycle de vie (ACV).
-          <br></br>
-        Pour comprendre les valeurs présentées et les modes d’analyse, vous pouvez consulter notre documentation.</p>
-        <button class="button-details-product-fiche mb-3">
-         <%#= link_to "Documentation" %>
-        </button>
-      </div>
-    </div>
-    <div class="fiche-info-score">
-      <div class="fiche-infos">
-        <h2>Comment comprendre ces données ?</h2>
-        <p>Ces chiffres ont été établis en suivant la méthode du d’analyse du cycle de vie (ACV).
-          <br></br>
-        Pour comprendre les valeurs présentées et les modes d’analyse, vous pouvez consulter notre documentation.</p>
-        <button class="button-details-product-fiche mb-3">
-         <%#= link_to "Documentation" %>
-        </button>
-      </div>
-    </div>
-    <div class="fiche-info-score">
-      <div class="fiche-infos">
-        <h2>Comment comprendre ces données ?</h2>
-        <p>Ces chiffres ont été établis en suivant la méthode du d’analyse du cycle de vie (ACV).
-          <br></br>
-        Pour comprendre les valeurs présentées et les modes d’analyse, vous pouvez consulter notre documentation.</p>
-        <button class="button-details-product-fiche mb-3">
-         <%#= link_to "Documentation" %>
-        </button>
-      </div>
-    </div>
-  </div> -->
+<div class="d-flex  mt-5 ml-5">
+  <div class="aliment-section-titre">
+      <h2 class="mb-3"><%= @aliment.alim_nom_fr.capitalize %></h2>
+        <div class="d-inline-flex">
+          <p class="badge badge-info mr-3"><%= link_to @aliment.alim_grp_nom_fr, aliments_path(:query => @aliment.alim_grp_nom_fr)%></p>
+          <p class="badge badge-warning mr-3"><%= link_to @aliment.alim_ssgrp_nom_fr, aliments_path(:query => @aliment.alim_ssgrp_nom_fr)%></p>
+          <p class="badge badge-danger mr-3"><%= link_to @aliment.alim_ssssgrp_nom_fr, aliments_path(:query => @aliment.alim_ssssgrp_nom_fr)%></p>
+        </div>
 
 
 
 
-  <!-- INDICATEURS    -->
+    <!-- INDICATEURS    -->
 
 
-    <h5 class="mt-3">🌎🌎🌎🌎🌎 Détail de l’impact environnemental 🌎🌎🌎🌎🌎</h5>
+      <h5 class="mt-3">🌎 Détail de l’impact environnemental 🌏</h5>
 
-    <p><strong>DQR : <%= @aliment.dqr %></strong></p>
-    <span></span>
-    <p>(Data Quality Rating : indicateur de robustesse des données s'échelonnant entre 1 (qualité excellente) à 5 (qualité faible). Le niveau de robustesse est considéré comme bon pour des DQR de 3 et inférieurs.)</p>
+      <span></span>
+      <button type="button" class="btn btn-secondary mb-3 mt-3" data-container="body" data-toggle="popover" data-placement="right" data-content="Data Quality Ratio : indicateur de robustesse des données s'échelonnant entre 1 -qualité excellente, à 5 -qualité faible. Le niveau de robustesse est considéré comme bon pour des DQR de 3 et inférieurs.">
+        DQR : <%= @aliment.dqr %>
+      </button>
+  </div>
+  <div class="aliment-score" type="button" data-container="body" data-toggle="popover" data-placement="right" data-content="Ce score est calculé">
+        <h4>Score</h4>
+        <p><%= @aliment.score %></p>
+  </div>
+</div>
 
-  <div class="d-inline-flex">
+  <div class="d-inline-flex m-5">
     <div class="aliments-array">
       <div class="array-header d-flex">
               <div class="array-header-column">
@@ -304,7 +274,7 @@
   </div>
 
 
-</div>
+
 
 
 
