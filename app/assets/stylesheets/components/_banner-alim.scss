@@ -26,7 +26,7 @@
   margin: var(--space-s) auto;
   color: var(--theme-dark-text);
   font-size: 1.7em;
-  width: 450px;
+  max-width: 7000px;
   text-align: center;
 }
 
@@ -55,14 +55,14 @@
   justify-content: center;
 }
 
-@media(max-width: 768px) {
-  .hero .search_title {
-    width: 700px;
-  }
-}
+// @media(max-width: 768px) {
+//   .hero .search_title {
+//     width: 700px;
+//   }
+// }
 
-@media(max-width: 640px) {
-  .hero .search_title {
-    width: 400px;
-  }
-}
+// @media(max-width: 640px) {
+//   .hero .search_title {
+//     width: 400px;
+//   }
+// }

@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_02_07_121858) do
+ActiveRecord::Schema.define(version: 2020_02_18_173723) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -40,6 +40,8 @@ ActiveRecord::Schema.define(version: 2020_02_07_121858) do
     t.datetime "updated_at", null: false
     t.float "score"
     t.float "dqr"
+    t.float "indic_15"
+    t.float "indic_16"
   end
 
 end

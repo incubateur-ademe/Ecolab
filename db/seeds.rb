@@ -29,6 +29,8 @@ CSV.foreach(filepath, csv_options) do |row|
     indic_12: row[25],
     indic_13: row[26],
     indic_14: row[27],
+    indic_15: row[28],
+    indic_16: row[29],
     score: row[13],
     dqr: row[30])
 end
