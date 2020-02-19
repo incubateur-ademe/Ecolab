@@ -93,21 +93,21 @@
 
              <div class="aliments-card d-flex" id="aliment-div-3">
               <div class="aliment-infos infos-titre">
-                Exposition aux particules fines
+                Toxicité pour l'homme, sans effet cancérogène
               </div>
 
               <div class="aliment-infos">
-                <%= @aliment.indic_4 %>
+                <%= @aliment.indic_3 %>
               </div>
 
               <div class="aliment-infos">
-                kg PM2.5 eq / kg product
+                CTUh / kg product
               </div>
              </div>
 
              <div class="aliments-card d-flex" id="aliment-div-4">
               <div class="aliment-infos infos-titre">
-               Acidification
+               Toxicité pour l'homme, avec effet cancérogène
               </div>
 
               <div class="aliment-infos">
@@ -121,7 +121,7 @@
 
              <div class="aliments-card d-flex" id="aliment-div-5">
               <div class="aliment-infos infos-titre">
-                Eutrophisation aquatique (eau douce)
+                Emissions de particules
               </div>
 
               <div class="aliment-infos">
@@ -129,13 +129,13 @@
               </div>
 
               <div class="aliment-infos">
-                kg P eq / kg product
+                kg PM2.5 eq / kg product
               </div>
              </div>
 
              <div class="aliments-card d-flex" id="aliment-div-6">
               <div class="aliment-infos infos-titre">
-              Eutrophisation aquatique (marine)
+                Ionisation radiation HH
               </div>
 
               <div class="aliment-infos">
@@ -143,13 +143,13 @@
               </div>
 
               <div class="aliment-infos">
-                kg N eq / kg product
+                kBq U235 eq / kg product
               </div>
              </div>
 
              <div class="aliments-card d-flex" id="aliment-div-7">
               <div class="aliment-infos infos-titre">
-                Eutrophisation terrestre
+                Ionisation radiation HH
               </div>
 
               <div class="aliment-infos">
@@ -157,13 +157,13 @@
               </div>
 
               <div class="aliment-infos">
-                molc N eq / kg product
+                CTUe / kg product
               </div>
              </div>
 
              <div class="aliments-card d-flex" id="aliment-div-8">
               <div class="aliment-infos infos-titre">
-               Ionisation, effet sur la santé
+               Oxydation photochimique
               </div>
 
               <div class="aliment-infos">
@@ -171,13 +171,13 @@
               </div>
 
               <div class="aliment-infos">
-                CTUe / kg product
+                kg NMVOC eq / kg product
               </div>
              </div>
 
              <div class="aliments-card d-flex" id="aliment-div-9">
               <div class="aliment-infos infos-titre">
-                Ecotoxicité d'eau douce
+                Acidification
               </div>
 
               <div class="aliment-infos">
@@ -185,14 +185,13 @@
               </div>
 
               <div class="aliment-infos">
-                unité
+                molc H+ eq / kg product
               </div>
              </div>
 
-
-             <div class="aliments-card d-flex" id="aliment-div-10">
+              <div class="aliments-card d-flex" id="aliment-div-10">
               <div class="aliment-infos infos-titre">
-                Usage des terres
+                Eutrophisation terrestre
               </div>
 
               <div class="aliment-infos">
@@ -200,17 +199,74 @@
               </div>
 
               <div class="aliment-infos">
+                molc N eq / kg product
+              </div>
+             </div>
+
+              <div class="aliments-card d-flex" id="aliment-div-11">
+              <div class="aliment-infos infos-titre">
+                Eutrophisation eau douce
+              </div>
+
+              <div class="aliment-infos">
+                <%= @aliment.indic_11 %>
+              </div>
+
+              <div class="aliment-infos">
+                kg P eq / kg product
+              </div>
+             </div>
+
+              <div class="aliments-card d-flex" id="aliment-div-12">
+              <div class="aliment-infos infos-titre">
+                Eutrophisation marine
+              </div>
+
+              <div class="aliment-infos">
+                <%= @aliment.indic_12 %>
+              </div>
+
+              <div class="aliment-infos">
+                kg N eq / kg product
+              </div>
+             </div>
+
+              <div class="aliments-card d-flex" id="aliment-div-13">
+              <div class="aliment-infos infos-titre">
+                Ecotoxicité eau douce
+              </div>
+
+              <div class="aliment-infos">
+                <%= @aliment.indic_13 %>
+              </div>
+
+              <div class="aliment-infos">
+                CTUe / kg product
+              </div>
+             </div>
+
+
+             <div class="aliments-card d-flex" id="aliment-div-14">
+              <div class="aliment-infos infos-titre">
+                Usage des terres
+              </div>
+
+              <div class="aliment-infos">
+                <%= @aliment.indic_14 %>
+              </div>
+
+              <div class="aliment-infos">
                 kg C deficit / kg product
               </div>
              </div>
 
-             <div class="aliments-card d-flex" id="aliment-div-11">
+             <div class="aliments-card d-flex" id="aliment-div-15">
               <div class="aliment-infos infos-titre">
                 Oxydation photochimique
               </div>
 
               <div class="aliment-infos">
-                <%= @aliment.indic_11 %>
+                <%= @aliment.indic_15 %>
               </div>
 
               <div class="aliment-infos">
