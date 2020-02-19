@@ -10,4 +10,7 @@ class PagesController < ApplicationController
 
   def nouscontacter
   end
+
+  def transport
+  end
 end
