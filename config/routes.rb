@@ -7,7 +7,7 @@ Rails.application.routes.draw do
   get "/alimentation", to: "pages#batiment"
   get "/agribalyse", to: "pages#batiment"
 
-  get "/testalim", to: "pages#home"
+  get "/agriba5793lyse2indechiffrable34amoinsdetrerayman6579682", to: "pages#home"
 
   get "/blog", to: "blog#list"
   # query can be a tag or a category

@@ -46,7 +46,7 @@ font-size: 20px;
 
 .product-card {
   overflow: hidden;
-  background: white;
+  background-position: center;
   box-shadow: 0 0 2px rgba(0,0,0,0.1);
   width: 270px;
   height: 300px;
@@ -83,6 +83,9 @@ font-size: 20px;
 .ecoscore {
   min-width: fit-content;
   text-align: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 3em;
+  padding: 1em;
 }
 
 .ecoscore .cate {
@@ -96,7 +99,8 @@ font-size: 20px;
 }
 
 .product-card-header h2 {
-  font-size: 16px;
+  font-size: 20px;
+  color: white;
 }
 
 .product-card-header p {
