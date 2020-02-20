@@ -8,7 +8,10 @@
 /.bundle
 
 # Ignore private database.
-# /db/agribalyse.csv
+/db/agribalyse.csv
+
+# Ignore routes and url for salon agri
+/config/routes.rb
 
 # Ignore all logfiles and tempfiles.
 /log/*
