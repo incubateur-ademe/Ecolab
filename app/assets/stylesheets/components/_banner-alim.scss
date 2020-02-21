@@ -58,12 +58,15 @@
   text-align: center;
 }
 
-@media(max-width: 1300px) {
-  .hero_banner_alim {
-    width: 1260px;
+
+@media(max-width: 1260px) {
+  .hero__container_alim {
+    background-size: 1100px 500px;
+  }
+  .texts-banner {
+    margin-bottom: 12em;
   }
 }
-
 
 @media(max-width: 768px) {
   .hero_banner_alim {
