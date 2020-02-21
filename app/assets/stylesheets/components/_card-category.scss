@@ -9,7 +9,7 @@
   text-decoration: none;
 }
 
-@media(max-width: 992px) {
+@media(max-width: 1300px) {
   .home-container {
     grid-template-columns: 1fr 1fr 1fr;
   }
@@ -127,9 +127,9 @@
 
 
 
-/////////////////// USECASES /////////////////
+/////////////////// USECSES /////////////////
 .home-container-usecase {
-  display: grid;
+  display: flex;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 10px;
   margin: 121px 63px 63px 121px;
@@ -188,6 +188,7 @@
 @media(max-width: 992px) {
   .home-container-usecase {
     grid-template-columns: 1fr 1fr 1fr;
+    width: 100vh;
   }
 }
 

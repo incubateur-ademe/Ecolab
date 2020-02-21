@@ -6,7 +6,7 @@
   align-items: center;
   // background: linear-gradient(0deg, white, $agri-beigasse);
   // padding: var(--space-l);
-  // max-width: 1200px;
+  //max-width: 1200px;
   // margin: 0 auto;
   background-image: url('Agribalyse-bann-rc2c.png');
   background-repeat: no-repeat;
@@ -58,14 +58,21 @@
   text-align: center;
 }
 
-// @media(max-width: 768px) {
-//   .hero .search_title {
-//     width: 700px;
-//   }
-// }
+@media(max-width: 1300px) {
+  .hero_banner_alim {
+    width: 1260px;
+  }
+}
 
-// @media(max-width: 640px) {
-//   .hero .search_title {
-//     width: 400px;
-//   }
-// }
+
+@media(max-width: 768px) {
+  .hero_banner_alim {
+    width: 600px;
+  }
+}
+
+@media(max-width: 640px) {
+  .hero .search_title {
+    width: 400px;
+  }
+}
