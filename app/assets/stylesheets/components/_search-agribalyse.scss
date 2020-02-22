@@ -145,13 +145,20 @@ font-size: 20px;
 }
 
 .aliment-score {
-background-color: white;
+  background-image: url(undraw_environment_iaus.svg);
+    background-color: white;
+    background-position-y: 52px;
+    background-repeat: no-repeat;
     padding: 1.2em;
     margin-left: 4em;
-    border-radius: 50%;
-    width: 130px;
-    height: 130px;
+    border-radius: 8px;
+    width: 180px;
+    height: 169px;
     text-align: center;
+}
+
+.aliment-score:hover {
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
 
