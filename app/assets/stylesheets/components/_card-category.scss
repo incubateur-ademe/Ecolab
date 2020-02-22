@@ -130,8 +130,7 @@
 /////////////////// USECSES /////////////////
 .home-container-usecase {
   display: flex;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 10px;
+  flex-direction: row;
   margin: 121px 63px 63px 121px;
 }
 

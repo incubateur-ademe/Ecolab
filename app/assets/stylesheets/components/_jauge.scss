@@ -1,0 +1,24 @@
+.jauge-contour {
+  // border: 1px solid gray;
+  position: relative;
+  border-radius: 30px;
+  height: 1em;
+  width: 200px;
+  background: linear-gradient(90deg, rgba(58,180,100,1) 0%, rgba(242,183,10,1) 52%, rgba(210,57,41,1) 100%);
+}
+
+.dqr-position {
+  position: absolute;
+  height: 1em;
+  width: 2em;
+  background: white;
+  opacity: 0.9;
+  border-radius: 30px;
+  // left: 80px;
+}
+
+.dqr-position p {
+  font-size: 10px;
+  font-weight: bold;
+  text-align: center;
+}

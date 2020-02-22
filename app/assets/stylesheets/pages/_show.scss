@@ -1,3 +1,16 @@
+@media(max-width: 1260px) {
+  .aliments-array {
+    width: 648px;
+  }
+  .tableau-donnees-bloc {
+    flex-direction: column;
+    margin: 0px;
+  }
+}
+
+
+
+
 @media(max-width: 640px) {
   .aliment-section {
     flex-direction: column;

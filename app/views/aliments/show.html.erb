@@ -31,10 +31,27 @@
       <h5 class="mt-3">🌎 Détail de l’impact environnemental 🌏</h5>
 
       <span></span>
-      <button type="button" class="btn btn-secondary mb-3 mt-3" data-container="body" data-toggle="popover" data-placement="right" data-content="Data Quality Ratio : indicateur de robustesse des données s'échelonnant entre 1 -qualité excellente, à 5 -qualité faible. Le niveau de robustesse est considéré comme bon pour des DQR de 3 et inférieurs.">
+<!--       <button type="button" class="btn btn-secondary mb-3 mt-3" data-container="body" data-toggle="popover" data-placement="right" data-content="Data Quality Ratio : indicateur de robustesse des données s'échelonnant entre 1 -qualité excellente, à 5 -qualité faible. Le niveau de robustesse est considéré comme bon pour des DQR de 3 et inférieurs.">
         DQR : <%= @aliment.dqr %>
-      </button>
+      </button> -->
+
+
+    <!-- TEST JAUGE  -->
+<div class="d-flex  mt-4">
+    <p class="ml-2">👍🏼</p>
+    <div class="jauge-contour"></div>
+    <p class="mr-2">👎🏼</p>
+    <div class="dqr-position" type="button"  data-container="body" data-toggle="popover" data-placement="right" data-content="Niveau de fiabilité de la donnée, ou DQR pour 'Data Quality Ratio' : indicateur de robustesse des données s'échelonnant entre 1 -qualité excellente, à 5 -qualité faible. Le niveau de robustesse est considéré comme bon si <= 3"style="left: calc(80px + <%= @aliment.dqr %> * 40px);"><p><%= @aliment.dqr %></p></div>
+
+</div>
+
+
+
   </div>
+
+
+
+
   <div class="aliment-score" type="button" data-container="body" data-toggle="popover" data-placement="right" data-content="Sans unité, ce score unique est une moyenne pondérée des 14 indicateurs, calculé selon la méthodologie européenne « PEF » (Product Environmental Footprint)">
         <h5>Score</h5>
         <h5>env.</h5>
