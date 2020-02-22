@@ -37,11 +37,11 @@
 
 
     <!-- TEST JAUGE  -->
-<div class="d-flex  mt-4">
-    <p class="ml-2">👍🏼</p>
+<div class="d-flex jauge mt-4">
+    <p class="mr-3 niveau">👍🏼  0</p>
     <div class="jauge-contour"></div>
-    <p class="mr-2">👎🏼</p>
-    <div class="dqr-position" type="button"  data-container="body" data-toggle="popover" data-placement="right" data-content="Niveau de fiabilité de la donnée, ou DQR pour 'Data Quality Ratio' : indicateur de robustesse des données s'échelonnant entre 1 -qualité excellente, à 5 -qualité faible. Le niveau de robustesse est considéré comme bon si <= 3"style="left: calc(80px + <%= @aliment.dqr %> * 40px);"><p><%= @aliment.dqr %></p></div>
+    <p class="ml-3 niveau">5  👎🏼</p>
+    <div class="dqr-position" type="button"  data-container="body" data-toggle="popover" data-placement="right" data-content="Niveau de fiabilité de la donnée, ou DQR pour 'Data Quality Ratio' : indicateur de robustesse des données s'échelonnant entre 1 -qualité excellente, à 5 -qualité faible. Le niveau de robustesse est considéré comme bon si <= 3"style="left: calc(60px + <%= @aliment.dqr %> * 40px);"><p><%= @aliment.dqr %></p></div>
 
 </div>
 
