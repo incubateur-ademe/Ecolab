@@ -61,21 +61,57 @@
 
 @media(max-width: 1260px) {
   .hero__container_alim {
-    background-size: 1000px 500px;
+    background-size: 1260px 500px;
   }
   .texts-banner {
     margin-bottom: 12em;
   }
 }
 
-@media(max-width: 768px) {
-  .hero_banner_alim {
-    width: 600px;
+@media(max-width: 1010px) {
+  .hero__container_alim {
+    background-size: 1010px 500px;
+  }
+  .texts-banner {
+    margin-bottom: 12em;
   }
 }
 
-@media(max-width: 640px) {
-  .hero .search_title {
-    width: 400px;
+@media(max-width: 900px) {
+  .hero__container_alim {
+    background-size: 900px 500px;
+  }
+  .texts-banner {
+    margin-bottom: 12em;
   }
 }
+
+@media(max-width: 800px) {
+  .hero__container_alim {
+    background-size: 800px 500px;
+  }
+  .texts-banner {
+    margin-bottom: 12em;
+  }
+}
+
+@media(max-width: 700px) {
+  .hero__container_alim {
+    background-size: 700px 500px;
+  }
+  .texts-banner {
+    margin-bottom: 12em;
+  }
+}
+
+// @media(max-width: 768px) {
+//   .hero_banner_alim {
+//     width: 600px;
+//   }
+// }
+
+// @media(max-width: 640px) {
+//   .hero .search_title {
+//     width: 400px;
+//   }
+// }
