@@ -76,6 +76,8 @@
     </div> -->
     <div class="product-card-container">
       <% @aliments.each do |alim| %>
+            <%= link_to aliment_path(alim) do %>
+
               <div class="product-card" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path("#{alim.alim_code}.png") %>)">
                 <div class="product-card-header">
                   <div class="product-title-category">
@@ -92,8 +94,8 @@
                 </div>
 
                     <%= link_to "Détails", aliment_path(alim), :class => "btn-discover simple text-center" %>
-
               </div>
+              <% end %>
 
 
       <% end %>

@@ -38,10 +38,15 @@ font-size: 20px;
 }
 
 .product-card-container {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   // background-color: white;
+}
+
+.product-card-container a {
+ text-decoration: none;
+ color: black;
 }
 
 .product-card {
