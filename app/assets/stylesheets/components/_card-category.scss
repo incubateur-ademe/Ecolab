@@ -127,11 +127,14 @@
 
 
 
-/////////////////// USECSES /////////////////
+/////////////////// USECASES /////////////////
 .home-container-usecase {
   display: flex;
   flex-direction: row;
-  margin: 121px 63px 63px 121px;
+  margin-top: 8em;
+  margin-bottom: 4em;
+  justify-content: space-evenly !important;
+  flex-wrap: wrap;
 }
 
 .card-container-usecase {
@@ -184,49 +187,7 @@
   background-color: white;
 }
 
-@media(max-width: 992px) {
-  .home-container-usecase {
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100vh;
-  }
-}
 
-@media(max-width: 768px) {
-  .home-container-usecase {
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media(max-width: 640px) {
-  .home-container-usecase {
-    grid-template-columns: 1fr;
-    margin: 112px 63px 63px 40px !important;
-    padding-bottom: 2em;
-  }
-}
-
-
-/////////////////// PARTNERS /////////////////
-
-.home-container-usecasers {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-  grid-gap: 10px;
-  margin: 121px 63px 63px 121px;
-}
-
-.home-container-usecasers .card-category-logo {
-  height: 100px;
-  width: 100px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.home-container-usecasers .card-category-logo img {
-  background-size: contain;
-  background-repeat: no-repeat;
-}
 
 /////////////////// CARD DEV /////////////////
 .card-dev {
