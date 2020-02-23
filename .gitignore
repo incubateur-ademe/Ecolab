@@ -8,7 +8,7 @@
 /.bundle
 
 # Ignore private database.
-/db/agribalyse.csv
+# /db/agribalyse.csv
 
 
 
