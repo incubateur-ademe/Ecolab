@@ -8,6 +8,9 @@ class PagesController < ApplicationController
   def discover
   end
 
+  def mentions_legales
+  end
+
   def nouscontacter
   end
 
