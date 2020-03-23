@@ -64,10 +64,6 @@
                 <h4>Unité</h4>
               </div>
 
-              <div class="array-header-column">
-                <h4>Pondération</h4>
-              </div>
-
 
             </div>
 
@@ -86,13 +82,70 @@
                 kg CO2 eq / kg product
               </div>
 
+             </div>
+
+             <div class="aliments-card d-flex" id="aliment-div-16">
+              <div class="aliment-infos infos-titre">
+                Consommation d'énergie et ressources non renouvelable
+              </div>
+
               <div class="aliment-infos">
-                <%= 22.19 %>
+                <%= @aliment.indic_16 %>
+              </div>
+
+              <div class="aliment-infos">
+                kg Sb eq / kg product
+              </div>
+
+
+             </div>
+
+             <div class="aliments-card d-flex" id="aliment-div-5">
+              <div class="aliment-infos infos-titre">
+                Emissions de particules
+              </div>
+
+              <div class="aliment-infos">
+                <%= @aliment.indic_5 %>
+              </div>
+
+              <div class="aliment-infos">
+                kg PM2.5 eq / kg product
               </div>
 
              </div>
 
+             <div class="aliments-card d-flex" id="aliment-div-15">
+              <div class="aliment-infos infos-titre">
+                Consommation d'eau
+              </div>
 
+              <div class="aliment-infos">
+                <%= @aliment.indic_15 %>
+              </div>
+
+              <div class="aliment-infos">
+                m3 water eq / kg product
+              </div>
+
+
+             </div>
+
+             <div class="aliments-card d-flex" id="aliment-div-14">
+              <div class="aliment-infos infos-titre">
+                Usage des terres
+              </div>
+
+              <div class="aliment-infos">
+                <%= @aliment.indic_14 %>
+              </div>
+
+              <div class="aliment-infos">
+                kg C deficit / kg product
+              </div>
+
+
+             </div>
 
              <div class="aliments-card d-flex" id="aliment-div-2">
               <div class="aliment-infos infos-titre">
@@ -107,12 +160,40 @@
                 kg CFC-11 eq / kg product
               </div>
 
-              <div class="aliment-infos">
-                <%= 6.75 %>
-              </div>
 
              </div>
 
+             <div class="aliments-card d-flex" id="aliment-div-9">
+              <div class="aliment-infos infos-titre">
+                Acidification
+              </div>
+
+              <div class="aliment-infos">
+                <%= @aliment.indic_9 %>
+              </div>
+
+              <div class="aliment-infos">
+                molc H+ eq / kg product
+              </div>
+
+
+             </div>
+
+             <div class="aliments-card d-flex" id="aliment-div-8">
+              <div class="aliment-infos infos-titre">
+               Oxydation photochimique
+              </div>
+
+              <div class="aliment-infos">
+                <%= @aliment.indic_8 %>
+              </div>
+
+              <div class="aliment-infos">
+                kg NMVOC eq / kg product
+              </div>
+
+
+             </div>
 <!--              <div class="aliments-card d-flex" id="aliment-div-3">
               <div class="aliment-infos infos-titre">
                 Toxicité pour l'homme, sans effet cancérogène
@@ -141,101 +222,6 @@
               </div>
              </div> -->
 
-             <div class="aliments-card d-flex" id="aliment-div-5">
-              <div class="aliment-infos infos-titre">
-                Emissions de particules
-              </div>
-
-              <div class="aliment-infos">
-                <%= @aliment.indic_5 %>
-              </div>
-
-              <div class="aliment-infos">
-                kg PM2.5 eq / kg product
-              </div>
-
-              <div class="aliment-infos">
-                <%= 9.54 %>
-              </div>
-
-             </div>
-
-             <div class="aliments-card d-flex" id="aliment-div-6">
-              <div class="aliment-infos infos-titre">
-                Ionisation radiation HH
-              </div>
-
-              <div class="aliment-infos">
-                <%= @aliment.indic_6 %>
-              </div>
-
-              <div class="aliment-infos">
-                kBq U235 eq / kg product
-              </div>
-
-              <div class="aliment-infos">
-                <%= 2.68 %>
-              </div>
-
-             </div>
-
-             <div class="aliments-card d-flex" id="aliment-div-7">
-              <div class="aliment-infos infos-titre">
-                Ionisation radiation E
-              </div>
-
-              <div class="aliment-infos">
-                <%= @aliment.indic_7 %>
-              </div>
-
-              <div class="aliment-infos">
-                CTUe / kg product
-              </div>
-
-              <div class="aliment-infos">
-                <%= 2.68 %>
-              </div>
-
-             </div>
-
-             <div class="aliments-card d-flex" id="aliment-div-8">
-              <div class="aliment-infos infos-titre">
-               Oxydation photochimique
-              </div>
-
-              <div class="aliment-infos">
-                <%= @aliment.indic_8 %>
-              </div>
-
-              <div class="aliment-infos">
-                kg NMVOC eq / kg product
-              </div>
-
-              <div class="aliment-infos">
-                <%= 5.10 %>
-              </div>
-
-             </div>
-
-             <div class="aliments-card d-flex" id="aliment-div-9">
-              <div class="aliment-infos infos-titre">
-                Acidification
-              </div>
-
-              <div class="aliment-infos">
-                <%= @aliment.indic_9 %>
-              </div>
-
-              <div class="aliment-infos">
-                molc H+ eq / kg product
-              </div>
-
-              <div class="aliment-infos">
-                <%= 6.64 %>
-              </div>
-
-             </div>
-
               <div class="aliments-card d-flex" id="aliment-div-10">
               <div class="aliment-infos infos-titre">
                 Eutrophisation terrestre
@@ -249,28 +235,6 @@
                 molc N eq / kg product
               </div>
 
-              <div class="aliment-infos">
-                <%= 3.91 %>
-              </div>
-
-             </div>
-
-              <div class="aliments-card d-flex" id="aliment-div-11">
-              <div class="aliment-infos infos-titre">
-                Eutrophisation eau douce
-              </div>
-
-              <div class="aliment-infos">
-                <%= @aliment.indic_11 %>
-              </div>
-
-              <div class="aliment-infos">
-                kg P eq / kg product
-              </div>
-
-              <div class="aliment-infos">
-                <%= 2.95 %>
-              </div>
 
              </div>
 
@@ -287,11 +251,63 @@
                 kg N eq / kg product
               </div>
 
-              <div class="aliment-infos">
-                <%= 3.12 %>
-              </div>
 
              </div>
+
+              <div class="aliments-card d-flex" id="aliment-div-11">
+              <div class="aliment-infos infos-titre">
+                Eutrophisation eau douce
+              </div>
+
+              <div class="aliment-infos">
+                <%= @aliment.indic_11 %>
+              </div>
+
+              <div class="aliment-infos">
+                kg P eq / kg product
+              </div>
+
+
+             </div>
+
+             <div class="aliments-card d-flex" id="aliment-div-6">
+              <div class="aliment-infos infos-titre">
+                Ionisation radiation HH
+              </div>
+
+              <div class="aliment-infos">
+                <%= @aliment.indic_6 %>
+              </div>
+
+              <div class="aliment-infos">
+                kBq U235 eq / kg product
+              </div>
+
+
+
+             </div>
+
+             <div class="aliments-card d-flex" id="aliment-div-7">
+              <div class="aliment-infos infos-titre">
+                Ionisation radiation E
+              </div>
+
+              <div class="aliment-infos">
+                <%= @aliment.indic_7 %>
+              </div>
+
+              <div class="aliment-infos">
+                CTUe / kg product
+              </div>
+
+
+
+             </div>
+
+
+
+
+
 
               <!-- <div class="aliments-card d-flex" id="aliment-div-13">
               <div class="aliment-infos infos-titre">
@@ -308,72 +324,98 @@
              </div> -->
 
 
-             <div class="aliments-card d-flex" id="aliment-div-14">
-              <div class="aliment-infos infos-titre">
-                Usage des terres
-              </div>
 
-              <div class="aliment-infos">
-                <%= @aliment.indic_14 %>
-              </div>
 
-              <div class="aliment-infos">
-                kg C deficit / kg product
-              </div>
-
-              <div class="aliment-infos">
-                <%= 8.42 %>
-              </div>
-
-             </div>
-
-             <div class="aliments-card d-flex" id="aliment-div-15">
-              <div class="aliment-infos infos-titre">
-                Consommation d'eau
-              </div>
-
-              <div class="aliment-infos">
-                <%= @aliment.indic_15 %>
-              </div>
-
-              <div class="aliment-infos">
-                m3 water eq / kg product
-              </div>
-
-              <div class="aliment-infos">
-                <%= 9.03 %>
-              </div>
-
-             </div>
-
-             <div class="aliments-card d-flex" id="aliment-div-16">
-              <div class="aliment-infos infos-titre">
-                Consommation d'énergie et ressources non renouvelable
-              </div>
-
-              <div class="aliment-infos">
-                <%= @aliment.indic_16 %>
-              </div>
-
-              <div class="aliment-infos">
-                kg Sb eq / kg product
-              </div>
-
-              <div class="aliment-infos">
-                <%= 17 %>
-              </div>
-
-             </div>
     </div>
 
 
 
     <div class="ponderations-array">
       <div class="array-ponde-header d-flex">
-              <div class="array-header-column">
-                <h4>Pondération</h4>
-              </div>
+        <div class="array-header-column">
+          <h4>Pondération</h4>
+        </div>
       </div>
+
+        <div class="aliments-card d-flex" id="aliment-div-2">
+          <div class="aliment-infos">
+            <%= 22.19 %>
+          </div>
+        </div>
+
+        <div class="aliments-card d-flex" id="aliment-div-2">
+          <div class="aliment-infos">
+            <%= 17 %>
+          </div>
+        </div>
+
+        <div class="aliments-card d-flex" id="aliment-div-2">
+          <div class="aliment-infos">
+            <%= 9.54 %>
+          </div>
+        </div>
+
+        <div class="aliments-card d-flex" id="aliment-div-2">
+          <div class="aliment-infos">
+            <%= 9.03 %>
+          </div>
+        </div>
+
+        <div class="aliments-card d-flex" id="aliment-div-2">
+          <div class="aliment-infos">
+            <%= 8.42 %>
+          </div>
+        </div>
+
+        <div class="aliments-card d-flex" id="aliment-div-2">
+          <div class="aliment-infos">
+            <%= 6.75 %>
+          </div>
+        </div>
+
+        <div class="aliments-card d-flex" id="aliment-div-2">
+          <div class="aliment-infos">
+            <%= 6.64 %>
+          </div>
+        </div>
+
+        <div class="aliments-card d-flex" id="aliment-div-2">
+          <div class="aliment-infos">
+            <%= 5.1 %>
+          </div>
+        </div>
+
+        <div class="aliments-card d-flex" id="aliment-div-2">
+          <div class="aliment-infos">
+            <%= 3.91 %>
+          </div>
+        </div>
+
+       <div class="aliments-card d-flex" id="aliment-div-2">
+         <div class="aliment-infos">
+           <%= 3.12  %>
+         </div>
+       </div>
+
+        <div class="aliments-card d-flex" id="aliment-div-2">
+          <div class="aliment-infos">
+            <%= 2.95 %>
+          </div>
+        </div>
+
+        <div class="aliments-card d-flex" id="aliment-div-2">
+          <div class="aliment-infos">
+            <%= 2.68 %>
+          </div>
+        </div>
+
+        <div class="aliments-card d-flex" id="aliment-div-2">
+          <div class="aliment-infos">
+            <%= 2.68 %>
+          </div>
+        </div>
+
+
     </div>
 
 

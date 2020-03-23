@@ -94,7 +94,7 @@
   background-color: white;
   border-radius: 5px;
   overflow: auto;
-  width: 800px;
+  width: 580px;
   margin-bottom: 30px;
   padding: 0px 20px 0px 20px;
   justify-content: space-around;
@@ -150,6 +150,7 @@
   // color: rgba(250, 163, 6, .7);
 }
 .aliments-card {
+  height: 40px;
   justify-content: space-between;
   align-items: center;
   border-bottom: solid 1px rgba(136, 152, 170, 0.2);
