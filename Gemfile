@@ -17,6 +17,7 @@ gem 'webpacker'
 
 gem 'kramdown', require: false
 gem 'front_matter_parser'
+gem "actionview", ">= 5.2.4.2"
 
 group :development do
   gem 'web-console', '>= 3.3.0'
