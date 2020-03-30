@@ -5,7 +5,7 @@ gem 'bootsnap', require: false
 gem 'jbuilder', '~> 2.0'
 gem 'pg', '~> 0.21'
 gem 'puma'
-gem 'rails', '5.2.3'
+gem 'rails', '5.2.4.2'
 gem 'redis'
 
 gem 'autoprefixer-rails'
@@ -17,7 +17,6 @@ gem 'webpacker'
 
 gem 'kramdown', require: false
 gem 'front_matter_parser'
-gem "actionview", ">= 5.2.4.2"
 
 group :development do
   gem 'web-console', '>= 3.3.0'
