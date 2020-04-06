@@ -6,6 +6,7 @@ tags:
 date: 06/01/2020
 image: mobile-forêt.png
 intro: Pourquoi nous avons créé Ecolab
+status: published
 ---
 
 Année après année, les français se déclarent de plus en plus nombreux à vouloir agir en faveur de l'environnement, et le placent même pour la première fois en [haut de la liste de leurs préoccupations](https://presse.ademe.fr/2019/12/barometre-les-francais-placent-lenvironnement-pour-la-premiere-fois-en-haut-de-la-liste-de-leurs-preoccupations.html).
