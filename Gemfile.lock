@@ -180,6 +180,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionview
   autoprefixer-rails
   bootsnap
   dotenv-rails
