@@ -5,9 +5,9 @@ tags:
   - carbone
   - transport
 date: 30/03/2020
-image: mobile-forêt.png
+image: transport/article-transport.png
 intro: Eco-déplacement pour rendre visible l'impact carbone du transport
-status: draft
+status: published
 ---
 
 # Rendre visible l'impact environnemental du transport de personnes (de la mobilité)
@@ -63,4 +63,7 @@ Vous travaillez sur un produit où la mobilité est présente ? Ces données vou
 Des questions ? Des besoins ? Vous pouvez bien entendu [nous contacter](mailto:contact@ecolab.beta.gouv.fr) ou [ouvrir des issues sur Github](https://github.com/betagouv/ecolab-transport/issues) !
 
 
-> TODO : Teaser d'autres protos (galerie photo - quota carbone, rayon d'action...)
+![Covoiturage](transport/monrayondaction.png){:width="45%"}
+![Covoiturage](transport/empreinte-carbone.png){:width="50%"}
+
+> Et ceci n'est qu'un début, d'autres propositions sont à venir... en attendant les vôtres !
