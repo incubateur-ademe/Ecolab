@@ -49,7 +49,7 @@ Difficile en revanche de se représenter à quoi correspond 1 kg de CO2, émis p
 
 Or chiffrer nos activités en CO2 permet de les relier au climat. Quantifier c'est mesurer pour savoir où éviter et où réduire les émissions en priorité.
 
-Pour se représenter les émissions de CO2 à l'échelle de nos différentes activités, nous pensons ainsi qu'une bonne façon peut être de les mettre en perspective avec les (moins de) [2 tonnes ](https://ecolab.ademe.fr/blog/g%C3%A9n%C3%A9ral/pourquoi-ecolab.md) qui sont la cible à atteindre en 2050 par personne et tout secteur confondu. Ainsi par exemple faire 10 000 km en voiture c'est émettre 2,53 tonnes de CO2 (la voiture moyenne émettant 0,253 kg CO2e/km)... et un français  fait en moyenne entre 12 000 et 13 000 km par an.
+Pour se représenter les émissions de CO2 à l'échelle de nos différentes activités, nous pensons ainsi qu'une bonne façon peut être de les mettre en perspective avec les (moins de) [2 tonnes de CO2e](https://ecolab.ademe.fr/blog/g%C3%A9n%C3%A9ral/pourquoi-ecolab.md) qui sont la cible à atteindre en 2050 par personne et tout secteur confondu. Ainsi par exemple faire 10 000 km en voiture c'est émettre 2,53 tonnes de CO2 (la voiture moyenne émettant 0,253 kg CO2e/km)... et un français  fait en moyenne entre 12 000 et 13 000 km par an.
 Autre exemple avec l'avion : un seul aller-retour Paris/New York (11 700 km) émet 2,6 tonnes de CO2e par passager, et même un aller-retour vers une capitale européenne émet rapidement plus d'une tonne de CO2. Ces deux exemples montrent bien leur incompatibilité avec la neutralité carbone visée dans les décennies à venir.
 
 ![Covoiturage](transport/transport-paris_newyork.gif){:width="100%"}
