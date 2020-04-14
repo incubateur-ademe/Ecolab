@@ -10,7 +10,7 @@ intro: Eco-déplacement pour rendre visible l'impact carbone du transport
 status: published
 ---
 
-# Rendre visible l'impact environnemental du transport de personnes (de la mobilité)
+# Rendre visible l'impact environnemental du transport de personnes
 Avec [31% des émissions françaises de gaz à effet de serre](https://www.hautconseilclimat.fr/wp-content/uploads/2019/09/hcc_rapport_annuel_grand_public_2019.pdf), le transport est la première source d'émissions, devant les bâtiments, l'agriculture et l'industrie tous trois ex æquo. Parmi les transports, la voiture représente plus de la moitié des émissions.
 
 En effet, la voiture personnelle constitue l’un des modes de transport principaux au quotidien pour [72% des français](http://barometremobilites-quotidien.org/wp-content/uploads/2020/01/Document-technique.pdf). Pourtant, [47% des Français](http://barometremobilites-quotidien.org/wp-content/uploads/2020/01/Document-technique.pdf) considèrent qu’au moins une partie des trajets qu’ils réalisent au quotidien pourraient être réalisés à vélo. Et ils ont raison : [la moitié des trajets effectués en France font moins de 5 km](http://multimedia.ademe.fr/infographies/infographie-la-mobilite-ademe/).
@@ -49,7 +49,7 @@ Difficile en revanche de se représenter à quoi correspond 1 kg de CO2, émis p
 
 Or chiffrer nos activités en CO2 permet de les relier au climat. Quantifier c'est mesurer pour savoir où éviter et où réduire les émissions en priorité.
 
-Pour se représenter les émissions de CO2 à l'échelle de nos différentes activités, nous pensons ainsi qu'une bonne façon peut être de les mettre en perspective avec les (moins de) 2 tonnes[lien article] de CO2 qui sont la cible à atteindre en 2050 (pour tout secteur confondu XXXX). Ainsi par exemple faire 10 000 km en voiture c'est émettre 2,53 tonnes de CO2 (la voiture moyenne émettant 0,253 kg CO2e/km)... et un français  fait en moyenne entre 12 000 et 13 000 km par an.
+Pour se représenter les émissions de CO2 à l'échelle de nos différentes activités, nous pensons ainsi qu'une bonne façon peut être de les mettre en perspective avec les (moins de) [2 tonnes ](https://ecolab.ademe.fr/blog/g%C3%A9n%C3%A9ral/pourquoi-ecolab.md) qui sont la cible à atteindre en 2050 par personne et tout secteur confondu. Ainsi par exemple faire 10 000 km en voiture c'est émettre 2,53 tonnes de CO2 (la voiture moyenne émettant 0,253 kg CO2e/km)... et un français  fait en moyenne entre 12 000 et 13 000 km par an.
 Autre exemple avec l'avion : un seul aller-retour Paris/New York (11 700 km) émet 2,6 tonnes de CO2e par passager, et même un aller-retour vers une capitale européenne émet rapidement plus d'une tonne de CO2. Ces deux exemples montrent bien leur incompatibilité avec la neutralité carbone visée dans les décennies à venir.
 
 ![Covoiturage](transport/transport-paris_newyork.gif){:width="100%"}
