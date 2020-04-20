@@ -17,9 +17,10 @@
   padding: 30px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evely;
   text-align: center;
   align-items: center;
+  background-color: $light-green;
 }
 
 .section-trans p {
