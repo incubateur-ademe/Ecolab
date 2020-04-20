@@ -72,21 +72,21 @@
 <div class="card-container">
   <p class="card-title">Ils ont intégré notre calculateur</p>
     <div class="home-container">
-        <%= link_to "https://www.notrechoix.org/quel-est-limpact-de-vos-trajets/" do %>
+        <%= link_to "https://www.notrechoix.org/quel-est-limpact-de-vos-trajets/", target: "_blank" do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('Agribalyse-PlatCompose.jpg') %>); height: 200px !important;">
           </div>
         </div>
         <% end %>
 
-        <%= link_to aliments_path(:query => "fruits crus") do %>
+        <%= link_to "https://www.ademe.fr/particuliers-eco-citoyens/deplacements/calculer-emissions-carbone-trajets", target: "_blank" do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('Agribalyse-FruitsLegumes.jpg') %>); height: 200px !important;">
           </div>
         </div>
         <% end %>
 
-        <%= link_to aliments_path(:query => "Viandes et poissons") do %>
+        <%= link_to "https://wiki.lafabriquedesmobilites.fr/wiki/Accueil", target: "_blank" do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse-ViandesPoissons.jpg') %>); height: 200px !important;">
           </div>
