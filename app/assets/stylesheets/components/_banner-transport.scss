@@ -12,4 +12,28 @@
     margin: 0 1rem;
 }
 
+.section-trans {
+  height: 450px;
+  padding: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+}
+
+.section-trans p {
+  width: 700px;
+  font-size: 20px;
+  color: white;
+}
+
+.section-trans img {
+  width: 70vh;
+  height: 70%;
+  margin: 1em;
+}
+
+
+
 

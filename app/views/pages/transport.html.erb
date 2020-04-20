@@ -1,6 +1,6 @@
 
 <div class="hero" role="banner">
-    <div class="hero__container hero__container_landing p-5" style="background: linear-gradient(0deg, #D8E8F4, #7DDFC3);">
+    <div class="hero__container hero__container_landing p-5" style="background: linear-gradient(0deg, white, #7DDFC3);">
 
       <%#= image_tag("data.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
       <img class="images-banner" src="<%= image_path('transport/undraw_scooter_aia8.svg') %>"/>
@@ -9,16 +9,91 @@
           <h1 class="banner_title-trans">L'impact climat de nos déplacements</h1>
           <%#= render '/shared/search-bar' %>
           <p class="banner_subtitle">Chiffrer notre impact et adapter notre mobilité quotidienne à des modes de transport moins émetteurs en carbone.</p>
+
+          <button class="btn-discover simple mt-3">
+            <%= link_to "Article de blog", 'https://ecolab.ademe.fr/blog/transport/impact-carbone-mobilite-eco-deplacement.md' %>
+          </button>
         </div>
       <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
       <img class="images-banner" src="<%= image_path('transport/undraw_Ride_a_bicycle_2yok.svg') %>"/>
     </div>
 </div>
 
-<div class="container" style="height: fit-content; background-color: white; padding: 4vh; border-radius: 30px;">
+<section class="section">
+  <h2 class="section__title">Utilisez ces données dans vos produits et services</h2>
+
+  <div class="element-text">
+    <div class="text-p">
+      <strong class="titre-p mb-2">Des données ouvertes, pour tous</strong>
+      <p>Disponibles en OpenData, ces données  sont libres, en simple consultation, ou pour être réutilisées dans votre service</p>
+      </div>
+    <div class="text-p">
+      <strong class="titre-p mb-2">Dans les applications préférées des français</strong>
+      <p>Ces données sont directement mis à disposition de leurs utilisateurs</p>
+    </div>
+    <div class="text-p">
+      <strong class="titre-p mb-2">Un guide pour les développeurs</strong>
+      <p>Format CSV, API, retrouvez toutes les informations techniques sur les méthodes d’intégrations dans notre documentation</p>
+    </div>
+  </div>
+
+  <div class="place-du-button-et-lien">
+    <button class="btn-discover simple">
+      <%= link_to "Guide d’utilisation", 'https://ecolab.gitbook.io/documentation-ecolab/' %>
+    </button>
+    <div class="how">
+      <%= link_to "Voir les études de cas", nouscontacter_path %>
+    </div>
+  </div>
+
+</section>
+
+<!-- <div class="section-trans section-demandeur">
+    <img src="<%#= image_path('transport/undraw_walking_around_25f5') %>"/>
+  <div class="d-flex flex-column align-items-center">
+    <p><strong>En première ligne des personnes victimes de violences</strong></p>
+      <span></span>
+    <p>Que vous soyez écoutant.es 3919, 15, 17, médecin, pharmacien.ne... vous pouvez aider et sauver cette personne en danger en contactant les hébergements sécurisées disponibles actuellement.</p>
+
+    <a class="btn btn-demandeur mt-4" href="/hebs">Trouver un hébergement</a>
+  </div>
+
+</div> -->
+
+
+
+
+
+<div class="container" style="height: fit-content; background-color: white; padding: 4vh; border-radius: 30px; margin-top: 11vh; margin-bottom: 11vh;">
 <script id="ecolab-transport" data-couleur="purple" src="https://ecolab-transport.netlify.com/iframe.js"></script>
 
-
-
-
 </div>
+
+<div class="card-container">
+  <p class="card-title">Ils ont intégré notre calculateur</p>
+    <div class="home-container">
+        <%= link_to "https://www.notrechoix.org/quel-est-limpact-de-vos-trajets/" do %>
+        <div>
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('Agribalyse-PlatCompose.jpg') %>); height: 200px !important;">
+          </div>
+        </div>
+        <% end %>
+
+        <%= link_to aliments_path(:query => "fruits crus") do %>
+        <div>
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('Agribalyse-FruitsLegumes.jpg') %>); height: 200px !important;">
+          </div>
+        </div>
+        <% end %>
+
+        <%= link_to aliments_path(:query => "Viandes et poissons") do %>
+        <div>
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse-ViandesPoissons.jpg') %>); height: 200px !important;">
+          </div>
+        </div>
+        <% end %>
+
+      </div>
+  </div>
+
+
