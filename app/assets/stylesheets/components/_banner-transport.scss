@@ -1,5 +1,5 @@
 .images-banner {
-  width: 600px;
+  width: 570px;
   height: 500px;
 }
 
@@ -14,10 +14,11 @@
 
 .section-trans {
   height: 450px;
-  padding: 30px;
+  padding-left: 100px;
+  padding-right: 300px;
   display: flex;
   flex-direction: row;
-  justify-content: space-evely;
+  justify-content: space-between;
   text-align: center;
   align-items: center;
   background-color: $light-green;

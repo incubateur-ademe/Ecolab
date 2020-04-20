@@ -3,16 +3,15 @@
     <div class="hero__container hero__container_landing p-5" style="background: linear-gradient(0deg, white, #7DDFC3);">
 
       <%#= image_tag("data.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
-      <img class="images-banner" src="<%= image_path('transport/undraw_scooter_aia8.svg') %>"/>
+      <img class="images-banner" src="<%= image_path('transport/metro.svg') %>"/>
 
         <div class="texts-banner">
           <h1 class="banner_title-trans">L'impact de nos déplacements sur le climat</h1>
           <%#= render '/shared/search-bar' %>
           <p class="banner_subtitle">Chiffrer notre impact et adapter notre mobilité quotidienne à des modes de transport moins émetteurs en carbone.</p>
 
-          <button class="btn-discover simple mt-3">
-            <%= link_to "Article de blog", 'https://ecolab.ademe.fr/blog/transport/impact-carbone-mobilite-eco-deplacement.md', target: "_blank" %>
-          </button>
+
+            <%= link_to "Article de blog", 'https://ecolab.ademe.fr/blog/transport/impact-carbone-mobilite-eco-deplacement.md', target: "_blank", class:"btn btn-grey mt-3" %>
         </div>
       <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
       <img class="images-banner" src="<%= image_path('transport/undraw_Ride_a_bicycle_2yok.svg') %>"/>
@@ -39,9 +38,7 @@
   </div>
 
   <div class="place-du-button-et-lien">
-    <button class="btn-discover simple">
-      <%= link_to "Lien vers le dépôt Github", 'https://github.com/betagouv/ecolab-transport' %>
-    </button>
+      <%= link_to "Lien vers le dépôt Github", 'https://github.com/betagouv/ecolab-transport', target:"_blank", class:"btn btn-grey mt-3" %>
     <div class="how">
       <%= link_to "Fichier données", "https://github.com/betagouv/ecolab-transport/blob/master/ges-transport.yaml" %>
     </div>
@@ -61,34 +58,32 @@
   <div class="text-p d-flex flex-column align-items-center ml-5">
     <p><strong>Vous aussi participez à nos ateliers utilisateurs et intégrez les données impact environnemental transport</strong></p>
       <span></span>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut ab eligendi neque aspernatur impedit dolore nemo quod ad asperiores dolorum! Reprehenderit animi doloremque numquam ducimus eius labore tenetur corporis voluptate!</p>
-    <button class="btn-discover simple mt-3">
-      <%= link_to "Jeux de données disponibles", 'https://ecolab.gitbook.io/documentation-ecolab/reutiliser-les-donnees-1', target: "_blank" %>
-    </button>
+    <p>Sous forme d’iframe ou en ré-utilisant le jeu de donneées format csv, json ou api.</p>
+      <%= link_to "Commencer", 'https://ecolab.gitbook.io/documentation-ecolab/reutiliser-les-donnees-1', target: "_blank", class:"btn btn-grey mt-3" %>
 
 </div>
 
 </div>
 <div class="card-container">
   <p class="card-title">Ils ont intégré notre calculateur</p>
-    <div class="home-container">
+    <div class="d-flex">
         <%= link_to "https://www.notrechoix.org/quel-est-limpact-de-vos-trajets/", target: "_blank" do %>
         <div>
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(<%= image_path('transport/notrechoix.png') %>); height: 200px !important;">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/notrechoix.png') %>); height: 200px !important;">
           </div>
         </div>
         <% end %>
 
         <%= link_to "https://www.ademe.fr/particuliers-eco-citoyens/deplacements/calculer-emissions-carbone-trajets", target: "_blank" do %>
         <div>
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(<%= image_path('ademe-logo.jpg') %>); height: 200px !important; background-size: contain !important; background-repeat: no-repeat;">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('ademe-logo.jpg') %>); height: 200px !important; background-size: contain !important; background-repeat: no-repeat;">
           </div>
         </div>
         <% end %>
 
         <%= link_to "https://wiki.lafabriquedesmobilites.fr/wiki/Accueil", target: "_blank" do %>
         <div>
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url(<%= image_path('transport/fabrique.png') %>); height: 200px !important;">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/fabrique.png') %>); height: 200px !important;">
           </div>
         </div>
         <% end %>
