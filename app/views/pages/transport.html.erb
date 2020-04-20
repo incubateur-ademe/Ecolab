@@ -6,7 +6,7 @@
       <img class="images-banner" src="<%= image_path('transport/undraw_scooter_aia8.svg') %>"/>
 
         <div class="texts-banner">
-          <h1 class="banner_title-trans">L'impact climat de nos déplacements</h1>
+          <h1 class="banner_title-trans">L'impact de nos déplacements sur le climat</h1>
           <%#= render '/shared/search-bar' %>
           <p class="banner_subtitle">Chiffrer notre impact et adapter notre mobilité quotidienne à des modes de transport moins émetteurs en carbone.</p>
 
@@ -20,7 +20,7 @@
 </div>
 
 <section class="section">
-  <h2 class="section__title">Utilisez ces données dans vos produits et services</h2>
+  <h2 class="section__title">Découvrez nos premières propositions d’utilisation des données</h2>
 
   <div class="element-text">
     <div class="text-p">
@@ -39,26 +39,15 @@
 
   <div class="place-du-button-et-lien">
     <button class="btn-discover simple">
-      <%= link_to "Guide d’utilisation", 'https://ecolab.gitbook.io/documentation-ecolab/' %>
+      <%= link_to "Jeux de données disponibles", 'https://ecolab.gitbook.io/documentation-ecolab/reutiliser-les-donnees-1' %>
     </button>
     <div class="how">
-      <%= link_to "Voir les études de cas", nouscontacter_path %>
+      <%= link_to "Lien vers le dépôt Github", nouscontacter_path %>
     </div>
   </div>
 
 </section>
 
-<!-- <div class="section-trans section-demandeur">
-    <img src="<%#= image_path('transport/undraw_walking_around_25f5') %>"/>
-  <div class="d-flex flex-column align-items-center">
-    <p><strong>En première ligne des personnes victimes de violences</strong></p>
-      <span></span>
-    <p>Que vous soyez écoutant.es 3919, 15, 17, médecin, pharmacien.ne... vous pouvez aider et sauver cette personne en danger en contactant les hébergements sécurisées disponibles actuellement.</p>
-
-    <a class="btn btn-demandeur mt-4" href="/hebs">Trouver un hébergement</a>
-  </div>
-
-</div> -->
 
 
 
@@ -69,6 +58,19 @@
 
 </div>
 
+<div class="section-trans section-demandeur">
+    <img src="<%= image_path('transport/undraw_businesswoman_pc12') %>"/>
+  <div class="d-flex flex-column align-items-center">
+    <p><strong>En première ligne des personnes victimes de violences</strong></p>
+      <span></span>
+    <p>Que vous soyez écoutant.es 3919, 15, 17, médecin, pharmacien.ne... vous pouvez aider et sauver cette personne en danger en contactant les hébergements sécurisées disponibles actuellement.</p>
+    <button class="btn-discover simple mt-3">
+      <%= link_to "Article de blog", 'https://ecolab.ademe.fr/blog/transport/impact-carbone-mobilite-eco-deplacement.md', target: "_blank" %>
+    </button>
+
+</div>
+
+</div>
 <div class="card-container">
   <p class="card-title">Ils ont intégré notre calculateur</p>
     <div class="home-container">
