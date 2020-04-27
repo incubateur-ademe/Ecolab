@@ -1,7 +1,5 @@
-V0 
 auteurs : 
   - François Laugier, francois_laugier@outlook.com
-  - ...
 licence : Pour toute utilisation non commerciale, les cartes actions sont sous licence Creative Commons Attribution - Pas d'Utilisation Commerciale - Pas de Modification 4.0 International.
 version : V3 – 24/02/2020.
 
@@ -102,38 +100,4 @@ action :
     - La plupart des lignes de train de nuit ont été ces dernières années. 
 
 
-
-Propositions
-================================
-
-
-secteur : se déplacer
-  - label action : "SE DEPLACER A VELO"
-  - investissements (note de difficulté de mide en place de l'action suivant les conditions nécessaires) : 1
-    - conditions :
-      - personnelles : pouvoir réduire usage voiture
-      (- institutionnelles / réglementaires : infra, aménagement, subventions...)
-  - impact (note pour pouvoir placer l'action matrice impact/coût ? en fonction du CO2eq réduits) : 4/5
-    - CO2eq évités : 0.2 kg CO2 eq/km
-    - description / explication : graphe + texte
-  - autres avantages :
-    - financier (euros gagnés) : 144 euros/mois
-    - temps : xxxh/mois
-  - stats : 70% des Français utilisent principalement la voiture pour aller travailler. 50%
-travaillent à plus de 15km de leur domicile.
-
-secteur : se loger
-  - label action : "BAISSER LE CHAUFFAGE"
-  - investissements (note de difficulté de mise en place de l'action suivant les conditions nécessaires) : 1
-    - conditions :
-      - personnelles : pouvoir réduire usage voiture
-      - institutionnelles / réglementaires : infra, aménagement, subventions...
-  - impact (note pour pouvoir placer l'action matrice impact/coût ? en fonction du CO2eq réduits) : 4/5
-    - CO2eq évités : 0.2 kg CO2 eq/km
-    - description / explication : graphe + texte
-  - autres avantages :
-    - financier (euros gagnés) : 144 euros/mois
-    - temps : xxxh/mois
-  - stats : 70% des Français utilisent principalement la voiture pour aller travailler. 50%
-travaillent à plus de 15km de leur domicile.
 
