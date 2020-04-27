@@ -7,9 +7,11 @@
 
 }
 
-.hero-color {
-  background: var(--theme-background-color);
-}
+// .hero-color {
+//   background: var(--theme-background-color);
+// }
+
+
 
 
 
@@ -19,13 +21,12 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  background: linear-gradient(0deg, transparent, #B2A7F3)
+
+}
+
+.hero__container_landing .color-ecolab-banniere {
   background: linear-gradient(0deg, #e5e7fa, #afa4f3);
-  // padding: var(--space-l);
-  // max-width: 1200px;
-  // margin: 0 auto;
-  // background-image: url("banner-ecolab-landing.png");
-  // background-repeat: no-repeat;
-  // background-size: cover;
 }
 
 .hero h1 {

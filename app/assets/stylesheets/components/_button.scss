@@ -1,3 +1,23 @@
+.btn {
+  padding: 8px 30px ;
+  margin: 10px;
+  text-decoration: none;
+  border-radius: 30px;
+  color: white;
+  width: fit-content;
+}
+
+.btn-grey {
+background-color: GREY;
+}
+
+.btn:hover {
+  background-color: #C5CED7;
+  color: grey;
+}
+
+
+
 .btn-flat-download {
   padding: 8px 24px;
   border-radius: 50px;
@@ -24,11 +44,11 @@
 }
 
 .btn-discover.alim {
-  background-color: $red;
+  background-color: $yellow;
 }
 
 .btn-discover.log {
-  background-color: $yellow;
+  background-color: $red;
 }
 
 .btn-discover.trans {
@@ -40,9 +60,12 @@
   color: white;
 }
 
+
+
+
 .btn-discover.simple:hover {
   background-color: $light-gray;
-  color: black;
+  color: black !important;
   text-decoration: none;
 }
 

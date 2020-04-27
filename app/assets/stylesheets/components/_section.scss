@@ -15,7 +15,7 @@
 .section-produit {
   padding-left: 10vw;
   padding-top: 20px;
-  background-color: #B2A7F3;
+  background-color: transparent;
 }
 
 .section-produit#trans {
@@ -50,6 +50,9 @@
   font-family: $body-font;
   font-size: 22px;
   font-weight: bold;
+}
+
+.section-margin {
   max-width: 860px;
   margin: 2rem 0;
 }

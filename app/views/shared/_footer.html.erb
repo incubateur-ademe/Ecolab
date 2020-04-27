@@ -1,7 +1,11 @@
 <footer class="footer" role="contentinfo">
     <div class="container">
       <div class="footer__logo">
-        <img src= <%= image_path('ademe-logo.jpg') %>>
+        <!-- <img src= <%#= image_path('ademe-logo.jpg') %>> -->
+
+        <%= link_to "https://www.ademe.fr/", target: "_blank" do %>
+          <img src="<%= image_path('ademe-logo.jpg') %>"/>
+        <% end %>
         <!-- <div class="footer-reseaux">
           <a href="#"><i class="fab fa-github"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>

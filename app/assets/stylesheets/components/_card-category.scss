@@ -55,6 +55,15 @@
   justify-content: center;
 }
 
+.d-flex .card-category {
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  margin: 121px 63px 51px 36px;
+}
+
 
 .card-container {
   background-color: white;
@@ -67,7 +76,7 @@
   text-align: center;
   color: white;
   padding: 10px 15px;
-  font-size: 16px;
+  font-size: 25px;
   // font-weight: normal;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   border-radius: 5px;
