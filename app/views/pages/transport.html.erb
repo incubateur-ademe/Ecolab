@@ -8,60 +8,56 @@
         <div class="texts-banner">
           <h1 class="banner_title-trans">L'impact des déplacements sur le climat</h1>
           <%#= render '/shared/search-bar' %>
-          <p class="banner_subtitle">Chiffrer son impact et adapter la mobilité quotidienne à des modes de transport moins émetteurs en carbone.</p>
+          <p class="banner_subtitle">Des données ouvertes pour une mobilité moins émettrice en CO2.</p>
 
-
-            <%= link_to "Article de blog", 'https://ecolab.ademe.fr/blog/transport/impact-carbone-mobilite-eco-deplacement.md', target: "_blank", class:"btn btn-grey mt-3" %>
+          <div class="how">
+            <%= link_to "Mieux comprendre les enjeux", 'https://ecolab.ademe.fr/blog/transport/impact-carbone-mobilite-eco-deplacement.md', target: "_blank" %>
+          </div>
         </div>
       <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
       <img class="images-banner" src="<%= image_path('transport/undraw_Ride_a_bicycle_2yok.svg') %>"/>
     </div>
 </div>
 
-<section class="section">
-  <h2 class="section__title">Découvrez nos premières propositions d’utilisation des données</h2>
+<div style="background-color: white;">
+    <div class="container align-text-center" style="height: fit-content; background-color: white; padding: 4vh; border-radius: 30px;">
+      <h2 class="section__title mt-5 mb-5">PROPOSITION #1 : Encourager le report modal en chiffrant et comparant l’ensemble des modes de transport</h2>
+    <script id="ecolab-transport" data-couleur="purple" src="https://ecolab-transport.netlify.com/iframe.js"></script>
 
-  <div class="element-text">
-    <div class="text-p">
-      <strong class="titre-p mb-2">Des données ouvertes, pour tous</strong>
-      <p>Disponibles en OpenData, ces données  sont libres, en simple consultation, ou pour être réutilisées dans votre service. Base Carbone, publiques et gratuite de “facteurs d'émissions”, ouverte le <strong>04 mai 2020</strong>.</p>
+    </div>
+
+</div>
+
+
+
+<!-- Sections -->
+
+<div class="d-flex flex-column">
+  <div class="section-trans section-demandeur">
+      <img src="<%= image_path('transport/data.svg') %>"/>
+    <div class="text-p d-flex flex-column align-items-center ml-5">
+      <p><strong>Vous aussi participez à nos ateliers utilisateurs et intégrez les données impact environnemental transport</strong></p>
+        <span></span>
+      <p>Sous forme d’iframe ou en ré-utilisant le jeu de donneées format csv, json ou api.</p>
+        <%= link_to "Commencer", 'https://ecolab.gitbook.io/documentation-ecolab/reutiliser-les-donnees-1', target: "_blank", class:"btn btn-grey mt-3" %>
+    </div>
+  </div>
+
+
+  <div class="section-trans section-demandeur">
+    <div class="text-p d-flex flex-column align-items-center ml-5">
+      <p><strong>Vous aussi participez à nos ateliers utilisateurs et intégrez les données impact environnemental transport</strong></p>
+        <span></span>
+      <p>Sous forme d’iframe ou en ré-utilisant le jeu de donneées format csv, json ou api.</p>
+        <%= link_to "Commencer", 'https://ecolab.gitbook.io/documentation-ecolab/reutiliser-les-donnees-1', target: "_blank", class:"btn btn-grey mt-3" %>
       </div>
-    <div class="text-p">
-      <strong class="titre-p mb-2">Des données fiables et en constante évolution</strong>
-      <p>Ces données sont directement mis à disposition par les opérateurs de transports dans le cadre de l’information GES, le calculateur de la Direction générale de l'aviation civile, calculées à partir de statistiques nationales et modélisées : bus, cars, deux-roues motorisées.
-      </p>
-    </div>
-    <div class="text-p">
-      <strong class="titre-p mb-2">Objectif : vers la neutralité carbone en 2050</strong>
-      <p>Communiquer sur les enjeux d'une mobilité bas carbone au grand public, comprendre la mesure des kg et tonnes de CO2 équivalents et encourager le report modal pour diminuer les émissions du transport.</p>
-    </div>
+      <img src="<%= image_path('transport/data.svg') %>"/>
   </div>
-
-  <div class="place-du-button-et-lien">
-      <%= link_to "Lien vers le dépôt Github", 'https://github.com/betagouv/ecolab-transport', target:"_blank", class:"btn btn-grey mt-3" %>
-    <div class="how">
-      <%= link_to "Fichier données", "https://github.com/betagouv/ecolab-transport/blob/master/ges-transport.yaml" %>
-    </div>
-  </div>
-
-</section>
-
-
-
-<div class="container" style="height: fit-content; background-color: white; padding: 4vh; border-radius: 30px; margin-top: 11vh; margin-bottom: 11vh;">
-<script id="ecolab-transport" data-couleur="purple" src="https://ecolab-transport.netlify.com/iframe.js"></script>
-
 </div>
 
-<div class="section-trans section-demandeur">
-    <img src="<%= image_path('transport/data.svg') %>"/>
-  <div class="text-p d-flex flex-column align-items-center ml-5">
-    <p><strong>Vous aussi participez à nos ateliers utilisateurs et intégrez les données impact environnemental transport</strong></p>
-      <span></span>
-    <p>Sous forme d’iframe ou en ré-utilisant le jeu de donneées format csv, json ou api.</p>
-      <%= link_to "Commencer", 'https://ecolab.gitbook.io/documentation-ecolab/reutiliser-les-donnees-1', target: "_blank", class:"btn btn-grey mt-3" %>
 
-</div>
+
+<!-- Re-utilisateurs -->
 
 </div>
 <div class="card-container">
