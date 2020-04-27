@@ -1,33 +1,106 @@
 V0 
+auteurs : 
+  - François Laugier, francois_laugier@outlook.com
+  - ...
+licence : Pour toute utilisation non commerciale, les cartes actions sont sous licence Creative Commons Attribution - Pas d'Utilisation Commerciale - Pas de Modification 4.0 International.
+version : V3 – 24/02/2020.
 
-secteur : se déplacer
-  - label action : "SE DEPLACER A VELO"
-  - investissements (note de difficulté de mide en place de l'action suivant les conditions nécessaires) : 1
-    - conditions necessaires : Pouvoir réduire l'usage de la voiture sur les trajets courts dans la réalité
-  - impact (note pour pouvoir placer l'action matrice impact/coût ? en fonction du CO2eq réduits) : 4/5
-    - CO2eq évités : 0.2 kg CO2 eq/km
-    - description / explication : graphe + texte
-  - autres avantages :
-    - financier (euros gagnés) : 144 euros/mois
-    - temps : xxxh/mois
-  - actions :
-    - 1 : 
-       - ""
-       - impact 
+
+action :
+  - type : individuelle
+  - numéro : 1
+  - secteur : "transport"
+  - titre : "SE DEPLACER A PIEDS OU A VÉLO"
+  - image : url_image
+  - description : 50% des kms en voiture évités sur les trajets du quotidien
+  - effort : 1
+  - conditions :
+    - pouvoir réduire l'usage de la voiture sur les trajets courts dans la réalité
+  - sources : 
+    - explication : Chiffres pour des véhicules avec un passager, moyennés sur différents types de véhicules ; Chiffres pour la marche et le vélo considérant les calories supplémentaires nécessaires pour réaliser l'effort physique
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : 144 euros/mois
+    - temporel : Un Français se déplace en moyenne pendant l’équivalent de 17 jours par an ! En ville, le vélo (15km/h) est légèrement plus rapide que la voiture (14km/h).
+  - sous-actions :
+    - Je m’abonne à un service de vélo (Vélib, Jump,…) ou de trottinette (Lime,…) de libre-service
+      - effort : 1
+    - J’arrête de prendre la voiture pour les trajets de moins de 3 km
+      - effort : 1
+    - Je fais moins de sorties en voiture (par exemple, je pars moins en weekend)
+      - effort : 3
   - stats : 70% des Français utilisent principalement la voiture pour aller travailler. 50% travaillent à plus de 15km de leur domicile.
 
-secteur : se loger
-  - label action : "BAISSER LE CHAUFFAGE"
-  - investissements (note de difficulté de mise en place de l'action suivant les conditions nécessaires) : 1
-    - conditions : Avoir un beau pull chez soi
-  - impact (note pour pouvoir placer l'action matrice impact/coût ? en fonction du CO2eq réduits) : 4/5
-    - CO2eq évités : 0.2 kg CO2 eq/km
-    - description / explication : graphe + texte
-  - autres avantages :
-    - financier (euros gagnés) : 144 euros/mois
-    - temps : xxxh/mois
-  - stats : 70% des Français utilisent principalement la voiture pour aller travailler. 50%
-travaillent à plus de 15km de leur domicile.
+action :
+  - type : individuelle
+  - numéro : 7
+  - secteur : "logement"
+  - titre : "BAISSER LE CHAUFFAGE"
+  - image : url_image
+  - description : 2°C en moins chez soi
+  - effort : 1
+  - conditions :
+    - Avoir un beau pull chez soi
+  - sources : 
+    - explication : Pour l'électricité, on prend en compte un facteur de saisonnalité. Pour les réseaux de chaleur, c'est un moyenne, il faut adapter le chiffre au cas local. En moyenne, 67% de l'énergie consommée par unménage est due au chauffage. 1°C en moins, c'est 7% D'économies d'énergie.
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Le kwh au gaz, au fioul ou à l'électricité coûte respectivement 0,07, 0,09 ou 0,18€. Moins de kwh consommés, ce sont moins d'Euros dépensés !
+    - confort : Il est recommandé de chauffer les pièces à vivre à 19°C et les chambres à 17°C seulement pour un confort optimal. Donc pas besoin de chauffer plus !
+  - sous-actions :
+    - J'éteinds le chauffage quand je ne suis pas chez moi
+      - effort : 1
+    - J'abaisse le chauffage à 19°C dans les pièces à vivre
+      - effort : 2
+    - J'éteinds le chauffage la nuit
+      - effort : 2
+  - stats : La température moyenne de chauffage des logements est de 20,2°C
+
+
+action :
+  - type : individuelle
+  - numéro : 23
+  - secteur : "sensibilisation"
+  - titre : "SENSIBILISER SON ENTOURAGE"
+  - image : url_image
+  - description : Réaliser l'un des défis lancés au dos
+  - effort : 1
+  - sources : 
+    - explication : En temps que membres de cercles sociaux, chacun a une influence par ses comportements sur les autres. Il est possible d'essayer d'utiliser cet impact social pour faire évoluer son entourage afin de l'inciter et l'encourager à rentrer à son tour dans une démarche de réduction de son impact.
+    - type : texte
+  - sous-actions :
+    - Je montre l'exemple sans être moralisateur !
+      - description : Alors qu'une approche moralisatrice ou un reproche est souvent mal perçu et peu productif, le simple fait de montrer l'exemple et de l'assumer peut susciter l'attention naturellement et faire réfléchir.
+    - J'invite à un événement
+      - description : Au lieu d'inviter ses proches à aller au restaurant ou au bar, pourquoi ne pas changer un peu ses habitudes et les inviter à une exposition engagée, à une conférence, à un festival engagé… ou dans un lieu alternatif ?
+    - Je partage des expériences sensorielles
+      - description : Se reconnecter à ses sens et à la Nature peut contribuer à prendre du recul par rapport à notre mode de vie et à réaliser qu'il peut être destructeur. Par exemple en faisant une balade en forêt, une séance de sport, de Yoga ou de méditation…
+    - Je partage des connaissances
+      - description : Partager des articles sur les réseaux, prêter ou recommander des livres, proposer des ressources documentaires… permet d'interpeller son entourage et de lui donner les moyens d'en savoir plus sur le sujet s'il le souhaite.
+
+action :
+  - type : collective
+  - numéro : 33
+  - secteur : "transport"
+  - titre : "DÉVELOPPER ET RÉHABILITER LE RÉSEAU FERRÉ"
+  - image : url_image
+  - description : 20% des trajets en voiture reportés sur le train
+  - coût : 2
+  - sources : 
+    - explication : En temps que membres de cercles sociaux, chacun a une influence par ses comportements sur les autres. Il est possible d'essayer d'utiliser cet impact social pour faire évoluer son entourage afin de l'inciter et l'encourager à rentrer à son tour dans une démarche de réduction de son impact.
+    - type : texte
+  - engagements :
+    - La SNBC propose le report modal de 7% vers les transports en commun en 2050, sachant qu’ils prévoient de contenir la demande à une élévation de 26% des voyageurs-km.
+      - type : loi
+  - mesures : 
+    - 3 milliards d'€/an seront investis par SNCF Réseau dès 2020, comme le recommande Négawatt, pour un service de meilleure qualité (plus sûr, plus fiable, plus de flexibilité…).
+    - Rendre l'offre plus visible et attractive localement (adapter les horaires, communiquer, proposer des tarifs solidaires…)
+  - résultats : 
+    - Entre 2015 et 2016, il y a eu une baisse des fréquentations des Intercités de 6,5% et des TER de 2,8%.
+    - La plupart des lignes de train de nuit ont été ces dernières années. 
+
 
 
 Propositions
