@@ -1,0 +1,15 @@
+category / secteur : "transport"
+  - label action : "SE DEPLACER A VELO"
+  - investissements (note de difficulté de mide en place de l'action suivant les conditions nécessaires) : 1/5
+    - conditions :
+      - personnelles : pouvoir réduire usage voiture
+      - institutionnelles / réglementaires : infra, aménagement, subventions...
+  - impact (note pour pouvoir placer l'action matrice impact/coût ? en fonction du CO2eq réduits) : 4/5
+    - CO2eq évités : 0.2 kg CO2 eq/km
+    - description / explication : graphe + texte
+  - autres avantages :
+    - financier (euros gagnés) : 144 euros/mois
+    - temps : xxxh/mois
+  - stats : 70% des Français utilisent principalement la voiture pour aller travailler. 50%
+travaillent à plus de 15km de leur domicile.
+
