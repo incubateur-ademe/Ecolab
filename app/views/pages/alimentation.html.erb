@@ -55,54 +55,49 @@
 
 </section>
 
-    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-      <li class="nav-item nav-bar">
-        <a class="nav-link active step pills-color" id="pills-first-tab" data-toggle="pill" href="#pills-first" role="tab" aria-controls="pills-first" aria-selected="true">1</a>
-      </li>
+<ul class="nav nav-pills" id="pills-tab" role="tablist">
 
-      <li class="nav-item nav-bar">
-        <a class="nav-link step pills-color" id="pills-second-tab" data-toggle="pill" href="#pills-second" role="tab" aria-controls="pills-second" aria-selected="false">2</a>
-      </li>
+    <li class="nav-item nav-bar">
+        <a class="nav-link active step pills-color" id="pills-first-tab" data-toggle="pill" href="#pills-first" role="tab" aria-controls="pills-first" aria-selected="true">Proposition 1 (dummy data)</a>
+    </li>
+
+    <li class="nav-item nav-bar">
+        <a class="nav-link step pills-color" id="pills-second-tab" data-toggle="pill" href="#pills-second" role="tab" aria-controls="pills-second" aria-selected="false">Proposition 2</a>
+    </li>
+
+<!--     <li class="nav-item nav-bar">
+        <a class="nav-link step pills-color" id="pills-third-tab" data-toggle="pill" href="#pills-third" role="tab" aria-controls="pills-third" aria-selected="false">Proposition 3</a>
+    </li> -->
 
 
-      <li class="nav-item nav-bar">
-        <a class="nav-link step pills-color" id="pills-third-tab" data-toggle="pill" href="#pills-third" role="tab" aria-controls="pills-third" aria-selected="false">3</a>
-      </li>
+</ul>
 
-
-    </ul>
 
 <div class="tab-content" id="pills-tabContent">
 
-<!-- PAGE 1-->
   <div class="tab-pane fade show active" id="pills-first" role="tabpanel" aria-labelledby="pills-first-tab">
+    <div class="container align-text-center">
+      <h4 class="p-4">Calcule l'impact CO2 de ton alimentation (teste avec "porc", "fraise" et "boeuf" 😬)</h4>
+      <iframe width="800" height="1200" src="https://food-co2.herokuapp.com/" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <h1>hello 1 </h1>
+    </div>
   </div>
 
-<!-- PAGE 2-->
   <div class="tab-pane fade" id="pills-second" role="tabpanel" aria-labelledby="pills-second-tab">
+    <div class="container align-text-center">
+      <h4 class="p-4">Une simple recherche de fruit ou légume et l'app vous informe si le mois en cours est la saison pour celui-ci</h4>
+      <div id="iframe1">
+        <iframe name="iframe1" width="800" height="500" class="ml-5 mb-5" src="https://fruit-leg-saisons.herokuapp.com/">
+        <iframe>
+      </div>
 
-        <h1>hello 2 </h1>
+    </div>
   </div>
 
-  <!-- PAGE 3-->
-    <div class="tab-pane fade" id="pills-third" role="tabpanel" aria-labelledby="pills-third-tab">
-
-          <h1>hello 3 </h1>
-    </div>
 
 </div>
 
-<div style="background-color: white;">
-    <div class="container align-text-center" style="height: fit-content; background-color: white; padding: 4vh; border-radius: 30px; border: none;">
-      <h2 class="section__title mt-5 mb-5">PROPOSITION #1 : Des fruits et légumes de saison</h2>
-    <iframe width="1000" height="600" class="ml-5 mb-5" src="https://fruit-leg-saisons.herokuapp.com/">
-    <iframe>
 
-    </div>
-
-</div>
 
 <%= render '/shared/newsletter' %>
 
