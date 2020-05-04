@@ -21,7 +21,15 @@
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  background-color: $light-blue;
+
+}
+
+.section-trans-droite {
+    background-color: $light-blue;
+}
+
+.section-trans-gauche {
+    background-color: #CEF3EA;
 }
 
 .section-trans p {

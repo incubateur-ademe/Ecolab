@@ -79,3 +79,15 @@
   color: black;
   font-weight: bold;
 }
+
+.how {
+  text-decoration: underline;
+  color: $gray;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+
+.how:hover {
+  color: black;
+  font-weight: bold;
+}
