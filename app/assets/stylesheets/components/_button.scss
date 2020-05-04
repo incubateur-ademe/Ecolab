@@ -90,10 +90,14 @@ background-color: GREY;
 
 .btn a {
   text-decoration: none;
-  color: white;
+  color: grey;
 }
 
 
+.btn-discover.simple a:hover {
+  color: black !important;
+  text-decoration: none;
+}
 
 .btn-discover.simple:hover {
   background-color: $light-gray;
