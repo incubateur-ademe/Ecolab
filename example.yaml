@@ -1,0 +1,621 @@
+auteurs : 
+  - François Laugier, francois_laugier@outlook.com
+licence : Pour toute utilisation non commerciale, les cartes actions sont sous licence Creative Commons Attribution - Pas d'Utilisation Commerciale - Pas de Modification 4.0 International.
+version : V3 – 24/02/2020.
+
+action :
+  - type : individuelle
+  - numéro : 1
+  - secteur : "transport"
+  - titre : "SE DEPLACER A PIEDS OU A VÉLO"
+  - image : url_image
+  - description : 50% des kms en voiture évités sur les trajets du quotidien
+  - effort : 1
+  - conditions :
+    - pouvoir réduire l'usage de la voiture sur les trajets courts dans la réalité
+  - sources : 
+    - explication : Chiffres pour des véhicules avec un passager, moyennés sur différents types de véhicules ; Chiffres pour la marche et le vélo considérant les calories supplémentaires nécessaires pour réaliser l'effort physique
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : 144 euros/mois
+    - temporel : Un Français se déplace en moyenne pendant l’équivalent de 17 jours par an ! En ville, le vélo (15km/h) est légèrement plus rapide que la voiture (14km/h).
+  - stats : 70% des Français utilisent principalement la voiture pour aller travailler. 50% travaillent à plus de 15km de leur domicile.
+  - sous-actions :
+    - Je m’abonne à un service de vélo (Vélib, Jump,…) ou de trottinette (Lime,…) de libre-service
+      - effort : 1
+    - J’arrête de prendre la voiture pour les trajets de moins de 3 km
+      - effort : 1
+    - Je fais moins de sorties en voiture (par exemple, je pars moins en weekend)
+      - effort : 3
+
+action :
+  - type : individuelle
+  - numéro : 2
+  - secteur : "transport"
+  - titre : "REMPLACER LA VOITURE PAR LES TRANSPORTS EN COMMUN"
+  - image : url_image
+  - description : 50% des kms en voiture remplacés sur les trajets du quotidien
+  - effort : 2
+  - conditions :
+    - Pouvoir substituer la voiture par des transports en commun dans la réalité
+  - sources : 
+    - explication : Chiffres pour des véhicules avec un passager, moyennés sur différents types de véhicules ; Chiffres pour les transports en commun par passagers pour des taux de remplissage moyen, en considérant les technologies actuelles
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Sur de courtes distances, 1 km coûte environ 10 centimes en transports en commun contre 27 centimes en voiture.
+    - temporel : Pas d’énervements dans les bouchons. Pas de galère pour se garer. Souvent plus rapide en journée dans les grandes villes.
+  - stats : 8% des Français n’utilisent jamais de voiture au quotidien.
+  - sous-actions :
+    - J’installe une application pour m’aider à prendre les transports en commun en ville (Citymapper,…)
+      - effort : 1
+    - Je remplace la voiture pour les trajets qui ne sont pas plus longs en transport en commun
+      - effort : 2
+    - Je fais des vacances sans voiture
+      - effort : 3
+
+action :
+  - type : individuelle
+  - numéro : 3
+  - secteur : "transport"
+  - titre : "FAIRE PLUS DE COVOITURAGE"
+  - image : url_image
+  - description : 3 passagers en moyenne
+  - effort : 3
+  - conditions :
+    - S'associer avec un autre participant pour faire du covoiturage
+  - sources : 
+    - explication : Chiffres pour une voiture à essence moyenne
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Cela permet de partager les frais du trajet.
+    - bien-être : C'est l'occasion de rencontrer de nouvelles personnes, et pouvoir partager les heures de conduite sur les trajets longs en cas de fatigue.
+  - stats : Bien que la moyenne du nombre de passagers pour les trajets journaliers soit de 1,2 passagers, 19% des Français affirment faire du covoiturage ou de l'autopartage.
+  - sous-actions :
+    - Je cherche des covoitureurs pour mes trajets longue distance (à l’aide de Blablacar par exemple)
+      - effort : 1
+    - J’accepte les auto-stoppeurs
+      - effort : 1
+    - Je cherche des covoitureurs pour mes trajets domicile-travail (à l’aide de Mobicoop par exemple)
+      - effort : 1
+
+action :
+  - type : individuelle
+  - numéro : 4
+  - secteur : "transport"
+  - titre : "FAIRE PLUS DE TÉLÉTRAVAIL"
+  - image : url_image
+  - description : 2 jours de télétravail par semaine
+  - effort : 1
+  - conditions :
+    - Faire très rarement du télétravail dans la réalité
+  - sources : 
+    - explication : Chiffres pour des véhicules avec un passager, moyennés sur différents types de véhicules ; Chiffres pour la marche et le vélo considérant les calories supplémentaires nécessaires pour réaliser l'effort physique
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Un Français dépense en moyenne 144€/mois dans les transports quotidiens.
+    - bien-être : Mois de temps perdu dans les transports, moins de stress, plus d'autonomie, moins d'interruptions des collaborateurs…
+  - stats : 8% des Français n’utilisent jamais de voiture au quotidien.
+  - sous-actions :
+    - Je demande l'avis de mes collaborateurs sur le télétravail
+      - effort : 1
+    - Je réfléchis aux avantages et inconvénients pour préparer l'échange avec mon employeur
+      - effort : 1
+    - Je demande l'autorisation à mon employeur
+      - effort : 2
+
+action :
+  - type : individuelle
+  - numéro : 5
+  - secteur : "transport"
+  - titre : "FAIRE DE L'ECO-CONDUITE"
+  - image : url_image
+  - description : Application des principaux gestes de l'éco-conduite
+  - effort : 1
+  - conditions :
+    - Se déplacer en voiture #ajoutée
+  - sources : 
+    - explication : Chiffres en considérant que l'éco-conduite peut faire économiser jusqu'à 25% de carburant
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Un litre d’essence ou de gazole coûte de l’ordre de 1,5€. Fais le calcul de tes économies sur une année.
+    - bien-être : Eviter une conduite rapide et nerveuse peut contribuer à minimiser le stress au volant et réduit les risques d’accident.
+  - stats : Alors que réduire sa vitesse permet d'économiser du carburant, 88% des Français sont opposés à la reconduction de la limitation à 80km/h.
+  - sous-actions :
+    - Je respecte les limites de vitesse
+      - effort : 1
+    Privilégier le frein moteur à la pédale de frein
+      - effort : 1
+    - Eteindre son moteur en cas d’arrêt prolongé
+      - effort : 1
+
+action :
+  - type : individuelle
+  - numéro : 6
+  - secteur : "transport"
+  - titre : "ARRÊTER DE PRENDRE L'AVION"
+  - image : url_image
+  - description : 0 trajets en avion
+  - effort : 3
+  - conditions :
+    - Penser à une destination proche que tu souhaiterais découvrir
+  - sources : 
+    - explication : Voiture considérée comme voiture essence moyenne ; court-courier considéré comme distance < 1000km ; Chiffre trains en France comme moyenne pondérée entre différents types de trains
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - bien-être : Arrêter l'avion, c'est l'occasion d'arrêter le "fast-travel" et les lieux de tourisme de masse.
+    - bien-être : C'est aussi l'occasion de découvrir des paysages et cultures plus locales.
+  - stats : 20% des Français souhaitent partir en vacances d'été à l'étranger, dont 5% hors Europe.
+  - sous-actions :
+    - Je remplace l’avion par le train pour les trajets domestiques
+      - effort : 1
+    - Je divise mon nombre de trajets en avion par 2
+      - effort : 2
+    - Je renonce à des vacances à l’étranger et pour prendre le temps d’apprécier la diversité culturelle et naturelle de la France
+      - effort : 3
+
+action :
+  - type : individuelle
+  - numéro : 7
+  - secteur : "logement"
+  - titre : "BAISSER LE CHAUFFAGE"
+  - image : url_image
+  - description : 2°C en moins chez soi
+  - effort : 1
+  - conditions :
+    - Avoir un beau pull chez soi
+  - sources : 
+    - explication : Pour l'électricité, on prend en compte un facteur de saisonnalité. Pour les réseaux de chaleur, c'est un moyenne, il faut adapter le chiffre au cas local. En moyenne, 67% de l'énergie consommée par unménage est due au chauffage. 1°C en moins, c'est 7% D'économies d'énergie.
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Le kwh au gaz, au fioul ou à l'électricité coûte respectivement 0,07, 0,09 ou 0,18€. Moins de kwh consommés, ce sont moins d'Euros dépensés !
+    - bien-être : Il est recommandé de chauffer les pièces à vivre à 19°C et les chambres à 17°C seulement pour un confort optimal. Donc pas besoin de chauffer plus !
+  - stats : La température moyenne de chauffage des logements est de 20,2°C
+  - sous-actions :
+    - J'éteinds le chauffage quand je ne suis pas chez moi
+      - effort : 1
+    - J'abaisse le chauffage à 19°C dans les pièces à vivre
+      - effort : 2
+    - J'éteinds le chauffage la nuit
+      - effort : 2
+
+action :
+  - type : individuelle
+  - numéro : 8
+  - secteur : "logement"
+  - titre : "CONSOMMER MOINS D'EAU CHAUDE SANITAIRE"
+  - image : url_image
+  - description : Des douches 2 fois plus courtes et des lessives 2 fois moins chaudes
+  - effort : 1
+  - conditions :
+    - ""
+  - sources : 
+    - explication : Si la consommation d'eau liée à l'hygiène représente beaucoup, la consommation d'énergie associée pour la chauffer représente peu. # de la consommation d'énergie globale
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Le kwh au gaz, au fioul ou à l'électricité coûte respectivement 0,07, 0,09 ou 0,18€. Moins de kwh consommés, ce sont moins d'Euros dépensés !
+    - bien-être : Prendre des douches plus courtes, ou se doucher un jour sur deux n'est pas mauvais pour le corps (à condition d'au moins faire la petite toilette).
+  - stats : 57% se douchent tous les jours. Un douche dure en moyenne 9min25.
+  - sous-actions :
+    - J'installe un régulateur de débit dans ma douche
+      - effort : 1
+    - Je coupe l'eau pendant le savonnage
+      - effort : 2
+    - Je réduis la durée de mes douches
+      - effort : 3
+
+action :
+  - type : individuelle
+  - numéro : 9
+  - secteur : "logement"
+  - titre : "ÉCONOMISER DE L’ÉLECTRICITÉ"
+  - image : url_image
+  - description : Appareils en veille débranchés, réfrigérateur dégivré et lave-vaisselle en mode "éco"
+  - effort : 1
+  - conditions :
+    - ""
+  - sources : 
+    - explication : *En ne considérant que la consommation d'électricité liée à l'éclairage et à l'alimentation des appareils électroniques et électroménagers
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Le kwh électrique coûte 0,18€. Moins de kwh consommés, ce sont moins d'Euros dépensés !
+    - bien-être : Finis les petits voyants de veille qui t'empêchent de dormir !
+  - stats : 52% prétendent éteindre les appareils électriques qui restent en veille.
+  - sous-actions :
+    - Je débranche mes appareils en veille, si besoin au moyen d'une multiprise avec interrupteur
+      - effort : 1
+    - J'utilise mon lave-vaisselle en mode "éco"
+      - effort : 2
+    - Je dégivre mon réfrigérateur tous les 3 mois
+      - effort : 2
+
+action :
+  - type : individuelle
+  - numéro : 10
+  - secteur : "logement"
+  - titre : "SE FOURNIR EN ÉLECTRICITÉ ALTERNATIVE"
+  - image : url_image
+  - description : Souscription à une offre d'électricité "verte"
+  - effort : 1
+  - conditions :
+    - Connaître au moins un fournisseur "vert"
+  - sources : 
+    - explication : Ces facteurs d'émission ne considèrent pas l'intermittence de certaines sources d'énergie, ce qui rend cette comparaison difficile à interpréter.
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : La production d'électricité "verte" est souvent plus chère que la production d'électricité conventionnelle. Mais les prix du kwh et de l'abonnement varient selon les fournisseurs.
+    - engagement : Les offres alternatives avantagent les producteurs d'énergies "renouvelables", ce qui exclue le nucléaire. Elles sont aussi un moyen de lutter contre le nucléaire.
+  - stats : Les offres de Garantie d’Origine représentent un peu moins de 10% de la consommation d’électricité française.
+  - sous-actions :
+    - Je me renseigne sur les différentes offres
+      - effort : 1
+    - Je change de fournisseur
+      - effort : 2
+    - J'en parle et je propose des parrainages à mon entourage
+      - effort : 2
+
+action :
+  - type : individuelle
+  - numéro : 11
+  - secteur : "logement"
+  - titre : "MUTUALISER SON LOGEMENT"
+  - image : url_image
+  - description : 1 habitant en plus dans son logement
+  - effort : 3
+  - conditions :
+    - S'associer avec un autre participant pour faire une colocation
+  - sources : 
+    - explication : Selon l'INSEE en 2013.
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Le prix moyen du loyer est de 13 ou 23€/m2, respectivement en France et en Ile-de-France.
+    - bien-être : La colocation a les avantages et inconvénients de la vie en communauté !
+  - stats : Le nombre moyen d'habitants par ménage est d'environ 2,3. La taille moyenne d'un logement est de 90m2.
+  - sous-actions :
+    - Je mutualise les appareils rarement utilisés (par exemple avec l'application Mutum) #faire une fiche à part
+      - effort : 1
+    - J'offre ponctuellement l'hospitalité à mon entourage ou à des inconnus (par exemple avec Couchsurfing)
+      - effort : 2
+    - J'aménage une chambre en location (Par exemple pour des locations Airbnb ou une colocation permanente)
+      - effort : 3
+
+action :
+  - type : individuelle
+  - numéro : 12
+  - secteur : "biens et services"
+  - titre : "ALLONGER LA DURÉE DE VIE DES APPAREILS"
+  - image : url_image
+  - description : Appareils électriques et électroménagers gardés 2 fois plus longtemps
+  - effort : 2
+  - conditions :
+    - Savoir ou trouver un repair café près de chez soi #très restrictif ; une partie de la fiche est possible sans
+  - sources : 
+    - explication : En considérant des appareils moyens, en considérant les impacts carbone sur l'ensemble du cycle de vie
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Moins d'achats, et malgré quelques éventuelles réparations qui peuvent avoir un coût, beaucoup d'économies au global
+    - engagement : Souvent, nous choisissons de changer nos appareils alors qu’ils sont encore fonctionnels.
+  - stats : Français gardent leur téléphone 2 ans, alors qu’il fonctionne très bien pendant 3 ans, qu’il fonctionne jusqu'à 5 ans malgré quelques dysfonctionnements, puis qu'il peut durer jusqu’à 10 ans (en remplaçant la batterie).
+  - sous-actions :
+    - Je prends soin de mes appareils
+      - effort : 1
+    - Je fais réparer mes appareils cassés (par exemple dans un repair-café)
+      - effort : 2
+    - J’achète d’occasion ou reconditionné (par exemple, via BackMarket)
+      - effort : 3 #moins difficile que le repair café, à inverser ?
+
+action :
+  - type : individuelle
+  - numéro : 13
+  - secteur : "biens et services"
+  - titre : "ACHETER MOINS DE VÊTEMENTS NEUFS"
+  - image : url_image
+  - description : 2 fois moins d'achats de vêtements neufs
+  - effort : 2
+  - conditions :
+    - Savoir ou trouver une friperie près de chez soi #exclu les applis évoquées ensuite
+  - sources : 
+    - explication : En considérant des types de vêtements, en considérant les impacts carbone sur l'ensemble du cycle de vie
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Un Français dépense en moyenne environ 80€ par mois dans les articles d'habillements et chaussures.
+    - engagement : Réduire sa conso de textile permet de lutter contre d'autres problèmes : pollution et surconsommation d'eau, déchets, pesticides…
+  - stats : On achète environ 60 % de plus de vêtements qu'il y a 15 ans, mais ils durent deux fois moins longtemps.
+  - sous-actions :
+    - Je revends mes vêtements inutilisés sur des applis comme Vinted
+      - effort : 1
+    - La prochaine fois que j’ai envie de faire du shopping, je me retiens
+      - effort : 2
+    - La prochaine fois que j’ai besoin de nouveaux vêtements, j’essaie une friperie
+      - effort : 3
+
+action :
+  - type : individuelle
+  - numéro : 14
+  - secteur : "biens et services"
+  - titre : "REDUIRE L'USAGE DU NUMERIQUE"
+  - image : url_image
+  - description : 2 fois moins de données consommées
+  - effort : 1
+  - conditions :
+    - Connaître une façon de réduire sa consommation de données
+  - sources : 
+    - explication : En considérant des usages moyens, en France. Selon the Shift Project, la consommation d'1 MO en France émet 0,03g eqCO2.
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - temporel : Les écrans prennent de plus en plus de place dans notre temps libre, laissant de moins en moins de place aux relations sociales et aux expériences et temps de vie non virtuels.
+    - bien-être : Beaucoup des usages du numérique ne contribuent pas à rendre heureux. Certains sont même addictifs.
+  - stats : Un Français regarde en moyenne 5h de streaming par semaine.
+  - sous-actions :
+    - J’écoute de la musique autrement que sur Youtube (Soundcloud, Spotify, Deezer…)
+      - effort : 1
+    - Je réduis la qualité de visionnage des vidéos que je regarde
+      - effort : 2
+    - Je me désabonne de Netflix
+      - effort : 3
+
+action :
+  - type : individuelle
+  - numéro : 15
+  - secteur : "alimentation"
+  - titre : "DEVENIR FLEXITARIEN"
+  - image : url_image
+  - description : Manger de la viande et du poisson 2 fois par semaine seulement
+  - effort : 4
+  - conditions :
+    - ""
+  - sources : 
+    - explication : Ces facteurs d'émissions sont déduis des menus des repas, qui ont été élaborés par l'ADEME de manière à respecter les besoin d'apports journaliers moyens pour un adulte.
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Un régime végétarien coûterait 1/3 moins cher qu’un régime à base de protéines alimentaires.
+    - santé : Manger trop de viande est mauvais pour la santé. A l’inverse, pour certains, en manger trop peu devient aussi mauvais pour la santé.
+  - stats : Environ 5% des Français sont végétariens ou végans.
+  - sous-actions :
+    - Je relève le défi des lundis sans viande
+      - effort : 1
+    - J’essaie des recettes végétariennes (plein d’idées à trouver sur Internet)
+      - effort : 2
+    - J’évite d’acheter de la viande la prochaine fois que je fais les couses
+      - effort : 3
+
+action :
+  - type : individuelle
+  - numéro : 16
+  - secteur : "alimentation"
+  - titre : "REMPLACER LA VIANDE ROUGE PAR DE LA VIANDE BLANCHE"
+  - image : url_image
+  - description : Toute la viande rouge remplacée par de la viande blanche
+  - effort : 2
+  - conditions :
+    - ""
+  - sources : 
+    - explication : En considérant des produits moyens sur l'ensemble de leur cycle de vie
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : La viande rouge est en moyenne plus de 2 fois plus chère que la viande blanche.
+    - santé : La viande rouge et la charcuterie ont des conséquences négatives sur la santé si elles sont consommées en trop grande quantité
+  - stats : 13% envisagent de réduire leur conso de viande rouge et de charcuterie.
+  - sous-actions :
+    - J'essaie les burgers végétariens ou au poulet
+      - effort : 1
+    - Je m'autorise 1 pièce de viande rouge par mois
+      - effort : 2
+    - Je n'achète plus de viande rouge
+      - effort : 3
+
+action :
+  - type : individuelle
+  - numéro : 17
+  - secteur : "alimentation"
+  - titre : "MANGER MOINS D’OEUFS ET DE PRODUITS LAITIERS"
+  - image : url_image
+  - description : 3 fois moins d'oeufs et de produits laitiers
+  - effort : 4
+  - conditions :
+    - ""
+  - sources : 
+    - explication : En considérant des produits moyens sur l'ensemble de leur cycle de vie. Attention, ici l'interprétation est difficile car ces aliments ne se consomment pas en quantités égales.
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Un régime végétarien coûterait 1/3 moins cher qu’un régime à base de protéines alimentaires.
+    - santé : Les produits laitiers apportent du calcium et des micronutriments. Trop réduire peut devenir mauvais pour certains.
+  - stats : 5% des Français sont végétariens ou végans.
+  - sous-actions :
+    - J’évite d’acheter du fromage pour l’apéro mais plutôt par exemple des produits à tartiner
+      - effort : 1
+    - Je réduis progressivement ma consommation de lait #pour du lait végétal
+      - effort : 2
+    - Je prends l’habitude de cuisiner sans crème
+      - effort : 2
+
+action :
+  - type : individuelle
+  - numéro : 18
+  - secteur : "alimentation"
+  - titre : "FAIRE LA CUISINE"
+  - image : url_image
+  - description : Achats de produits transformés limités à 5% de sa consommation
+  - effort : 3
+  - conditions :
+    - ""
+  - sources : 
+    - explication : En considérant seulement des portions d'une personne, et non un repas complet comprenant potentiellement plusieurs plats préparés. A comparer avec l'empreinte carbone d'un repas moyen.
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Les prix des plats préparés sont très variables, mais sont généralement minorés par les prix des ingrédients achetés séparément.
+    - santé : Les plats préparés contiennent souvent des additifs mauvais pour la santé, sont très calorifiques et peu nutritifs.
+  - stats : 5% de ce qu'on mange est déjà préparé en moyenne.
+  - sous-actions :
+    - Je privilégie les plats du'un traiteur ou d'un restaurant plutôt que les plats préparés des grandes surfaces
+      - effort : 1
+    - Je n'achète plus de plats surgelés
+      - effort : 2
+    - Je prépare à manger pour plusieurs jours et utilise des tupperwares
+      - effort : 3
+
+action :
+  - type : individuelle
+  - numéro : 19
+  - secteur : "alimentation"
+  - titre : "MANGER LOCAL ET DE SAISON"
+  - image : url_image
+  - description : 90% de fruits et légumes achetés locaux et de saison
+  - effort : 1
+  - conditions :
+    - ""
+  - sources : 
+    - explication : En considérant la moyenne pour un ensemble de fruits et légumes
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - santé : Ces produits sont souvent plus frais et meilleurs pour la santé !
+    - engagement : Manger local permet de soutenir les producteurs locaux.    
+  - stats : En France, environ 50% des fruits et légumes consommés sont importés.
+  - sous-actions :
+    - Je fais attention à la provenance des produits en magasin
+      - effort : 1
+    - J'imprime un calendrier des fruits et légumes de saison que je garde avec moi lorsque je fais les courses
+      - effort : 1
+    - Je m'inscris à une AMAP
+      - effort : 3
+
+action :
+  - type : individuelle
+  - numéro : 20
+  - secteur : "alimentation"
+  - titre : "CONSOMMER MOINS DE BOISSONS"
+  - image : url_image
+  - description : 2 fois moins de boissons consommées
+  - effort : 3
+  - conditions :
+    - ""
+  - sources : 
+    - explication : En considérant des produits moyens sur l'ensemble de leur cycle de vie, pour des portions moyennes selon les boissons
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : En moyenne, un Français dépense respectivement environ 80, 190 et 420€/an dans les boissons chaudes, les sodas et jus, ainsi que dans les boissons alcoolisées.
+    - santé : Ces boissons sont souvent toxiques pour notre santé lorsqu'elles sont consommées en trop grande quantité (ce qui est souvent le cas).
+  - stats : Un Français consomme environ 12L d'alcool et 50L de boisson sucrée par an.
+  - sous-actions :
+    - Je dilue mes jus de fruit avec de l'eau
+      - effort : 1
+    - Je me fixe 1 ou plusieurs jours par semaine sans café
+      - effort : 2
+    - Je m'autorise à boire de l'alcool un nombre limité de fois par semaine
+      - effort : 3
+
+action :
+  - type : individuelle
+  - numéro : 21
+  - secteur : "alimentation"
+  - titre : "RÉDUIRE LES EMBALLAGES ALIMENTAIRES"
+  - image : url_image
+  - description : 2 fois moins d'emballages
+  - effort : 2
+  - conditions :
+    - ""
+  - sources : 
+    - explication : Composition massique moyenne d'une poubelle d'un ménage français. Les emballages représentent plus de 30% de la masse, et plus de 50% du volume d'une poubelle.
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - financier : Acheter en vrac n’est globalement pas moins cher, cela dépend des produits et des magasins.
+    - engagement : Ces emballages ont nécessité de l’énergie et des matières premières pour être produits. Et en fin de vie, certains sont mal gérés et participent à la pollution (plastique dans les océans, décharges à ciel ouvert…).
+  - stats : Près de 40% des Français disent acheter au moins occasionnellement en vrac, et les quantités d’emballages ont tendance à très légèrement diminuer depuis 10 ans.
+  - sous-actions :
+    - Je fais mes courses avec un cabas et des sacs réutilisés
+      - effort : 1
+    - Je bois l'eau du robinet #et non en bouteille
+      - effort : 2
+    - J'achète les céréales et produits secs en vrac
+      - effort : 3
+
+action :
+  - type : individuelle
+  - numéro : 22
+  - secteur : "alimentation"
+  - titre : "MANGER BIO"
+  - image : url_image
+  - description : 50% de nourriture acheté bio
+  - effort : 2
+  - conditions :
+    - ""
+  - sources : 
+    - explication : En considérant des produits moyens. "Conv" signifie conventionnel. On constate qu'il ne semble pas y avoir de corrélation entre l'impact carbone et le fait que ce soit bio ou conventionnel.
+    - type : graphe
+    - image : url_image
+  - avantages :
+    - santé : De nombreux effets prouvés ou discutés, comme la réduction des risques d’obésité et de certaines maladies chroniques, de l’exposition aux pesticides, la protection du développement cognitif de l’enfant…
+    - engagement : Privilégier le bio, c’est refuser l’usage des pesticides, première cause de la sixième extinction de masse en cours. C’est aussi éviter l’usage d’engrais, responsables de la pollution des sols et des eaux.
+  - stats : 5% des achats alimentaires des ménages sont des produits bio.
+  - sous-actions :
+    - Je m'informe sur les labels bio
+      - effort : 1
+    - Je choisis des produits que je décide d'acheter bio (par exemple les biscuits, le café…)
+      - effort : 2
+    - Je m'inscris à une AMAP et je choisis des producteurs bio
+      - effort : 3
+
+action :
+  - type : individuelle
+  - numéro : 23
+  - secteur : "sensibilisation"
+  - titre : "SENSIBILISER SON ENTOURAGE"
+  - image : url_image
+  - description : Réaliser l'un des défis lancés au dos
+  - effort : 1
+  - sources : 
+    - explication : En temps que membres de cercles sociaux, chacun a une influence par ses comportements sur les autres. Il est possible d'essayer d'utiliser cet impact social pour faire évoluer son entourage afin de l'inciter et l'encourager à rentrer à son tour dans une démarche de réduction de son impact.
+    - type : texte
+  - sous-actions :
+    - Je montre l'exemple sans être moralisateur !
+      - description : Alors qu'une approche moralisatrice ou un reproche est souvent mal perçu et peu productif, le simple fait de montrer l'exemple et de l'assumer peut susciter l'attention naturellement et faire réfléchir.
+    - J'invite à un événement
+      - description : Au lieu d'inviter ses proches à aller au restaurant ou au bar, pourquoi ne pas changer un peu ses habitudes et les inviter à une exposition engagée, à une conférence, à un festival engagé… ou dans un lieu alternatif ?
+    - Je partage des expériences sensorielles
+      - description : Se reconnecter à ses sens et à la Nature peut contribuer à prendre du recul par rapport à notre mode de vie et à réaliser qu'il peut être destructeur. Par exemple en faisant une balade en forêt, une séance de sport, de Yoga ou de méditation…
+    - Je partage des connaissances
+      - description : Partager des articles sur les réseaux, prêter ou recommander des livres, proposer des ressources documentaires… permet d'interpeller son entourage et de lui donner les moyens d'en savoir plus sur le sujet s'il le souhaite.
+
+action :
+  - type : collective
+  - numéro : 33
+  - secteur : "transport"
+  - titre : "DÉVELOPPER ET RÉHABILITER LE RÉSEAU FERRÉ"
+  - image : url_image
+  - description : 20% des trajets en voiture reportés sur le train
+  - coût : 2
+  - sources : 
+    - explication : En temps que membres de cercles sociaux, chacun a une influence par ses comportements sur les autres. Il est possible d'essayer d'utiliser cet impact social pour faire évoluer son entourage afin de l'inciter et l'encourager à rentrer à son tour dans une démarche de réduction de son impact.
+    - type : texte
+  - engagements :
+    - La SNBC propose le report modal de 7% vers les transports en commun en 2050, sachant qu’ils prévoient de contenir la demande à une élévation de 26% des voyageurs-km.
+      - type : loi
+  - mesures : 
+    - 3 milliards d'€/an seront investis par SNCF Réseau dès 2020, comme le recommande Négawatt, pour un service de meilleure qualité (plus sûr, plus fiable, plus de flexibilité…).
+    - Rendre l'offre plus visible et attractive localement (adapter les horaires, communiquer, proposer des tarifs solidaires…)
+  - résultats : 
+    - Entre 2015 et 2016, il y a eu une baisse des fréquentations des Intercités de 6,5% et des TER de 2,8%.
+    - La plupart des lignes de train de nuit ont été ces dernières années. 
+
+
+

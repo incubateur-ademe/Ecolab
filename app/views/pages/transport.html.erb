@@ -1,3 +1,12 @@
+<div class="fil-ariane-bar">
+  <p id="accueil" class="fil-ariane-texte"><a href="/">Accueil</a></p>
+    <i class="fas fa-chevron-right"></i>
+  <p class="fil-ariane-texte">Secteur</p>
+    <i class="fas fa-chevron-right"></i>
+  <p class="fil-ariane-texte"><a href="/transport">Se déplacer</a></p>
+</div>
+
+
 
 <div class="hero" role="banner">
     <div class="hero__container hero__container_landing p-5" style="background: linear-gradient(0deg, white, #7DDFC3);">
@@ -30,17 +39,39 @@
 
 
 
-<!-- Sections -->
+
+
+<!-- Section integrer le simulateur -->
 
 <div class="d-flex flex-column">
-  <div class="section-trans section-demandeur">
-      <img src="<%= image_path('transport/data.svg') %>"/>
-    <div class="text-p d-flex flex-column align-items-center ml-5">
+  <div class="section-trans section-trans-droite section-demandeur">
+    <div class="text-p d-flex flex-column align-items-center justofy-content-end mr-5 ml-5">
       <p><strong>Intégrez ce simulateur directement à votre site</strong></p>
         <span></span>
-      <p>Intégrez notre simulateur chez vous, par exemple rendre un article de blog plus intéractif pour le lecteur, simplement en ajoutant une ligne à votre page Web. Le module restera automatiquement à jour avec les données les plus récentes.
+      <p>Intégrez notre module de calcul chez vous, par exemple rendre un article de blog plus intéractif pour le lecteur, simplement en ajoutant cette ligne à votre page Web. Le module restera automatiquement à jour avec les données les plus récentes.
       </p>
-        <%= link_to "Commencer", 'https://ecolab.gitbook.io/documentation-ecolab/reutiliser-les-donnees-1', target: "_blank", class:"btn btn-grey mt-3" %>
+      <code>
+        < script id="ecolab-transport" data-distanceInitiale="29" src="https://ecolab-transport.netlify.app/iframe.js"></script >
+      </code>
+
+        <%= link_to "Documentation", 'https://ecolab.gitbook.io/documentation-ecolab/reutiliser-les-donnees-1', target: "_blank", class:"btn btn-grey mt-3" %>
+    </div>
+      <img  src="<%= image_path('transport/app-wiref.svg') %>"/>
+  </div>
+
+
+<!-- Section données lien vers github -->
+
+<div class="d-flex flex-column">
+  <div class="section-trans section-trans-gauche section-demandeur">
+      <img src="<%= image_path('transport/data.svg') %>"/>
+    <div class="text-p d-flex flex-column align-items-center ml-5">
+      <p><strong>Enrichissez vos produits avec les données </strong></p>
+        <span></span>
+      <p>Accédez aux données CO2 transport utilisées pour le simulateur sous format yaml.
+      </p>
+        <%= link_to "Github", 'https://github.com/betagouv/ecolab-transport/blob/master/ges-transport.yaml', target: "_blank", class:"btn btn-grey mt-3" %>
+        <%= link_to "Autres formats données sur data.ademe.fr", 'https://data.ademe.fr/datasets/ademe-extrait-base-carbone-v14-0', target: "_blank", class:"how mt-3" %>
     </div>
   </div>
 
@@ -58,9 +89,9 @@
 
 
 
-<!-- Re-utilisateurs -->
+<!-- temoignages -->
 
-</div>
+  </div>
 <div class="card-container">
   <p class="card-title">Ils ont intégré notre calculateur</p>
     <div class="d-flex">
@@ -73,7 +104,7 @@
 
         <%= link_to "https://www.ademe.fr/particuliers-eco-citoyens/deplacements/calculer-emissions-carbone-trajets", target: "_blank" do %>
         <div>
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('ademe-logo.jpg') %>); height: 200px !important; background-size: contain !important; background-repeat: no-repeat;">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('logos/ademe-logo.jpg') %>); height: 200px !important; background-size: contain !important; background-repeat: no-repeat;">
           </div>
         </div>
         <% end %>
@@ -88,4 +119,40 @@
       </div>
   </div>
 
+
+<!-- Re-utilisateurs -->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <h2>"Il est très simple d'utilisation et le graphisme basique mais percutant permet de comprendre les résultats d'un coup d'oeil."</h2>
+      <p>Alfaré Aurélien - President - ACCTEES</p>
+      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
+    </div>
+    <div class="carousel-item">
+      <h2>"Simple et pratique à utiliser, on voit bien les quantités émises."</h2>
+      <p>Joachim Robert Design graphique</p>
+      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
+    </div>
+    <div class="carousel-item">
+      <h2>"Calculateur simple, facilement incorporable à un site internet."</h2>
+      <p>Utilisateur</p>
+      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
+
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Prec</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Suiv</span>
+  </a>
+</div>
 

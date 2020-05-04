@@ -21,19 +21,41 @@
   justify-content: space-between;
   text-align: center;
   align-items: center;
-  background-color: $light-green;
+
+}
+
+.section-trans-droite {
+    background-color: $light-blue;
+}
+
+.section-trans-gauche {
+    background-color: #CEF3EA;
 }
 
 .section-trans p {
   width: 700px;
   font-size: 20px;
-  color: white;
+  color: black;
 }
 
-.section-trans img {
+.section-trans-droite p {
+  margin-left: 100px;
+}
+
+.section-trans-droite a {
+  margin-left: 100px;
+}
+
+.section-trans-droite img {
   width: 70vh;
   height: 70%;
-  margin: 1em;
+  margin: -11em;;
+}
+
+.section-trans-gauche img {
+  width: 70vh;
+  height: 70%;
+  margin: 1em;;
 }
 
 

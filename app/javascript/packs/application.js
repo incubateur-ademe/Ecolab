@@ -1,4 +1,5 @@
 import "bootstrap";
+import "bootstrap/dist/js/bootstrap.bundle";
 import Typed from 'typed.js';
 
 
@@ -21,3 +22,4 @@ var typed6 = new Typed('.banner_title', {
     return elem.siblings('.typed-cursor').remove();
     }
   });
+

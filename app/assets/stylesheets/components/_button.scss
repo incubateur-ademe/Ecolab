@@ -1,10 +1,38 @@
 .btn {
   padding: 8px 30px ;
-  margin: 10px;
+  margin: 5px;
   text-decoration: none;
   border-radius: 30px;
   color: white;
   width: fit-content;
+}
+
+
+#dropdownMenuLink {
+  background-color: transparent;
+  border: none;
+  color: black;
+  font-weight: bolder;
+}
+
+.dropdown-item {
+  font-size: 20px !important;
+}
+
+.dropdown-item:hover {
+  color: white;
+}
+
+#dropdown-item-senourrir:hover {
+  background-color: $yellow;
+}
+
+#dropdown-item-seloger:hover {
+  background-color: $pink;
+}
+
+#dropdown-item-sedeplacer:hover {
+  background-color: $green;
 }
 
 .btn-grey {
@@ -60,6 +88,10 @@ background-color: GREY;
   color: white;
 }
 
+.btn a {
+  text-decoration: none;
+  color: white;
+}
 
 
 
@@ -237,4 +269,11 @@ background-color: GREY;
 .button-details-product-fiche a:hover {
  text-decoration: none;
  color: black;
+}
+
+
+/// simulateur
+
+button .App___StyledButton-z647t1-6 .hhrQqI{
+  display: none;
 }

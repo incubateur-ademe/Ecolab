@@ -1,11 +1,15 @@
 <footer class="footer" role="contentinfo">
-    <div class="container">
+    <div class="container p-4">
       <div class="footer__logo">
         <!-- <img src= <%#= image_path('ademe-logo.jpg') %>> -->
-
-        <%= link_to "https://www.ademe.fr/", target: "_blank" do %>
-          <img src="<%= image_path('ademe-logo.jpg') %>"/>
-        <% end %>
+          <%= link_to "https://www.ademe.fr/", target: "_blank" do %>
+              <div>
+                <img src="<%= image_path('logos/Republique_Francaise_RVB.png') %>"/>
+              </div>
+              <div>
+                  <img src="<%= image_path('logos/ademe-logo.jpg') %>"/>
+          <% end %>
+        </div>
         <!-- <div class="footer-reseaux">
           <a href="#"><i class="fab fa-github"></i></a>
           <a href="#"><i class="fab fa-instagram"></i></a>

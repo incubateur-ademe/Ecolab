@@ -16,4 +16,7 @@ class PagesController < ApplicationController
 
   def transport
   end
+
+  def alimentation
+  end
 end
