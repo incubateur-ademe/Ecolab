@@ -21,6 +21,19 @@
       <!-- <button class="border-none " type="button" >
           <%#= link_to "Etudes de cas", batiment_path %>
       </button> -->
+      <div class="dropdown show">
+        <a class="btn btn-secondary dropdown-toggle"  role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Secteur
+        </a>
+
+        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <a class="dropdown-item" id="dropdown-item-senourrir" href="/alimentation">🍽 Se nourrir</a>
+          <a class="dropdown-item" id="dropdown-item-seloger" href="/nouscontacter">🏡 Se loger</a>
+          <a class="dropdown-item" id="dropdown-item-sedeplacer" href="/transport">🚴🏻 Se déplacer</a>
+        </div>
+      </div>
+
+
       <button class="border-none " type="button" >
           <%= link_to "Documentation", "https://ecolab.gitbook.io/documentation-ecolab/", target: "_blank" %>
       </button>
