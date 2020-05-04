@@ -22,4 +22,7 @@ class PagesController < ApplicationController
 
   def vieprivee
   end
+
+  def stats
+  end
 end
