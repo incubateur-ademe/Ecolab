@@ -39,10 +39,27 @@
 
 
 
-<!-- Sections -->
+
+
+<!-- Section integrer le simulateur -->
 
 <div class="d-flex flex-column">
-  <div class="section-trans section-demandeur">
+  <div class="section-trans section-trans-droite section-demandeur">
+    <div class="text-p d-flex flex-column align-items-center justofy-content-end mr-5 ml-5">
+      <p><strong>Intégrez ce simulateur directement à votre site</strong></p>
+        <span></span>
+      <p>Intégrez notre simulateur chez vous, par exemple rendre un article de blog plus intéractif pour le lecteur, simplement en ajoutant une ligne à votre page Web. Le module restera automatiquement à jour avec les données les plus récentes.
+      </p>
+        <%= link_to "Commencer", 'https://ecolab.gitbook.io/documentation-ecolab/reutiliser-les-donnees-1', target: "_blank", class:"btn btn-grey mt-3" %>
+    </div>
+      <img  src="<%= image_path('transport/data.svg') %>"/>
+  </div>
+
+
+<!-- Section données lien vers github -->
+
+<div class="d-flex flex-column">
+  <div class="section-trans section-trans-gauche section-demandeur">
       <img src="<%= image_path('transport/data.svg') %>"/>
     <div class="text-p d-flex flex-column align-items-center ml-5">
       <p><strong>Intégrez ce simulateur directement à votre site</strong></p>
