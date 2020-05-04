@@ -12,6 +12,8 @@
   background-color: white;
 }
 
+
+
 .section-produit {
   padding-left: 10vw;
   padding-top: 20px;
@@ -74,6 +76,18 @@
 }
 
 .how a:hover {
+  color: black;
+  font-weight: bold;
+}
+
+.how {
+  text-decoration: underline;
+  color: $gray;
+  margin-left: 20px;
+  margin-top: 70px;
+}
+
+.how:hover {
   color: black;
   font-weight: bold;
 }

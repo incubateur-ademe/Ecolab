@@ -22,3 +22,4 @@ var typed6 = new Typed('.banner_title', {
     return elem.siblings('.typed-cursor').remove();
     }
   });
+
