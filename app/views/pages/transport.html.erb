@@ -48,11 +48,15 @@
     <div class="text-p d-flex flex-column align-items-center justofy-content-end mr-5 ml-5">
       <p><strong>Intégrez ce simulateur directement à votre site</strong></p>
         <span></span>
-      <p>Intégrez notre simulateur chez vous, par exemple rendre un article de blog plus intéractif pour le lecteur, simplement en ajoutant une ligne à votre page Web. Le module restera automatiquement à jour avec les données les plus récentes.
+      <p>Intégrez notre module de calcul chez vous, par exemple rendre un article de blog plus intéractif pour le lecteur, simplement en ajoutant cette ligne à votre page Web. Le module restera automatiquement à jour avec les données les plus récentes.
       </p>
-        <%= link_to "Commencer", 'https://ecolab.gitbook.io/documentation-ecolab/reutiliser-les-donnees-1', target: "_blank", class:"btn btn-grey mt-3" %>
+      <code>
+        < script id="ecolab-transport" data-distanceInitiale="29" src="https://ecolab-transport.netlify.app/iframe.js"></script >
+      </code>
+
+        <%= link_to "Documentation", 'https://ecolab.gitbook.io/documentation-ecolab/reutiliser-les-donnees-1', target: "_blank", class:"btn btn-grey mt-3" %>
     </div>
-      <img  src="<%= image_path('transport/data.svg') %>"/>
+      <img  src="<%= image_path('transport/app-wiref.svg') %>"/>
   </div>
 
 
@@ -62,11 +66,12 @@
   <div class="section-trans section-trans-gauche section-demandeur">
       <img src="<%= image_path('transport/data.svg') %>"/>
     <div class="text-p d-flex flex-column align-items-center ml-5">
-      <p><strong>Intégrez ce simulateur directement à votre site</strong></p>
+      <p><strong>Enrichissez vos produits avec les données </strong></p>
         <span></span>
-      <p>Intégrez notre simulateur chez vous, par exemple rendre un article de blog plus intéractif pour le lecteur, simplement en ajoutant une ligne à votre page Web. Le module restera automatiquement à jour avec les données les plus récentes.
+      <p>Accédez aux données CO2 transport utilisées pour le simulateur sous format yaml.
       </p>
-        <%= link_to "Commencer", 'https://ecolab.gitbook.io/documentation-ecolab/reutiliser-les-donnees-1', target: "_blank", class:"btn btn-grey mt-3" %>
+        <%= link_to "Github", 'https://github.com/betagouv/ecolab-transport/blob/master/ges-transport.yaml', target: "_blank", class:"btn btn-grey mt-3" %>
+        <%= link_to "Autres formats données sur data.ademe.fr", 'https://data.ademe.fr/datasets/ademe-extrait-base-carbone-v14-0', target: "_blank", class:"how mt-3" %>
     </div>
   </div>
 
