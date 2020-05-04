@@ -19,4 +19,7 @@ class PagesController < ApplicationController
 
   def alimentation
   end
+
+  def vieprivee
+  end
 end
