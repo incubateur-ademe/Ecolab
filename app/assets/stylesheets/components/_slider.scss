@@ -1,0 +1,27 @@
+#carouselExampleIndicators {
+  height: 304px;
+  background-color: #9DE7D4;
+  text-align: center;
+}
+
+.carousel-inner {
+  text-align: center;
+  padding: 60px  ;
+}
+
+.carousel-item h2 {
+  color: white;
+  font-family: sans-serif;
+  font-weight: bolder;
+  padding-left: 90px;
+  padding-right: 90px;
+}
+
+.carousel-item p {
+  color: grey;
+  font-family: sans-serif;
+  font-weight: light;
+  margin-top:30px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
