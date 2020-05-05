@@ -1,0 +1,63 @@
+.reu-container {
+  background-color: white;
+  padding: 10px 0px 10px 10px;
+  text-align: center;
+}
+
+.reu-title {
+  margin-top: 1em;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: sans-serif;
+
+}
+
+.reu-category {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 10px 15px;
+  font-size: 25px;
+  // font-weight: normal;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  // box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.reu-category:hover {
+  // color: #CDD6D6;
+  box-shadow: 0 0 20px rgba(0,0,0,0.98);
+}
+
+.d-flex .reu-category {
+  height: 95px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 380px;
+  margin: 13px 83px 25px 31px;
+}
+
+.reu-category {
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 10px 15px;
+  font-size: 25px;
+  // font-weight: normal;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  // box-shadow: 0 0 15px rgba(0,0,0,0.2);
+}
+
+.reu-category:hover {
+  // color: #CDD6D6;
+  box-shadow: 0 0 20px rgba(0,0,0,0.98);
+}
+
+.category-item {
+  margin-right: 25px;
+  width: 200px;
+}
