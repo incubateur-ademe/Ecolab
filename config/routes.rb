@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   get "/agribalyse", to: "pages#batiment"
   get "/mentions-legales", to: "pages#mentions_legales"
   get "/vieprivee", to: "pages#vieprivee"
+  get "/stats", to: "pages#stats"
   get "/agriba5793lyse2indechiffrable34amoinsdetrerayman6579682", to: "pages#home"
 
   get "/blog", to: "blog#list"
