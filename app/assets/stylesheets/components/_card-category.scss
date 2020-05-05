@@ -55,19 +55,11 @@
   justify-content: center;
 }
 
-.d-flex .card-category {
-  height: 95px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 380px;
-  margin: 121px 63px 51px 36px;
-}
 
 
 .card-container {
   background-color: white;
-  padding: 10px 0px 10px 10px;
+  padding: 5px 0px 5px 5px;
 }
 
 .card-category {
@@ -75,7 +67,7 @@
   background-position: center;
   text-align: center;
   color: white;
-  padding: 10px 15px;
+  padding: 1px 10px;
   font-size: 25px;
   // font-weight: normal;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
