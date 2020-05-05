@@ -9,11 +9,16 @@
               <%= render '/shared/search-bar' %>
             <p class="search_examples">
               Exemples :
-              <%= link_to "Avocat", aliments_path(:query => "Avocat")%>,
-              <%= link_to "Pain", aliments_path(:query => "Pain")%>,
-              <%= link_to "Tomate", aliments_path(:query => "Tomate")%>,
-              <%= link_to "Café", aliments_path(:query => "Café")%>,
-              <%= link_to "Fromage", aliments_path(:query => "Fromage")%>
+              <%#= link_to "Avocat", aliments_path(:query => "Avocat")%>
+              <%#= link_to "Pain", aliments_path(:query => "Pain")%>
+              <%#= link_to "Tomate", aliments_path(:query => "Tomate")%>
+              <%#= link_to "Café", aliments_path(:query => "Café")%>
+              <%#= link_to "Fromage", aliments_path(:query => "Fromage")%>
+              <%= link_to "Avocat", aliment_path(id: 27425)%>,
+              <%= link_to "Pain", aliment_path(id: 27436)%>,
+              <%= link_to "Tomate", aliment_path(id: 27445)%>,
+              <%= link_to "Café", aliment_path(id: 27441)%>,
+              <%= link_to "Fromage de chèvre", aliment_path(id: 27423)%>
               </p>
         <p class="badge-beta ">Version beta</p>
         </div>
@@ -56,13 +61,13 @@
         </div>
         <%# end %>
 
-        <%= link_to aliments_path(:query => "fruits crus") do %>
+        <%#= link_to aliments_path(:query => "fruits crus") do %>
         <div>
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse-FruitsLegumes.jpg') %>)">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-FruitsLegumes.jpg') %>)">
             Fruits & légumes
           </div>
         </div>
-        <% end %>
+        <%# end %>
 
         <%#= link_to aliments_path(:query => "Viandes et poissons") do %>
         <div>
@@ -88,21 +93,21 @@
         </div>
         <%# end %>
 
-        <%= link_to aliments_path(:query => "Boissons") do %>
+        <%#= link_to aliments_path(:query => "Boissons") do %>
         <div>
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('Agribalyse-Boissons.jpg') %>)">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-Boissons.jpg') %>)">
             Boissons
           </div>
         </div>
-        <% end %>
+        <%# end %>
 
-        <%= link_to aliments_path(:query => "Desserts") do %>
+        <%#= link_to aliments_path(:query => "Desserts") do %>
         <div>
-          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(<%= image_path('Agribalyse-Desserts.jpg') %>)">
+          <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-Desserts.jpg') %>)">
             Desserts
           </div>
         </div>
-        <% end %>
+        <%# end %>
 
         <%#= link_to aliments_path(:query => "Lait, oeufs") do %>
         <div>
@@ -119,7 +124,7 @@
 <!-- //////////////////// TEXTE AGRIBALYSE ////////////////////////// -->
 
     <section class="section">
-        <h2 class="section__title">Agribalyse, la base de données environnementale de référence sur des produits agricoles et alimentaires</h2>
+        <h2 class="section__title mb-5">Agribalyse, la base de données environnementale de référence sur des produits agricoles et alimentaires</h2>
 
         <div class="element-text">
           <div class="text-p">
@@ -138,10 +143,10 @@
 
         <div class="place-du-button-et-lien">
           <button class="btn-flat-download">
-            <%= link_to "Ouverture des données : 28 avril 2020", 'https://agribalyse.fr', target: "_blank" %>
+            <%= link_to "Ouverture des données courant 2020", 'https://agribalyse.fr', target: "_blank" %>
           </button>
           <div class="how">
-            <%= link_to "Documentation complète (en construction)", "https://ecolab.gitbook.io/documentation-agribalyse/-M0Iwaasydt8MsoYyENw/", target: "_blank" %>
+            <%= link_to "Documentation Agribalyse", "https://ecolab.gitbook.io/documentation-agribalyse/-M0Iwaasydt8MsoYyENw/", target: "_blank" %>
           </div>
         </div>
 
