@@ -7,6 +7,44 @@
   width: fit-content;
 }
 
+.btn-yellow:hover a {
+  color: white;
+}
+
+.btn-red:hover a {
+  color: white;
+}
+
+.btn-green:hover a {
+  color: white;
+}
+
+.btn-red {
+  background-color: $red;
+  color: white;
+}
+
+.btn-red:hover {
+  background-color: $light-red;
+}
+
+.btn-yellow {
+  background-color: $yellow;
+}
+
+.btn-yellow:hover {
+  background-color: $light-yellow;
+}
+
+.btn-green {
+  background-color: $green;
+}
+
+.btn-green:hover {
+  background-color: $light-green;
+}
+
+
 
 #dropdownMenuLink {
   background-color: transparent;
@@ -39,59 +77,16 @@
 background-color: GREY;
 }
 
-.btn:hover {
+.btn-grey:hover {
   background-color: #C5CED7;
   color: grey;
 }
 
 
 
-.btn-flat-download {
-  padding: 8px 24px;
-  border-radius: 50px;
-  background: transparent;
-  border: $agri-orange 1px solid;
-  transition: background 0.3s ease;
-  max-width: fit-content;
-  font-size: 12px;
-}
 
-.btn-discover {
-  text-align: center;
-  padding-top: 0.5em;
-  width: 200px;
-  color: white;
-  font-size: 12px;
-  border-radius: 30px;
-  height: 2.6em;
-  border: transparent;
-}
 
-.btn-discover.simple {
-  background-color: $gray;
-}
 
-.btn-discover.alim {
-  background-color: $yellow;
-}
-
-.btn-discover.log {
-  background-color: $red;
-}
-
-.btn-discover.trans {
-  background-color: $green;
-}
-
-.btn-discover a {
-  text-decoration: none;
-  color: white;
-}
-
-.btn a {
-  text-decoration: none;
-  color: grey;
-}
 
 
 .btn-discover.simple a:hover {
