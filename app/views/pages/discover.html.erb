@@ -24,7 +24,7 @@
     <div class="product-info-alim d-flex flex-column ml-3 mb-3 mt-3">
       <h3 class="nom-produit">Se nourrir</h3>
       <p class="description-produit">Aider vos utilisateurs à découvrir l’impact environnemental de leur assiette. </p>
-      <button class="btn-discover alim"><%= link_to "Découvrir les données", alimentation_path %></button>
+     <%= link_to "Découvrir les données", alimentation_path, class:"btn btn-yellow" %>
     </div>
   </div>
 </section>
@@ -36,7 +36,7 @@
     <div class="product-info-alim d-flex flex-column ml-3 mr-5 mb-3">
       <h3 class="nom-produit">Se loger</h3>
       <p class="description-produit">Aider vos utilisateurs à découvrir l’impact environnemental de leur logement et sa consommation énergétique.</p>
-      <button class="btn-discover log"><%= link_to "Découvrir les données", nouscontacter_path %></button>
+      <%= link_to "Découvrir les données", nouscontacter_path, class:"btn btn-red" %>
     </div>
   </div>
 </section>
@@ -47,7 +47,7 @@
     <div class="product-info-alim d-flex flex-column ml-3 mb-5">
       <h3 class="nom-produit">Se déplacer</h3>
       <p class="description-produit">Aider vos utilisateurs à découvrir l’impact environnemental de leurs déplacements.</p>
-      <button class="btn-discover trans"><%= link_to "Découvrir les données", transport_path %></button>
+      <%= link_to "Découvrir les données", transport_path, class:"btn btn-green" %>
     </div>
   </div>
 </section>
@@ -83,15 +83,7 @@
 
 
 <%= render '/shared/newsletter' %>
+<%= render '/shared/twitter' %>
 
 
-<section class="section-rs">
-  <div class="d-flex flex-row justify-content-between">
-    <a class="twitter-timeline" data-lang="fr" data-width="400" data-height="350" data-theme="dark" href="https://twitter.com/EcolabADEME?ref_src=twsrc%5Etfw">Tweets de EcolabADEME</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-      <div class="d-flex flex-column mb-2">
-       <h2 class="titre-news mr-5 w-60">Suivez-nous et échangez avec l'équipe également sur Twitter</h2>
-      <img class="images-rs" src="<%= image_path('transport/tweet') %>"/>
-      </div>
 
-  </div>
-</section>
