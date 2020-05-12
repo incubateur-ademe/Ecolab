@@ -9,7 +9,7 @@ threads threads_count, threads_count
 
 # Specifies the `port` that Puma will listen on to receive requests; default is 3000.
 #
-port        ENV.fetch("PORT") { 3000 }
+#port        ENV.fetch("PORT") { 3000 }
 
 # Specifies the `environment` that Puma will run in.
 #
@@ -35,9 +35,4 @@ plugin :tmp_restart
 
 bind ENV.fetch('PUMA_SOCK') { 'unix:///tmp/nginx.socket' }
 
-#on_worker_fork { FileUtils.touch('/tmp/app-initialized') }
-
-on_worker_fork do
-  puts "on_worker_fork"
-  FileUtils.touch('/tmp/app-initialized')
-end
+on_worker_fork { FileUtils.touch('/tmp/app-initialized') }
