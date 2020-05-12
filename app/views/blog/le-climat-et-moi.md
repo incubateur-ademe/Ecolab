@@ -11,97 +11,189 @@ status: unpublished
 
 # Le climat et moi
 
+![](https://images.unsplash.com/photo-1504626113995-a0e5d91f925d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80)
 
-Le climat est partout. Même en pleine crise du coronavirus, de nombreux articles nous rappelent que le dérèglement du climat prendra le relais. Preuve que le sujet inquiète.
 
-Il mobilise les chefs d'État et organisations internationales qui ont pris l'habitude de se regrouper chaque année dans une capitale. La 26ème COP aura lieu en 2021 à Glasgow.
+Le climat est partout. Même en pleine crise du coronavirus, de nombreux articles nous rappelent que le dérèglement du climat prendra le relais des mauvaises nouvelles. Preuve que le sujet inquiète.
+
+Il mobilise les chefs d'État et organisations internationales qui ont pris l'habitude de se regrouper chaque année dans une capitale. La 26ème édition de ces COP aura lieu en 2021 à Glasgow.
 
 Les COPs s'enchainent, mais avec quel succès ?
 
-![](https://i.imgur.com/kkY3cbK.png)
-*Un succès loin d'être éclatant, le CO₂ continue d'augmenter*
 
 
+![](https://i.imgur.com/FWMHIYV.png)
+*Un succès loin d'être éclatant - [source](https://youtu.be/UR3K4CokeHA?t=325)*
 
-> [name=Mael]
-refaire correctement ce graphique ou copie d'écran de celui-là https://youtu.be/UR3K4CokeHA?t=325
+
 
 ## Notre objectif
 
-Mais quel est exactement notre objectif ? Nous devons baisser nos émissions de gaz à effet de serre : dioxide de carbone (CO₂), méthane, dioxide d'azote, etc. 
+Mais quel est exactement notre objectif ? Nous devons baisser nos émissions de gaz à effet de serre : en dioxide de carbone CO₂, le principal dont on entend toujours parler, mais aussi en méthane CH₄, en protoxyde d'azote N₂O, etc. Pour simplifier, un calcul savant permet de tout résumer à un *équivalent CO₂* abrégé en CO₂e : une seule mesure pour les gouverner toutes.
 
-> :bulb: Parce que le CO₂ est de loin le plus important, les scientifiques parlent pour simplifier d'équivalent CO₂, abrégé en CO₂e : une seule mesure pour les gouverner toutes.
+📗 *Lisez [notre lexique](https://ecolab.gitbook.io/documentation-ecolab/lexique-environnemental-et-changement-climat#lequivalent-co2-ou-co2-equivalent-co-2-e) pour aller plus loin.*
+ 
 
+Pourquoi se soucie-t-on de ces gaz ? Plus nous en rejetons, plus ils s'accumulent dans l'athmosphère et réchauffent notre planète. Aujourd'hui, sa température moyenne a déjà grimpé de [plus de 1,2 degrés](https://www.lemonde.fr/blog/huet/2020/04/14/pas-de-repit-pour-le-climat-durant-la-covid-19) par rapport aux années 1900.
 
-Pourquoi se soucie-t-on de ces gaz ? Plus nous en rejetons, plus ils s'accumulent dans l'athmoshpère et réchauffent notre planète. Aujourd'hui, sa température moyenne a déjà grimpé de [plus de 1.2 degrés](https://www.lemonde.fr/blog/huet/2020/04/14/pas-de-repit-pour-le-climat-durant-la-covid-19).
+En épluchant les  nombreuses études scientifiques très peu réjouissantes sur les conséquences du réchauffement, les États du monde ont tranché fin 2015 lors de l'[accord de Paris](https://fr.wikipedia.org/wiki/Accord_de_Paris_sur_le_climat) : il faut tout faire pour limiter la hausse **nettement en-dessous de 2°**, et faire au mieux pour **la limiter à 1,5°**. 
 
-En épluchant les études scientifiques très peu réjouissantes sur les conséquences de ces températures plus chaudes, la COP 21 tenue à Paris fin 2015 a tranché : il faut tout faire pour limiter la hausse "bien en-dessous de 2°C", et si possible rester à 1.5°C. 
-> [name=Mael]Mentionner le Giec ? J'ai peur que ça fasse des acronimes en plus
-> [name=Mael]Quel est le texte exact ? D'après Sylvestre Huet, "pas plus de 2°C supplémentaire, et se rapprocher le plus possible des 1,5°C"
 
 
 ## Nous marchons vers la catastrophe
 
-Manifestement, nous n'avons pas pris la direction de ces 1.5 ou 2°, disons 1.75°. Les Nations Unies [ont sondé](https://www.carbonbrief.org/unep-1-5c-climate-target-slipping-out-of-reach) les ambitions de chaque pays, et ce plan de route que nous les terriens empruntons, nous dirige vers 3,2 de réchauffement, en supposant que chaque État tienne ses engagements.
-> [name=Mael] Il me semble que +4 reste largement probable avec selon les premiers modèles CMIP6 du prochain rapport.
-
-Est-ce vraiment catastrophique ? Une façon d'imaginer l'ampleur potentielle du changement, c'est de se figurer qu'à la dernière aire glaciaire, à -5°, la France était aussi froide que la Sibérie, la Manche était à sec (son eau étant dans les galciers) et les glaciers descendaient jusqu'aux portes de Lyon.
-
-> [name=Mael] Trouver une source solide pour sibérie et glaciers, ces derniers à -5 ou -6 ? [cette image ?](https://pbs.twimg.com/media/EUXRCwoXgAIr_So?format=jpg&name=900x900)
+Manifestement, nous n'avons pas pris cette direction. Les Nations Unies [ont sondé](https://www.carbonbrief.org/unep-1-5c-climate-target-slipping-out-of-reach) les ambitions de chaque pays, et ce plan de route que nous les terriens empruntons, **nous dirige vers 3,2°** de réchauffement, en supposant que chaque État tienne ses engagements.
 
 
-> [éventuellement] Il faut aussi se rendre compte que les 4 degrés sont une moyenne, ainsi les conséquences locales peuvent être bien plus sévères : de 6 à 10 degrés sur les terres source : une questionde know your planet . 
+Est-ce vraiment catastrophique ? Oui. C'est le rôle du [GIEC](https://fr.wikipedia.org/wiki/Groupe_d%27experts_intergouvernemental_sur_l%27%C3%A9volution_du_climat), un effort de collaboration internationale sans précédent, qui étudie et résume les publications scientifiques sur le sujet, de plus en plus abondantes. Nous avons tous en tête les conséquences : hausse du niveau de la mer, canicules, sécheresses, famines, migrations, disparitions d'espèces...
+
+
+Une façon originale d'imaginer l'ampleur potentielle du changement, c'est de regarder ce qu'il s'est passé dans l'autre sens : à la dernière aire glaciaire il y a environ 20 000 ans, à -6°, la France était aussi froide que la Sibérie, la Manche était à sec car son eau était dans d'immenses glaciers atteignant les portes de Lyon et New-York, et enseveli Grenoble d'1 kilomètre de glace !
+
+[![](https://pbs.twimg.com/media/EUXRCwoXgAIr_So?format=jpg&name=900x900)](https://twitter.com/maeool/status/1244630725078417410)
+
+Insistons sur le fait que ces changements de température historiques ont eu lieu sur des milliers d'années. Aujourd'hui nous modifions notre climat à la petite échelle d'un siècle, comme l'illustre [cette frise dessinée](https://xkcd.com/1732/) (en anglais).
+
 
 ## Pourquoi est-ce si difficile ?
 
-Pour tenir un objectif en degrés de réchauffement, il faut limiter nos émissions de CO2. Le calcul est compliqué mais heureusement, le GIEC nous fournit un résumé plutôt simple à comprendre. 
+Pour tenir un objectif en degrés de réchauffement, il faut limiter nos émissions de CO₂. Idem pour les autres gaz à effet de serre, mais dans la suite de l'article nous allons nous concentrer sur le CO₂. 
 
-> [name=Mael] [éventuellement] il demande de modeliser notre planète, c'est en fait le plus grand projet de "jeux vidéo" jamais entrepris : les océans, les terres, les courants marins et atmoshpériques, les nuages...
+Quelle est la limite ? Le calcul est compliqué : les scientifiques modèlisent les océans, les terres, les nuages, comme dans un jeu vidéo ultra-réaliste. Mais heureusement, il en résulte un résumé plutôt simple à comprendre. 
 
-| Réchauffement | Budget carbone 1er janvier 2018 | 1er janvier 2020 |
+| Réchauffement | Notre budget le 1er janvier 2018 | le 1er janvier 2020  |
 |---------------|---------------------------------|------------------|
-| 1.5°          | 420 *milliards de tonnes CO2*   | 336              | 
+| 1,5°          | 420 *milliards de tonnes CO₂*   | 336              | 
 | 1,75°         | 800                             | 716              |
-| 2°            | 1170                            | 1086             |
+| 2°            | 1 170                            | 1 086             |
+
+<small>*Source : tableau 2.2 du [rapport SR1.5 du GIEC](https://www.ipcc.ch/sr15/chapter/chapter-2/) actualisé (on suppose que les mêmes émissions qu'en 2017 en 2018 et 2019)*</small>
 
 
-Ce tableau dit : pour avoir 2 chances sur 3 de rester sous les 1.75° de réchauffement, il faut émettre moins de 716 milliards de tonnes de CO2 à partir du 1er janvier 2020. Dans la suite de cet article, nous allons retenir cet objectif de 1,75°.
+Ce tableau nous dit : pour avoir deux chances sur trois de rester sous les 1,75° de réchauffement, il faut que le monde émette moins de 716 milliards de tonnes de CO₂ à partir du 1er janvier 2020. C'est le budget CO₂ total restant pour notre civilisation. Dans la suite de cet article, nous allons viser cet objectif de 1,75°.
 
-> * Source : tableau 2.2 du [rapport SR1.5 du GIEC](https://www.ipcc.ch/sr15/chapter/chapter-2/) actualisé (on suppose que les 42 Gt de 2017 sont restées constantes en 2018 et 2019* 
-
-### Et en France ?
-
-Très bien, le monde a un objectif simple à tenir. Simple, mais pas vraiment parlant : 716 milliards de tonnes, ça fait combien en terrains de foot ?
-
-Pour être plus concrêt, il faut répartir ces milliards par pays. Quelle doit être notre part du gâteau ? Il y a mille façons de régler ce problème diplomatique. Les pays industrialisés de longue date auraient-ils déjà consommé presque toute leur part, place aux autres ? Ou faut-il justement être plus indulgent envers ces pays qui partent de très haut, amortir leur chute ? 
-
-Une option est de se baser sur l'accord de Paris signé par la plupart des pays fin 2017, comme l'explique [cet article](http://www.realclimate.org/index.php/archives/2019/08/how-much-co2-your-country-can-still-emit-in-three-simple-steps/).  
-
-On lance les décomptes le 1er janvier 2018, avec un budget égal pour terrien. Par exemple, il y a environ deux fois moins de canadiens que de français, le budget du pays est donc la moitié du notre. Et pourtant, le Canada émet trois fois plus de CO2 par habitant que nous ! Ils ont donc très violemment entamé leur budget depuis 2018, et leur effort devra être colossal.
+Vous vous demandez peut-être : est-ce que la planète ne nous donne pas des rallonges de budget au fil des années ? C'est vrai, la Terre absorbe naturellement une partie de nos émissions, grâce à ce qu'on appaelle des *puits*. L'objectif est justement de revenir à ce niveau d'équilibre, et ne pas émettre plus que la Terre ne peut en absorber : c'est ce que l'on appelle *la neutralité carbone*, et nous en sommes très loin aujourd'hui. 
 
 
-### Qui prend les émissions de mon iPhone ?
+> 📗 Pour en savoir plus sur les puits naturels de CO, voir [cet article](https://medium.com/@Lomm/transition-%C3%A9nerg%C3%A9tique-la-trajectoire-du-moindre-effort-9e2f29667704) ou [ce rapport complet du ministère de l'environnement](https://www.statistiques.developpement-durable.gouv.fr/sites/default/files/2019-11/datalab-62-chiffres-cles-du-climat-france-europe-monde-edition2020-novembre2019_0.pdf).
 
-Un point important viant nuancer ces calculs. La France s'est désindustrialisée : le minitel était construit en Alsace, le dernier smartphone l'est en Asie. 
 
-Si l'on considère que le citoyen qui s'achète une télévision HD est responsable de l'ensemble des pollutions de son achat, on parle alors de son **empreinte climat**. 
+## Et en France ?
 
-> Idem pour le pétrole : si le litre d'essence brûlé par ma voiture est bien sûr comptabilisé sur le territoire France, n'oublions pas que ce pétrole a été extrait en Arabie Saoudite, *pour mon usage*.
+Très bien, le monde a un objectif simple à tenir, 716 milliards de tonnes. Simple, mais pas vraiment parlant : ça fait combien en tour Eiffel ?
 
-Ci-dessous, on peut voir qu'avec cette approche par empreinte, les émissions de l'immense fabrique qu'est la Chine se rapprochent significativement de celle des Etats-Unis et de l'Union Européenne.
+Pour le rendre concrêt, il faut répartir ces milliards par pays. Quelle est notre part du gâteau en France ? Il y a mille façons de régler ce problème diplomatique. Doit-on considérer que pays industrialisés de longue date ont déjà consommé leur part, place aux autres ? Ou faut-il justement être plus indulgent envers ces pays qui partent de très haut, amortir leur chute ? 
 
+
+L'option la plus objective pourrait être de donner à chaque terrien un budget égal, mais de lancer les décomptes le 1er janvier 2016, au lendemain de ce fameux accord de Paris, comme le propose [cet article](http://www.realclimate.org/index.php/archives/2019/08/how-much-co2-your-country-can-still-emit-in-three-simple-steps/). 
+
+Par exemple, il y a environ deux fois moins de Canadiens que de Français, le budget du pays est donc la moitié du notre. Et pourtant, le Canada émet trois fois plus de CO₂ par habitant que nous ! Ils ont donc très violemment entamé leur budget depuis 2018, et leur effort devra être colossal.
+
+
+### Qui prend les émissions de mon smartphone ?
+
+Un point important vient nuancer ces calculs. La France s'est désindustrialisée : le minitel était construit en Alsace, le dernier smartphone l'est en Asie. 
+
+Si l'on considère que le citoyen qui s'achète une télévision HD est responsable de l'ensemble des pollutions de son achat, on parle alors de son **empreinte** carbone. 
+
+> Idem pour le pétrole : si le litre d'essence brûlé par ma voiture est comptabilisé sur le territoire France, n'oublions pas que ce pétrole a été extrait *pour mon usage*, [par exemple en Arabie saoudite](https://www.insee.fr/fr/statistiques/2119697).
+
+Ci-dessous, on peut voir que les émissions de l'immense fabrique qu'est la Chine sont rééquilibrées avec cette approche par empreinte. En France, nos émissions nationale de CO₂ baissent... mais notre empreinte reste constante !
 
 ![](https://i.imgur.com/ZRQ8JvM.png)
 
 
 
-### Budget CO2 o
+## Et moi ?
+
+Oublions maintenant l'approche par pays et les complications des délocalisations, pour adopter l'échelle de l'invividu.
+
+
+Nous disions plus haut qu'il nous faut limiter nos émissions à venir à ~700 milliards de tonnes de CO₂.
+
+Ca tombe bien : nous sommes à peu près 7 milliards d'humains. Mon budget carbone personnel est donc de 100 tonnes de CO₂ pour rester sous les 1,75°.
+
+Est-ce beaucoup ? 
+
+D'après le ministère de l'environnement, un français a émis en moyenne [8 tonnes de CO₂](https://www.statistiques.developpement-durable.gouv.fr/sites/default/files/2020-01/datalab-essentiel-204-l-empreinte-carbone-des-francais-reste-%20stable-janvier2020.pdf)  en 2018. 
+ 
+> Rappelez-vous : les budgets carbone du GIEC sont donnés en CO₂ uniquement, donc nous mettons de côté les 3,2 tonnes de méthane et autres gaz émis.
+ 
+ 
+ 100 tonnes de budget, dont 8 tonnes grignotées tous les ans, cela nous permet d'atteindre 2032. Super, on a donc 12 ans avant de s'y mettre ?
+ 
+ 
+![](https://i.imgur.com/yqEulTB.png)
+
+ 
+Non bien sûr ! Comme on le voit sur le graphique ci-dessus, il est irréaliste de viser la neutralité carbone en 2032 puis de ne rien faire d'ici là : la chute sera insoutenable. Pour descendre une montagne, on trace un chemin qui serpente pour amortir la pente.
+
+De même, plutôt que de parler d'*objectif 2 tonnes* ou même *objectif 1 tonne en 2050*, il faut tracer un scénario qui respecte le budget, année par année.
+
+
+![](https://i.imgur.com/uVxKQLI.png)
+
+Ici, on a doublé le temps de l'effort, mais on a coupé le rectangle en deux, pour garder un total de 100 tonnes de CO₂.
+ 
+Un rapide calcul nous montre alors l'ampleur de l'effort à faire chaque année jusqu'à 2045 : -4 % de notre empreinte actuelle chaque année, donc **320 kg de CO₂ à émettre en moins chaque année par rapport à la précédente**.
+ 
+ 
+Une réduction de 320kg chaque année, est-ce conséquent ? Chacun a une appréciation différente de cet effort, mais il est intéressant de l'illustrer par des choses concrètes de notre vie quotidienne. Voici un exemple de scénario qui correspond à peu près à cette réduction annuelle : 
+ 
+ - *en 2020, je fais 1 000 km de moins en voiture (ou covoiturer 5km par jour)*
+ - *en 2021, je renonce à mon vol vers la Croatie (mais pas à mes vacances : il est possible d'y aller en train via  Paris-Venise de nuit)*
+  - *en 2022, je mange 2 steaks de bœuf  en moins par semaine, si c'était toujours le cas*
+ - *en 2023, je baisse la température de chez moi de 1° (la fabrication de mon nouveau pull en laine émet lui aussi, mais il va durer 10 ans et il est magnifique)*
+ - *en 2024, je divise par 3 ma consommation d'alcool, si j'en buvais (ou je la divise par 2 mais je me limite aux bières locales)*
+ - *en 2025, je ne renouvelle pas mon ordinateur portable (je peux en acheter un d'occasion)*
+ - ...
+
+Bien sûr, ces efforts se cumulent. Ce ne sont pas des réductions ponctuelles. 
+
+Vous l'aurez compris, ce ne sont que des exemples, il y a beaucoup d'autres et aucun programme rigide de ce type ne sera imposé. 
+
+> [name=Mael] Bientôt : Pour vous aider, nous avons intégré cette notion de budget carbone personnel dans notre [simulateur transport](ecolab-transport.netlify.app) 🚴‍♂️🚅🚗. 
+
+Rappelons aussi que si nous ne continuons à ne rien faire par exemple pendant 5 ans, l'effort sera d'autant plus important, et probablement impossible, les années suivantes. 
+
+
+## Nous sommes 7,5 milliards à bord
+
+
+Nous avons chacun le choix de faire bien mieux que ces budgets carbone, qui ne font que limiter les dégats, **en adoptant dès cette année 2020, un style de vie soutenable à moins de 2 tonnes de CO₂ par personne**, à l'équilibre avec la capacité naturelle de notre pays à absorber nos émissions. 
+ 
+Mais nous ne sommes pas les seuls acteurs à bord. 
+
+Cette approche individuelle a le grand mérite de nous faire comprendre l'ampleur de l'effort requis, mais doit bien évidemment s'associer avec ceux, malheureusement insuffisants jusqu'à présent,
+- des entreprises (on peut espérer qu'un ordinateur en 2025 n'émettera plus que 100kg de CO₂) 
+- de l'Etat, via ses propres émissions (les services publics, auxquels on ne peut simplement pas renoncer individuellement, représentent 1,5 tonnes par an / personne) ou via des lois qui encadrent la production et la consommation
+- des autres pays. Il va de soi que si la moitié des pays décident de ne pas faire d'effort, l'autre moitié devra en faire d'autant plus. 
+
+Alors, qui sera [le lièvre](https://fr.wikipedia.org/wiki/Li%C3%A8vre_(athl%C3%A9tisme)) ?
+> [name=Martin Régner]J'aime bien cette définition du lièvre, mais on pense aussi à la fable de la Fontaine... qui dit un peu l'inverse : il vaut mieux partir à temps (maintenant) que courrir.
+> Autre proposition : 
+> **Alors, prêt à trouver vos 320 premiers kilos à perdre ?**
+
+[![](https://i.imgur.com/Yw449YZ.png)](https://www.ouest-france.fr/sport/running/marathon-du-mont-saint-michel-quand-le-lievre-depasse-ses-maitres-5026330)
+
+
+
+ 
+ 
+
+ 
+ 
+ ------------
 
 
 
 Fin de l'article rédigé
 
 ------------
+<br/><br/><br/><br/><br/><br/>
+<br/><br/><br/><br/><br/><br/>
+
+# Notes
 
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/2019_AQAL_Capital_and_Tom_Schulz_variwide_chart_"Worldwide_Co2_emissions".png/1024px-2019_AQAL_Capital_and_Tom_Schulz_variwide_chart_"Worldwide_Co2_emissions".png)
@@ -160,6 +252,7 @@ Il y au moins 2 façons de mal comprendre un quota carbone à horizon 2030/2050
 - je dois diviser ma consommation par 3 demain ? Mais c'est impossible ! Laisse tomber, j'y arriverai jamais
 :::
 
+> [name=Martin Régner] Yes, très bonne idée ! Et des collègues ADEME sont preneurs ! :)
 
 Est-ce que le message est facile à entendre comme ça ? Tester l'article auprès de plusieurs personnes
 
@@ -186,7 +279,7 @@ Questions :
 
 Ce rapport n'apporte pas grand chose :  
 
-> Le Groupe d’experts intergouvernemental sur l’évolution du climat (Giec) a précisé, dans le cadre d’un rapport sur les effets d’un réchauffement de 1,5 °C publié en octobre 2018, la quantité cumulée de CO2 qu’il était encore possible d’émettre tout en ne dépassant pas 2 °C de réchauffement en 2100. En tenant compte de l’évolution de la population mondiale  d’ici  2100  et  en  respectant  une  répartition  strictement égalitaire de la quantité de CO2 qu’il resterait à émettre, le « budget » CO2 de chaque Terrien devrait être compris entre 1,6 t (hypothèse basse) et 2,8 t (hypothèse haute)  de  CO2  par  an  entre  aujourd’hui  et  2100,  non  comprises les émissions résiduelles des autres GES
+> Le Groupe d’experts intergouvernemental sur l’évolution du climat (Giec) a précisé, dans le cadre d’un rapport sur les effets d’un réchauffement de 1,5 °C publié en octobre 2018, la quantité cumulée de CO₂ qu’il était encore possible d’émettre tout en ne dépassant pas 2 °C de réchauffement en 2100. En tenant compte de l’évolution de la population mondiale  d’ici  2100  et  en  respectant  une  répartition  strictement égalitaire de la quantité de CO₂ qu’il resterait à émettre, le « budget » CO₂ de chaque Terrien devrait être compris entre 1,6 t (hypothèse basse) et 2,8 t (hypothèse haute)  de  CO₂  par  an  entre  aujourd’hui  et  2100,  non  comprises les émissions résiduelles des autres GES
 
 On n'a aucune info sur la courbe, juste un objectif en 2100.
 
