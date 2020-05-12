@@ -9,39 +9,54 @@ events {
 }
 
 http {
-        gzip on;
-        gzip_comp_level 2;
-        gzip_min_length 512;
+  gzip on;
+  gzip_comp_level 2;
+  gzip_min_length 512;
 
 	server_tokens off;
 
-	log_format l2met 'measure#nginx.service=$request_time request_id=$http_x_request_id';
-	access_log <%= ENV['NGINX_ACCESS_LOG_PATH'] || 'logs/nginx/access.log' %> l2met;
-	error_log <%= ENV['NGINX_ERROR_LOG_PATH'] || 'logs/nginx/error.log' %>;
+	#log_format l2met 'measure#nginx.service=$request_time request_id=$http_x_request_id';
+	#access_log <%= ENV['NGINX_ACCESS_LOG_PATH'] || 'logs/nginx/access.log' %> l2met;
+	#error_log <%= ENV['NGINX_ERROR_LOG_PATH'] || 'logs/nginx/error.log' %>;
+  log_format main '$time_iso8601 - $status $request - client IP: $http_x_forwarded_for - <%= ENV['DYNO'] %> to $upstream_addr - upstream status: $upstream_status, upstream_response_time $upstream_response_time, request_time $request_time';
+  access_log /dev/stdout main;
+  error_log /dev/stdout notice;
+  log_not_found on;
+
 
 	include mime.types;
 	default_type application/octet-stream;
 	sendfile on;
 
 	#Must read the body in 5 seconds.
-	client_body_timeout 5;
+  client_body_timeout <%= ENV['NGINX_CLIENT_BODY_TIMEOUT'] || 5 %>;
 
 	upstream app_server {
 		server unix:/tmp/nginx.socket fail_timeout=0;
  	}
+
+  # app transport on Netlify
+  upstream netlify_transport {
+    server ecolab-transport.netlify.app;
+  }
 
 	server {
 		listen <%= ENV["PORT"] %>;
 		server_name _;
 		keepalive_timeout 5;
 
-    location /apps/transport* {
-      proxy_pass https://ecolab-transport.netlify.app;
-      proxy_http_version 1.1;
-      proxy_set_header Upgrade $http_upgrade;
-      proxy_set_header Connection 'upgrade';
-      proxy_set_header Host $host;
-      proxy_cache_bypass $http_upgrade;
+    location /apps/transport/ {
+      set $upstream netlify_transport;
+      proxy_pass https://$upstream/;
+      proxy_set_header x-forwarded-host $host;
+      proxy_set_header Host ecolab-transport.netlify.app;
+
+      # proxy_pass https://ecolab-transport.netlify.app;
+      # proxy_http_version 1.1;
+      # proxy_set_header Upgrade $http_upgrade;
+      # proxy_set_header Connection 'upgrade';
+      # proxy_set_header Host $host;
+      # proxy_cache_bypass $http_upgrade;
     }
 
 		location / {
