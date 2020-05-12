@@ -33,9 +33,9 @@ http {
 
   # https://www.fdn.fr/actions/dns/
   resolver 80.67.169.12 valid=300s ipv6=off;
-  resolver 80.67.169.40 valid=300s ipv6=off;
-  resolver 2001:910:800::12 valid=300s ipv6=on;
-  resolver 2001:910:800::40 valid=300s ipv6=on;
+  #resolver 80.67.169.40 valid=300s ipv6=off;
+  #resolver 2001:910:800::12 valid=300s ipv6=on;
+  #resolver 2001:910:800::40 valid=300s ipv6=on;
   resolver_timeout 10s;
 
   pstream app_server {
