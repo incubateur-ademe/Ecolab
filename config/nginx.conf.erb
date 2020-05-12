@@ -35,34 +35,32 @@ http {
 		server unix:/tmp/nginx.socket fail_timeout=0;
  	}
 
-  # app transport on Netlify
-  upstream netlify_transport {
-    server ecolab-transport.netlify.app;
-  }
-
 	server {
 		listen <%= ENV["PORT"] %>;
 		server_name _;
 		keepalive_timeout 5;
 
+    # app transport on Netlify
     location ~* ^/apps/transport(.*) {
-      set $upstream netlify_transport;
+      set $netlify_app 'ecolab-transport.netlify.app';
+      set $url_full '$1';
+
+      index index.js;
+
+      proxy_hide_header Set-Cookie;
       proxy_set_header X-Real-IP $remote_addr;
       proxy_set_header X-Forwarded-For $host;
-      proxy_set_header Host $upstream;
+      proxy_set_header Host $netlify_app;
+      proxy_ignore_headers "Set-Cookie";
+      proxy_buffering off;
+      proxy_intercept_errors on;
       proxy_redirect off;
-      proxy_pass https://$upstream$1;
-
-      # proxy_pass https://ecolab-transport.netlify.app;
-      # proxy_http_version 1.1;
-      # proxy_set_header Upgrade $http_upgrade;
-      # proxy_set_header Connection 'upgrade';
-      # proxy_set_header Host $host;
-      # proxy_cache_bypass $http_upgrade;
+      proxy_pass https://$netlify_app$url_full;
     }
 
 		location / {
-			proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+      proxy_set_header X-Real-IP $remote_addr;
+     	proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
 			proxy_set_header Host $http_host;
 			proxy_redirect off;
 			proxy_pass http://app_server;
