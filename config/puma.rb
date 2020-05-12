@@ -35,6 +35,9 @@ plugin :tmp_restart
 
 bind ENV.fetch('PUMA_SOCK') { 'unix:///tmp/nginx.socket' }
 
+#on_worker_fork { FileUtils.touch('/tmp/app-initialized') }
+
 on_worker_fork do
+  puts "on_worker_fork"
   FileUtils.touch('/tmp/app-initialized')
 end
