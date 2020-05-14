@@ -5836,6 +5836,11 @@ public-encrypt@^4.0.0:
     randombytes "^2.0.1"
     safe-buffer "^5.1.2"
 
+puma@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/puma/-/puma-4.0.0.tgz#24ebd7561e6626999b0e0a68719ab8b281865b4d"
+  integrity sha1-JOvXVh5mJpmbDgpocZq4soGGW00=
+
 pump@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/pump/-/pump-2.0.1.tgz#12399add6e4cf7526d973cbc8b5ce2e2908b3909"
