@@ -56,11 +56,11 @@ http {
       proxy_buffering off;
       proxy_intercept_errors on;
       proxy_redirect off;
-      rewrite $request_uri $request_uri/;
+      #rewrite $request_uri $request_uri/;
       proxy_pass 'https://ecolab-transport.netlify.app/';
     }
 
-    location ~* ^/apps/transport/(.*) {
+    location ~* ^/apps/transport(.*) {
       set $netlify_app 'ecolab-transport.netlify.app';
       set $url_full '$1';
 
