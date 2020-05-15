@@ -56,8 +56,8 @@ http {
       proxy_buffering off;
       proxy_intercept_errors on;
       proxy_redirect off;
-      rewrite $request_uri /$request_uri/;
-      proxy_pass 'https://ecolab-transport.netlify.app';
+      #rewrite $request_uri /$request_uri/;
+      proxy_pass 'https://ecolab-transport.netlify.app/$request_uri';
     }
 
     location ~* ^/apps/transport/(.*) {
