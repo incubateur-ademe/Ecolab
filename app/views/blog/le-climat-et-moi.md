@@ -43,18 +43,22 @@ En épluchant les  nombreuses études scientifiques très peu réjouissantes sur
 Manifestement, nous n'avons pas pris cette direction. Les Nations Unies [ont sondé](https://www.carbonbrief.org/unep-1-5c-climate-target-slipping-out-of-reach) les ambitions de chaque pays, et ce plan de route que nous les terriens empruntons, **nous dirige vers 3,2°** de réchauffement, en supposant que chaque État tienne ses engagements.
 
 
-Est-ce vraiment catastrophique ? Oui. C'est le rôle du [GIEC](https://fr.wikipedia.org/wiki/Groupe_d%27experts_intergouvernemental_sur_l%27%C3%A9volution_du_climat), un effort de collaboration internationale sans précédent, qui étudie et résume les publications scientifiques sur le sujet, de plus en plus abondantes. Nous avons tous en tête les conséquences : hausse du niveau de la mer, canicules, sécheresses, famines, migrations, disparitions d'espèces...
+Est-ce vraiment catastrophique ? Oui. Nous le savons notamment grâce au [GIEC](https://fr.wikipedia.org/wiki/Groupe_d%27experts_intergouvernemental_sur_l%27%C3%A9volution_du_climat), un effort international de collaboration sans précédent, qui étudie et résume les publications scientifiques de plus en plus abondates sur le sujet. Nous avons tous en tête les types de conséquences : hausse du niveau de la mer, canicules, sécheresses, famines, migrations, disparitions d'espèces... 
 
-- [ ] évoquer plutôt la carte de France des canicules, évoquer la santé.
+Mais il reste difficile de se figurer leur ampleur. Regardons rapidement les projections de canicules en France dans le "scénario du pire".
 
-Une façon originale d'imaginer l'ampleur potentielle du changement, c'est de regarder ce qu'il s'est passé dans l'autre sens : à la dernière aire glaciaire il y a environ 20 000 ans, à -6°, la France était aussi froide que la Sibérie, la Manche était à sec car son eau était dans d'immenses glaciers atteignant les portes de Lyon et New-York, et enseveli Grenoble sous 1 kilomètre de glace !
+![Les canicules en France en 2050 pourraient être très dangereuses](https://imgur.com/UN4hDjZ.png)
+*Illustration d'un [article du JDD](https://www.lejdd.fr/Societe/en-2050-des-pics-a-55degres-dans-lest-et-le-nord-3410342) citant [une étude française](https://iopscience.iop.org/article/10.1088/1748-9326/aa751c) utilisant le scénario RCP8.5*
 
-[![](https://pbs.twimg.com/media/EUXRCwoXgAIr_So?format=jpg&name=900x900)](https://twitter.com/maeool/status/1244630725078417410)
+Cette carte seule est parlante, mais l'est encore plus quand on compare le nombre de morts des canicules récentes à ceux de la crise sanitaire du coronavirus.
 
-Insistons sur le fait que ces changements de température historiques ont eu lieu sur des milliers d'années. Aujourd'hui nous modifions notre climat à la petite échelle d'un siècle, comme l'illustre [cette frise dessinée](https://xkcd.com/1732/) (en anglais).
+![Comparaison des morts de la crise du coronavirus et des canicules : elles sont significatives](https://imgur.com/4ZYhDut.png)
+*Un graphique sur le [blog de l'INSEE](https://blog.insee.fr/statistiques-sur-les-deces-le-mode-demploi-des-donnees-de-linsee-en-7-questions-reponses/)*
+
+Insistons aussi sur la rapidité inédite du réchauffement que nous provoquons : nous modifions notre climat à l'échelle du siècle, bien plus petite que les réchauffements "naturels" passés, comme l'illustre [cette frise dessinée](https://xkcd.com/1732/) (en anglais).
 
 
-## Pourquoi est-ce si difficile ?
+## Pourquoi est-ce si difficile d'agir ?
 
 Pour tenir un objectif en degrés de réchauffement, il faut limiter nos émissions de CO₂. Idem pour les autres gaz à effet de serre, mais dans la suite de l'article nous allons nous concentrer sur le CO₂. 
 
