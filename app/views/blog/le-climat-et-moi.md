@@ -18,7 +18,7 @@ Les COPs s'enchainent, mais avec quel succès ?
 
 
 
-![](https://i.imgur.com/FWMHIYV.png)
+![](https://i.imgur.com/iCx58Un.png)
 *Un succès loin d'être éclatant - [source](https://youtu.be/UR3K4CokeHA?t=325)*
 
 
@@ -120,7 +120,7 @@ D'après le ministère de l'environnement, un français a émis en moyenne [8 to
  100 tonnes de budget, dont 8 tonnes grignotées tous les ans, cela nous permet d'atteindre 2032. Super, on a donc 12 ans avant de s'y mettre ?
  
  
-![](https://i.imgur.com/yqEulTB.png)
+![](https://imgur.com/ILewtTe.png)
 
  
 Non bien sûr ! Comme on le voit sur le graphique ci-dessus, il est irréaliste de viser la neutralité carbone en 2032 puis de ne rien faire d'ici là : la chute sera insoutenable. Pour descendre une montagne, on trace un chemin qui serpente pour amortir la pente.
@@ -128,7 +128,7 @@ Non bien sûr ! Comme on le voit sur le graphique ci-dessus, il est irréaliste 
 De même, plutôt que de parler d'*objectif 2 tonnes* ou même *objectif 1 tonne en 2050*, il faut tracer un scénario qui respecte le budget, année par année.
 
 
-![](https://i.imgur.com/uVxKQLI.png)
+![](https://imgur.com/9l0UzPp.png)
 
 Ici, on a doublé le temps de l'effort, mais on a coupé le rectangle en deux, pour garder un total de 100 tonnes de CO₂.
  
