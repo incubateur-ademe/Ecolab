@@ -6,6 +6,8 @@ tags:
   - budget climat
 date: 16/05/2020
 image: https://images.unsplash.com/photo-1504626113995-a0e5d91f925d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=80
+description de l'image: |
+  Une personne marche seule dans un désert, l'incarnation d'un environnement trop chaud et aride pour la vie.
 intro: La neutralité carbone, ça veut dire quoi à mon échelle d'individu ?
 status: unpublished
 ---
@@ -64,7 +66,7 @@ Quelle est la limite ? Le calcul est compliqué : les scientifiques modèlisent 
 | 1,75°         | 800                             | 716              |
 | 2°            | 1 170                            | 1 086             |
 
-<small>*Source : tableau 2.2 du [rapport SR1.5 du GIEC](https://www.ipcc.ch/sr15/chapter/chapter-2/) actualisé (on suppose que les mêmes émissions qu'en 2017 en 2018 et 2019)*</small>
+*Source : tableau 2.2 du [rapport SR1.5 du GIEC](https://www.ipcc.ch/sr15/chapter/chapter-2/) actualisé (on suppose que les mêmes émissions qu'en 2017 en 2018 et 2019)*
 
 
 Ce tableau nous dit : pour avoir deux chances sur trois de rester sous les 1,75° de réchauffement, il faut que le monde émette moins de 716 milliards de tonnes de CO₂ à partir du 1er janvier 2020. C'est le budget CO₂ total restant pour notre civilisation. Dans la suite de cet article, nous allons viser cet objectif de 1,75°.
@@ -97,7 +99,8 @@ Si l'on considère que le citoyen qui s'achète une télévision HD est responsa
 
 Ci-dessous, on peut voir que les émissions de l'immense fabrique qu'est la Chine sont rééquilibrées avec cette approche par empreinte. En France, nos émissions nationale de CO₂ baissent... mais notre empreinte reste constante !
 
-![](https://i.imgur.com/ZRQ8JvM.png)
+![](https://imgur.com/PZEjTxH.png)
+*[source](https://www.statistiques.developpement-durable.gouv.fr/sites/default/files/2019-11/datalab-62-chiffres-cles-du-climat-france-europe-monde-edition2020-novembre2019_0.pdf)*
 
 
 
@@ -174,4 +177,4 @@ Cette approche individuelle a le grand mérite de nous faire comprendre l'ampleu
  
 **Alors, prêt à trouver vos 320 premiers kilos à perdre ?**
 
-![](https://images.unsplash.com/photo-1555957445-b8218fb30c86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)
+![Deux personnes, au lieu d'un seul individu, marchent dans une nature luxuriante, contrastant avec l'image d'introduction de l'article](https://images.unsplash.com/photo-1555957445-b8218fb30c86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)
