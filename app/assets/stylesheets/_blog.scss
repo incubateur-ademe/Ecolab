@@ -71,6 +71,13 @@
     max-width: 100%;
 	margin: 1rem 0;
   }
+  table + em, table + p>em, img + p>em, img + em {
+	color: #666;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	margin: 0 auto 1rem;
+	}
 }
 
 .article-card {

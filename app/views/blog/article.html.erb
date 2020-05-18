@@ -6,7 +6,7 @@
         <em>Publié le <%=@meta['date']%> dans <a href="/blog/<%=@meta['catégorie']%>">
         <span class="badge badge-info"><%=@meta['catégorie']%></span></a>
         </em>
-        <img width="100%" src="<%= image_path(@meta['image']) %>" />
+        <img alt="<%= @meta['description de l\'image'] %>" width="100%" src="<%= image_path(@meta['image']) %>" />
       </header>
         <%= raw @content %>
       </div><!-- /.blog-post -->
