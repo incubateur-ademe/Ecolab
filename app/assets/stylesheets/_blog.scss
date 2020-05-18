@@ -56,9 +56,12 @@
 
   table th {
     background: #00c48c;
-    border: 1px solid white;
+    border-left: 1px solid #ffffff50;
     padding: 0.3rem;
     color: white;
+  }
+  table th:first-child{
+    border-left: 1px solid #00c48c;
   }
   img {
     max-width: 100%;
