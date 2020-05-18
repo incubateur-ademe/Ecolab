@@ -11,7 +11,7 @@
       <!--   <i class="fas fa-search"></i> -->
       <% end %>
 
-      <button class="btn btn-grey ml-3"><%= link_to "Nouvelle recherche", blog_path, :query => params[:query] %></button>
+      <%= link_to "Nouvelle recherche", blog_path, :query => params[:query], class:"btn btn-grey ml-3" %>
     </div>
 
     <div class="row mb-2" id="articles">
