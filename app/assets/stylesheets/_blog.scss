@@ -10,6 +10,9 @@
 }
 
 .blog-post {
+  h1, h2, h3, h4 {
+    margin: 2rem 0 .6rem
+  }
   blockquote {
     margin-left: 0.6rem;
     border-left: 4px solid #6979F8;
@@ -56,6 +59,9 @@
     border: 1px solid white;
     padding: 0.3rem;
     color: white;
+  }
+  img {
+    max-width: 100%;
   }
 }
 
