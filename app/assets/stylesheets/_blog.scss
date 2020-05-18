@@ -40,8 +40,10 @@
   }
 
   header .badge {
-    padding: 6px;
-    border-radius: 20px;
+	padding: 0.35rem 0.5rem;
+	border-radius: 0.3rem;
+	vertical-align: bottom;
+	margin: 0 .2rem;
   }
 
   #blog .tags {
