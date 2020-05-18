@@ -173,8 +173,11 @@ Evidemment, nous avons chacun le choix de faire bien mieux que ces budgets carbo
 Mais nous ne sommes pas les seuls acteurs à bord. 
 
 Cette approche individuelle a le grand mérite de nous faire comprendre l'ampleur de l'effort requis, mais doit bien évidemment s'associer avec ceux, malheureusement insuffisants jusqu'à présent,
+
 - des entreprises (on peut espérer qu'un ordinateur en 2025 n'émettera plus que 100kg de CO₂) 
+
 - de l'Etat, via ses propres émissions (les services publics, auxquels on ne peut simplement pas renoncer individuellement, représentent 1,5 tonnes de CO₂ par an / personne) ou via des lois qui encadrent la production et la consommation
+
 - des autres pays. Il va de soi que si la moitié des pays décident de ne pas faire d'effort, l'autre moitié devra en faire d'autant plus. 
 
  
