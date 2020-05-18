@@ -10,9 +10,6 @@ intro: La neutralité carbone, ça veut dire quoi à mon échelle d'individu ?
 status: unpublished
 ---
 
-# Le climat et moi
-
-
 Le climat est partout. Même en pleine crise du coronavirus, de nombreux articles nous rappelent que le dérèglement du climat prendra le relais des mauvaises nouvelles. Preuve que le sujet inquiète.
 
 Il mobilise les chefs d'État et organisations internationales qui ont pris l'habitude de se regrouper chaque année dans une capitale. La 26ème édition de ces COP aura lieu en 2021 à Glasgow.
@@ -139,12 +136,6 @@ Un rapide calcul nous montre alors l'ampleur de l'effort à faire chaque année 
 
 Rappelons aussi que si nous continuons à ne rien faire par exemple pendant 5 ans, l'effort sera d'autant plus important, et probablement impossible, les années suivantes. 
 
-- [ ] illustration falaise où plus on avance, plus la chute est raide ?
-
-![](https://i.imgur.com/IHgIW59.jpg)
-
- 
- 
 ## Construire des scénarios de réduction
 
 Une réduction de 320kg chaque année, est-ce conséquent ? Chacun a une appréciation différente de cet effort, mais il est intéressant de l'illustrer par des choses concrètes de notre vie quotidienne. Voici un exemple de scénario qui correspond à peu près à cette réduction annuelle : 
@@ -183,4 +174,4 @@ Cette approche individuelle a le grand mérite de nous faire comprendre l'ampleu
  
 **Alors, prêt à trouver vos 320 premiers kilos à perdre ?**
 
-- [ ] Trouver une image qui illustre ça
+![](https://images.unsplash.com/photo-1555957445-b8218fb30c86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)
