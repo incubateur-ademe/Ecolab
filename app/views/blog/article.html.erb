@@ -10,7 +10,7 @@
       </header>
         <%= raw @content %>
       </div><!-- /.blog-post -->
-      <p><% @meta['tags'].each do |tag| %>
+      <p id="article-tags"><% @meta['tags'].each do |tag| %>
         <a href="/blog/<%=tag%>"><span class="badge badge-light"><%= tag %></span></a>
       <% end %></p>
 
