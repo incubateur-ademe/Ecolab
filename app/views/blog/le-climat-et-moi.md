@@ -168,7 +168,7 @@ Vous l'aurez compris, ce ne sont que des exemples, il y a beaucoup d'autres chem
 ## Nous sommes 7,5 milliards à bord
 
 
-Evidemment, nous avons chacun le choix de faire bien mieux que ces budgets carbone, qui ne font que limiter les dégats climatiques, **en adoptant dès cette année 2020, un style de vie soutenable à moins de 2 tonnes de CO₂ par personne**, à l'équilibre avec la capacité naturelle de notre pays à absorber nos émissions. Chaque dixième de degré compte.
+Evidemment, nous avons chacun le choix de faire bien mieux que ces budgets carbone, qui ne font que limiter les dégats climatiques, **en s'approchant dès cette année 2020, d'un style de vie soutenable à moins de 2 tonnes de CO₂ par personne**, à l'équilibre avec la capacité naturelle de notre pays à absorber nos émissions. Chaque dixième de degré compte.
  
 Mais nous ne sommes pas les seuls acteurs à bord. 
 
