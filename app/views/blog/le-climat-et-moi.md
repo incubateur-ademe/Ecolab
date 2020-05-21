@@ -27,7 +27,7 @@ Les COPs s'enchainent, mais avec quel succès ?
 
 ## Notre objectif
 
-Mais quel est exactement notre objectif ? Nous devons baisser nos émissions de gaz à effet de serre (GES) : en dioxide de carbone (CO₂), le principal dont on entend toujours parler, mais aussi en méthane (CH₄), en protoxyde d'azote (N₂O), etc. Pour simplifier, un calcul savant permet de tout résumer à un *équivalent CO₂* abrégé en CO₂e : une seule mesure pour les gouverner toutes.
+Mais quel est exactement notre objectif ? Nous devons baisser nos émissions de gaz à effet de serre : en dioxide de carbone (CO₂), le principal dont on entend toujours parler, mais aussi en méthane (CH₄), en protoxyde d'azote (N₂O), etc. Pour simplifier, un calcul savant permet de tout résumer à un *équivalent CO₂* abrégé en CO₂e : une seule mesure pour les gouverner toutes.
 
 📗 *Lisez [notre lexique](https://ecolab.gitbook.io/documentation-ecolab/lexique-environnemental-et-changement-climat#lequivalent-co2-ou-co2-equivalent-co-2-e) pour aller plus loin.*
 
