@@ -55,7 +55,7 @@ Cette carte seule est parlante, mais l'est encore plus quand on compare le nombr
 ![Comparaison des morts de la crise du coronavirus et des canicules : elles sont significatives](https://imgur.com/4ZYhDut.png)
 *Un graphique sur le [blog de l'INSEE](https://blog.insee.fr/statistiques-sur-les-deces-le-mode-demploi-des-donnees-de-linsee-en-7-questions-reponses/)*
 
-Insistons aussi sur la rapidité inédite du réchauffement que nous provoquons : nous modifions notre climat en l'échelle de deux siècles, quand les précédents réchauffements "naturels" se sont étalés sur des périodes bien plus longues permettant une meilleure adaptation du vivant, comme l'illustre [cette frise dessinée](https://xkcd.com/1732/) (en anglais).
+Insistons aussi sur la rapidité inédite du réchauffement que nous provoquons : nous modifions notre climat à l'échelle du siècle, quand les précédents réchauffements "naturels" se sont étalés sur des périodes bien plus longues permettant une meilleure adaptation du vivant, comme l'illustre [cette frise dessinée](https://xkcd.com/1732/) (en anglais).
 
 
 ## Pourquoi est-ce si difficile d'agir ?
