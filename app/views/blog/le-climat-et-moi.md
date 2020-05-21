@@ -149,7 +149,7 @@ Une réduction de 320kg chaque année, est-ce conséquent ? Chacun a une appréc
 
  - *à partir de 2020, je fais 1 000 km de moins en voiture (ou covoiture 5km par jour)*
  - *à partir de 2021, je renonce à mon vol annuel vers la Croatie (mais pas à mes vacances : il est possible d'y aller en train via Paris-Venise de nuit)*
- - *en 2022, j'enlève définitivement de ma liste de courses 2 steaks de bœuf en moins par semaine, si c'était toujours le cas*
+ - *en 2022, j'enlève définitivement de ma liste de courses 2 steaks de bœuf par semaine, si c'était toujours le cas*
  - *à partir de 2023, je baisse la température de chez moi de 1° (et j'achète un magnifique pull en laine qui va durer 10 ans ou plus)*
  - *en 2024, je divise définitivement par 3 ma consommation d'alcool, si j'en buvais (ou je me limite aux bières locales servies en pression)*
  - *en 2025, je ne renouvelle pas mon ordinateur portable (je peux en acheter un d'occasion et le garder 5 ans ou plus)*
