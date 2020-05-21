@@ -101,7 +101,7 @@ Si l'on considère que le citoyen qui s'achète une télévision HD est responsa
 
 > Idem pour le pétrole : si le litre d'essence brûlé par ma voiture est comptabilisé sur le territoire France, n'oublions pas que ce pétrole a été extrait *pour mon usage*, [par exemple en Arabie saoudite](https://www.insee.fr/fr/statistiques/2119697).
 
-Ci-dessous, on peut voir que les émissions de l'immense fabrique qu'est la Chine sont rééquilibrées avec cette approche par empreinte. En France, nos émissions nationale de CO₂ baissent... mais notre empreinte reste constante depuis 1990 (où l'on avait déjà prévu de la faire baisser) !
+Ci-dessous, on peut voir que les émissions de l'immense fabrique qu'est la Chine sont rééquilibrées avec cette approche par empreinte. En France, nos émissions nationale de CO₂ baissent... mais pas notre empreinte, qui reste constante depuis 1990 (alors que l'on avait déjà prévu de la baisser) !
 
 ![](https://imgur.com/PZEjTxH.png)
 *[source](https://www.statistiques.developpement-durable.gouv.fr/sites/default/files/2019-11/datalab-62-chiffres-cles-du-climat-france-europe-monde-edition2020-novembre2019_0.pdf)*
