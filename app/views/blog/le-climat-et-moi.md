@@ -45,7 +45,7 @@ Manifestement, nous n'avons pas pris cette direction. Les Nations Unies [ont son
 
 Est-ce vraiment catastrophique ? Oui. Nous le savons notamment grâce au [GIEC](https://fr.wikipedia.org/wiki/Groupe_d%27experts_intergouvernemental_sur_l%27%C3%A9volution_du_climat), un effort international de collaboration sans précédent, qui étudie et résume les publications scientifiques de plus en plus abondates sur le sujet. Nous avons tous en tête les types de conséquences : hausse du niveau de la mer, de la fréquence et de la force des canicules, sécheresses, cyclones, etc. entrainant famines, migrations, disparitions d'espèces, etc.
 
-Mais il reste difficile de se figurer leur ampleur. Regardons rapidement les projections de canicules en France dans le "scénario du pire" dans le dernier rapport de synthèse datant de 2014.
+Mais il reste difficile de se figurer leur ampleur. Regardons rapidement les projections de canicules en France dans le "scénario du pire".
 
 ![Les canicules en France en 2050 pourraient être très dangereuses](https://imgur.com/UN4hDjZ.png)
 *Illustration d'un [article du JDD](https://www.lejdd.fr/Societe/en-2050-des-pics-a-55degres-dans-lest-et-le-nord-3410342) citant [une étude française](https://iopscience.iop.org/article/10.1088/1748-9326/aa751c) utilisant le scénario RCP8.5*
