@@ -174,7 +174,7 @@ Cette approche individuelle a le grand mérite de nous faire comprendre l'ampleu
 
 - de l'Etat, via ses propres émissions (les services publics, auxquels on ne peut simplement pas renoncer individuellement, représentent 1,5 tonnes de CO₂ par an / personne) ou via des lois qui encadrent la production et la consommation
 
-- des autres pays. Il va de soi que si la moitié des pays décide de ne pas faire d'effort, l'autre moitié devra en faire d'autant plus. (TODO : pas du tout certain de ca non ?)
+- des autres pays. Il va de soi que si la moitié des pays décident de ne pas faire d'effort, l'effort des autres ne sera pas vain mais ne suffira pas.
 
 Arrêtons de s'attendre et commençons dès maintenant à enclencher la voie vers cette réduction de nos émissions de GES.
 
