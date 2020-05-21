@@ -70,7 +70,7 @@ Quelle est la limite ? Le calcul est compliqué : les scientifiques modèlisent 
 | 1,75°         | 800                             | 716              |
 | 2°            | 1 170                            | 1 086             |
 
-*Source : tableau 2.2 du [rapport SR1.5 du GIEC](https://www.ipcc.ch/sr15/chapter/chapter-2/) actualisé (on suppose que les mêmes émissions qu'en 2017 en 2018 et 2019 alors qu'elles ont continuées d'augmenter)*
+*Source : tableau 2.2 du [rapport SR1.5 du GIEC](https://www.ipcc.ch/sr15/chapter/chapter-2/) actualisé*
 
 
 Ce tableau nous dit : pour avoir deux chances sur trois de rester sous les 1,75° de réchauffement, il faut que le monde émette moins de 716 milliards de tonnes de CO₂ à partir du 1er janvier 2020. C'est le budget CO₂ total restant pour notre civilisation. Dans la suite de cet article, nous allons viser cet objectif de 1,75°.
