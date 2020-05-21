@@ -88,7 +88,7 @@ Très bien, le monde a un objectif simple à tenir, 716 milliards de tonnes. Sim
 Pour le rendre concret, il faut répartir ces milliards par pays. Quelle est notre part du gâteau en France ? Il y a mille façons de régler ce problème diplomatique. Doit-on considérer que les pays industrialisés de longue date ont déjà consommé leur part, place aux autres ? Ou faut-il justement être plus indulgent envers ces pays qui partent de très haut, amortir leur chute ?
 
 
-L'option la plus objective pourrait être de donner à chaque terrien un budget égal, mais de lancer les décomptes le 1er janvier 2016, au lendemain de ce fameux Accord de Paris, comme le propose [cet article](http://www.realclimate.org/index.php/archives/2019/08/how-much-co2-your-country-can-still-emit-in-three-simple-steps/).
+L'option la plus objective pourrait être de donner à chaque terrien un budget égal, mais de lancer les décomptes le 1er janvier 2016, au lendemain de ce fameux accord de Paris, comme le propose [cet article](http://www.realclimate.org/index.php/archives/2019/08/how-much-co2-your-country-can-still-emit-in-three-simple-steps/).
 
 Par exemple, il y a environ deux fois moins de canadiens que de français, le budget du pays est donc la moitié du notre. Et pourtant, le Canada émet trois fois plus de CO₂ par habitant que nous ! Ils ont donc très violemment entamé leur budget depuis 2018, et leur effort devra être colossal.
 
