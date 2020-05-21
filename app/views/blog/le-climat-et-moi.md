@@ -75,7 +75,7 @@ Quelle est la limite ? Le calcul est compliqué : les scientifiques modèlisent 
 
 Ce tableau nous dit : pour avoir deux chances sur trois de rester sous les 1,75° de réchauffement, il faut que le monde émette moins de 716 milliards de tonnes de CO₂ à partir du 1er janvier 2020. C'est le budget CO₂ total restant pour notre civilisation. Dans la suite de cet article, nous allons viser cet objectif de 1,75°.
 
-Vous vous demandez peut-être : est-ce que la planète ne nous donne pas des rallonges de budget au fil des années ? C'est vrai, la Terre absorbe naturellement une partie de nos émissions de CO₂, grâce à ce qu'on appelle des *puits de carbone*. L'objectif est justement de revenir à ce niveau d'équilibre, et ne pas émettre plus que la biosphère ne peut en absorber : c'est ce que l'on appelle *la neutralité carbone*, et nous en sommes très loin aujourd'hui.
+Vous vous demandez peut-être : est-ce que la planète ne nous donne pas des rallonges de budget au fil des années ? C'est vrai, la Terre absorbe naturellement une partie de nos émissions de CO₂, grâce à ce qu'on appelle des *puits de carbone*. L'objectif est justement de revenir à ce niveau d'équilibre, et ne pas émettre plus que la Terre ne peut en absorber : c'est ce que l'on appelle *la neutralité carbone*, et nous en sommes très loin aujourd'hui.
 
 
 > 📗 Pour en savoir plus sur les puits naturels de CO₂, voir [cet article](https://medium.com/@Lomm/transition-%C3%A9nerg%C3%A9tique-la-trajectoire-du-moindre-effort-9e2f29667704) ou [ce rapport complet du ministère de l'environnement](https://www.statistiques.developpement-durable.gouv.fr/sites/default/files/2019-11/datalab-62-chiffres-cles-du-climat-france-europe-monde-edition2020-novembre2019_0.pdf).
