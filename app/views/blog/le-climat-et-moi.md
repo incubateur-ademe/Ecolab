@@ -160,11 +160,16 @@ Vous l'aurez compris, ce ne sont que des exemples, il y a beaucoup d'autres chem
 
 [C'est la raison d'être d'Ecolab](https://ecolab.ademe.fr/blog/général/pourquoi-ecolab.md) : apporter cette information aux citoyens via les services ou applications que nous utilisons déjà ou que nous utiliserons bientôt.
 
+### Limiter le risque, ou atteindre l'équilibre
+
+Nous venons d'explorer le scénario qui nous permettrait à limiter le réchauffement à 1.75°. 
+
+Or nous avons chacun le choix de faire bien mieux que ces budgets carbone, qui ne font que limiter les dégats climatiques, **en s'approchant dès cette année 2020, d'un style de vie soutenable à moins de 2 tonnes de CO₂ par personne**, à l'équilibre avec la capacité naturelle de notre pays à absorber nos émissions. Chaque dixième de degré compte.
+
+
 
 ## Nous sommes 7,5 milliards à bord
 
-
-***TODO : pas clair*** Evidemment, nous avons chacun le choix de faire bien mieux que ces budgets carbone, qui ne font que limiter les dégats climatiques, **en s'approchant dès cette année 2020, d'un style de vie soutenable à moins de 2 tonnes de CO₂ par personne**, à l'équilibre avec la capacité naturelle de notre pays à absorber nos émissions. Chaque dixième de degré compte.
 
 Mais nous ne sommes pas les seuls acteurs à bord.
 
@@ -176,8 +181,7 @@ Cette approche individuelle a le grand mérite de nous faire comprendre l'ampleu
 
 - des autres pays. Il va de soi que si la moitié des pays décident de ne pas faire d'effort, l'effort des autres ne sera pas vain mais ne suffira pas.
 
-Arrêtons de s'attendre et commençons dès maintenant à enclencher la voie vers cette réduction de nos émissions de GES.
-
+L'action individuelle et l'action collective sont intimement liées, et toutes les deux nécessaires. 
 
 **Alors, prêt à trouver vos 320 premiers kilos à perdre ?**
 
