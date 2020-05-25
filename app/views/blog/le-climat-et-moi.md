@@ -43,7 +43,7 @@ En épluchant les  nombreuses études scientifiques très peu réjouissantes sur
 Manifestement, nous n'avons pas pris cette direction. Les Nations Unies [ont sondé](https://www.carbonbrief.org/unep-1-5c-climate-target-slipping-out-of-reach) les ambitions de chaque pays : ce plan de route que nous les terriens empruntons, et que l'on impose au reste du vivant, **nous dirige vers 3,2°** de réchauffement, en supposant que chaque État tienne ses engagements.
 
 
-Est-ce vraiment catastrophique ? Oui. Nous le savons notamment grâce au [GIEC](https://fr.wikipedia.org/wiki/Groupe_d%27experts_intergouvernemental_sur_l%27%C3%A9volution_du_climat), un effort international de collaboration sans précédent, qui étudie et résume les publications scientifiques de plus en plus abondates sur le sujet. Nous avons tous en tête les types de conséquences : hausse du niveau de la mer, de la fréquence et de la force des canicules, sécheresses, cyclones, etc. entrainant famines, migrations, disparitions d'espèces, etc.
+Est-ce vraiment catastrophique ? Oui. Nous le savons notamment grâce au [GIEC](https://fr.wikipedia.org/wiki/Groupe_d%27experts_intergouvernemental_sur_l%27%C3%A9volution_du_climat), un effort international de collaboration sans précédent, qui étudie et résume les publications scientifiques de plus en plus abondates sur le sujet. Nous avons tous en tête les types de conséquences : hausse du niveau de la mer, de la fréquence et de l'intensité des canicules, sécheresses, cyclones, etc. entrainant famines, migrations, disparitions d'espèces, etc.
 
 Mais il reste difficile de se figurer leur ampleur. Regardons rapidement les projections de canicules en France dans le "scénario du pire".
 
