@@ -55,7 +55,7 @@ Mais il reste difficile de se figurer leur ampleur. Regardons rapidement les pro
 Cette carte seule est parlante, mais l'est encore plus quand on compare le nombre de morts des canicules récentes à ceux de la crise sanitaire du coronavirus.
 
 ![Comparaison des morts de la crise du coronavirus et des canicules : elles sont significatives](https://imgur.com/4ZYhDut.png)
-*Un graphique sur le [blog de l'INSEE](https://blog.insee.fr/statistiques-sur-les-deces-le-mode-demploi-des-donnees-de-linsee-en-7-questions-reponses/)*
+*En rouge, le coronavirus; en jaune, la canicule de 2003. Source : [INSEE](https://blog.insee.fr/statistiques-sur-les-deces-le-mode-demploi-des-donnees-de-linsee-en-7-questions-reponses/)*
 
 Insistons aussi sur la rapidité inédite du réchauffement que nous provoquons : nous modifions notre climat à l'échelle du siècle, quand les précédents réchauffements "naturels" se sont étalés sur des périodes bien plus longues permettant une meilleure adaptation du vivant, comme l'illustre [cette frise dessinée](https://xkcd.com/1732/) (en anglais).
 
