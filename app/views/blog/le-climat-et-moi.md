@@ -32,7 +32,7 @@ Mais quel est exactement notre objectif ? Nous devons baisser nos émissions de 
 📗 *Lisez [notre lexique](https://ecolab.gitbook.io/documentation-ecolab/lexique-environnemental-et-changement-climat#lequivalent-co2-ou-co2-equivalent-co-2-e) pour aller plus loin.*
 
 
-Pourquoi se soucie-t-on de ces gaz ? Plus nous en rejetons, plus ils s'accumulent dans l'athmosphère et réchauffent notre planète. Aujourd'hui, sa température moyenne a déjà grimpé de [plus de 1,2 degrés](https://www.lemonde.fr/blog/huet/2020/04/14/pas-de-repit-pour-le-climat-durant-la-covid-19) par rapport aux années 1900.
+Pourquoi se soucie-t-on de ces gaz ? Plus nous en rejetons, plus ils s'accumulent dans l'athmosphère et réchauffent la Terre. Aujourd'hui, sa température moyenne a déjà grimpé de [plus de 1,2 degrés](https://www.lemonde.fr/blog/huet/2020/04/14/pas-de-repit-pour-le-climat-durant-la-covid-19) par rapport aux années 1900.
 
 En épluchant les  nombreuses études scientifiques très peu réjouissantes sur les conséquences du réchauffement, les États du monde ont tranché fin 2015 lors de l'[accord de Paris](https://fr.wikipedia.org/wiki/Accord_de_Paris_sur_le_climat) : il faut tout faire pour limiter la hausse **nettement en-dessous de 2°**, et faire au mieux pour **la limiter à 1,5°**.
 
@@ -40,7 +40,7 @@ En épluchant les  nombreuses études scientifiques très peu réjouissantes sur
 
 ## Nous marchons vers la catastrophe
 
-Manifestement, nous n'avons pas pris cette direction. Les Nations Unies [ont sondé](https://www.carbonbrief.org/unep-1-5c-climate-target-slipping-out-of-reach) les ambitions de chaque pays : ce plan de route que nous les terriens empruntons, et que l'on impose au reste du vivant de notre planète, **nous dirige vers 3,2°** de réchauffement, en supposant que chaque État tienne ses engagements.
+Manifestement, nous n'avons pas pris cette direction. Les Nations Unies [ont sondé](https://www.carbonbrief.org/unep-1-5c-climate-target-slipping-out-of-reach) les ambitions de chaque pays : ce plan de route que nous les terriens empruntons, et que l'on impose au reste du vivant, **nous dirige vers 3,2°** de réchauffement, en supposant que chaque État tienne ses engagements.
 
 
 Est-ce vraiment catastrophique ? Oui. Nous le savons notamment grâce au [GIEC](https://fr.wikipedia.org/wiki/Groupe_d%27experts_intergouvernemental_sur_l%27%C3%A9volution_du_climat), un effort international de collaboration sans précédent, qui étudie et résume les publications scientifiques de plus en plus abondates sur le sujet. Nous avons tous en tête les types de conséquences : hausse du niveau de la mer, de la fréquence et de la force des canicules, sécheresses, cyclones, etc. entrainant famines, migrations, disparitions d'espèces, etc.
