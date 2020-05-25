@@ -181,4 +181,4 @@ Arrêtons de s'attendre et commençons dès maintenant à enclencher la voie ver
 
 **Alors, prêt à trouver vos 320 premiers kilos à perdre ?**
 
-![Deux personnes, au lieu d'un seul individu, marchent dans une nature luxuriante, contrastant avec l'image d'introduction de l'article](https://images.unsplash.com/photo-1555957445-b8218fb30c86?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)
+![Trois personnes, au lieu d'un seul individu, marchent dans une nature luxuriante bien qu'en contexte urbain, contrastant avec l'image d'introduction de l'article](https://images.unsplash.com/photo-1542113028-b526238297f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)
