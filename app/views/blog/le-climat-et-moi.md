@@ -141,7 +141,7 @@ Ici, on a doublé le temps de l'effort, mais on a coupé le rectangle en deux, p
 
 Un rapide calcul nous montre alors l'ampleur de l'effort à faire chaque année jusqu'en 2045 : -4 % de notre empreinte actuelle chaque année, donc **320 kg de CO₂ à émettre en moins chaque année par rapport à la précédente**.
 
-Rappelons aussi que si nous continuons à ne rien faire par exemple pendant 5 ans (ce que nous avons fait jusqu'à présent), l'effort sera d'autant plus important, et probablement impossible, les années suivantes.
+Et si nous ne faisons rien pendant 5 ans (ce que nous avons fait jusqu'à présent), l'effort sera d'autant plus important, et probablement impossible, les années suivantes.
 
 ## Construire des scénarios de réduction
 
