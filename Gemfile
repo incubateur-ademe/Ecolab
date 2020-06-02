@@ -14,6 +14,7 @@ gem 'sassc-rails'
 gem 'simple_form'
 gem 'uglifier'
 gem 'webpacker'
+gem 'sprockets-rails'
 
 gem 'kramdown', require: false
 gem 'front_matter_parser'

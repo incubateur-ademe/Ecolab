@@ -14,7 +14,9 @@
 
     <%= render 'shared/navbar'  %>
     <%#= render 'shared/flash'  %>
-    <%= yield %>
+    <div onclick = "window.location.reload(true)">
+      <%= yield %>
+    </div>
     <%= render 'shared/footer'  %>
 
 

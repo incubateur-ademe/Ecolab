@@ -20,6 +20,11 @@
           <%#= render '/shared/search-bar' %>
           <p class="banner_subtitle">Des données ouvertes pour une alimentation moins émettrice en CO2.</p>
 
+          <div class="place-du-button-et-lien">
+            <%#= link_to "Base Agribalyse", '/agribalyse', class:"btn btn-yellow" %>
+            <%#= link_to "Découvrez les données ouvertes", '/agribalyse', class:"how" %>
+          </div>
+
           <div class="how">
             <%#= link_to "Mieux comprendre les enjeux", 'https://ecolab.ademe.fr/blog/transport/impact-carbone-mobilite-eco-deplacement.md', target: "_blank" %>
           </div>
@@ -30,7 +35,7 @@
 </div>
 
 <section class="section">
-  <h2 class="section__title section-margin">Utilisez ces données dans vos produits et services</h2>
+  <h2 class="section__title section-margin">Utilisez les données d'impact de +2500 aliments dans vos produits et services</h2>
 
   <div class="element-text">
     <div class="text-p">
@@ -48,7 +53,8 @@
   </div>
 
   <div class="place-du-button-et-lien">
-      <%= link_to "Guide d’utilisation", 'https://ecolab.gitbook.io/documentation-ecolab/', class:"btn btn-grey" %>
+            <%= link_to "Base Agribalyse", '/agribalyse', class:"btn btn-yellow" %>
+            <%= link_to "Découvrez les données ouvertes", '/agribalyse', class:"how" %>
   </div>
 
 </section>

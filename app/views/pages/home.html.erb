@@ -142,9 +142,7 @@
         </div>
 
         <div class="place-du-button-et-lien">
-          <button class="btn-flat-download">
-            <%= link_to "Ouverture des données courant 2020", 'https://agribalyse.fr', target: "_blank" %>
-          </button>
+            <%= link_to "Ouverture des données courant 2020", 'https://agribalyse.fr', target: "_blank", class:"btn btn-yellow" %>
           <div class="how">
             <%= link_to "Documentation Agribalyse", "https://ecolab.gitbook.io/documentation-agribalyse/-M0Iwaasydt8MsoYyENw/", target: "_blank" %>
           </div>
@@ -251,6 +249,7 @@
 
 
 <%= render '/shared/newsletter' %>
+<%= render '/shared/twitter' %>
 
 
 </div>
