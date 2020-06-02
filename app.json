@@ -23,5 +23,5 @@
       "description": "Rails env var",
       "generator": "secret"
     }
-  },
+  }
 }
