@@ -1,7 +1,5 @@
 ---
-titre: L'empreinte carbone et le budget climat, c'est quoi ?
-# autre idée 
-# titre: Le budget climat, ça veut dire quoi ?
+titre: Le budget climat, c'est quoi ?
 catégorie: général
 tags:
   - gaz à effet de serre
