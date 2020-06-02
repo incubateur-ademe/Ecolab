@@ -1,5 +1,5 @@
 ---
-titre: Le budget climat, c'est quoi ?
+titre: Le budget et l'empreinte carbone, c'est quoi ?
 catégorie: général
 tags:
   - gaz à effet de serre
