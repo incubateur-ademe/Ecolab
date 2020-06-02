@@ -8,7 +8,7 @@
     background-size: contain;
     background-position: center;
     height: 635px;
-    width: 1373px;
+    width: -webkit-fill-available;
     background-color: white;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .hero .search_title {
-  margin: var(--space-s) auto;
+  // margin: var(--space-s) auto;
   color: var(--theme-dark-text);
   font-size: 1.7em;
   max-width: 7000px;
