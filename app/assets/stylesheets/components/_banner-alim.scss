@@ -1,17 +1,15 @@
 .hero__container_alim {
-  min-height: 15em;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  align-items: center;
-  // background: linear-gradient(0deg, white, $agri-beigasse);
-  // padding: var(--space-l);
-  //max-width: 1200px;
-  // margin: 0 auto;
-  background-image: url('Agribalyse-bann-rc2c');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 90vh;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url(alimentation/Banner);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 635px;
+    width: 1373px;
+    background-color: white;
 }
 
 .hero h1 {
