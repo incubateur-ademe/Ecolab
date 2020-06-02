@@ -9,6 +9,7 @@ image: https://imgur.com/atEFLG0.jpg
 description de l'image: |
   Une personne marche seule dans un désert, l'incarnation d'un environnement trop chaud et aride pour la vie.
 intro: Atteindre la neutralité carbone, ça veut dire quoi à mon échelle d'individu ?
+status: published
 ---
 
 Le climat est partout. Même en pleine crise du coronavirus, de nombreux articles nous rappelent que le dérèglement du climat prendra le relais des mauvaises nouvelles. Preuve que le sujet inquiète.
