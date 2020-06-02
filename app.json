@@ -7,6 +7,9 @@
   "image": "heroku/ruby",
   "buildpacks": [
     {
+      "url": "heroku/ruby"
+    },
+    {
       "url": "heroku-community/nginx"
     }
   ],
