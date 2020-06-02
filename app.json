@@ -1,0 +1,30 @@
+{
+  "name": "Ecolab website",
+  "description": "Webiste of Ecolab - ADEME",
+  "website": "https://ecolab.ademe.fr/",
+  "repository": "https://github.com/betagouv/ecolab",
+  "success_url": "/",
+  "image": "heroku/ruby",
+  "buildpacks": [
+    {
+      "url": "heroku/ruby"
+    },
+    {
+      "url": "heroku-community/nginx"
+    }
+  ],
+  "addons": [
+    {
+      "plan": "heroku-postgresql",
+      "options": {
+        "version": "9.5"
+      }
+    }
+  ],
+  "env": {
+    "SECRET_KEY_BASE": {
+      "description": "Rails env var",
+      "generator": "secret"
+    }
+  }
+}
