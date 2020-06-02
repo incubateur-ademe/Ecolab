@@ -5,11 +5,11 @@ Rails.application.routes.draw do
   get "/discover", to: "pages#discover"
   get "/transport", to: "pages#transport"
   get "/alimentation", to: "pages#alimentation"
-  get "/agribalyse", to: "pages#nouscontacter"
+  get "/agribalyse", to: "pages#home"
   get "/mentions-legales", to: "pages#mentions_legales"
   get "/vieprivee", to: "pages#vieprivee"
   get "/stats", to: "pages#stats"
-  get "/agriba5793lyse2indechiffrable34amoinsdetrerayman6579682", to: "pages#home"
+  get "/agribalyse", to: "pages#home"
 
   get "/blog", to: "blog#list"
   # query can be a tag or a category
