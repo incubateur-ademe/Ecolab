@@ -10,6 +10,12 @@
 }
 
 .blog-post {
+  h1, h2, h3, h4 {
+    margin: 2rem 0 .6rem
+  }
+  header>em {
+    font-size: 90%;
+  }
   blockquote {
     margin-left: 0.6rem;
     border-left: 4px solid #6979F8;
@@ -34,8 +40,10 @@
   }
 
   header .badge {
-    padding: 6px;
-    border-radius: 20px;
+	padding: 0.35rem 0.5rem;
+	border-radius: 0.3rem;
+	vertical-align: bottom;
+	margin: 0 .2rem;
   }
 
   #blog .tags {
@@ -46,6 +54,10 @@
     height: 20rem;
   }
 
+  table {
+    margin: 1rem 0;
+  }
+
   table td {
     border: 1px solid #00c48c;
     padding: 0.3rem;
@@ -53,12 +65,29 @@
 
   table th {
     background: #00c48c;
-    border: 1px solid white;
+    border-left: 1px solid #ffffff50;
     padding: 0.3rem;
     color: white;
   }
+  table th:first-child{
+    border-left: 1px solid #00c48c;
+  }
+  img {
+    max-width: 100%;
+	margin: 1rem 0;
+  }
+  table + em, table + p>em, img + p>em, img + em {
+	color: #666;
+	text-align: center;
+	width: 100%;
+	display: inline-block;
+	margin: 0 auto 1rem;
+	}
 }
 
 .article-card {
   background-color: white;
+}
+#article-tags {
+  margin: 3rem 0 
 }
