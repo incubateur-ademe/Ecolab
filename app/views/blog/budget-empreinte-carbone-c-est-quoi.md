@@ -8,7 +8,7 @@ date: 16/05/2020
 image: https://imgur.com/atEFLG0.jpg
 description de l'image: |
   Une personne marche seule dans un désert, l'incarnation d'un environnement trop chaud et aride pour la vie.
-intro: Atteindre la neutralité carbone, ça veut dire quoi à mon échelle d'individu ?
+intro: Une explication pas à pas des objectifs climat, de l'échelle de la Terre à celle de l'individu.
 status: published
 ---
 

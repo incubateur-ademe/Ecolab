@@ -1,5 +1,5 @@
 <% content_for :meta_title, @meta['titre'] %>
-<% content_for :meta_description, @meta['intro'] %>
+<% content_for :meta_description, "#{DEFAULT_META["meta_product_name"]} - #{@meta['intro']}" %>
 <% content_for :meta_image, image_path(@meta['image']) %>
 
 <main role="main" class="container" >
