@@ -3,5 +3,5 @@
 meta_product_name: "Ecolab"
 meta_title: "Ecolab - l'information environnementale au plus près des citoyens"
 meta_description: "Ecolab, une équipe de l'ADEME et de Betagouv qui apporte les données d’impact environnemental au plus près des usages des citoyens"
-meta_image: "metaimage-RS" # should exist in `app/assets/images/`
+meta_image: "metaimage-RS.png" # should exist in `app/assets/images/`
 twitter_account: "@Ecolab_betagouv"   # required for Twitter Cards
