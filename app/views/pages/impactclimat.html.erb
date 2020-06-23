@@ -3,7 +3,7 @@
     <i class="fas fa-chevron-right"></i>
   <p class="fil-ariane-texte">Secteur</p>
     <i class="fas fa-chevron-right"></i>
-  <p class="fil-ariane-texte"><a href="/transport">Se déplacer</a></p>
+  <p class="fil-ariane-texte"><a href="/impactclimat">Impact climat</a></p>
 </div>
 
 
@@ -12,26 +12,30 @@
     <div class="hero__container hero__container_landing p-5" style="background: linear-gradient(0deg, white, $blue);">
 
       <%#= image_tag("data.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
-      <img class="images-banner" id="trotti" src="<%= image_path('transport/metro') %>"/>
+      <img class="images-banner" id="trotti" src="<%= image_path('Climat/town') %>"/>
 
 
         <div class="texts-banner">
-          <h1 class="banner_title-trans">L'impact des déplacements sur le climat</h1>
+          <h1 class="banner_title-trans">L'impact carbone individuelle</h1>
           <%#= render '/shared/search-bar' %>
-          <p class="banner_subtitle">Des données ouvertes pour une mobilité moins émettrice en CO2.</p>
+          <p class="banner_subtitle">Réaliser son bilan carbone et comprendre comment agir sur les plus gros postes d'émission.</p>
 
           <div class="how">
-            <%= link_to "Mieux comprendre les enjeux", 'https://ecolab.ademe.fr/blog/transport/impact-carbone-mobilite-eco-deplacement.md', target: "_blank" %>
+            <%= link_to "Budget et empreinte carbone, c'est quoi ?", 'http://localhost:3000/blog/g%C3%A9n%C3%A9ral/budget-empreinte-carbone-c-est-quoi.md', target: "_blank" %>
           </div>
         </div>
       <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
-      <img class="images-banner" src="<%= image_path('transport/undraw_Ride_a_bicycle_2yok.svg') %>"/>
+      <img class="images-banner-clim" src="<%= image_path('climat/online') %>"/>
     </div>
 </div>
 
+
+
+
+
 <div style="background-color: white;">
     <div class="container align-text-center" style="height: fit-content; background-color: white; padding: 4vh; border-radius: 30px;">
-      <h2 class="section__title mt-5 mb-5">PROPOSITION #1 : Encourager le report modal en chiffrant et comparant l’ensemble des modes de transport</h2>
+      <h2 class="section__title mt-5 mb-5"></h2>
     <iframe id="ecolab-climat" style="height: 170vh; width: 180vh; border: none;" src="https://ecolab.ademe.fr/apps/micmac"></iframe>
 
     </div>
@@ -92,96 +96,9 @@
 
 <!-- temoignages -->
 
-  </div>
-<div class="reu-container">
-  <p class="reu-title">Ils ont intégré notre calculateur</p>
-    <div class="d-flex flex-row flex-wrap">
-        <%= link_to "https://www.notrechoix.org/quel-est-limpact-de-vos-trajets/", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/notrechoix.png') %>); height: 200px !important;">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://www.ademe.fr/particuliers-eco-citoyens/deplacements/calculer-emissions-carbone-trajets", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('logos/ademe-logo.jpg') %>); height: 200px !important; background-size: contain !important; background-repeat: no-repeat;">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://wiki.lafabriquedesmobilites.fr/wiki/Ecolab_ADEME", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/fabrique.png') %>); height: 200px !important;">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://www.save4planet.com/ecologie/53/velo-pollution", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/save4plan.png') %>); height: 200px !important;">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://grandparisdurable.org/transport/", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/gdparisdurable.png') %>); height: 200px !important;">
-          </div>
-        </div>
-        <% end %>
-
-      </div>
-  </div>
 
 
-<!-- Re-utilisateurs -->
 
-<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-  </ol>
-  <div class="carousel-inner">
-
-<!--     temoignage 1 -->
-    <div class="carousel-item active">
-      <h2>"Il est très simple d'utilisation et le graphisme basique mais percutant permet de comprendre les résultats d'un coup d'oeil."</h2>
-      <p>Alfaré Aurélien - ACCTEES</p>
-      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
-    </div>
-<!--     temoignage 2 -->
-    <div class="carousel-item">
-      <h2>On est absolument ravis ! C'est clairement un outil qui nous manqué jusque là et qui s'intègre  très bien à notre démarche ! Je trouve ça particulièrement positif que vous ayez dès le départ conçu l'outil pour être intégré sur les sites tiers !</h2>
-      <p>Adrien Jeantet - notre Choix</p>
-      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
-    </div>
-
-<!--     temoignage 3 -->
-    <div class="carousel-item">
-      <h2>"Simple et pratique à utiliser, on voit bien les quantités émises."</h2>
-      <p>Joachim Robert Design graphique</p>
-      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
-    </div>
-
-<!--     temoignage 4 -->
-    <div class="carousel-item">
-      <h2>"Calculateur simple, facilement incorporable à un site internet."</h2>
-      <p>Utilisateur</p>
-      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
-
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Prec</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Suiv</span>
-  </a>
-</div>
 
 <%= render '/shared/newsletter' %>
 <%= render '/shared/twitter' %>
