@@ -10,7 +10,7 @@ Rails.application.routes.draw do
   get "/vieprivee", to: "pages#vieprivee"
   get "/stats", to: "pages#stats"
   get "/agribalyse", to: "pages#home"
-  get "/impactclimat", to: "pages#impactclimat"
+  get "/impactcarbone", to: "pages#impactcarbone"
 
   get "/blog", to: "blog#list"
   # query can be a tag or a category

@@ -20,7 +20,7 @@ class PagesController < ApplicationController
   def alimentation
   end
 
-  def impactclimat
+  def impactcarbone
   end
 
   def vieprivee

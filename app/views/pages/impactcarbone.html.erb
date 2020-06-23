@@ -3,7 +3,7 @@
     <i class="fas fa-chevron-right"></i>
   <p class="fil-ariane-texte">Secteur</p>
     <i class="fas fa-chevron-right"></i>
-  <p class="fil-ariane-texte"><a href="/impactclimat">Impact climat</a></p>
+  <p class="fil-ariane-texte"><a href="/impactcarbone">Impact carbone</a></p>
 </div>
 
 
@@ -18,10 +18,10 @@
         <div class="texts-banner">
           <h1 class="banner_title-trans">L'impact carbone individuelle</h1>
           <%#= render '/shared/search-bar' %>
-          <p class="banner_subtitle">Réaliser son bilan carbone et comprendre comment agir sur les plus gros postes d'émission.</p>
+          <p class="banner_subtitle">Réaliser son bilan carbone personnel et comprendre comment agir sur les facteurs d'émission les plus importants.</p>
 
           <div class="how">
-            <%= link_to "Budget et empreinte carbone, c'est quoi ?", 'http://localhost:3000/blog/g%C3%A9n%C3%A9ral/budget-empreinte-carbone-c-est-quoi.md', target: "_blank" %>
+            <%#= link_to "Budget et empreinte carbone, c'est quoi ?", '', target: "_blank" %>
           </div>
         </div>
       <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
@@ -32,6 +32,35 @@
 
 
 
+<!-- Explication pourquoi faire son bilan climat/empreinte carbone perso -->
+<section class="section">
+  <h2 class="section__title section-margin">Utilisez le simulateur d'empreinte carbone individuelle dans vos produits et services</h2>
+
+  <div class="element-text">
+    <div class="text-p">
+      <strong class="titre-p mb-2"></strong>
+      <p>L'empreinte carbone correspond aux émissions de gaz à effet de serre liées à notre consommation, c’est à dire notre mode de vie (i.e. notre alimentation, nos transports, notre logement).</p>
+      </div>
+    <div class="text-p">
+      <strong class="titre-p mb-2"></strong>
+      <p>Son intérêt est double : s'informer et comprendre d'où viennent nos activités les plus néfastes pour le climat et agir à notre échelle afin de réduire nos émissions sur les postes qui en valent la peine.</p>
+    </div>
+    <div class="text-p">
+      <strong class="titre-p mb-2"></strong>
+      <p>Ce simulateur vous permet d'évaluer votre empreinte carbone individuelle, puis de la situer par rapport aux objectifs climatiques. Il est basé sur le modèle MicMac des associations Avenir Climatique et TaCa.</p>
+    </div>
+  </div>
+
+  <div class="place-du-button-et-lien">
+            <%= link_to "Budget et empreinte carbone, c'est quoi ?", 'https://ecolab.ademe.fr/blog/g%C3%A9n%C3%A9ral/budget-empreinte-carbone-c-est-quoi.md', class:"btn btn-blue" %>
+            <%#= link_to "Documentation", '/agribalyse', class:"how" %>
+
+            <%#= link_to "Découvrez les données ouvertes", '/agribalyse', class:"how" %>
+  </div>
+
+</section>
+
+<!-- fin de l'explication -->
 
 <div style="background-color: white;">
     <div class="container align-text-center" style="height: fit-content; background-color: white; padding: 4vh; border-radius: 30px;">
