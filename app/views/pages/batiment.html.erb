@@ -1,0 +1,33 @@
+<div class="fil-ariane-bar">
+  <p id="accueil" class="fil-ariane-texte"><a href="/">Accueil</a></p>
+    <i class="fas fa-chevron-right"></i>
+  <p class="fil-ariane-texte">Secteur</p>
+    <i class="fas fa-chevron-right"></i>
+  <p class="fil-ariane-texte"><a href="/impactcarbone">Impact carbone</a></p>
+</div>
+
+
+
+<div class="hero" role="banner">
+    <div class="hero__container hero__container_landing p-5" style="background: linear-gradient(0deg, white, #FF647C);">
+
+      <%#= image_tag("data.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
+      <img class="images-banner" id="trotti" src="<%= image_path('Climat/town') %>"/>
+
+
+        <div class="texts-banner">
+          <h1 class="banner_title-trans">L'impact de la consommation énergétique de son logement</h1>
+          <%#= render '/shared/search-bar' %>
+          <p class="banner_subtitle">Rénovation, décarbonation de l’énergie et réduction des surfaces urbanisées au profit de la densification ainsi que leurs conséquences sur le climat.</p>
+
+          <div class="how">
+            <%= link_to "👷   Encore en construction", '', target: "_blank" %>
+          </div>
+        </div>
+      <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
+      <img class="images-banner-clim" src="<%= image_path('climat/online') %>"/>
+    </div>
+</div>
+
+<%= render '/shared/newsletter' %>
+<%= render '/shared/twitter' %>
