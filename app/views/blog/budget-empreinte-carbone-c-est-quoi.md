@@ -27,7 +27,7 @@ Les COPs s'enchainent, mais avec quel succès ?
 
 ## Notre objectif
 
-Mais quel est exactement notre objectif ? Nous devons baisser nos émissions de gaz à effet de serre : en dioxide de carbone (CO₂), le principal dont on entend toujours parler, mais aussi en méthane (CH₄), en protoxyde d'azote (N₂O), etc. Pour simplifier, un calcul savant permet de tout résumer à un *équivalent CO₂* abrégé en CO₂e : une seule mesure pour les gouverner toutes. 
+Mais quel est exactement notre objectif ? Nous devons baisser nos émissions de gaz à effet de serre : en dioxyde de carbone (CO₂), le principal dont on entend toujours parler, mais aussi en méthane (CH₄), en protoxyde d'azote (N₂O), etc. Pour simplifier, un calcul savant permet de tout résumer à un *équivalent CO₂* abrégé en CO₂e : une seule mesure pour les gouverner toutes. 
 
 Le *e* de CO₂e n'est vraiment pas un détail : un voyage en avion Paris-New York émet 1 tonne de CO₂, mais 2 tonnes de CO₂e ! 
 
