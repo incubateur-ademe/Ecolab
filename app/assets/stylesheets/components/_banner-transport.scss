@@ -29,6 +29,18 @@
 
 }
 
+.section-carb {
+  height: 520px;
+  padding-left: 100px;
+  padding-right: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+
+}
+
 
 .section-trans-droite {
     background-color: $light-blue;
@@ -41,6 +53,12 @@
 .section-trans p {
   width: 700px;
   font-size: 20px;
+  color: black;
+}
+
+.section-carb p {
+  width: 700px;
+  font-size: 18px;
   color: black;
 }
 
