@@ -18,10 +18,10 @@
         <div class="texts-banner">
           <h1 class="banner_title-trans">Nos GEStes climat</h1>
           <%#= render '/shared/search-bar' %>
-          <p class="banner_subtitle">Des ressources pour aider vos utilisateurs à visualiser leur impact carbone et agir pour le réduire.</p>
+          <p class="banner_subtitle">Aider vos utilisateurs à visualiser leur impact GES (Gaz à effet de serre) et à agir pour le réduire.</p>
 
           <div class="how">
-            <%#= link_to "Budget et empreinte carbone, c'est quoi ?", '', target: "_blank" %>
+            <%= link_to "Mieux comprendre les enjeux", 'https://ecolab.ademe.fr/blog/g%C3%A9n%C3%A9ral/budget-empreinte-carbone-c-est-quoi.md', target: "_blank" %>
           </div>
         </div>
       <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
@@ -51,12 +51,12 @@
     </div>
   </div>
 
-  <div class="place-du-button-et-lien">
-            <%= link_to "Budget et empreinte carbone, c'est quoi ?", 'https://ecolab.ademe.fr/blog/g%C3%A9n%C3%A9ral/budget-empreinte-carbone-c-est-quoi.md', class:"btn btn-blue" %>
+
+            <%#= link_to "Budget et empreinte carbone, c'est quoi ?", 'https://ecolab.ademe.fr/blog/g%C3%A9n%C3%A9ral/budget-empreinte-carbone-c-est-quoi.md', class:"btn btn-blue" %>
             <%#= link_to "Documentation", '/agribalyse', class:"how" %>
 
             <%#= link_to "Découvrez les données ouvertes", '/agribalyse', class:"how" %>
-  </div>
+
 
 </section>
 
@@ -87,7 +87,9 @@
         < iframe id="ecolab-climat" style="height: 170vh; width: 180vh; border: none;" src="https://ecolab.ademe.fr/apps/micmac"></ iframe>
       </code>
 
-        <%= link_to "Documentation", 'https://ecolab.gitbook.io/documentation-ecolab/se-deplacer-quelques-cas-dusage-des-donnees', target: "_blank", class:"btn btn-grey mt-3" %>
+      <p class="mt-3">ou accéder au module de code :</p>
+
+        <%= link_to "Github", 'https://github.com/betagouv/ecolab-climat', target: "_blank", class:"btn btn-grey mt-3" %>
     </div>
       <img  src="<%= image_path('transport/app-wiref.svg') %>"/>
   </div>
