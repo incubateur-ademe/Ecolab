@@ -28,6 +28,15 @@
   background-color: $light-red;
 }
 
+.btn-blue {
+  background-color: $blue;
+  color: white;
+}
+
+.btn-blue:hover {
+  background-color: $light-blue;
+}
+
 .btn-yellow {
   background-color: $yellow;
 }
@@ -71,6 +80,10 @@
 
 #dropdown-item-sedeplacer:hover {
   background-color: $green;
+}
+
+#dropdown-item-climat:hover {
+  background-color: $blue;
 }
 
 .btn-grey {

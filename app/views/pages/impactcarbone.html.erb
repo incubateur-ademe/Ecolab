@@ -1,0 +1,135 @@
+<div class="fil-ariane-bar">
+  <p id="accueil" class="fil-ariane-texte"><a href="/">Accueil</a></p>
+    <i class="fas fa-chevron-right"></i>
+  <p class="fil-ariane-texte">Secteur</p>
+    <i class="fas fa-chevron-right"></i>
+  <p class="fil-ariane-texte"><a href="/impactcarbone">Impact carbone</a></p>
+</div>
+
+
+
+<div class="hero" role="banner">
+    <div class="hero__container hero__container_landing p-5" style="background: linear-gradient(0deg, white, $blue);">
+
+      <%#= image_tag("data.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
+      <img class="images-banner" id="trotti" src="<%= image_path('Climat/town') %>"/>
+
+
+        <div class="texts-banner">
+          <h1 class="banner_title-trans">L'impact carbone individuel</h1>
+          <%#= render '/shared/search-bar' %>
+          <p class="banner_subtitle">Réaliser son bilan carbone personnel et comprendre comment agir sur les facteurs d'émission les plus importants.</p>
+
+          <div class="how">
+            <%#= link_to "Budget et empreinte carbone, c'est quoi ?", '', target: "_blank" %>
+          </div>
+        </div>
+      <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
+      <img class="images-banner-clim" src="<%= image_path('climat/online') %>"/>
+    </div>
+</div>
+
+
+
+
+<!-- Explication pourquoi faire son bilan climat/empreinte carbone perso -->
+<section class="section">
+  <h2 class="section__title section-margin">Utilisez le simulateur d'empreinte carbone individuelle dans vos produits et services</h2>
+
+  <div class="element-text">
+    <div class="text-p">
+      <strong class="titre-p mb-2"></strong>
+      <p>L'empreinte carbone correspond aux émissions de gaz à effet de serre liées à notre consommation, c’est à dire notre mode de vie (i.e. notre alimentation, nos transports, notre logement).</p>
+      </div>
+    <div class="text-p">
+      <strong class="titre-p mb-2"></strong>
+      <p>Son intérêt est double : s'informer et comprendre d'où viennent nos activités les plus néfastes pour le climat et agir à notre échelle afin de réduire nos émissions sur les postes qui en valent la peine.</p>
+    </div>
+    <div class="text-p">
+      <strong class="titre-p mb-2"></strong>
+      <p>Ce simulateur vous permet d'évaluer votre empreinte carbone individuelle, puis de la situer par rapport aux objectifs climatiques. Il est basé sur le modèle MicMac des associations Avenir Climatique et TaCa.</p>
+    </div>
+  </div>
+
+  <div class="place-du-button-et-lien">
+            <%= link_to "Budget et empreinte carbone, c'est quoi ?", 'https://ecolab.ademe.fr/blog/g%C3%A9n%C3%A9ral/budget-empreinte-carbone-c-est-quoi.md', class:"btn btn-blue" %>
+            <%#= link_to "Documentation", '/agribalyse', class:"how" %>
+
+            <%#= link_to "Découvrez les données ouvertes", '/agribalyse', class:"how" %>
+  </div>
+
+</section>
+
+<!-- fin de l'explication -->
+
+<div style="background-color: white;">
+    <div class="container align-text-center" style="height: fit-content; background-color: white; padding: 4vh; border-radius: 30px;">
+      <h2 class="section__title mt-5 mb-5"></h2>
+    <iframe id="ecolab-climat" style="height: 170vh; width: 180vh; border: none;" src="https://deploy-preview-52--ecolab-climat.netlify.app/"></iframe>
+    </div>
+
+</div>
+
+
+
+
+
+<!-- Section integrer le simulateur -->
+
+<div class="d-flex flex-column">
+  <div class="section-trans section-trans-droite section-demandeur">
+    <div class="text-p d-flex flex-column align-items-center justofy-content-end mr-5 ml-5">
+      <p><strong>Intégrez ce simulateur directement à votre site</strong></p>
+        <span></span>
+      <p>Intégrez notre module de calcul chez vous, par exemple rendre un article de blog plus intéractif pour le lecteur, simplement en ajoutant cette ligne à votre page Web. Le module restera automatiquement à jour avec les données les plus récentes.
+      </p>
+      <code>
+        < iframe id="ecolab-climat" style="height: 170vh; width: 180vh; border: none;" src="https://ecolab.ademe.fr/apps/micmac"></ iframe>
+      </code>
+
+        <%= link_to "Documentation", 'https://ecolab.gitbook.io/documentation-ecolab/se-deplacer-quelques-cas-dusage-des-donnees', target: "_blank", class:"btn btn-grey mt-3" %>
+    </div>
+      <img  src="<%= image_path('transport/app-wiref.svg') %>"/>
+  </div>
+
+
+<!-- Section données lien vers github -->
+
+<div class="d-flex flex-column">
+  <div class="section-trans section-trans-gauche section-demandeur">
+      <img src="<%= image_path('transport/data.svg') %>"/>
+    <div class="text-p d-flex flex-column align-items-center ml-5">
+      <p><strong>Enrichissez vos produits avec les données </strong></p>
+        <span></span>
+      <p>Accédez aux données CO2 transport utilisées pour le simulateur sous format yaml.
+      </p>
+        <%= link_to "Github", 'https://github.com/betagouv/ecolab-transport/blob/master/ges-transport.yaml', target: "_blank", class:"btn btn-grey mt-3" %>
+        <%#= link_to "Autres formats données sur data.ademe.fr", 'https://data.ademe.fr/datasets/ademe-extrait-base-carbone-v14-0', target: "_blank", class:"how mt-3" %>
+    </div>
+  </div>
+
+
+<!--   <div class="section-trans section-demandeur">
+    <div class="text-p d-flex flex-column align-items-center ml-5">
+      <p><strong>Vous aussi participez à nos ateliers utilisateurs et intégrez les données impact environnemental transport</strong></p>
+        <span></span>
+      <p>Sous forme d’iframe ou en ré-utilisant le jeu de donneées format csv, json ou api.</p>
+        <%#= link_to "Commencer", 'https://ecolab.gitbook.io/documentation-ecolab/reutiliser-les-donnees-1', target: "_blank", class:"btn btn-grey mt-3" %>
+      </div>
+      <img src="<%#= image_path('transport/data.svg') %>"/>
+  </div> -->
+</div>
+
+
+
+<!-- temoignages -->
+
+
+
+
+
+<%= render '/shared/newsletter' %>
+<%= render '/shared/twitter' %>
+
+
+

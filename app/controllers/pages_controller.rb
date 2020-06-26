@@ -8,6 +8,9 @@ class PagesController < ApplicationController
   def discover
   end
 
+  def batiment
+  end
+
   def mentions_legales
   end
 
@@ -18,6 +21,9 @@ class PagesController < ApplicationController
   end
 
   def alimentation
+  end
+
+  def impactcarbone
   end
 
   def vieprivee
