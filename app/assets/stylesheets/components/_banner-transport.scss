@@ -18,12 +18,12 @@
 }
 
 .section-trans {
-  height: 450px;
-  padding-left: 100px;
-  padding-right: 300px;
+  padding-top: 80px;
+  padding-bottom: 80px;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center;
   align-items: center;
 
@@ -51,7 +51,7 @@
 }
 
 .section-trans p {
-  width: 700px;
+  width: 500px;
   font-size: 20px;
   color: black;
 }
