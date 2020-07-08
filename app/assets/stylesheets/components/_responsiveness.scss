@@ -1,0 +1,15 @@
+@media(max-width: 1000px) {
+  .section-rs {
+    max-width: 1000px;
+  }
+  .twitter-flex {
+    flex-direction: column !important;
+  }
+  .titre-news {
+    width: 300px !important;
+    font-size: 1.2em !important;
+  }
+  iframe {
+    margin: 0px !important;
+  }
+}
