@@ -46,7 +46,7 @@
 
 <div class="d-flex flex-column">
   <div class="section-trans section-trans-droite section-demandeur">
-    <div class="text-p d-flex flex-column align-items-center justofy-content-end mr-5 ml-5">
+    <div class="text-p d-flex flex-column align-items-center justify-content-end">
       <p><strong>Intégrez ce simulateur directement à votre site</strong></p>
         <span></span>
       <p>Intégrez notre module de calcul chez vous, par exemple rendre un article de blog plus intéractif pour le lecteur, simplement en ajoutant cette ligne à votre page Web. Le module restera automatiquement à jour avec les données les plus récentes.
@@ -66,7 +66,7 @@
 <div class="d-flex flex-column">
   <div class="section-trans section-trans-gauche section-demandeur">
       <img src="<%= image_path('transport/data.svg') %>"/>
-    <div class="text-p d-flex flex-column align-items-center ml-5">
+    <div class="text-p d-flex flex-column align-items-center">
       <p><strong>Enrichissez vos produits avec les données </strong></p>
         <span></span>
       <p>Accédez aux données CO2 transport utilisées pour le simulateur sous format yaml.
@@ -93,47 +93,49 @@
 <!-- temoignages -->
 
   </div>
-<div class="reu-container">
-  <p class="reu-title">Ils ont intégré notre calculateur</p>
-    <div class="d-flex flex-row flex-wrap">
+
+
+    <div class="reu-container">
+      <p class="reu-title">Ils ont intégré notre calculateur</p>
+          <div class="d-flex flex-row flex-wrap">
         <%= link_to "https://www.notrechoix.org/quel-est-limpact-de-vos-trajets/", target: "_blank" do %>
         <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/notrechoix.png') %>); height: 200px !important;">
+          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/notrechoix.png') %>);">
           </div>
         </div>
         <% end %>
 
         <%= link_to "https://particuliers.ademe.fr/calculer-les-emissions-de-carbone-de-vos-trajets", target: "_blank" do %>
         <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('logos/ademe-logo.jpg') %>); height: 200px !important; background-size: contain !important; background-repeat: no-repeat;">
+          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('logos/ademe-logo.jpg') %>); background-size: contain !important; background-repeat: no-repeat;">
           </div>
         </div>
         <% end %>
 
         <%= link_to "https://wiki.lafabriquedesmobilites.fr/wiki/Ecolab_ADEME", target: "_blank" do %>
         <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/fabrique.png') %>); height: 200px !important;">
+          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/fabrique.png') %>);">
           </div>
         </div>
         <% end %>
 
         <%= link_to "https://www.save4planet.com/ecologie/53/velo-pollution", target: "_blank" do %>
         <div>
-          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/save4plan.png') %>); height: 200px !important;">
+          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/save4plan.png') %>);">
           </div>
         </div>
         <% end %>
 
         <%= link_to "https://grandparisdurable.org/transport/", target: "_blank" do %>
         <div>
-          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/gdparisdurable.png') %>); height: 200px !important;">
+          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/gdparisdurable.png') %>);">
           </div>
         </div>
         <% end %>
 
         <%= link_to "https://www.associationbilancarbone.fr/le-changement-climatique/", target: "_blank" do %>
         <div>
-          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/abc_main_logo') %>); height: 200px !important;">
+          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/abc_main_logo') %>);">
           </div>
         </div>
         <% end %>
@@ -154,27 +156,27 @@
 
 <!--     temoignage 1 -->
     <div class="carousel-item active">
-      <h2>"Il est très simple d'utilisation et le graphisme basique mais percutant permet de comprendre les résultats d'un coup d'oeil."</h2>
+      <h2 class="temoignage">"Il est très simple d'utilisation et le graphisme basique mais percutant permet de comprendre les résultats d'un coup d'oeil."</h2>
       <p>Alfaré Aurélien - ACCTEES</p>
       <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
     </div>
 <!--     temoignage 2 -->
     <div class="carousel-item">
-      <h2>On est absolument ravis ! C'est clairement un outil qui nous manqué jusque là et qui s'intègre  très bien à notre démarche ! Je trouve ça particulièrement positif que vous ayez dès le départ conçu l'outil pour être intégré sur les sites tiers !</h2>
+      <h2 class="temoignage">On est absolument ravis ! C'est clairement un outil qui nous manqué jusque là et qui s'intègre  très bien à notre démarche ! Je trouve ça particulièrement positif que vous ayez dès le départ conçu l'outil pour être intégré sur les sites tiers !</h2>
       <p>Adrien Jeantet - notre Choix</p>
       <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
     </div>
 
 <!--     temoignage 3 -->
     <div class="carousel-item">
-      <h2>"Simple et pratique à utiliser, on voit bien les quantités émises."</h2>
+      <h2 class="temoignage">"Simple et pratique à utiliser, on voit bien les quantités émises."</h2>
       <p>Joachim Robert Design graphique</p>
       <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
     </div>
 
 <!--     temoignage 4 -->
     <div class="carousel-item">
-      <h2>"Calculateur simple, facilement incorporable à un site internet."</h2>
+      <h2 class="temoignage">"Calculateur simple, facilement incorporable à un site internet."</h2>
       <p>Utilisateur</p>
       <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
 

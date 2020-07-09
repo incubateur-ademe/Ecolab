@@ -2,6 +2,7 @@
   background-color: white;
   padding: 10px 0px 10px 10px;
   text-align: center;
+  flex-wrap: wrap;
 }
 
 .reu-title {
@@ -31,12 +32,12 @@
 }
 
 .d-flex .reu-category {
-  height: 95px;
+  height: 120px;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 380px;
-  margin: 13px 83px 25px 31px;
+  width: 270px;
+  margin: 20px 83px 25px 31px;
 }
 
 .reu-category {
@@ -44,7 +45,7 @@
   background-position: center;
   text-align: center;
   color: white;
-  padding: 10px 15px;
+  padding: 30px;
   font-size: 25px;
   // font-weight: normal;
   text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
