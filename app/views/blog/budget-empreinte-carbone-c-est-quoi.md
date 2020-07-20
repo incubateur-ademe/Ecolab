@@ -187,4 +187,8 @@ L'action individuelle et l'action collective sont intimement liées, et toutes l
 
 **Alors, prêt à trouver vos 320 premiers kilos à perdre ?**
 
+**[Testez en avant première notre calculateur Nos Gestes Climat](/apps/climat)**.
+
+[![](https://imgur.com/6OIkPa0.png)](/apps/climat)
+
 ![Trois personnes, au lieu d'un seul individu, marchent dans une nature luxuriante bien qu'en contexte urbain, contrastant avec l'image d'introduction de l'article](https://images.unsplash.com/photo-1542113028-b526238297f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)
