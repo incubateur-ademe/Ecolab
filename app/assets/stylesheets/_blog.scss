@@ -17,11 +17,24 @@
     font-size: 90%;
   }
   blockquote {
-    margin-left: 0.6rem;
+    margin-left: 1.7rem;
     border-left: 4px solid #6979F8;
-    padding-left: 0.6rem;
+    padding-left: 0.7rem;
     opacity: 0.75;
+    position: relative;
   }
+
+  blockquote.interview:before {
+    display: block;
+    // padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -32px;
+    top: -23px;
+    color: #7a7a7a;
+  }
+
   padding-top: 1rem;
   h1 {
     font-size: 2rem;
@@ -89,5 +102,5 @@
   background-color: white;
 }
 #article-tags {
-  margin: 3rem 0 
+  margin: 3rem 0
 }
