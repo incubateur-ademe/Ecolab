@@ -7,7 +7,7 @@ tags:
 date: 22/06/2020
 image: https://images.unsplash.com/photo-1582079133805-43655f026448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
 description de l'image: todo
-intro: Petit état des lieux de l'affichage des gaz à effet de serre (GES) sur les cartes, titres et justificatifs de transport…
+intro: Petit état des lieux de l'affichage des gaz à effet de serre (GES) sur les sites de mobilité et les justificatifs de transport…
 status: draft
 ---
 
