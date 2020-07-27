@@ -5,7 +5,7 @@ tags:
   - gaz à effet de serre
   - budget climat
 date: 16/05/2020
-image: https://images.unsplash.com/photo-1515139372923-c923c9e9a18c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=640&q=80
+image: https://imgur.com/atEFLG0.jpg
 description de l'image: |
   Une personne marche seule dans un désert, l'incarnation d'un environnement trop chaud et aride pour la vie.
 intro: Une explication pas à pas des objectifs climat, de l'échelle de la Terre à celle de l'individu.
@@ -186,9 +186,5 @@ Cette approche individuelle a le grand mérite de nous faire comprendre l'ampleu
 L'action individuelle et l'action collective sont intimement liées, et toutes les deux nécessaires.
 
 **Alors, prêt à trouver vos 320 premiers kilos à perdre ?**
-
-**[Testez en avant première notre calculateur Nos Gestes Climat](/apps/climat)**.
-
-[![](https://imgur.com/6OIkPa0.png)](/apps/climat)
 
 ![Trois personnes, au lieu d'un seul individu, marchent dans une nature luxuriante bien qu'en contexte urbain, contrastant avec l'image d'introduction de l'article](https://images.unsplash.com/photo-1542113028-b526238297f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)
