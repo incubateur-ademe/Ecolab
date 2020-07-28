@@ -29,7 +29,7 @@ https://images.unsplash.com/photo-1571878285530-16e94edb7255?ixlib=rb-1.2.1&ixid
 --
 
 
-Poursuivant l'objectif de mieux rendre visible et compréhensible l'impact environnemental dans les gestes du quotidien, voici un état des lieux de l'affichage de gaz à effet de serre (GES) dans le secteur des transports. A ce titre, nous interrogeons un expert de l'ADEME, Marc Cottignies, sur la réglementation en vigueur et nous verrons son application concrète pour les citoyen·ne·s au travers de quelques services de mobilité.
+Poursuivant l'objectif de mieux **rendre visible et compréhensible l'impact environnemental dans les gestes du quotidien**, voici un état des lieux de l'affichage de gaz à effet de serre (GES) dans le secteur des transports. A ce titre, nous interrogeons un expert de l'ADEME, Marc Cottignies, sur la réglementation en vigueur et nous verrons son application concrète pour les citoyens et citoyennes au travers de quelques services de mobilité.
 
 ## Marc, pouvez-vous vous présenter ?
 
@@ -40,7 +40,7 @@ Poursuivant l'objectif de mieux rendre visible et compréhensible l'impact envir
 
 <blockquote class="interview"></blockquote>
 > On parle plutôt de l’information GES des prestations de transport : l’information n’est pas « affichée », en général, surtout en transport de marchandises.
-Les prestataires de transport doivent informer leurs clients de la quantité de gaz à effet de serre (GES) correspondant aux prestations proposées ou réalisées.
+Les **prestataires de transport doivent informer leurs clients de la quantité de gaz à effet de serre (GES) correspondant aux prestations proposées ou réalisées**.
 Elle vise à sensibiliser les acheteurs de transport à l’impact environnemental, leur permettre de disposer d’une information environnementale et non seulement du prix ou d’autres considérations comme la durée du voyage, le confort, etc.
 Elle concerne à la fois le transport de voyageurs et de marchandises, le déménagement, tous les modes de transport.
 Après avoir été initialement construite sur un périmètre incluant les transports depuis ou vers l’étranger, l’obligation réglementaire est aujourd’hui réduite aux prestations internes au territoire français.<br/><br/>
@@ -57,7 +57,7 @@ La réglementation française s’est appuyée sur l’état de l’art des norm
 <blockquote class="interview"></blockquote>
 > Elles sont nombreuses !<br/><br/>
 > Globalement, il faudrait assurer une meilleure mise en œuvre de la réglementation par l’ensemble des acteurs, à la fois en qualité et en quantité.<br/><br/>
-> Qualitativement, c’est d’abord la communication qui doit être structurée, standardisée afin que l’information parvienne effectivement au client, dans une forme adaptée. C’est ensuite la justesse et la précision des valeurs communiquées qu’il faudra améliorée.<br/><br/>
+> Qualitativement, c’est d’abord **la communication qui doit être structurée, standardisée afin que l’information parvienne effectivement au client**, dans une forme adaptée. C’est ensuite **la justesse et la précision des valeurs communiquées qu’il faudra améliorer**.<br/><br/>
 > Sur le plan quantitatif, il faudra parvenir à généraliser la quantification des informations et transmission aux clients par les prestataires de transport, et son exploitation par les clients.<br/><br/>
 > La méthodologie pourra être revue pour s’aligner sur la norme ISO14083 lorsqu’elle sera publiée.<br/><br/>
 > Le périmètre d’application pourrait être rétabli à son état d’origine, c’est-à-dire réintégrer toutes les prestations de transport entre la France et les autres pays.<br/><br/>
@@ -67,9 +67,11 @@ La réglementation française s’est appuyée sur l’état de l’art des norm
 
 # En pratique, ca donne quoi ?
 
-Voici un petit échantillon d'exemples réels à la date de l'article de ce que l'on peut voir en tant que citoyen ou citoyenne lorsque l'on cherche, achète un billet : tickets de transport, en papier ou dématérialisé, affichage avant/après l'acte d'achat, lisibilité de l'information...
+Voici un petit échantillon d'exemples réels à la date de l'article de ce que l'on peut voir en tant que citoyen ou citoyenne lorsque l'on cherche ou achète un billet. On y retrouve la grande hétérogénéïté évoquée par Marc Cottignies : **information manquante, peu visible, peu lisible ou compréhensible, affichée après l'acte d'achat, non présente sur tous les modes d'accès (titre papier, smartphone, ordinateur, physique, etc.)**…
 
-Sur cette plateforme l'information est affichée, mais peu mise en avant et pas expliquée. Est-ce beaucoup "1 kg" pour ce trajet ? Et par rapport aux autres modes de transport ?
+### Train
+
+Sur cette plateforme l'information est affichée, mais peu mise en avant et pas expliquée. Est-ce beaucoup "1 kg de CO<sub>2</sub>" pour ce trajet ? Et par rapport aux autres modes de transport ?
 ![Trainline](transport/article-affichage-ges/infoges-train1.png)
 
 Même chose ici, l'information est visible (à la fois sur ordinateur et sur mobile) mais peu intelligible.
@@ -78,29 +80,52 @@ Même chose ici, l'information est visible (à la fois sur ordinateur et sur mob
 ![SNCF](transport/article-affichage-ges/infoges-train5.png){:width="30%"}
 
 Sur cette autre plateforme de réservation de train, l'information n'est pas affichée lors de la comparaison ni la sélection des offres de transport.
+
 ![Oui.sncf](transport/article-affichage-ges/infoges-train3.png)
-C'est seulement après avoir choisi une offre et en affichant les détails du billet que l'information lacunaire est alors visible mais sans plus d'explications.
+
+C'est seulement après avoir choisi une offre et en affichant les détails du billet qu'une information lacunaire est visible et toujours sans plus d'explications pour la comprendre.
+
 ![Oui.sncf](transport/article-affichage-ges/infoges-train4.png)
 
 ---
-Sur ce comparateur d'itinéraire voiture, l'information est bien affichée sauf pour les itinéraires piéton/vélo (même si la distance ne se prétait pas à ces modes de transport).
+
+### Calcul d'itinéraires
+
+Sur cet outil de cartographie et itinéraire, aucune information n'est visible sur ordinateur ou smartphone.
+
+![Google Maps](transport/article-affichage-ges/infoges-carto3.png)
+
+Quand l'information est disponible, comme sur ce comparateur d'itinéraire, l'information est bien affichée sauf pour les itinéraires piéton/vélo (même si la distance ne se prétait pas à ces modes de transport).
 
 ![Mappy](transport/article-affichage-ges/infoges-carto1.png){:width="49%"}
 ![Mappy](transport/article-affichage-ges/infoges-carto2.png){:width="49%"}
 
 ---
+
+### Vélo en libre service
+
 Ici une application de vélo en libre service où l'information est affichée et explicitée.
+
 ![Velib](transport/article-affichage-ges/infoges-velo_libre_service1.png){:width="50%"}
 
 ---
+
+### Métro
+
 Pour les utilisateurs ou utilisatrices du métro, ce site affiche l'information de l'impact CO<sub>2</sub> et donne une comparaison avec le même trajet effectué en voiture. Reste que peu de gens savent si 11 g. ou 786 g. c'est beaucoup ou non. Notre culture sur cet indicateur est vraiment limitée pour appréhender ces informations. Un lien rapide amène sur le [bilan carbone de l'opérateur](https://www.ratp.fr/groupe-ratp/pour-la-planete-et-la-ville/engages-contre-le-changement-climatique){:target="_blank"} de mobilité.
 ![Metro](transport/article-affichage-ges/infoges-metro1.png)
 
 ---
+
+### Autocar
+
 Sur cet opérateur de bus, il n'y a pas de calculateur au moment de la comparaison des offres. Au moment de passer la commande, seule est présente la possibilité de compenser les émissions liées.
 ![Flixbus](transport/article-affichage-ges/infoges-bus1.png)
 
 ---
+
+### Avion
+
 Dans le secteur aérien, l'information est très variable et peu visible. L'une des compagnies n'affichent aucun chiffre, et communique seulement. Le second affiche le calculateur de l'ICAO tout en bas du billet et de manière bien peu lisible et accessible.
 
 ![Easyjet](transport/article-affichage-ges/infoges-avion1.png){:width="49%"}
@@ -126,4 +151,4 @@ Le lien d'information renvoie vers les actions de compensation et non sur le [ca
 
 Ce dernier exemple est significatif car il montre que l’information n’est pas fournie à l'usager, c’est à lui d’aller la chercher, la décortiquer, la comprendre (contrairement au prix, durée, etc.). Lorsqu'elle est affichée, l'information est parcélaire, limitée, peu intelligible, voire trompeuse. Enfin entre services, on ne compare pas toujours les mêmes choses, il est alors facile de faire des choix en mauvaise connaissance de cause.
 
-On voit donc que l'affichage de l'impact GES doit faire des progrès pour être visible, intelligible et entrer dans l'équation de la mobilité. Alors si vous travaillez dans le secteur des transports (comparateur, calculateur d'itinéraire, opérateur de mobilité, etc.) et que vous avez envie d'éclairer vos communautés d'utilisateurs (de plus en plus demandeuse et exigente), n'hésitez pas à explorer [la section transport](https://ecolab.ademe.fr/transport) du site. Ecolab est là pour vous aider à intégrer les données d'impact environnemental au sein de vos applications et services afin de mieux sensibiliser les citoyennes et citoyens et ainsi participer à faire des choix plus éclairés au regard de [l'enjeu](/blog/transport/budget-empreinte-carbone-c-est-quoi).
+On voit donc que l'affichage de l'impact GES doit faire des progrès pour être visible, intelligible et entrer dans l'équation de la mobilité. Alors **si vous travaillez dans le secteur des transports** (comparateur, calculateur d'itinéraire, opérateur de mobilité, etc.) **et avez envie d'éclairer vos communautés d'utilisateurs** (de plus en plus demandeuses et exigentes), **n'hésitez pas à explorer [la section transport](https://ecolab.ademe.fr/transport) du site**, **découvrir [les données](https://github.com/betagouv/ecolab-transport) et nos [premières propositions](https://ecolab.ademe.fr/apps/transport)** ou à prendre contact avec nous. Ecolab est là pour **vous aider à intégrer les données d'impact environnemental au sein de vos applications et services** afin de mieux sensibiliser les citoyennes et citoyens et ainsi participer à faire des choix plus éclairés au regard de [l'enjeu](/blog/transport/budget-empreinte-carbone-c-est-quoi).

@@ -35,7 +35,6 @@
     color: #7a7a7a;
   }
 
-  padding-top: 1rem;
   h1 {
     font-size: 2rem;
   }
@@ -53,10 +52,10 @@
   }
 
   header .badge {
-	padding: 0.35rem 0.5rem;
-	border-radius: 0.3rem;
-	vertical-align: bottom;
-	margin: 0 .2rem;
+  	padding: 0.35rem 0.5rem;
+  	border-radius: 0.3rem;
+  	vertical-align: bottom;
+  	margin: 0 .2rem;
   }
 
   #blog .tags {
@@ -87,14 +86,14 @@
   }
   img {
     max-width: 100%;
-	margin: 1rem 0;
+	  margin: auto;
   }
   table + em, table + p>em, img + p>em, img + em {
-	color: #666;
-	text-align: center;
-	width: 100%;
-	display: inline-block;
-	margin: 0 auto 1rem;
+  	color: #666;
+  	text-align: center;
+  	width: 100%;
+  	display: inline-block;
+  	margin: 0 auto 1rem;
 	}
 }
 
