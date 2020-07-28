@@ -7,27 +7,10 @@ tags:
   - interview
 date: 22/06/2020
 image: https://images.unsplash.com/photo-1582079133805-43655f026448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
-description de l'image: todo
+description de l'image: Un titre de transport dans un train
 intro: Petit état des lieux de l'affichage des gaz à effet de serre (GES) sur les sites de mobilité et les justificatifs de transport…
 status: draft
 ---
-
---
-Alternatives pour la [couverture](https://unsplash.com/photos/2cE7CmFsMHQ)
-
-![https://unsplash.com/photos/5AJy4CTx9JQ](
-https://images.unsplash.com/photo-1571878285530-16e94edb7255?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80)
-
-![https://unsplash.com/photos/CMoxzoMsUfE](https://images.unsplash.com/photo-1587573088697-b4fa10460683?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80)
-
-![https://unsplash.com/photos/mnypcmLnXE0](https://images.unsplash.com/photo-1515139372923-c923c9e9a18c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
-
-![https://unsplash.com/photos/JZer5868M_0](https://images.unsplash.com/photo-1589257984800-efb7835a00ad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)
-
-![https://unsplash.com/photos/lujlyRiiBIU](https://images.unsplash.com/photo-1518206075495-4e901709d372?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80)
-
---
-
 
 Poursuivant l'objectif de mieux **rendre visible et compréhensible l'impact environnemental dans les gestes du quotidien**, voici un état des lieux de l'affichage de gaz à effet de serre (GES) dans le secteur des transports. A ce titre, nous interrogeons un expert de l'ADEME, Marc Cottignies, sur la réglementation en vigueur et nous verrons son application concrète pour les citoyens et citoyennes au travers de quelques services de mobilité.
 
@@ -104,9 +87,12 @@ Quand l'information est disponible, comme sur ce comparateur d'itinéraire, l'in
 
 ### Vélo en libre service
 
-Ici une application de vélo en libre service où l'information est affichée et explicitée.
+Ici deux applications de vélo en libre service où l'information est affichée, et sur l'une elle est explicitée.
 
 ![Velib](transport/article-affichage-ges/infoges-velo_libre_service1.png){:width="50%"}
+![Mobike](transport/article-affichage-ges/infoges-velo_libre_service2.png){:width="49%"}
+
+Souvent sur ces usages, il faut avoir télécharger l'application, puis créer un compte pour accéder au service (comparaison, réservation, etc.), et alors seulement, accéder à l'information GES. Rare sont les services où cette information est accessible en ligne rapidement sans barrière (inscription, téléchargement, achat, etc.). Quant à la compréhension, on voit bien que c'est très secondaire.
 
 ---
 
