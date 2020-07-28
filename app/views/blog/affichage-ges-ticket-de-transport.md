@@ -92,7 +92,7 @@ Ici deux applications de vélo en libre service où l'information est affichée,
 ![Velib](transport/article-affichage-ges/infoges-velo_libre_service1.png){:width="50%"}
 ![Mobike](transport/article-affichage-ges/infoges-velo_libre_service2.png){:width="49%"}
 
-Souvent sur ces usages, il faut avoir télécharger l'application, puis créer un compte pour accéder au service (comparaison, réservation, etc.), et alors seulement, accéder à l'information GES. Rare sont les services où cette information est accessible en ligne rapidement sans barrière (inscription, téléchargement, achat, etc.). Quant à la compréhension, on voit bien que c'est très secondaire.
+Souvent sur ces usages, il faut avoir téléchargé l'application, puis créé un compte pour accéder au service (comparaison, réservation, etc.), et alors seulement, accéder à l'information GES. Rares sont les services où cette information est accessible en ligne rapidement sans barrière (inscription, téléchargement, achat, etc.). Quant à la compréhension, on voit bien que c'est très secondaire.
 
 ---
 
@@ -112,12 +112,12 @@ Sur cet opérateur de bus, il n'y a pas de calculateur au moment de la comparais
 
 ### Avion
 
-Dans le secteur aérien, l'information est très variable et peu visible. L'une des compagnies n'affichent aucun chiffre, et communique seulement. Le second affiche le calculateur de l'ICAO tout en bas du billet et de manière bien peu lisible et accessible.
+Dans le secteur aérien, l'information est très variable et peu visible. L'une des compagnies n'affiche aucun chiffre, et communique seulement. Le second affiche le calculateur de l'ICAO tout en bas du billet et de manière bien peu lisible et accessible.
 
 ![Easyjet](transport/article-affichage-ges/infoges-avion1.png){:width="49%"}
 ![RAM](transport/article-affichage-ges/infoges-avion3.png){:width="49%"}
 
-Une autre compagnie affiche présente un [calculateur d'émissions](https://www.corsair.fr/calculateur-co2){:target="_blank"} au format Excel à télécharger et compléter uniquement pour les marchandises. C'est simple mais ca ne permet pas de calculer les émissions des passagers transportés. Et il n'y a pas d'informations sur les chiffres donnés (source, bilan carbone de l'entreprise, etc.).
+Une autre compagnie propose un [calculateur d'émissions](https://www.corsair.fr/calculateur-co2){:target="_blank"} au format Excel à télécharger et compléter uniquement pour les marchandises. C'est simple mais ça ne permet pas de calculer les émissions des passagers transportés. Et il n'y a pas d'informations sur les chiffres donnés (source, bilan carbone de l'entreprise, etc.).
 
 ![Corsair](transport/article-affichage-ges/infoges-avion2.png)
 
