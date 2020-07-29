@@ -5,11 +5,12 @@ tags:
   - carbone
   - transport
   - interview
-date: 22/06/2020
+  - infoges
+date: 29/07/2020
 image: https://images.unsplash.com/photo-1582079133805-43655f026448?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80
 description de l'image: Un titre de transport dans un train
 intro: Petit état des lieux de l'affichage des gaz à effet de serre (GES) sur les sites de mobilité et les justificatifs de transport…
-status: draft
+status: published
 ---
 
 Poursuivant l'objectif de mieux **rendre visible et compréhensible l'impact environnemental dans les gestes du quotidien**, voici un état des lieux de l'affichage de gaz à effet de serre (GES) dans le secteur des transports. A ce titre, nous interrogeons un expert de l'ADEME, Marc Cottignies, sur la [réglementation en vigueur](https://www.ecologique-solidaire.gouv.fr/information-ges-des-prestations-transport) et nous verrons son application concrète pour les citoyens et citoyennes au travers de quelques services de mobilité.
