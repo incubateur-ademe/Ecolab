@@ -12,7 +12,7 @@ intro: Petit état des lieux de l'affichage des gaz à effet de serre (GES) sur 
 status: draft
 ---
 
-Poursuivant l'objectif de mieux **rendre visible et compréhensible l'impact environnemental dans les gestes du quotidien**, voici un état des lieux de l'affichage de gaz à effet de serre (GES) dans le secteur des transports. A ce titre, nous interrogeons un expert de l'ADEME, Marc Cottignies, sur la réglementation en vigueur et nous verrons son application concrète pour les citoyens et citoyennes au travers de quelques services de mobilité.
+Poursuivant l'objectif de mieux **rendre visible et compréhensible l'impact environnemental dans les gestes du quotidien**, voici un état des lieux de l'affichage de gaz à effet de serre (GES) dans le secteur des transports. A ce titre, nous interrogeons un expert de l'ADEME, Marc Cottignies, sur la [réglementation en vigueur](https://www.ecologique-solidaire.gouv.fr/information-ges-des-prestations-transport) et nous verrons son application concrète pour les citoyens et citoyennes au travers de quelques services de mobilité.
 
 ## Marc, pouvez-vous vous présenter ?
 
@@ -66,7 +66,7 @@ Sur cette autre plateforme de réservation de train, l'information n'est pas aff
 
 ![Oui.sncf](transport/article-affichage-ges/infoges-train3.png)
 
-C'est seulement après avoir choisi une offre et en affichant les détails du billet qu'une information lacunaire est visible et toujours sans plus d'explications pour la comprendre.
+C'est seulement après avoir choisi une offre et en affichant les détails du billet qu'une information est visible, toujours lacunaire et sans plus d'explications pour la comprendre.
 
 ![Oui.sncf](transport/article-affichage-ges/infoges-train4.png)
 
