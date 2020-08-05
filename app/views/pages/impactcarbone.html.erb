@@ -26,6 +26,7 @@
           <div class="how">
             <%= link_to "▶️ Accéder aux ressources du webinaire (replay, présentation ...)", 'https://ecolab.gitbook.io/documentation-ecolab/carbone/webinaire-carbone', target: "_blank" %>
           </div>
+          <a href=="/apps/climat"><button class="btn btn-red mt-3">Accéder au simulateur</button></a>
         </div>
       <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
       <img class="images-banner" src="<%= image_path('Climat/online') %>"/>
@@ -65,14 +66,6 @@
 
 <!-- fin de l'explication -->
 
-<div style="background-color: white;">
-    <div class="container align-text-center" style="height: fit-content; background-color: white; padding: 1rem; border-radius: 30px;">
-      <h2 class="section__title mt-5 mb-5"></h2>
-    <iframe id="ecolab-climat" style="height: 160vh; width: 90vh; border: none;" src="https://ecolab.ademe.fr/apps/climat"></iframe>
-    </div>
-
-</div>
-
 
 
 
@@ -97,6 +90,15 @@
     </div>
       <img  src="<%= image_path('Climat/appli') %>"/>
   </div>
+
+  
+<div style="background-color: white;">
+    <div class="container align-text-center" style="height: fit-content; background-color: white; padding: 1rem; border-radius: 30px;">
+      <h2 class="section__title mt-5 mb-5"></h2>
+    <iframe id="ecolab-climat" style="height: 160vh; width: 90vh; border: none;" src="https://ecolab.ademe.fr/apps/climat"></iframe>
+    </div>
+
+</div>
 
 
 <!-- Section données lien vers github -->
