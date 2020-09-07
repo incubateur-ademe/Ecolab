@@ -1,16 +1,17 @@
 <div class="d-flex flex-row justify-content-between" style="background-color: #F8F8F8;">
   <div class="fil-ariane-bar">
-    <p id="accueil" class="fil-ariane-texte"><a href="/">Accueil Ecolab</a></p>
+    <p id="accueil" class="fil-ariane-texte"><a href="/">Ecolab Home</a></p>
       <i class="fas fa-chevron-right"></i>
-    <p class="fil-ariane-texte">Secteur</p>
+    <p class="fil-ariane-texte">Sector</p>
       <i class="fas fa-chevron-right"></i>
-    <p class="fil-ariane-texte"><a href="/alimentation">Se nourrir</a>
+    <p class="fil-ariane-texte"><a href="/alimentation">Food</a>
       <i class="fas fa-chevron-right"></i>
-    <p class="fil-ariane-texte"><a href="/agribalyse">Agribalyse</a>
+    <p class="fil-ariane-texte"><a href="/agribalyse">Agribalyse database</a>
     </p>
   </div>
-  <div><%= link_to "🇬🇧", '/agribalyse_eng', class:"btn-eng" %></div>
+  <div><%= link_to "🇫🇷", '/agribalyse', class:"btn-eng" %></div>
 </div>
+
 
 
 
@@ -21,7 +22,7 @@
       <%#= image_tag("data.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
 
         <div class="text-banner-agri">
-            <p class="search_title mt-5">Découvrez l’impact environnemental de votre assiette</p>
+            <p class="search_title mt-5">Discover the environmental impact for food consumed products</p>
               <%= render '/shared/search-bar' %>
 <!--             <p class="search_examples">
               Exemples :
@@ -33,7 +34,7 @@
               <%#= link_to "Fromage de chèvre", aliment_path(id: 93)%>
 
               </p> -->
-        <p class="mt-2">Les données sont <strong>actuellement</strong> disponibles uniquement au <strong>format « expert »</strong> via les logiciels d’analyses du cycle de vie (<span><a href="https://simapro.com/products/agribalyse-agricultural-database/" class="how" target="_blank">SimaPro</a></span> et <span><a href="https://nexus.openlca.org/database/Agribalyse"  class="how" target="_blank">openLCA</a></span>) et sur la <span><a href="https://www.globallcadataaccess.org/" class="how" target="_blank">plateforme GLAD</a></span>. Les données au <strong>format simplifié, en accès libre</strong>, seront disponibles le <strong>29 septembre</strong> jour du <span><a href="https://agribalyse3.site.ademe.fr/" class="how" target="_blank">colloque de présentation des nouvelles données AGRIBALYSE</a></span>.</p>
+        <p class="mt-2">AGRIBALYSE® data is <strong>freely available</strong> in two formats. AGRIBALYSE 3.0 available in <span><a href="https://simapro.com/products/agribalyse-agricultural-database/" class="how" target="_blank">SimaPro</a></span> and <span><a href="https://nexus.openlca.org/database/Agribalyse"  class="how" target="_blank">openLCA</a></span> since the 3rd of june, 2020.</p>
 
         <!-- <p class="badge-beta"><span><a href="https://airtable.com/shrjo0sWG49AupVhL" class="how">Nous contacter</a></span></p> -->
         </div>
@@ -68,42 +69,38 @@
 <!-- //////////////////// TEXTE AGRIBALYSE ////////////////////////// -->
 
     <section class="section">
-        <h2 class="section__title mt-3 mb-5 w-50">Agribalyse, la base de données environnementale de référence sur des produits agricoles et alimentaires</h2>
+        <h2 class="section__title mt-3 mb-5 w-50">AGRIBALYSE database of environmental impact indicators for food items produced and consumed in France.</h2>
 
         <div class="element-text">
           <div class="text-p">
 <!--             <strong class="titre-p mb-2">Données</strong> -->
-            <p>2500 produits, 14 indicateurs construits selon l’approche scientifique de l’Analyse de Cycle de Vie</p>
+            <p>AGRIBALYSE provides reference data on 2,500 food products consumed in France (including imported products) based on the Life Cycle Assessment (LCA) method. </p>
             </div>
           <div class="text-p">
 <!--             <strong class="titre-p mb-2">Données</strong> -->
-            <p>Un programme collaboratif associant des scientifiques et experts des secteurs agricoles, agroalimentaires et de l’environnement</p>
+            <p>Co-piloted by ADEME and INRAE, relying on the collaboration of agricultural and agrifood technical institutes, the AGRIBALYSE program has existed for over 10 years.</p>
           </div>
           <div class="text-p">
 <!--             <strong class="titre-p mb-2">Données</strong> -->
-            <p>Un outil au service des professionnels agricoles et alimentaires, et des consommateurs</p>
+            <p>One of the main purposes of the AGRIBALYSE® program is to provide data useful for professionals in the agricultural and agrifood sectors (agricultural profession, agrifood industry, mass distribution,...) and final consumers. </p>
           </div>
         </div>
 
         <div class="place-du-button-et-lien">
-            <%= link_to "Informations et documentation", 'https://ecolab.gitbook.io/documentation-agribalyse/', target: "_blank", class:"btn btn-yellow" %>
-          <!-- <div class="how">
-            <%#= link_to "🇬🇧 Documentation in english", "https://ecolab.gitbook.io/agribalyse-documentation-en/", target: "_blank" %>
-          </div> -->
+            <%= link_to "Documentation", 'https://ecolab.gitbook.io/agribalyse-documentation-en/', target: "_blank", class:"btn btn-yellow" %>
         </div>
 
     </section>
 
 
 <!-- CATEGORIES DE PRODUITS DANS AGRIBALYSE -->
-
 <div class="card-container">
-  <p class="card-title">Catégories</p>
+  <p class="card-title">Categories</p>
     <div class="home-container">
         <%#= link_to aliments_path(:query => "Plats composés") do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-PlatCompose.jpg') %>)">
-            Plats composés
+            Ready-cooked meals
           </div>
         </div>
         <%# end %>
@@ -111,7 +108,7 @@
         <%#= link_to aliments_path(:query => "fruits crus") do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-FruitsLegumes.jpg') %>)">
-            Fruits & légumes
+            Fruits & vegetables
           </div>
         </div>
         <%# end %>
@@ -119,7 +116,7 @@
         <%#= link_to aliments_path(:query => "Viandes et poissons") do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-ViandesPoissons.jpg') %>)">
-            Viandes et poissons
+            Fishs & meats
           </div>
         </div>
         <%# end %>
@@ -127,7 +124,7 @@
         <%#= link_to aliments_path(:query => "Confiserie") do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-Confiserie.jpg') %>)">
-            Confiserie
+            Sweets
           </div>
         </div>
         <%# end %>
@@ -143,7 +140,7 @@
         <%#= link_to aliments_path(:query => "Boissons") do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-Boissons.jpg') %>)">
-            Boissons
+            Beverages
           </div>
         </div>
         <%# end %>
@@ -159,7 +156,7 @@
         <%#= link_to aliments_path(:query => "Lait, oeufs") do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-LaitOeufs.jpg') %>)">
-            Lait, oeufs
+            Milk, eggs
           </div>
         </div>
         <%# end %>
@@ -168,31 +165,32 @@
   </div>
 
 
+
 <!-- ////////////////////USECASE////////////////////////// -->
 
 
 <div class="card-container-usecase">
-  <p class="card-title">Exemples de cas d'usage</p>
+  <p class="card-title">Use cases examples</p>
     <div class="home-container-usecase">
 
-    <%= link_to "https://ecolab.gitbook.io/documentation-agribalyse/usage-des-donnees/ecoconception", target: "_blank" do %>
+    <%= link_to "https://ecolab.gitbook.io/agribalyse-documentation-en/data-use/eco-design", target: "_blank" do %>
       <div class="card-usecase">
         <img src= <%= image_path('usecase-vaches.png') %> >
           <div class="card-usecase-infos">
           <div>
-            <h2>Ecoconception : améliorer vos systèmes de productions et votre gamme de produits alimentaires</h2>
+            <h2>Ecodesign : improve your production systems and your range of food products</h2>
           </div>
          </div>
       </div>
     <% end %>
 
 
-    <%= link_to "https://ecolab.gitbook.io/documentation-agribalyse/usage-des-donnees/restauration-collective", target: "_blank" do %>
+    <%= link_to "https://ecolab.gitbook.io/agribalyse-documentation-en/data-use/catering-sector", target: "_blank" do %>
       <div class="card-usecase">
         <img src= <%= image_path('usecase-rie.png') %> >
         <div class="card-usecase-infos">
           <div>
-            <h2>Restauration collective : aider vos convives dans leurs choix</h2>
+            <h2>Catering sector : improve your menus and help your guests in their choices</h2>
           </div>
           <img class="card-usecase-user avatar-bordered" src= <%#= image_path('yuka-logo.png') %> >
         </div>
@@ -200,12 +198,12 @@
     <% end %>
 
 
-    <%= link_to "https://ecolab.gitbook.io/documentation-agribalyse/usage-des-donnees/information-environnementale", target: "_blank" do %>
+    <%= link_to "https://ecolab.gitbook.io/agribalyse-documentation-en/data-use/environmental-labelling", target: "_blank" do %>
       <div class="card-usecase">
         <img src= <%= image_path('yuka-usecase.png') %> >
         <div class="card-usecase-infos">
           <div>
-            <h2>Informations environnementales applications web et mobiles : communiquer les données environnementales à vos utilisateurs</h2>
+            <h2>Environmental labelling in apps : educate consumers about the sustainability of their food</h2>
           </div>
           <img class="card-usecase-user avatar-bordered" src= <%#= image_path('carrefour-logo.jpg') %> >
         </div>
@@ -271,9 +269,9 @@
 
 <div class="newsletter d-flex flex-row">
   <div class="d-flex flex-column">
-      <h2 class="titre-news">Vous souhaitez être tenus informés des actualités relatives au programme AGRIBALYSE ?</h2>
+      <h2 class="titre-news">Wish to keep informed of relevant updates and events about AGRIBALYSE ?</h2>
 
-          <%= link_to "Laissez-nous vos coordonnées", "https://airtable.com/shrjo0sWG49AupVhL", target: "_blank", class:"btn btn-yellow mt-3" %>
+          <%= link_to "Subscribe to our newsletter", "https://airtable.com/shrjo0sWG49AupVhL", target: "_blank", class:"btn btn-yellow mt-3" %>
 
   </div>
 
@@ -289,5 +287,6 @@
 
 
 </div>
+
 
 

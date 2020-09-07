@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   get "/transport", to: "pages#transport"
   get "/alimentation", to: "pages#alimentation"
   get "/agribalyse", to: "pages#home"
+  get "/agribalyse_eng", to: "pages#agribalyse_eng"
   get "/mentions-legales", to: "pages#mentions_legales"
   get "/vieprivee", to: "pages#vieprivee"
   get "/stats", to: "pages#stats"

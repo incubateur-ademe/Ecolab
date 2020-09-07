@@ -2,6 +2,9 @@ class PagesController < ApplicationController
   def home
   end
 
+  def agribalyse_eng
+  end
+
   def courses
   end
 

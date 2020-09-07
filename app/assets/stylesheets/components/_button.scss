@@ -7,6 +7,20 @@
   width: fit-content;
 }
 
+.btn-eng {
+  margin: 30px;
+  padding-top: 2px;
+  font-size: 25px;
+  text-decoration: none;
+  border-radius: 30px;
+  color: white;
+  width: fit-content;
+}
+
+.btn-eng:hover {
+  text-decoration: none;
+}
+
 .btn-yellow:hover a {
   color: white;
 }
