@@ -1,3 +1,4 @@
+# coding: utf-8
 require 'kramdown'
 
 class BlogController < ApplicationController
@@ -18,6 +19,8 @@ class BlogController < ApplicationController
     end
 
     all_articles.filter! { |a| a['status'] == :published.to_s }
+
+    all_articles = all_articles.sort_by! { |a| Date.parse(a["date"]) }.reverse
 
     @articles = if !params[:query]
       all_articles

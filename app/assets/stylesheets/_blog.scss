@@ -17,12 +17,24 @@
     font-size: 90%;
   }
   blockquote {
-    margin-left: 0.6rem;
+    margin-left: 1.6rem;
     border-left: 4px solid #6979F8;
-    padding-left: 0.6rem;
+    padding-left: 0.4rem;
     opacity: 0.75;
+    position: relative;
   }
-  padding-top: 1rem;
+
+  blockquote.interview:before {
+    display: block;
+    // padding-left: 10px;
+    content: "\201C";
+    font-size: 80px;
+    position: absolute;
+    left: -32px;
+    top: -23px;
+    color: #7a7a7a;
+  }
+
   h1 {
     font-size: 2rem;
   }
@@ -40,10 +52,10 @@
   }
 
   header .badge {
-	padding: 0.35rem 0.5rem;
-	border-radius: 0.3rem;
-	vertical-align: bottom;
-	margin: 0 .2rem;
+  	padding: 0.35rem 0.5rem;
+  	border-radius: 0.3rem;
+  	vertical-align: bottom;
+  	margin: 0 .2rem;
   }
 
   #blog .tags {
@@ -74,14 +86,14 @@
   }
   img {
     max-width: 100%;
-	margin: 1rem 0;
+	  margin: auto;
   }
   table + em, table + p>em, img + p>em, img + em {
-	color: #666;
-	text-align: center;
-	width: 100%;
-	display: inline-block;
-	margin: 0 auto 1rem;
+  	color: #666;
+  	text-align: center;
+  	width: 100%;
+  	display: inline-block;
+  	margin: 0 auto 1rem;
 	}
 }
 
@@ -89,5 +101,5 @@
   background-color: white;
 }
 #article-tags {
-  margin: 3rem 0 
+  margin: 3rem 0
 }

@@ -21,11 +21,11 @@
           <p class="banner_subtitle">Faciliter par les données, la rénovation, décarbonation de l’énergie et réduction des surfaces urbanisées au profit de la densification.</p>
 
           <div class="how">
-            <%= link_to "👷   Page encore en construction", '', target: "_blank" %>
+            <%#= link_to "👷   Page encore en construction", '', target: "_blank" %>
           </div>
         </div>
       <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
-      <img class="images-banner-clim" src="<%= image_path('Seloger/wip') %>"/>
+      <img class="images-banner" src="<%= image_path('Seloger/wip') %>"/>
     </div>
 </div>
 
@@ -34,13 +34,15 @@
 <div class="d-flex flex-column">
   <div class="section-trans section-trans-droite section-demandeur">
     <div class="text-p d-flex flex-column align-items-center justofy-content-end mr-5 ml-5">
-      <p><strong>Exemple de cas d'usage de la donnée : les diagnostics de performance énergétique pour les logements - Classe énergétique</strong></p>
+      <p><strong>Exemple de cas d'usage de la donnée : les diagnostics de performance énergétique (DPE) pour les logements - Classe énergétique</strong></p>
         <span></span>
-      <p>Intégrez notre module de calcul chez vous, par exemple rendre un article de blog plus intéractif pour le lecteur, simplement en ajoutant cette ligne à votre page Web. Le module restera automatiquement à jour avec les données les plus récentes.
+      <p>Intégrez ce type de visualisation ou utilisez ces données pour apporter de nouvelles informations à vos utilisateurs !
+      </p>
+      <p>A noter : les données du DPE réalisé ne reflètent pas nécessairement la qualité énergétique du bien actuellement. Entre la date de réalisation du DPE et aujourd’hui, des travaux d’amélioration ont pu être réalisés.
       </p>
 
 
-        <%= link_to "Data.ademe.fr", 'https://data.ademe.fr/reuses/diagnostics-de-performance-energetique-pour-les-logements-par-habitation', target: "_blank", class:"btn btn-grey mt-3" %>
+        <%= link_to "Voir toutes les données sur data.ademe.fr", 'https://data.ademe.fr/reuses/diagnostics-de-performance-energetique-pour-les-logements-par-habitation', target: "_blank", class:"btn btn-grey mt-3" %>
     </div>
        <div>
           <iframe src="https://koumoul.com/s/data-fair/app/diagnostics-de-performance-energetique-pour-les-logements-par-habitation?embed=true" width="160%" height="400px" marginLeft="20px"></iframe>
