@@ -27,9 +27,9 @@ Les COPs s'enchainent, mais avec quel succès ?
 
 ## Notre objectif
 
-Mais quel est exactement notre objectif ? Nous devons baisser nos émissions de gaz à effet de serre : en dioxyde de carbone (CO₂), le principal dont on entend toujours parler, mais aussi en méthane (CH₄), en protoxyde d'azote (N₂O), etc. Pour simplifier, un calcul savant permet de tout résumer à un *équivalent CO₂* abrégé en CO₂e : une seule mesure pour les gouverner toutes. 
+Mais quel est exactement notre objectif ? Nous devons baisser nos émissions de gaz à effet de serre : en dioxyde de carbone (CO₂), le principal dont on entend toujours parler, mais aussi en méthane (CH₄), en protoxyde d'azote (N₂O), etc. Pour simplifier, un calcul savant permet de tout résumer à un *équivalent CO₂* abrégé en CO₂e : une seule mesure pour les gouverner toutes.
 
-Le *e* de CO₂e n'est vraiment pas un détail : un voyage en avion Paris-New York émet 1 tonne de CO₂, mais 2 tonnes de CO₂e ! 
+Le *e* de CO₂e n'est vraiment pas un détail : un voyage en avion Paris-New York émet 1 tonne de CO₂, mais 2 tonnes de CO₂e !
 
 📗 *Lisez [notre lexique](https://ecolab.gitbook.io/documentation-ecolab/lexique-environnemental-et-changement-climat#lequivalent-co2-ou-co2-equivalent-co-2-e) pour aller plus loin.*
 
@@ -164,7 +164,7 @@ Vous l'aurez compris, ce ne sont que des exemples, il y a beaucoup d'autres chem
 
 ### Limiter le risque, ou atteindre l'équilibre
 
-Nous venons d'explorer le scénario qui nous permettrait à limiter le réchauffement à 1.75°. 
+Nous venons d'explorer le scénario qui nous permettrait à limiter le réchauffement à 1.75°.
 
 Or nous avons chacun le choix de faire bien mieux que ces budgets carbone, qui ne font que limiter les dégats climatiques, **en s'approchant dès cette année 2020, d'un style de vie soutenable à moins de 2 tonnes de CO₂ par personne**, à l'équilibre avec la capacité naturelle de notre pays à absorber nos émissions. Chaque dixième de degré compte.
 
@@ -183,8 +183,12 @@ Cette approche individuelle a le grand mérite de nous faire comprendre l'ampleu
 
 - des autres pays. Il va de soi que si la moitié des pays décident de ne pas faire d'effort, l'effort des autres ne sera pas vain mais ne suffira pas.
 
-L'action individuelle et l'action collective sont intimement liées, et toutes les deux nécessaires. 
+L'action individuelle et l'action collective sont intimement liées, et toutes les deux nécessaires.
 
 **Alors, prêt à trouver vos 320 premiers kilos à perdre ?**
+
+**[Testez en avant première notre calculateur Nos Gestes Climat](/apps/climat)**.
+
+[![](https://imgur.com/6OIkPa0.png)](/apps/climat)
 
 ![Trois personnes, au lieu d'un seul individu, marchent dans une nature luxuriante bien qu'en contexte urbain, contrastant avec l'image d'introduction de l'article](https://images.unsplash.com/photo-1542113028-b526238297f1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80)

@@ -18,11 +18,11 @@
 .hero__container_landing {
   min-height: 15em;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
   background: linear-gradient(0deg, transparent, #B2A7F3)
-
 }
 
 .hero__container_landing .color-ecolab-banniere {
