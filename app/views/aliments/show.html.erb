@@ -18,7 +18,7 @@
   <p><strong>"<%= @aliment.alim_nom_fr %>"</strong></p>
 </div>
 
-<div class="aliment-section d-flex  mt-5 ml-5">
+<div class="aliment-section d-flex  mt-5 ml-5 flex-column">
   <div class="aliment-section-titre">
       <h2 class="mb-3"><%= @aliment.alim_nom_fr.capitalize %></h2>
         <div class="section-badge d-inline-flex">
@@ -33,7 +33,7 @@
     <!-- INDICATEURS    -->
 
 
-      <h5 class="mt-3">Détail de l’impact environnemental</h5>
+      <!-- <h5 class="mt-3">Détail de l’impact environnemental</h5> -->
 
 <!--       <button type="button" class="btn btn-secondary mb-3 mt-3" data-container="body" data-toggle="popover" data-placement="right" data-content="Data Quality Ratio : indicateur de robustesse des données s'échelonnant entre 1 -qualité excellente, à 5 -qualité faible. Le niveau de robustesse est considéré comme bon pour des DQR de 3 et inférieurs.">
         DQR : <%= @aliment.dqr %>
@@ -44,11 +44,86 @@
 
 
 </div>
-  <div class="aliment-score" type="button" data-container="body" data-toggle="popover" data-placement="right" data-content="Sans unité, plus le score est bas plus son impact sur l'environnement est faible. Ce score unique est une moyenne pondérée des 14 indicateurs, calculé selon la méthodologie européenne « PEF » (Product Environmental Footprint)">
-        <h6>Score environnemental</h6>
-        <p><%= @aliment.score %></p>
+
+<div class="d-flex flex-row">
+  <div class="aliment-card">
+        <h5 class="mb-3">Score environnemental</h5>
+        <div class="d-flex flex-row align-items-baseline mb-2"><h1><%= @aliment.score.round(2)%></h1></div>
+        <p style="font-size: 12px; margin-bottom: 30px;">Sans unité, plus le score est bas plus son impact sur l'environnement est faible. Ce score unique est une moyenne pondérée des 14 indicateurs, calculé selon la méthodologie européenne « PEF » (Product Environmental Footprint)</p>
+        <a href="" style="color: black; font-weight: bolder; font-size: 14px; margin-bottom: 1em;">Détail de la pondération</a>
   </div>
+
+  <div class="aliment-card">
+      <h5 class="mb-3">Impact par étapes du cycle de vie</h5>
+
+      <!-- graphique impact etape -->
+        <div class="d-flex flex-column impact-etape">
+          <!-- agriculture -->
+          <div class="d-flex align-items-baseline">
+            <div style="font-size: 16px; margin-right: 10px;">🚜</div>
+          <hr class="Agriculture" style="width: 240px;"></hr>
+        </div>
+
+            <p style="font-size: 11px;">Agriculture</p>
+
+          <div class="d-flex align-items-baseline">
+            <div style="font-size: 16px; margin-right: 10px;">⚗</div>
+            <hr class="Transformation" style="width: 200px;"></hr>
+          </div>
+
+            <p style="font-size: 11px;">Transformation</p>
+
+            <div class="d-flex align-items-baseline">
+              <div style="font-size: 16px; margin-right: 10px;">🍬</div>
+              <hr class="Emballage" style="width: 100px;"></hr>
+            </div>
+
+              <p style="font-size: 11px;">Emballage</p>
+
+            <div class="d-flex align-items-baseline">
+              <div style="font-size: 16px; margin-right: 10px;">🚥</div>
+              <hr class="Transport" style="width: 50px;"></hr>
+            </div>
+
+              <p style="font-size: 11px;">Transport</p>
+
+            <div class="d-flex align-items-baseline">
+              <div style="font-size: 16px; margin-right: 10px;">🏬</div>
+              <hr class="Distribution" style="width: 10px;"></hr>
+            </div>
+
+            <p style="font-size: 11px;">Distribution</p>
+
+        </div>
+      <!-- fin graphique impact etape -->
+
+
+  </div>
+
+  <div class="aliment-card">
+      <div class="d-flex flex-row align-items-start"><i class="far fa-lightbulb mr-3" style="font-size: 40px;"></i><h5 class="mb-4">Comment comprendre ces données ?</h5></div>
+      <p style="font-size: 12px; margin-bottom: 10px;">Ces chiffres ont été établis en suivant la méthode du d’analyse du cycle de vie (ACV).</p>
+      <p style="font-size: 12px; margin-bottom: 30px;">Pour comprendre les valeurs présentées et les modes d’analyse, vous pouvez consulter notre documentation.</p>
+      <%= link_to "Documentation", 'https://ecolab.gitbook.io/documentation-agribalyse/', target: "_blank", class:"btn btn-yellow", style:"height: fit-content; width: fit-content; font-size: 12px; background-color: grey" %>
+  </div>
+
 </div>
+</div>
+
+  <!-- dqr -->
+
+
+<div class="d-flex jauge mt-5">
+    <p class="mr-3 niveau">👍🏼  0</p>
+    <div class="jauge-contour"></div>
+    <p class="ml-3 niveau">5  👎🏼</p>
+    <div class="dqr-position" type="button"  data-container="body" data-toggle="popover" data-placement="right" data-content="Niveau de fiabilité de la donnée, ou DQR pour 'Data Quality Ratio' : indicateur de robustesse des données s'échelonnant entre 1 -qualité excellente, à 5 -qualité faible. Le niveau de robustesse est considéré comme bon si <= 3"style="left: calc(60px + <%= @aliment.dqr %> * 40px);"><p><%= @aliment.dqr %></p></div>
+</div>
+        <div style="font-size: 13px; padding-left: 107px; margin-bottom: 5px;">Niveau de fiabilité de la donnée</div>
+
+
+<!-- fin dqr -->
+
 
   <div class="tableau-donnees-bloc d-inline-flex m-5">
     <div class="aliments-array">
@@ -451,25 +526,7 @@ ecosystems. (source: GarnierLaplace et al.
 
 
 </div>
-<div class="d-flex jauge">
-    <p class="mr-3 niveau">👍🏼  0</p>
-    <div class="jauge-contour"></div>
-    <p class="ml-3 niveau">5  👎🏼</p>
-    <div class="dqr-position" type="button"  data-container="body" data-toggle="popover" data-placement="right" data-content="Niveau de fiabilité de la donnée, ou DQR pour 'Data Quality Ratio' : indicateur de robustesse des données s'échelonnant entre 1 -qualité excellente, à 5 -qualité faible. Le niveau de robustesse est considéré comme bon si <= 3"style="left: calc(60px + <%= @aliment.dqr %> * 40px);"><p><%= @aliment.dqr %></p></div>
-</div>
-        <p style="font-size: 13px; padding-left: 107px; margin-bottom: 44px;">Niveau de fiabilité de la donnée</p>
 
-    <div class="fiche-info-bdd">
-      <div class="fiche-infos mb-5">
-        <h2>Comment comprendre ces données ?</h2>
-        <p>Ces chiffres ont été établis en suivant la méthode du d’analyse du cycle de vie (ACV).
-          <br></br>
-        Pour comprendre les valeurs présentées et les modes d’analyse, vous pouvez consulter notre documentation.</p>
-        <button class="button-details-product-fiche mb-3">
-         <%= link_to "Documentation publiée le 28 avril 2020" %>
-        </button>
-      </div>
-    </div>
   </div>
 
 
