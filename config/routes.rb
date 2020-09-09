@@ -14,6 +14,7 @@ Rails.application.routes.draw do
   get "/impactcarbone", to: "pages#impactcarbone"
   get "/batiment", to: "pages#batiment"
 
+
   get "/blog", to: "blog#list"
   # query can be a tag or a category
   get "/blog/:query", to: "blog#list"
