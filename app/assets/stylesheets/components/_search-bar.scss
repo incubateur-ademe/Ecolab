@@ -88,11 +88,14 @@
 }
 
 .header_search {
-  padding: 22px;
+  padding: 30px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background-position: center;
-  background-color: #F4BACB;
+  background-size: cover;
+  background-image: url("Agribalyse/champ.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
 }
