@@ -46,12 +46,29 @@
 
 </div>
 
-<div class="d-flex flex-row">
+<div class="d-flex flex-row mb-5">
   <div class="aliment-card">
-        <h5 class="mb-3">Score environnemental</h5>
-        <div class="d-flex flex-row align-items-baseline mb-2"><h1><%= @aliment.score.round(2)%></h1></div>
+        <h5 class="mb-3">Score environnemental multi-indicateurs</h5>
+        <div class="d-flex flex-row align-items-baseline mb-1"><h1><%= @aliment.score.round(2)%></h1></div>
+        <a href="" style="color: black; font-weight: bolder; font-size: 8px; margin-bottom: 6em; margin-top: 10px;">Détail de la pondération des indicateurs</a>
         <p style="font-size: 12px; margin-bottom: 30px;">Sans unité, plus le score est bas plus son impact sur l'environnement est faible. Ce score unique est une moyenne pondérée des 14 indicateurs, calculé selon la méthodologie européenne « PEF » (Product Environmental Footprint)</p>
-        <a href="" style="color: black; font-weight: bolder; font-size: 14px; margin-bottom: 1em;">Détail de la pondération</a>
+
+
+<!-- afficher uniquement le co2 de l'aliment -->
+
+<!--       <p>
+        <a class="" style="height: 30px; text-decoration: none; color: #00C48C; font-size: 14px;" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+
+        </a>
+      </p>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          <%= @aliment.indic_1 %><p style="font-size: 8px;">kg CO2 eq / kg product</p>
+        </div>
+      </div> -->
+
+<!-- afficher uniquement le co2 de l'aliment -->
+
   </div>
 
   <div class="aliment-card">
@@ -104,27 +121,28 @@
   <div class="aliment-card">
       <div class="d-flex flex-row align-items-start"><i class="far fa-lightbulb mr-3" style="font-size: 40px;"></i><h5 class="mb-4">Comment comprendre ces données ?</h5></div>
       <p style="font-size: 12px; margin-bottom: 10px;">Ces chiffres ont été établis en suivant la méthode du d’analyse du cycle de vie (ACV).</p>
-      <p style="font-size: 12px; margin-bottom: 30px;">Pour comprendre les valeurs présentées et les modes d’analyse, vous pouvez consulter notre documentation.</p>
+      <p style="font-size: 12px; margin-bottom: 10px;">Une ACV se fonde sur plusieurs critères d’analyse des flux entrants et sortants. On appelle « flux » tout ce qui entre dans la fabrication du produit et tout ce qui sort en matière de pollution.</p>
+      <p style="font-size: 12px; margin-bottom: 10px;">Pour comprendre les valeurs présentées et les modes d’analyse, vous pouvez consulter notre documentation.</p>
       <%= link_to "Documentation", 'https://ecolab.gitbook.io/documentation-agribalyse/', target: "_blank", class:"btn btn-yellow", style:"height: fit-content; width: fit-content; font-size: 12px; background-color: grey" %>
       <a href="" style="color: black; font-weight: bolder; font-size: 14px; margin-bottom: 1em;">Télécharger la base</a>
   </div>
 
 </div>
+
+      <a style="text-decoration: none; margin-bottom: 10px; color: green;" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">Afficher l'impact CO2</a>
+      <div class="collapse" id="collapseExample">
+        <div class="aliment-card-co2">
+          <p style="font-size: 16px;"><strong><%= @aliment.indic_1 %></strong>  kgCO2 eq/kg de produit</p>
+        </div>
+      </div>
+
 </div>
 
-  <!-- dqr -->
 
 
-<div class="d-flex jauge mt-5">
-    <p class="mr-3 niveau">👍🏼  0</p>
-    <div class="jauge-contour"></div>
-    <p class="ml-3 niveau">5  👎🏼</p>
-    <div class="dqr-position" type="button"  data-container="body" data-toggle="popover" data-placement="right" data-content="Niveau de fiabilité de la donnée, ou DQR pour 'Data Quality Ratio' : indicateur de robustesse des données s'échelonnant entre 1 -qualité excellente, à 5 -qualité faible. Le niveau de robustesse est considéré comme bon si <= 3"style="left: calc(60px + <%= @aliment.dqr %> * 40px);"><p><%= @aliment.dqr %></p></div>
-</div>
-        <div style="font-size: 13px; padding-left: 107px; margin-bottom: 5px;">Niveau de fiabilité de la donnée</div>
 
 
-<!-- fin dqr -->
+
 
 
   <div class="tableau-donnees-bloc d-inline-flex m-5">
@@ -441,6 +459,19 @@ ecosystems. (source: GarnierLaplace et al.
   </div>
 </div>
 
+<!-- dqr -->
+
+<div>
+    <div class="d-flex jauge mt-5">
+        <p class="mr-3 niveau">👍🏼  0</p>
+        <div class="jauge-contour"></div>
+        <p class="ml-3 niveau">5  👎🏼</p>
+        <div class="dqr-position" type="button"  data-container="body" data-toggle="popover" data-placement="right" data-content="Niveau de fiabilité de la donnée, ou DQR pour 'Data Quality Ratio' : indicateur de robustesse des données s'échelonnant entre 1 -qualité excellente, à 5 -qualité faible. Le niveau de robustesse est considéré comme bon si <= 3"style="left: calc(60px + <%= @aliment.dqr %> * 40px);"><p><%= @aliment.dqr %></p></div>
+    </div>
+            <div style="font-size: 13px; padding-left: 107px; margin-bottom: 5px;">Niveau de fiabilité de la donnée</div>
+</div>
+
+<!-- fin dqr -->
 <!-- autres produits memes categories -->
 
 
