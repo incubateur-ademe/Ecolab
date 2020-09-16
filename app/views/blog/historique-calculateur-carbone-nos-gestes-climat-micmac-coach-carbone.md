@@ -49,7 +49,7 @@ Partant de ce constat, l'[Association Bilan Carbone (ABC)](https://www.associati
 A la fois le plus complet et ouvert, les équipes de l'ABC et Ecolab ont ainsi fait le choix de s'appuyer sur ce calculateur pour proposer un calculateur tout aussi performant et dans un format facilement intégrable sur différents sites, comme le [calculateur transport](https://ecolab.ademe.fr/transport).
 Surtout nous souhaitons en faire une base autour de laquelle créer et animer une communauté pour :
 
-* mutualiser les efforts dans le comptage CO2e (regrouper dans des librairies réutilisables par des développeurs et responsables produits, documenter, challenger, faire des retours, recevoir des contributions, etc.)
+* mutualiser les efforts dans le comptage CO<sub>2</sub>e (regrouper dans des librairies réutilisables par des développeurs et responsables produits, documenter, challenger, faire des retours, recevoir des contributions, etc.)
 * rapprocher expertise carbone et (ré-)utilisateurs pour à la fois voir les attentes/manques et aussi percevoir la complexité des analyses du cycle de vie (ACV), les limites actuelles des possibilités de calculs (facteurs d'émissions non disponibles, etc.)
 * ouvrir et partager les données et les calculs (hypothèses des calculs, arbitrages entre simplicité et précision, etc.)
 * pousser à ré-utiliser ces données dans les produits et services connus des citoyens pour augmenter l'impact de la prise de conscience vers l'action
@@ -58,7 +58,7 @@ Surtout nous souhaitons en faire une base autour de laquelle créer et animer un
 ## Un bilan, c'est bien, des pistes concrètes pour le faire diminuer c'est encore mieux
 Qu'on se le dise tout de suite : même quand on se sent déjà très assez exemplaire, le résultat qui tombe est souvent difficile à comprendre, voire violent face à l'écart de nos engagements. Oui, la marche [vers la neutralité carbone](https://ecolab.ademe.fr/blog/g%C3%A9n%C3%A9ral/budget-empreinte-carbone-c-est-quoi.md) est très haute et les efforts à fournir individuellement et collectivement sont un véritable défi pour nos sociétés. Mais ce qui compte, avant tout, passé la prise de conscience, c'est d'entrainer les citoyennes et citoyens vers des pistes d'amélioration progressives partant de leur situation actuelle.
 
-Alors pour dépasser cette situation et accompagner vers le passage à l'action, notre calculateur propose des actions concrètes, adaptées à chacun. Mieux, vous pourrez identifier l'impact de chaque action proposée par rapport à votre situation personnelle et ainsi voir comment perdre vos premiers kilos ou viser la première tonne de CO2e perdue.
+Alors pour dépasser cette situation et accompagner vers le passage à l'action, notre calculateur propose des actions concrètes, adaptées à chacun. Mieux, vous pourrez identifier l'impact de chaque action proposée par rapport à votre situation personnelle et ainsi voir comment perdre vos premiers kilos ou viser la première tonne de CO<sub>2</sub>e perdue.
 Si l'objectif est de guider chacun vers des actions qui ont un fort impact, nous savons bien que la plupart prenne du temps à être prise. Attention à ne pas trop "charger la barque", mais de tenir dans la durée les changements.
 
 L'important est de prendre conscience progressivement de l'impact de différentes actions plus ou moins structurelle (ce n'est pas la même chose de faire attention à avoir une conduite plus souple, que de réduire le nombre de kilomètres parcourus, ajouter des co-voitureurs, d'isoler son logement ou encore de limiter sa consommation de viande) et de choisir celle que l'on peut mettre bientôt en place, et celles qui pourront venir ensuite.
@@ -70,11 +70,11 @@ Beaucoup d'outils carbone proposent aujourd'hui de calculer son impact en émiss
 
 Souvent la compensation est utilisée pour justifier des usages peu ou pas compatibles avec nos engagements climatiques. Elle ne fait alors que déplacer le problème dans le temps et/ou dans l'espace :
 
-* exemple dans le temps; parce que la captation du carbone par la végétation est lent, alors que le CO2 d'un vol en avion est émis tout de suite. Compenser un vol aujourd'hui par des projets de replantation qui vont s'étaler sur des décennies est à prendre en compte ;
+* exemple dans le temps; parce que la captation du carbone par la végétation est lent, alors que le CO<sub>2</sub> d'un vol en avion est émis tout de suite. Compenser un vol aujourd'hui par des projets de replantation qui vont s'étaler sur des décennies est à prendre en compte ;
 * un autre exemple dans l'espace, parce que les personnes usant de la compensation ne sont pas ou peu celles qui sont le plus impactées par les conséquences du changement climatique.
 
 Compenser ce n'est pas juste garder les forêts actuelles en vie, si on souhaite compenser des activités, il faut étendre les forêts actuelles et donc planter. Comme tous les secteurs s'y mettent, ils sont en compétition pour les projets de reforestation. Attention aussi à la notion de "forêt", c'est un écosystème beaucoup plus complexe que les plantations que l'on peut voir  basées sur de la monoculture.
 
 Enfin si on parle de projets forestiers dans lesquels est investie l'argent de la compensation, ils ne peuvent pas garantir dans la durée que le carbone restera séquestré pendant les décennies ou les siècles nécessaires. Qui peut garantir que les forêts ne vont pas subir la [pression d'un prédateur](https://www.onf.fr/+/2e0::epidemie-de-scolytes-les-forestiers-de-lonf-sur-le-front.html), ou impactées par les conséquences du changement climatique, un [incendie](https://www.onf.fr/onf/+/7f8::feux-de-foret-2020-le-risque-setend-partout-en-france.html) en 2034, ou une [sécheresse](https://actu.fr/ile-de-france/pierrelaye_95488/val-d-oise-foret-de-pierrelaye-les-jeunes-arbres-plantes-en-2019-victimes-de-la-canicule_35831247.html) à répétition entre 2027 et 2031 ?
 
-Allez, c'est parti, commençons à perdre nos kilos et tonnes de CO2 en trop dès maintenant, rendez-vous sur [Nos Gestes Climat](/impactcarbone) !
+Allez, c'est parti, commençons à perdre nos kilos et tonnes de CO<sub>2</sub> en trop dès maintenant, rendez-vous sur [Nos Gestes Climat](/impactcarbone) !
