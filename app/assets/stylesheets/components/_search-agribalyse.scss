@@ -174,6 +174,19 @@ font-size: 20px;
     // text-align: center;
 }
 
+.aliment-card-co2 {
+    background-color: white;
+    background-position-y: 52px;
+    background-repeat: no-repeat;
+    padding: 1em;
+    margin-top: 0em;
+    margin-right: 3em;
+    border-radius: 8px;
+    width: 350px;
+    height: 50px;
+    text-align: center;
+}
+
 .aliment-score:hover {
   box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
