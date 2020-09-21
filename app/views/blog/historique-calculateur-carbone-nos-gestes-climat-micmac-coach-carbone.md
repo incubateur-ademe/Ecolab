@@ -23,7 +23,7 @@ Qu'est-ce qui a changé depuis ? A l'époque on parlait du [facteur 4](http://ww
   <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/xf0nry" width="100%" height="100%" allowfullscreen > </iframe>
 </div>
 
-Le message reste bien d'actualité, non ? Et la campagne faite à l'époque est encore tout à fait valable aussi. Voici les visuels qui ont 10 ans, ça n'a pas vieilli sur le fond, un peu sur la forme certes :
+Le message de la vidéo ci-dessus reste bien d'actualité, non ? Et la campagne faite à l'époque est encore tout à fait valable aussi. Voici les visuels qui ont 10 ans, ça n'a pas vieilli sur le fond :
 
 ![Covoiturage](Climat/article-historique-calculateurs/coachcarbone-1.jpg){:width="49%"}
 ![Covoiturage](Climat/article-historique-calculateurs/coachcarbone-2.jpg){:width="49%"}
@@ -32,19 +32,17 @@ Le message reste bien d'actualité, non ? Et la campagne faite à l'époque est 
 ![Covoiturage](Climat/article-historique-calculateurs/coachcarbone-4.jpg){:width="49%"}
 
 
-## En 2010 naissait également "MicMac"
+## En 2010 naissait également "*MicMac*"
 *Mon Impact Carbone, Mes Actions Concretes* : voilà un bon résumé des objectifs recherchés par l'[association TaCa](https://www.taca.asso.fr/){:target="_blank"}, lorsque, début 2010, elle mettait au point un premier tableur à partir de l’outil Bilan Carbone Personnel de l’ADEME. Ce "*MicMac*" est aussi choisi car ce terme un peu désuet correspond bien à la perception confuse à l'époque sur les gaz à effet de serre dans les médias et le grand public. Et si la prise de conscience autour du changement climatique a très nettement progressé en 10 ans, la confusion reste encore largement présente et les ordres de grandeur sur les émissions encore loin d'être familier à chacun.
 
-> TODO : On pointe les/des issues pour montrer que la perception des ordres de grandeur est très méconnue ou entretenue avec des actions comme trier ses déchets, le type de carburant de sa voiture, etc. ?
-
-Poursuivant les mêmes objectifs, les jeunes bénévoles de l'[association Avenir Climatique](http://avenirclimatique.org/){:target="_blank"} s’associent en 2014 à TaCa pour mettre au point un nouveau tableur MicMac plus complet.
+Poursuivant les mêmes objectifs, les jeunes bénévoles de l'[association Avenir Climatique](http://avenirclimatique.org/){:target="_blank"} s’associent en 2014 à TaCa pour mettre au point un nouveau tableur *MicMac* plus complet.
 Début 2017, l’outil *MicMac* est accessible en ligne sur le site web d’Avenir Climatique, et il est choisi à l'automne 2018 comme outil de mesure d’impact carbone personnel par le [collectif On Est Prêt](https://www.onestpret.com/){:target="_blank"}.
 
 ## Et en 2020 ? Proposer un calculateur simple, ouvert, réutilisable
-Si le Coach Carbone a cessé son activité, MicMac est lui [toujours en service](https://avenirclimatique.org/micmac){:target="_blank"}. Reste qu'il en existe bien d'autres, parfois spécialisés sur un secteur en particulier, parfois avec un penchant pour une expérience utilisateur plus simple, ou parfois encore avec un objectif tiers comme "compenser" ses émissions.
-Partant de ce constat, l'[Association Bilan Carbone (ABC)](https://www.associationbilancarbone.fr/){:target="_blank"} a fait un travail de recensement et d'évaluation des calculateurs disponibles en ligne. Leur comparatif précis des nombreux calculateurs existants montre que MicMac est une excellente base pour continuer de sensibiliser sur les gaz à effet de serre de nos actions du quotidien.
+Si le Coach Carbone a cessé son activité, *MicMac* est lui [toujours en service](https://avenirclimatique.org/micmac){:target="_blank"}. Reste qu'il en existe bien d'autres, parfois spécialisés sur un secteur en particulier, parfois avec un penchant pour une expérience utilisateur plus simple, ou souvent encore avec l'objectif final de "compenser" ses émissions.
+Partant de ce constat, l'[Association Bilan Carbone (ABC)](https://www.associationbilancarbone.fr/){:target="_blank"} a fait un travail de recensement et d'évaluation des calculateurs disponibles en ligne. Leur comparatif précis des nombreux calculateurs existants montre que *MicMac* est une excellente base pour continuer de sensibiliser sur les gaz à effet de serre de nos actions du quotidien.
 
-> Tableau récap benchmark ABC
+> Tableau récapitulatif du benchmark ABC (à venir)
 
 A la fois le plus complet et ouvert, les équipes de l'ABC et Ecolab ont ainsi fait le choix de s'appuyer sur ce calculateur pour proposer un calculateur tout aussi performant et dans un format facilement intégrable sur différents sites, comme le [calculateur transport](https://ecolab.ademe.fr/transport).
 Surtout nous souhaitons en faire une base autour de laquelle créer et animer une communauté pour :
@@ -54,27 +52,29 @@ Surtout nous souhaitons en faire une base autour de laquelle créer et animer un
 * ouvrir et partager les données et les calculs (hypothèses des calculs, arbitrages entre simplicité et précision, etc.)
 * pousser à ré-utiliser ces données dans les produits et services connus des citoyens pour augmenter l'impact de la prise de conscience vers l'action
 
+Rappelons-le : l'objectif est de proposer des ordres de grandeurs, simplement et rapidement, sans poser trop de questions. Il ne s'agit pas de rentrer dans un niveau de détail très grand, qui nécessiterait bien trop de questions, et enuyerait de nombreux utilisateurs... qui quiterrait la simulation. Non, l'objectif reste bien de permettre de se rendre compte où il est important d'agir dans sa situation, et de donner des premières pistes chiffrées pour ce faire.
 
 ## Un bilan, c'est bien, des pistes concrètes pour le faire diminuer c'est encore mieux
-Qu'on se le dise tout de suite : même quand on se sent déjà très assez exemplaire, le résultat qui tombe est souvent difficile à comprendre, voire violent face à l'écart de nos engagements. Oui, la marche [vers la neutralité carbone](https://ecolab.ademe.fr/blog/g%C3%A9n%C3%A9ral/budget-empreinte-carbone-c-est-quoi.md) est très haute et les efforts à fournir individuellement et collectivement sont un véritable défi pour nos sociétés. Mais ce qui compte, avant tout, passé la prise de conscience, c'est d'entrainer les citoyennes et citoyens vers des pistes d'amélioration progressives partant de leur situation actuelle.
+Qu'on se le dise tout de suite : même quand on se sent déjà assez exemplaire, le résultat qui tombe est souvent difficile à comprendre, voire violent face à l'écart de nos engagements. Oui, la marche [vers la neutralité carbone](https://ecolab.ademe.fr/blog/g%C3%A9n%C3%A9ral/budget-empreinte-carbone-c-est-quoi.md) est très haute et les efforts à fournir individuellement et collectivement sont un véritable défi pour nos sociétés. Mais ce qui compte, avant tout, passé la prise de conscience, c'est d'entrainer les citoyennes et citoyens vers des pistes d'amélioration progressives partant de leur situation actuelle.
 
 Alors pour dépasser cette situation et accompagner vers le passage à l'action, notre calculateur propose des actions concrètes, adaptées à chacun. Mieux, vous pourrez identifier l'impact de chaque action proposée par rapport à votre situation personnelle et ainsi voir comment perdre vos premiers kilos ou viser la première tonne de CO<sub>2</sub>e perdue.
-Si l'objectif est de guider chacun vers des actions qui ont un fort impact, nous savons bien que la plupart prenne du temps à être prise. Attention à ne pas trop "charger la barque", mais de tenir dans la durée les changements.
+Si l'objectif est de guider chacun vers des actions qui ont un fort impact, nous savons bien que la plupart prenne du temps à être prise. Attention à ne pas trop "charger la barque" d'un coup, mais d'identifier des actions concrêtes et de tenir dans la durée les changements.
 
 L'important est de prendre conscience progressivement de l'impact de différentes actions plus ou moins structurelle (ce n'est pas la même chose de faire attention à avoir une conduite plus souple, que de réduire le nombre de kilomètres parcourus, ajouter des co-voitureurs, d'isoler son logement ou encore de limiter sa consommation de viande) et de choisir celle que l'on peut mettre bientôt en place, et celles qui pourront venir ensuite.
 
-A chacun de voir par où il peut et veut commencer, en connaissance de cause. Les conseils que l'on entend souvent, comme [éteindre la lumière](https://www.franceinter.fr/environnement/quand-le-president-hollande-faisait-le-tour-de-l-elysee-pour-eteindre-les-lumieres) par exemple ont certes un impact... mais beaucoup moins que limiter sa température de chauffage par exemple ou arrêter l'autosolisme.
+A chacun de voir par où il peut et veut commencer, en connaissance de cause. Les conseils que l'on entend souvent, comme éteindre la lumière par exemple ont certes un impact... mais beaucoup moins que limiter sa température de chauffage par exemple ou arrêter l'autosolisme. C'est aussi pour cela que les actions sont chiffrées pour plus facilement se rendre compte de ces ordres de grandeurs. 
 
 ## Et donc la finalité ce n'est pas la compensation ?
-Beaucoup d'outils carbone proposent aujourd'hui de calculer son impact en émissions de gaz à effet de serre pour ensuite le compenser. La logique à retenir en priorité c'est le tryptique ERC, E pour éviter puis R pour réduire avant C pour compenser. Cette dernière étape n'aura pas lieu si j'ai évité, ou n'aura lieu que pour volume bien moindre de GES puisque j'aurais déjà réduit avant.
+Beaucoup d'outils carbone proposent aujourd'hui de calculer son impact en émissions de gaz à effet de serre pour ensuite le compenser. Il s'agit notamment de projets forestiers dans lesquels est investie l'argent de la compensation, sans pouvoir garantir que le carbone restera séquestré pendant les décennies ou les siècles nécessaires. Qui peut garantir en effet que les forêts ne vont pas subir la [pression d'un prédateur](https://www.onf.fr/+/2e0::epidemie-de-scolytes-les-forestiers-de-lonf-sur-le-front.html), ou être touchées par les conséquences du changement climatique, un [incendie](https://www.onf.fr/onf/+/7f8::feux-de-foret-2020-le-risque-setend-partout-en-france.html) en 2034, ou une [sécheresse](https://actu.fr/ile-de-france/pierrelaye_95488/val-d-oise-foret-de-pierrelaye-les-jeunes-arbres-plantes-en-2019-victimes-de-la-canicule_35831247.html), qui risquent se répéter de plus en plus fréquement dans les années à venir ?
 
-Souvent la compensation est utilisée pour justifier des usages peu ou pas compatibles avec nos engagements climatiques. Elle ne fait alors que déplacer le problème dans le temps et/ou dans l'espace :
+La compensation, souvent utilisée pour justifier des usages peu ou pas compatibles avec nos engagements climatiques, ne fait alors que déplacer le problème dans le temps et/ou dans l'espace :
 
-* exemple dans le temps; parce que la captation du carbone par la végétation est lent, alors que le CO<sub>2</sub> d'un vol en avion est émis tout de suite. Compenser un vol aujourd'hui par des projets de replantation qui vont s'étaler sur des décennies est à prendre en compte ;
-* un autre exemple dans l'espace, parce que les personnes usant de la compensation ne sont pas ou peu celles qui sont le plus impactées par les conséquences du changement climatique.
+* exemple dans le temps, parce que la captation du carbone par la végétation est lente, alors que le CO<sub>2</sub> d'un vol en avion est émis tout de suite. Compenser un vol aujourd'hui par des projets de replantation qui vont s'étaler sur des décennies est à prendre en compte ;
+* un autre exemple dans l'espace, notamment parce que les personnes usant de la compensation ne sont pas ou peu celles qui sont le plus impactées par les conséquences du changement climatique.
 
-Compenser ce n'est pas juste garder les forêts actuelles en vie, si on souhaite compenser des activités, il faut étendre les forêts actuelles et donc planter. Comme tous les secteurs s'y mettent, ils sont en compétition pour les projets de reforestation. Attention aussi à la notion de "forêt", c'est un écosystème beaucoup plus complexe que les plantations que l'on peut voir  basées sur de la monoculture.
+Compenser ce n'est pas juste garder les forêts actuelles en vie, si on souhaite compenser des activités, il faut étendre les forêts actuelles et donc ajouter des arbres, planter (on parle de compensation "additionnelle"). Et attention : une "forêt", c'est un écosystème très complexe que l'on ne peut pas reproduire simplement en plantant une seule essence d'arbre.
 
-Enfin si on parle de projets forestiers dans lesquels est investie l'argent de la compensation, ils ne peuvent pas garantir dans la durée que le carbone restera séquestré pendant les décennies ou les siècles nécessaires. Qui peut garantir que les forêts ne vont pas subir la [pression d'un prédateur](https://www.onf.fr/+/2e0::epidemie-de-scolytes-les-forestiers-de-lonf-sur-le-front.html), ou impactées par les conséquences du changement climatique, un [incendie](https://www.onf.fr/onf/+/7f8::feux-de-foret-2020-le-risque-setend-partout-en-france.html) en 2034, ou une [sécheresse](https://actu.fr/ile-de-france/pierrelaye_95488/val-d-oise-foret-de-pierrelaye-les-jeunes-arbres-plantes-en-2019-victimes-de-la-canicule_35831247.html) à répétition entre 2027 et 2031 ?
 
-Allez, c'est parti, commençons à perdre nos kilos et tonnes de CO<sub>2</sub> en trop dès maintenant, rendez-vous sur [Nos Gestes Climat](/impactcarbone) !
+La logique à retenir en priorité si l'on veut agir contre le changement climatique c'est donc le tryptique *ERC*, *E* pour éviter puis *R* pour réduire avant *C* pour compenser. Cette dernière étape n'aura pas lieu si j'ai déjà évité les émissions en question, ou n'aura lieu que pour volume bien moindre de GES puisque je l'aurais déjà réduit avant.
+
+Alors, c'est parti, commençons à perdre nos kilos et tonnes de CO<sub>2</sub> en trop dès maintenant grâce à [Nos Gestes Climat](/impactcarbone) !
