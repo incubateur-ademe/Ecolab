@@ -54,6 +54,13 @@ Surtout nous souhaitons en faire une base autour de laquelle créer et animer un
 
 Rappelons-le : l'objectif est de proposer des ordres de grandeurs, simplement et rapidement, sans poser trop de questions. Il ne s'agit pas de rentrer dans un niveau de détails très grand, qui nécessiterait bien trop de questions et ennuierait de nombreux utilisateurs... qui quiterraient la simulation. Non, l'objectif reste bien de permettre de se rendre compte où il est important d'agir dans sa situation, et de donner des premières pistes chiffrées pour ce faire.
 
+Cette sensibilisation est nécessaire face à certains retours qui nous sont faits :
+
+* pouvoir [choisir son type de carburant](https://github.com/betagouv/ecolab-data/issues/416) : il y a certes un [écart](https://www.bilans-ges.ademe.fr/fr/basecarbone/donnees-consulter/liste-element/idRegle?recherche=combustible%20liquide) entre diesel, essence, etc. alors qu'on doit diviser par 6 et plus nos émissions, ca va nécessiter de dépasser ce type d'action ;
+* pouvoir préciser que notre [fournisseur d'électricité est "vert"](https://github.com/betagouv/ecolab-data/issues/4) : qu'entend-on par "vert" ? Et pour rappel le [mix-électrique en France](https://www.rte-france.com/eco2mix) est déjà fortement décarboné : nucléaire + hydroélectricité + solaire/éolien n'émettent pas de gaz à effet de serre). Agir pour le climat nécessitera bien plus que ça.
+
+Donc oui les calculateurs sont perfectibles pour certains cas, encore limiter (et seront améliorés grâce à tous les retours), mais ca ne doit pas retarder la compréhension de la hauteur de la baisse à effectuer et des actions nécessaires à mettre en oeuvre dans la durée face à nos engagements pour endiguer la crise climatique.
+
 ## Un bilan, c'est bien, des pistes concrètes pour le faire diminuer c'est encore mieux
 Qu'on se le dise tout de suite : même quand on se sent déjà assez exemplaire, le résultat qui tombe est souvent difficile à comprendre, voire violent face à l'écart de nos engagements. Oui, la marche [vers la neutralité carbone](https://ecolab.ademe.fr/blog/g%C3%A9n%C3%A9ral/budget-empreinte-carbone-c-est-quoi.md) est très haute et les efforts à fournir individuellement et collectivement sont un véritable défi pour nos sociétés. Mais ce qui compte, avant tout, passé la prise de conscience, c'est d'entrainer les citoyennes et citoyens vers des pistes d'amélioration progressives partant de leur situation actuelle.
 
