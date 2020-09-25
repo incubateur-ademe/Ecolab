@@ -82,4 +82,4 @@ Compenser ce n'est pas juste garder les forêts actuelles en vie, si on souhaite
 
 La logique à retenir en priorité si l'on veut agir contre le changement climatique c'est donc le tryptique *ERC*, *E* pour éviter puis *R* pour réduire avant *C* pour compenser. Cette dernière étape n'aura pas lieu si j'ai déjà évité les émissions en question, ou n'aura lieu que pour un volume bien moindre de GES puisque je l'aurais déjà réduit avant.
 
-Alors, c'est parti, commençons à perdre nos kilos et tonnes de CO<sub>2</sub> en trop dès maintenant grâce à [Nos Gestes Climat](/impactcarbone). A vos bilans !
+Alors, c'est parti, commençons à perdre nos kilos et tonnes de CO<sub>2</sub> en trop dès maintenant grâce à [Nos Gestes Climat](/impactcarbone) !
