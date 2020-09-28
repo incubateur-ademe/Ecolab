@@ -22,8 +22,8 @@ Rails.application.routes.draw do
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 
-  get "/aliments", to: "aliments#index", as: 'aliments'
-  get "/agribalyse/:id", to: "aliments#show", as: 'aliment'
-  get "/order_by_name", to: "aliments#order_by_name"
+  # # # get "/aliments", to: "aliments#index", as: 'aliments'
+  # # get "/agribalyse/:id", to: "aliments#show", as: 'aliment'
+  # get "/order_by_name", to: "aliments#order_by_name"
 
 end
