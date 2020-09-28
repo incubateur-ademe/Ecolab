@@ -23,20 +23,24 @@
 
         <div class="text-banner-agri">
             <p class="search_title mt-4">Discover the environmental impact for food consumed products</p>
-              <%= render '/shared/search-bar' %>
-<!--             <p class="search_examples">
-              Exemples :
 
-              <%#= link_to "Avocat", aliment_path(id: 95)%>,
-              <%#= link_to "Pain", aliment_path(id: 106)%>,
-              <%#= link_to "Tomate", aliment_path(id: 115)%>,
-              <%#= link_to "Thé infusé", aliment_path(id: 120)%>,
-              <%#= link_to "Fromage de chèvre", aliment_path(id: 93)%>
+            <div class="place-du-button-et-lien agrib">
+                <%= link_to "Parcourir les données", 'https://recherche-agribalyse.herokuapp.com/', target: "_blank", class:"btn btn-yellow mt-3" %>
+                 <div class="how">
+                  <%= link_to "Accéder aux données", "https://ecolab.gitbook.io/documentation-agribalyse/acces-donnees", target: "_blank" %>
+                  </div>
+              </div>
 
-              </p> -->
-        <p class="mt-2" style="font-size: 14px; padding-bottom: 150px;">AGRIBALYSE® data is <strong>freely available</strong> in two formats. AGRIBALYSE 3.0 available in <span><a href="https://simapro.com/products/agribalyse-agricultural-database/" class="how" target="_blank">SimaPro</a></span> and <span><a href="https://nexus.openlca.org/database/Agribalyse"  class="how" target="_blank">openLCA</a></span> since the 3rd of june, 2020.</p>
+              <div class="logo-container d-flex flex-row mb-4">
 
-        <!-- <p class="badge-beta"><span><a href="https://airtable.com/shrjo0sWG49AupVhL" class="how">Nous contacter</a></span></p> -->
+                <div class="" style="height: 60px; width: 90px; margin-right: 3em; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/INRAE') %>);">
+                </div>
+
+              <div class="" style="height: 60px; width: 90px; margin-right: 3em; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/ademerf') %>);">
+              </div>
+
+            </div>
+
         </div>
 
       <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
@@ -67,22 +71,7 @@
           </div>
         </div>
 
-        <div class="logo-container d-flex flex-row mb-4">
-          <%#= link_to "https://sudrhone.fr/2020/06/29/vacances-partir-sans-oublier-la-planete/", target: "_blank" do %>
-              <div class="" style="height: 60px; width: 90px; margin-right: 3em; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/repufran') %>);">
-              </div>
-          <%# end %>
 
-          <%#= link_to "https://sudrhone.fr/2020/06/29/vacances-partir-sans-oublier-la-planete/", target: "_blank" do %>
-              <div class="" style="height: 60px; width: 90px; margin-right: 3em; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/minilogoademe') %>);">
-              </div>
-          <%# end %>
-
-          <%#= link_to "https://sudrhone.fr/2020/06/29/vacances-partir-sans-oublier-la-planete/", target: "_blank" do %>
-              <div class="" style="height: 60px; width: 90px; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/inrae') %>);">
-              </div>
-          <%# end %>
-        </div>
 
         <div class="place-du-button-et-lien">
             <%= link_to "Documentation", 'https://ecolab.gitbook.io/agribalyse-documentation-en/', target: "_blank", class:"btn btn-yellow" %>
@@ -109,13 +98,14 @@
 
 
 <!-- CATEGORIES DE PRODUITS DANS AGRIBALYSE -->
-<!-- <div class="card-container">
-  <p class="card-title">Categories</p>
+
+<div class="card-container">
+  <p class="card-title">Catégories</p>
     <div class="home-container">
         <%#= link_to aliments_path(:query => "Plats composés") do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-PlatCompose.jpg') %>)">
-            Ready-cooked meals
+            Plats composés
           </div>
         </div>
         <%# end %>
@@ -123,7 +113,7 @@
         <%#= link_to aliments_path(:query => "fruits crus") do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-FruitsLegumes.jpg') %>)">
-            Fruits & vegetables
+            Fruits & légumes
           </div>
         </div>
         <%# end %>
@@ -131,7 +121,7 @@
         <%#= link_to aliments_path(:query => "Viandes et poissons") do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-ViandesPoissons.jpg') %>)">
-            Fishs & meats
+            Viandes et poissons
           </div>
         </div>
         <%# end %>
@@ -139,7 +129,7 @@
         <%#= link_to aliments_path(:query => "Confiserie") do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-Confiserie.jpg') %>)">
-            Sweets
+            Confiserie
           </div>
         </div>
         <%# end %>
@@ -155,7 +145,7 @@
         <%#= link_to aliments_path(:query => "Boissons") do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-Boissons.jpg') %>)">
-            Beverages
+            Boissons
           </div>
         </div>
         <%# end %>
@@ -171,14 +161,13 @@
         <%#= link_to aliments_path(:query => "Lait, oeufs") do %>
         <div>
           <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(<%= image_path('Agribalyse-LaitOeufs.jpg') %>)">
-            Milk, eggs
+            Lait, oeufs
           </div>
         </div>
         <%# end %>
 
       </div>
-  </div> -->
-
+  </div>
 
 
 <!-- ////////////////////USECASE////////////////////////// -->
