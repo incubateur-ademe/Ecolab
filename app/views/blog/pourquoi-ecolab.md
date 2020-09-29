@@ -10,47 +10,30 @@ status: published
 ---
 
 Année après année, les français se déclarent de plus en plus nombreux à vouloir agir en faveur de l'environnement, et le placent même pour la première fois en [haut de la liste de leurs préoccupations](https://presse.ademe.fr/2019/12/barometre-les-francais-placent-lenvironnement-pour-la-premiere-fois-en-haut-de-la-liste-de-leurs-preoccupations.html).
-Mais l'enjeu est de taille : passer d'une empreinte de [11,2 tonnes](https://www.statistiques.developpement-durable.gouv.fr/sites/default/files/2020-01/datalab-essentiel-204-l-empreinte-carbone-des-francais-reste-%20stable-janvier2020.pdf) d'équivalent CO2 actuellement à environ 2 tonnes ([entre 1,6 et 2,8 tonnes selon les hypothèses](https://www.statistiques.developpement-durable.gouv.fr/sites/default/files/2020-01/datalab-essentiel-204-l-empreinte-carbone-des-francais-reste-%20stable-janvier2020.pdf)) pour contenir le réchauffement climatique à moins de 2 °C.
+Mais l'enjeu est de taille : passer d'une empreinte de [11,2 tonnes](https://www.insee.fr/fr/statistiques/3281683?sommaire=3281778) d'équivalent CO2 / an actuellement à [moins de 2 tonnes](http://temis.documentation.developpement-durable.gouv.fr/docs/Temis/0085/Temis-0085717/22640.pdf) pour contenir le réchauffement climatique à moins de 2 °C.
 
-Faire correspondre ces enjeux globaux avec les actions à l'échelle individuelle et collective n'est évident pour personne. Et pris dans nos habitudes et nos routines quotidiennes, il est difficile de savoir que faire.
+Faire correspondre ces enjeux globaux avec les actions à l'échelle individuelle et collective n'est évident pour personne. Et pris dans nos habitudes et nos routines quotidiennes, **il est difficile de savoir que faire**.
 
->"Je n'ai pas trouvé, je chercherai une prochaine fois" ...
+Pourtant, **de nombreux acteurs (médias, applications, entreprises, associations...) procurent quotidiennement des informations à leurs utilisateurs**, notamment lors de leurs processus de décision (faire ses courses, trouver le meilleur itinéraire et moyen de transport pour aller à un rendez-vous, choisir un logement pour les vacances, etc). Nombre de ces acteurs sont conscients que **l’impact environnemental est un critère de choix de plus en plus prégnant** pour leurs utilisateurs et souhaiteraient intégrer des données environnementales à leurs services. Ils font cependant face à plusieurs difficultés : les informations environnementales doivent être fiables, à jour, bien comprises malgré leur technicité et parlantes pour leur communauté. Se retrouvant seuls pour traiter ces éléments épineux, ces structures font trop souvent le choix de ne pas intégrer les informations environnementales à leurs fonctionnalités. Même les applications avec un prisme environnemental fort peinent à trouver des données fiables facilement accessibles et intégrables.
 
+## Ecolab, un service pour apporter l’information environnementale là où les citoyens (en) sont
+Pour traiter cette problématique, l’ADEME (l’Agence de la Transition Ecologique) développe le service Ecolab, selon l’approche Startup d’État depuis mars 2019, grâce à l’appui stratégique et opérationnel de la DINUM.
 
-Pour avoir de l'impact, l'information doit arriver au moment où on se pose la question, où on prend la décision.
+Ecolab vise à **encourager des comportements plus durables en apportant une information environnementale fiable au cœur des applications et services les plus utilisés par les citoyens** dans leurs différents processus de décisions et de consommation.
 
-Mettre progressivement en place des premières actions peut permettre de déconstruire l'idée que l'on se trouve face à un mur, un défi hors d'atteinte. Encore faut-il accéder à des informations fiables.
+## Comment
+Pour faciliter et accélérer le passage à l’acte vers de nouveaux modes de vie, Ecolab propose trois offres afin de répondre au mieux aux besoins de ses interlocuteurs, sur plusieurs thématiques (particulièrement l’alimentation, le transport, le logement et l’impact carbone) :
 
-## L’information environnementale au bon moment, au bon endroit
+- Ecolab **accompagne les entreprises, associations ou collectifs dans la compréhension et l’intégration des données environnementales de l’ADEME** (facteurs d’émissions de gaz à effet de serre, données d'impact environnemental de l'alimentation, diagnostics de performance énergétique, etc) afin de créer de nouvelles fonctionnalités ou nouvelles applications.
 
-Pour faciliter et accélérer le passage à l’acte en faveur de nouveaux modes de vie, il faut pouvoir proposer directement les informations pertinentes au bon moment et sur les supports (applications, sites...) déjà largement utilisés. Une information environnementale parlante et fiable apportée lors de la décision de consommation, au sein des routines et processus existants.
-Tous les services positionnés sur le "parcours utilisateur" sont ainsi pertinents pour exposer des informations sur l’impact environnemental.
+- Pour les structures qui sont à la recherche de **solutions simples et rapides à mettre en place, sans développement**, Ecolab propose des calculateurs déjà opérationnels, qui restent à jour et sont faciles à intégrer dans un site internet, un article, etc. Ces outils visent également à inspirer les réutilisateurs en leur proposant des cas d’usages des données disponibles.
 
-> Pour l'alimentation par exemple, l'utilisateur ou utilisatrice peut être sensible à ces informations à chaque étape des courses : idée de recette, liste de course, scan en magasin, paiement, reçu de paiement…
-> Nous suivons presque tous au moins une de ces étapes.
+> *Exemple 1* : Notre [calculateur transport](https://ecolab.ademe.fr/transport) permet de quantifier et comparer l’impact CO2 de différents moyens de transport pour une distance donnée.
 
-Comme les citoyens, les applications ou sites web souhaitent également pouvoir mieux rendre compte de l'impact des biens ou services qu'elles proposent, ou apporter des informations environnementales. Se retrouvant seules pour traiter cette dimension très complexe, celles-ci font trop souvent le choix de ne pas l’intégrer. Même les applications avec un prisme environnemental fort peinent à trouver des données fiables facilement accessibles et intégrables.
+> *Exemple 2* : Le [simulateur d’empreinte carbone personnel Nos Gestes Climat](https://ecolab.ademe.fr/impactcarbone) interroge l’utilisateur sur ses habitudes quotidiennes (déplacements, alimentation, logement, etc) afin de lui indiquer son impact carbone et de le mettre en parallèle avec la moyenne française et l’objectif à atteindre pour respecter les Accords de Paris. Sont ensuites proposées des fiches personnalisés à l’utilisateur afin de lui permettre d’identifier les actions qu’il peut mettre en place pour réduire son impact carbone.
 
-## Ecolab, un service pour aider les développeurs et responsables produits
+- Par ailleurs, tout au long de l’année, Ecolab propose de bénéficier de l’expertise des membres de l’ADEME et de son équipe, notamment constituée de développeurs, via l’organisation d’**ateliers en petits groupes pour répondre aux questions et besoins des participants, ou de webinaires plus large** rassemblant jusqu'à plusieurs centaines d’intéressés.
 
-Ecolab est un service porté par l’[ADEME](https://www.ademe.fr) pour susciter des comportements plus durables en apportant une information environnementale fiable au cœur des applications et services les plus utilisés par les particuliers dans leurs différents processus de décisions et d’achats. Il vise donc à mobiliser et à mettre à disposition des entreprises, associations ou collectifs qui créent ces applications, les données environnementales nécessaires et les accompagne jusqu’à leur diffusion auprès des utilisateurs.
-
-> Pour renforcer l'impact auprès des citoyens, le service met en lien les experts de l'ADEME avec les réutilisateurs des données qu'ils produisent et les accompagne dans leur intégration.
-
-Il est construit selon [l’approche Startup d’État ](https://beta.gouv.fr/) depuis mars 2019, grâce à l’appui stratégique et opérationnel de la DINUM.
-
-## De nombreux cas d'utilisation possibles. Bientôt le vôtre ?
-
-Le service vise à progressivement couvrir les 3 champs suivants :
-
-- Se nourrir
-- Se loger / Habiter
-- Impact climat
-  - premier zoom : se déplacer
-
-L'objectif est ainsi de permettre aux applications d'apporter des informations à leurs utilisateurs à différents moments : lors des courses alimentaires, lors du choix d'un logement, lors d'un déplacement...
-Et parce que ce sont les applications qui connaissent le mieux leurs utilisateurs, l'idée d'Ecolab est de leur fournir un contenu fiable, issu de l'expertise de l'ADEME, sans pour autant nécessairement préjuger de la forme qu'il doit prendre dans chaque service. Nous donnons des indications, des bonnes pratiques ; aux partenaires de les intégrer ensuite.
+![Offre Ecolab](https://user-images.githubusercontent.com/46482115/93336520-287ecb80-f828-11ea-8b95-ab90138e84a0.png)
 
 Devenez partenaires et réutilisateurs de nos données, [contactez-nous](mailto:contact@ecolab.beta.gouv.fr) !
-
-`Découvrez bientôt les premiers cas d'usage`
