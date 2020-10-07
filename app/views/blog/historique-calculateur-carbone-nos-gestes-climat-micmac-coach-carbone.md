@@ -22,9 +22,7 @@ Lancé le 7 octobre 2010, il consistait à mesurer ses émissions de CO<sub>2</s
 
 Qu'est-ce qui a changé depuis ? A l'époque on parlait du [facteur 4](http://www.cgedd.developpement-durable.gouv.fr/IMG/pdf/008378-01_rapport-final_cle0aca84.pdf) (soit diviser nos émissions par 4 par rapport à 1990 d'ici à 2050), désormais, 10 ans après, la loi mentionne le [facteur 6 et plus](https://www.ecologie.gouv.fr/sites/default/files/SNBC-2%20en%204%20pages_%20web.pdf){:target="_blank"} puisqu'entre temps les émissions de gaz à effet de serre ont continué d'augmenter donc le budget carbone s'est réduit (plus d'information dans [cet article](https://ecolab.ademe.fr/blog/g%C3%A9n%C3%A9ral/budget-empreinte-carbone-c-est-quoi.md)).
 
-<div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;">
-  <iframe style="width:100%;height:100%;position:absolute;left:0px;top:0px;overflow:hidden" frameborder="0" type="text/html" src="https://www.dailymotion.com/embed/video/xf0nry" width="100%" height="100%" allowfullscreen > </iframe>
-</div>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VX0-xwHzjx8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Le message de la vidéo ci-dessus reste bien d'actualité, non ? Et la campagne faite à l'époque est encore tout à fait valable aussi. Voici les visuels datés de 10 ans, ils n'ont pas vieilli sur le fond :
 
