@@ -8,6 +8,7 @@ Nos autres dépôts sont :
 * [ecolab-climat](https://github.com/betagouv/ecolab-climat) : pour le code du [simulateur Nos GEStes Climat](https://ecolab.ademe.fr/apps/climat)
 * [ecolab-data](https://github.com/betagouv/ecolab-data) : pour les données des simulateurs (facteurs d'émissions carbone...)
 * [ecolab-alimentation](https://github.com/betagouv/ecolab-alimentation) : pour le code et les données Agribalyse du secteur alimentation
+* [ecolab-agribalyse](https://github.com/betagouv/ecolab-agribalyse) : pour le code de l'application de recherche dans la base Agribalyse (exemple de ré-utilisation des donnée plus haut)
 * [ecolab-batiment](https://github.com/betagouv/ecolab-batiment) : pour le code et les données du secteur du batiment
 
 N'hésitez pas à les regarder, nous faire part de vos retours et même de vos contributions !
