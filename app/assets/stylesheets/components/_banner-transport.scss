@@ -5,83 +5,12 @@
   min-width: 12rem
 }
 
-
 .hero .banner_title-trans {
-    color: var(--theme-dark-text);
-    font-size: 2em;
-    font-weight: bold;
-    max-width: 56rem;
-    text-align: center;
-    margin: 0 1rem;
-}
-
-.section-trans {
-  padding-top: 80px;
-  padding-bottom: 80px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-around;
+  color: var(--theme-dark-text);
+  font-size: 2em;
+  font-weight: bold;
+  max-width: 56rem;
   text-align: center;
-  align-items: center;
-
+  margin: 0 1rem;
 }
-
-.section-carb {
-  height: 520px;
-  padding-left: 100px;
-  padding-right: 300px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  text-align: center;
-  align-items: center;
-
-}
-
-
-.section-trans-droite {
-    background-color: $light-blue;
-}
-
-.section-trans-gauche {
-    background-color: #CEF3EA;
-}
-
-.section-trans p {
-  width: 500px;
-  font-size: 20px;
-  color: black;
-}
-
-.section-carb p {
-  width: 700px;
-  font-size: 18px;
-  color: black;
-}
-
-.section-trans-droite p {
-  margin-left: 100px;
-}
-
-.section-trans-droite a {
-  margin-left: 100px;
-}
-
-.section-trans-droite img {
-  width: 70vh;
-  height: 70%;
-  margin: -11em;;
-}
-
-.section-trans-gauche img {
-  width: 70vh;
-  height: 70%;
-  margin: 1em;;
-}
-
-
-
-
-
 

@@ -11,73 +11,61 @@
 </div>
 
 <div class="hero" role="banner">
-    <div class="hero__container hero__container_landing p-5" style="background: linear-gradient(0deg, white, #7DDFC3);">
+  <div class="hero__container hero__container_landing p-5" style="background: linear-gradient(0deg, white, #7DDFC3);">
 
-      <%#= image_tag("data.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
-      <img class="images-banner" id="trotti" src="<%= image_path('transport/metro') %>"/>
+    <%#= image_tag("data.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
+    <img class="images-banner" id="trotti" src="<%= image_path('transport/metro') %>"/>
+    <div class="texts-banner">
+      <h1 class="banner_title-trans">L'impact des déplacements sur le climat</h1>
+      <%#= render '/shared/search-bar' %>
+      <p class="banner_subtitle">Des données ouvertes pour une mobilité moins émettrice en CO2.</p>
 
-
-        <div class="texts-banner">
-          <h1 class="banner_title-trans">L'impact des déplacements sur le climat</h1>
-          <%#= render '/shared/search-bar' %>
-          <p class="banner_subtitle">Des données ouvertes pour une mobilité moins émettrice en CO2.</p>
-
-          <div class="how">
-            <%= link_to "Mieux comprendre les enjeux", 'https://ecolab.ademe.fr/blog/transport/impact-carbone-mobilite-eco-deplacement.md', target: "_blank" %>
-          </div>
-          <a href="/apps/transport"><button class="btn btn-red mt-3">Accéder au simulateur</button></a>
-        </div>
-      <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
-      <img class="images-banner" src="<%= image_path('transport/undraw_Ride_a_bicycle_2yok.svg') %>"/>
+      <div class="how">
+        <%= link_to "Mieux comprendre les enjeux", 'https://ecolab.ademe.fr/blog/transport/impact-carbone-mobilite-eco-deplacement.md', target: "_blank" %>
+      </div>
+      <a href="/apps/transport"><button class="btn btn-red mt-3">Accéder au simulateur</button></a>
     </div>
+    <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
+    <img class="images-banner" src="<%= image_path('transport/undraw_Ride_a_bicycle_2yok.svg') %>"/>
+  </div>
 </div>
 
 <div style="background-color: white;">
-    <div class="container align-text-center" style="height: fit-content; background-color: white; padding: 4vh; border-radius: 30px;">
-      <h2 class="section__title mt-5 mb-5">PROPOSITION #1 : Encourager le report modal en chiffrant et comparant l’ensemble des modes de transport</h2>
+  <div class="container align-text-center" style="height: fit-content; background-color: white; padding: 4vh; border-radius: 30px;">
+    <h2 class="section__title mt-5 mb-5">PROPOSITION #1 : Encourager le report modal en chiffrant et comparant l’ensemble des modes de transport</h2>
     <script id="ecolab-transport" data-couleur="purple" src="https://ecolab.ademe.fr/apps/transport/iframe.js"></script>
-
-    </div>
-
+  </div>
 </div>
 
-
-
-
-
 <!-- Section integrer le simulateur -->
-
 <div class="d-flex flex-column">
-  <div class="section-trans section-trans-droite section-demandeur">
-    <div class="text-p d-flex flex-column align-items-center justify-content-end">
-      <p><strong>Intégrez ce simulateur directement à votre site</strong></p>
-        <span></span>
+  <div class="section-trans section-droite section-demandeur d-flex align-items-center justify-content-center">
+    <div class="text-p d-flex flex-column align-items-center justify-content-end pt-5 pb-5">
+      <h4>Intégrez ce simulateur directement à votre site</h4>
       <p>Intégrez notre module de calcul chez vous, par exemple rendre un article de blog plus intéractif pour le lecteur, simplement en ajoutant cette ligne à votre page Web. Le module restera automatiquement à jour avec les données les plus récentes.
       </p>
       <code>
-        < script id="ecolab-transport" data-distanceInitiale="29" src="https://ecolab.ademe.fr/apps/transport/iframe.js"></script >
+        &lt;script id="ecolab-transport" data-distanceInitiale="29" src="https://ecolab.ademe.fr/apps/transport/iframe.js"&gt;&lt;/script&gt;
       </code>
-
-        <%= link_to "Documentation", 'https://ecolab.gitbook.io/documentation-ecolab/se-deplacer-quelques-cas-dusage-des-donnees', target: "_blank", class:"btn btn-grey mt-3" %>
+      <%= link_to "Documentation", 'https://ecolab.gitbook.io/documentation-ecolab/se-deplacer-quelques-cas-dusage-des-donnees', target: "_blank", class:"btn btn-grey mt-3" %>
     </div>
-      <img  src="<%= image_path('transport/app-wiref.svg') %>"/>
+    <img src="<%= image_path('transport/app-wiref.svg') %>" />
   </div>
-
+</div>
 
 <!-- Section données lien vers github -->
-
 <div class="d-flex flex-column">
-  <div class="section-trans section-trans-gauche section-demandeur">
-      <img src="<%= image_path('transport/data.svg') %>"/>
+  <div class="section-trans section-gauche section-demandeur d-flex align-items-center justify-content-center pt-5 pb-5">
+    <img src="<%= image_path('transport/data.svg') %>"/>
     <div class="text-p d-flex flex-column align-items-center">
-      <p><strong>Enrichissez vos produits avec les données </strong></p>
-        <span></span>
+      <h4>Enrichissez vos produits avec les données </h4>
       <p>Accédez aux données CO2 transport utilisées pour le simulateur sous format yaml.
       </p>
-        <%= link_to "Github", 'https://github.com/betagouv/ecolab-transport/blob/master/ges-transport.yaml', target: "_blank", class:"btn btn-grey mt-3" %>
-        <%#= link_to "Autres formats données sur data.ademe.fr", 'https://data.ademe.fr/datasets/ademe-extrait-base-carbone-v14-0', target: "_blank", class:"how mt-3" %>
+      <%= link_to "Github", 'https://github.com/betagouv/ecolab-transport/blob/master/ges-transport.yaml', target: "_blank", class:"btn btn-grey mt-3" %>
+      <%#= link_to "Autres formats données sur data.ademe.fr", 'https://data.ademe.fr/datasets/ademe-extrait-base-carbone-v14-0', target: "_blank", class:"how mt-3" %>
     </div>
   </div>
+</div>
 
 
 <!--   <div class="section-trans section-demandeur">
@@ -89,159 +77,148 @@
       </div>
       <img src="<%#= image_path('transport/data.svg') %>"/>
   </div> -->
-</div>
-
 
 
 <!-- temoignages -->
-
-  </div>
-
-
-    <div class="reu-container">
-      <p class="reu-title">Ils intègrent ou mentionnent notre calculateur</p>
-          <div class="d-flex flex-row flex-wrap">
-
-        <%= link_to "https://www.associationbilancarbone.fr/le-changement-climatique/", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/abc_main_logo') %>);">
-          </div>
+<div class="reu-container">
+  <p class="reu-title">Ils intègrent ou mentionnent notre calculateur</p>
+  <div class="d-flex flex-row flex-wrap justify-content-center">
+    <%= link_to "https://www.associationbilancarbone.fr/le-changement-climatique/", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/abc_main_logo') %>);">
         </div>
-        <% end %>
-
-        <%= link_to "https://particuliers.ademe.fr/calculer-les-emissions-de-carbone-de-vos-trajets", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('logos/ademe-logo.jpg') %>); background-size: contain !important; background-repeat: no-repeat;">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://www.airbnb.fr/d/tourismedurable", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/airbnb.png') %>); background-size: contain !important; background-repeat: no-repeat;">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://www.atmo-auvergnerhonealpes.fr/article/mes-deplacements", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/atmo-aura.png') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://www.gobetterway.fr/forfait-mobilite-durable/", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/betterway.PNG') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://campagnesartois.fr/preserver/environnement/developpement-durable/325-espace-numerique-du-developpement-durable", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/campagnes-artois.png') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://transports.clissonsevremaine.fr/", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/clisson.png') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://dromolib.fr/", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/dromolib.jpg') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://wiki.lafabriquedesmobilites.fr/wiki/Ecolab_ADEME", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/fabrique.png') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://www.parislete.fr/fr/le-festival/un_festival_responsable_et_solidaire", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/parislete.png') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://grandparisdurable.org/transport/", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/gdparisdurable.png') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://www.greengo.voyage/post/calculer-empreinte-carbone-voyages", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/greengo.png') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://pro.mobicoop.fr/calculez-limpact-de-vos-deplacements/", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/mobicoop.png') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://www.notrechoix.org/quel-est-limpact-de-vos-trajets/", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/notrechoix.png') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://www.notre-planete.info/ecologie/eco-citoyen/eco_transports.php", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/notreplaneteinfo.png') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://www.saintnazaire.fr/demarches-et-infos-pratiques/infos-pratiques/transports", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/saintnazaire.png') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://www.save4planet.com/ecologie/53/velo-pollution", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/save4plan.png') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "http://www.smartcitymag.fr/article/711/le-calculateur-decolab-sensibilise-aux-transports-durables", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/smartcity.PNG') %>);">
-          </div>
-        </div>
-        <% end %>
-
-        <%= link_to "https://sudrhone.fr/2020/06/29/vacances-partir-sans-oublier-la-planete/", target: "_blank" do %>
-        <div>
-          <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/sudrhoneenvironnement.png') %>);">
-          </div>
-        </div>
-        <% end %>
-
-
       </div>
-  </div>
+    <% end %>
 
+    <%= link_to "https://particuliers.ademe.fr/calculer-les-emissions-de-carbone-de-vos-trajets", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('logos/ademe-logo.jpg') %>); background-size: contain !important; background-repeat: no-repeat;">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://www.airbnb.fr/d/tourismedurable", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/airbnb.png') %>); background-size: contain !important; background-repeat: no-repeat;">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://www.atmo-auvergnerhonealpes.fr/article/mes-deplacements", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/atmo-aura.png') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://www.gobetterway.fr/forfait-mobilite-durable/", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/betterway.PNG') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://campagnesartois.fr/preserver/environnement/developpement-durable/325-espace-numerique-du-developpement-durable", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/campagnes-artois.png') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://transports.clissonsevremaine.fr/", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/clisson.png') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://dromolib.fr/", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/dromolib.jpg') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://wiki.lafabriquedesmobilites.fr/wiki/Ecolab_ADEME", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/fabrique.png') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://www.parislete.fr/fr/le-festival/un_festival_responsable_et_solidaire", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/parislete.png') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://grandparisdurable.org/transport/", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/gdparisdurable.png') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://www.greengo.voyage/post/calculer-empreinte-carbone-voyages", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/greengo.png') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://pro.mobicoop.fr/calculez-limpact-de-vos-deplacements/", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/mobicoop.png') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://www.notrechoix.org/quel-est-limpact-de-vos-trajets/", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/notrechoix.png') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://www.notre-planete.info/ecologie/eco-citoyen/eco_transports.php", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/notreplaneteinfo.png') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://www.saintnazaire.fr/demarches-et-infos-pratiques/infos-pratiques/transports", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/saintnazaire.png') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://www.save4planet.com/ecologie/53/velo-pollution", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/save4plan.png') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "http://www.smartcitymag.fr/article/711/le-calculateur-decolab-sensibilise-aux-transports-durables", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/smartcity.PNG') %>);">
+        </div>
+      </div>
+    <% end %>
+
+    <%= link_to "https://sudrhone.fr/2020/06/29/vacances-partir-sans-oublier-la-planete/", target: "_blank" do %>
+      <div>
+        <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/sudrhoneenvironnement.png') %>);">
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
 
 <!-- Re-utilisateurs -->
-
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -249,46 +226,40 @@
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
   <div class="carousel-inner">
-
-<!--     temoignage 1 -->
+    <!--     temoignage 1 -->
     <div class="carousel-item active">
       <h2 class="temoignage">"Il est très simple d'utilisation et le graphisme basique mais percutant permet de comprendre les résultats d'un coup d'oeil."</h2>
       <p>Alfaré Aurélien - ACCTEES</p>
-      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
+      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class: "how mt-3" %>
     </div>
-<!--     temoignage 2 -->
+    <!--     temoignage 2 -->
     <div class="carousel-item">
       <h2 class="temoignage">On est absolument ravis ! C'est clairement un outil qui nous manqué jusque là et qui s'intègre  très bien à notre démarche ! Je trouve ça particulièrement positif que vous ayez dès le départ conçu l'outil pour être intégré sur les sites tiers !</h2>
       <p>Adrien Jeantet - notre Choix</p>
-      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
+      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class: "how mt-3" %>
     </div>
-
-<!--     temoignage 3 -->
+    <!--     temoignage 3 -->
     <div class="carousel-item">
       <h2 class="temoignage">"Simple et pratique à utiliser, on voit bien les quantités émises."</h2>
       <p>Joachim Robert Design graphique</p>
-      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
+      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class: "how mt-3" %>
     </div>
-
-<!--     temoignage 4 -->
+    <!--     temoignage 4 -->
     <div class="carousel-item">
       <h2 class="temoignage">"Calculateur simple, facilement incorporable à un site internet."</h2>
       <p>Utilisateur</p>
-      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class:"how mt-3" %>
-
+      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class: "how mt-3" %>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Prec</span>
+    <span class="sr-only">Précédant</span>
   </a>
   <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Suiv</span>
+    <span class="sr-only">Suivant</span>
   </a>
 </div>
 
 <%= render '/shared/newsletter' %>
 <%= render '/shared/twitter' %>
-
-

@@ -9,9 +9,6 @@
   }
 }
 
-
-
-
 @media(max-width: 640px) {
   .aliment-section {
     flex-direction: column;
@@ -26,4 +23,34 @@
     flex-direction: column;
     margin: 0px;
   }
+}
+
+.titre-news {
+  font-size: 1.8em;
+  margin: 26px 0;
+  font-weight: 600;
+}
+
+code {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.newsletter {
+  margin: 2rem;
+}
+
+.section-droite {
+  background-color: $light-blue;
+}
+
+.section-gauche {
+  background-color: #cef3ea;
+}
+
+.image-rs {
+  max-width: 250px;
+}
+.titre-news {
+  width: 300px !important;
 }
