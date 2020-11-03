@@ -77,6 +77,17 @@
 <div class="reu-container">
   <p class="reu-title">Ils intègrent notre calculateur NosGEStesClimat</p>
   <div class="reu-list d-flex flex-row flex-wrap justify-content-center">
+
+    <%= link_to "https://agirpourlatransition.ademe.fr/particuliers/testez-vos-connaissances/connaissez-empreinte-climat", alt: "ADEME - Connaissez-vous votre empreinte sur le climat ?", target: "_blank" do %>
+      <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('logos/ademe-logo.jpg') %>); background-size: contain !important; background-repeat: no-repeat;">
+      </div>
+    <% end %>
+    
+    <%= link_to "https://alternativi.fr/calculer-son-impact-carbone-avec-le-simulateur-de-l-ademe/614", alt: "Alternativi - Simulateur carbone", target: "_blank" do %>
+      <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Climat/reutilisateurs/alternativi.svg') %>); background-size: contain !important; background-repeat: no-repeat;">
+      </div>
+    <% end %>
+    
     <%= link_to "https://avenirclimatique.org/micmac/index.php", alt: "Avenir Climatique MicMac", target: "_blank" do %>
       <div class="reu-category" style="background-size: contain; background-repeat: no-repeat;background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Climat/reutilisateurs/logo_AC_simple_100px.png') %>);">
       </div>
@@ -87,10 +98,6 @@
       </div>
     <% end %>
 
-    <%= link_to "https://alternativi.fr/calculer-son-impact-carbone-avec-le-simulateur-de-l-ademe/614", alt: "Alternativi - Simulateur carbone", target: "_blank" do %>
-      <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Climat/reutilisateurs/alternativi.svg') %>); background-size: contain !important; background-repeat: no-repeat;">
-      </div>
-    <% end %>
   </div>
 </div>
 
