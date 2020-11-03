@@ -24,7 +24,7 @@
       <div class="how">
         <%= link_to "▶️ Accéder aux ressources du webinaire (replay, présentation ...)", 'https://ecolab.gitbook.io/documentation-ecolab/carbone/webinaire-carbone', target: "_blank" %>
       </div>
-      <a href="https://nosgestesclimat.fr"><button class="btn btn-red mt-3">Accéder au simulateur</button></a>
+      <a href="https://nosgestesclimat.fr"><button class="btn btn-red mt-3">Accéder au simulateur NosGEStesClimat</button></a>
     </div>
     <img class="images-banner" src="<%= image_path('Climat/online') %>"/>
   </div>
@@ -62,8 +62,8 @@
       <h4>Intégrez ce simulateur directement à votre site</h4>
       <p>Intégrez le dans un article de blog, un site ou une application simplement en ajoutant cette ligne à votre page Web. Le module restera automatiquement à jour avec les données les plus récentes.
       </p>
-      <code>
-        &lt;script id="ecolab-climat" src="http://ecolab.ademe.fr/apps/climat/iframe.js"&gt;&lt;/script&gt;
+      <code class="language-html" data-lang="html">
+          &lt;script id="ecolab-climat" src="https://nosgestesclimat.fr/iframe.js"&gt;&lt;/script&gt;
       </code>
       <p class="mt-3">ou accéder directement au code open source</p>
       <%= link_to "Github", 'https://github.com/betagouv/ecolab-climat', target: "_blank", class: "btn btn-red mt-3" %>

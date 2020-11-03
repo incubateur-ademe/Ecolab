@@ -44,7 +44,7 @@
       <h4>Intégrez ce simulateur directement à votre site</h4>
       <p>Intégrez notre module de calcul chez vous, par exemple rendre un article de blog plus intéractif pour le lecteur, simplement en ajoutant cette ligne à votre page Web. Le module restera automatiquement à jour avec les données les plus récentes.
       </p>
-      <code>
+      <code class="language-html" data-lang="html">
         &lt;script id="ecolab-transport" data-distanceInitiale="29" src="https://ecolab.ademe.fr/apps/transport/iframe.js"&gt;&lt;/script&gt;
       </code>
       <%= link_to "Documentation", 'https://ecolab.gitbook.io/documentation-ecolab/se-deplacer-quelques-cas-dusage-des-donnees', target: "_blank", class:"btn btn-grey mt-3" %>
@@ -220,35 +220,35 @@
 
 <!-- Re-utilisateurs -->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+  <p style="position: relative; width: 100%; padding: 10px 0;">
+    <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class: "how" %>
+  </p>
   <ol class="carousel-indicators">
     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
   </ol>
   <div class="carousel-inner">
     <!--     temoignage 1 -->
     <div class="carousel-item active">
-      <h2 class="temoignage">"Il est très simple d'utilisation et le graphisme basique mais percutant permet de comprendre les résultats d'un coup d'oeil."</h2>
+      <h3 class="temoignage">Il est très simple d'utilisation et le graphisme basique mais percutant permet de comprendre les résultats d'un coup d'oeil.</h3>
       <p>Alfaré Aurélien - ACCTEES</p>
-      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class: "how mt-3" %>
     </div>
     <!--     temoignage 2 -->
     <div class="carousel-item">
-      <h2 class="temoignage">On est absolument ravis ! C'est clairement un outil qui nous manqué jusque là et qui s'intègre  très bien à notre démarche ! Je trouve ça particulièrement positif que vous ayez dès le départ conçu l'outil pour être intégré sur les sites tiers !</h2>
+      <h3 class="temoignage">On est absolument ravis ! C'est clairement un outil qui nous manqué jusque là et qui s'intègre  très bien à notre démarche ! Je trouve ça particulièrement positif que vous ayez dès le départ conçu l'outil pour être intégré sur les sites tiers !</h3>
       <p>Adrien Jeantet - notre Choix</p>
-      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class: "how mt-3" %>
     </div>
     <!--     temoignage 3 -->
     <div class="carousel-item">
-      <h2 class="temoignage">"Simple et pratique à utiliser, on voit bien les quantités émises."</h2>
+      <h3 class="temoignage">Simple et pratique à utiliser, on voit bien les quantités émises.</h3>
       <p>Joachim Robert Design graphique</p>
-      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class: "how mt-3" %>
     </div>
     <!--     temoignage 4 -->
     <div class="carousel-item">
-      <h2 class="temoignage">"Calculateur simple, facilement incorporable à un site internet."</h2>
-      <p>Utilisateur</p>
-      <%= link_to "Vos retours sont les bienvenus", 'https://airtable.com/shr0MkHMKnpkWil7F', target: "_blank", class: "how mt-3" %>
+      <h3 class="temoignage">Calculateur simple, facilement incorporable à un site internet.</h3>
+      <p>Un utilisateur anonyme</p>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

@@ -17,8 +17,18 @@
   .section-droite img {
     display: none;
   }
+  .temoignage {
+    font-size: 1rem;
+  }
   .twitter-flex {
     flex-direction: column !important;
+    align-content: center;
+  }
+  .text-p {
+    width: 100%;
+  }
+  .section-rs .twitter-timeline {
+    margin-left: 0;
   }
 }
 @include media-breakpoint-up(md) {
@@ -31,8 +41,7 @@
     margin: 0px !important;
   }
   .temoignage {
-    font-size: 12px !important;
-    padding: 0px !important;
+    font-size: 1.3rem;
   }
   .section-droite img {
     width: 45vh;
