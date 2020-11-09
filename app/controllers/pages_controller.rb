@@ -1,5 +1,5 @@
 class PagesController < ApplicationController
-  def home
+  def agribalyse
   end
 
   def agribalyse_eng
