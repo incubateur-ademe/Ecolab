@@ -16,53 +16,48 @@
   <div><%= link_to "ENG", '/agribalyse_eng', class:"btn-eng" %></div>
 </div>
 
-
-
-
   <div class="hero" role="banner">
     <div class="hero__container hero__container_alim">
 
       <%#= image_tag("data.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
 
         <div class="text-banner-agri">
-            <p class="search_title mt-5">Découvrez l’impact environnemental de votre assiette</p>
-              <%#= render '/shared/search-bar' %>
+            <p class="search_title mt-4">Découvrez l’impact environnemental de votre assiette</p>
 
-              <div class="place-du-button-et-lien agrib">
+            <div class="place-du-button-et-lien agrib">
                 <%= link_to "Parcourir les données", 'https://app.agribalyse.fr/', target: "_blank", class:"btn btn-yellow mt-3" %>
                  <div class="how">
-
                   <%= link_to "Informations, conditions d’usages et documentation", "https://ecolab.gitbook.io/documentation-agribalyse/", target: "_blank" %>
                   </div>
               </div>
 
-              <div class="d-flex flex-column">
-                <div>
-                  <div class="d-flex flex-row mt-4">
 
-                    <div class="" style="height: 105px; width: 100px; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/repufrançaise.jpg') %>);">
-                    </div>
+            <div class="d-flex flex-column">
+              <div>
+                <div class="d-flex flex-row mt-4">
 
-                    <div class="" style="height: 91px; width: 87px; margin-right: 3em; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/logoademe.jpg') %>);">
-                    </div>
-
-                    <div class="" style="height: 100px; width: 150px; margin-right: 3em; margin-top: 20px; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/INRAE') %>);">
-                    </div>
+                  <div class="" style="height: 105px; width: 100px; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/repufrançaise.jpg') %>);">
                   </div>
 
-                  <div>
-                    <div class="" style="height: 135px; width: 160px; margin-left: 8.5em; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/Agibalyse-Couleurs') %>);">
-                    </div>
+                  <div class="" style="height: 91px; width: 87px; margin-right: 3em; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/logoademe.jpg') %>);">
                   </div>
 
+                  <div class="" style="height: 100px; width: 150px; margin-right: 3em; margin-top: 20px; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/INRAE') %>);">
+                  </div>
                 </div>
-              </div>
 
+                <div>
+                  <div class="" style="height: 135px; width: 160px; margin-left: 8.5em; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/Agibalyse-Couleurs') %>);">
+                  </div>
+                </div>
+
+              </div>
+            </div>
 
         </div>
-
     </div>
 </div>
+
 
 <!-- //////////////////// LOGO ADEME ET AGRIBALYSE ////////////////////////// -->
 
