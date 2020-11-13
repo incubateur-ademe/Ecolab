@@ -2,19 +2,24 @@
 <% content_for :meta_description, "Agribalyse, du champ à l’assiette, améliorons nos pratiques" %>
 <% content_for :meta_image, image_path("Agribalyse/ecolab-agribalyse.PNG") %>
 
+
 <div class="d-flex flex-row justify-content-between" style="background-color: #F8F8F8;">
   <div class="fil-ariane-bar">
-    <p id="accueil" class="fil-ariane-texte"><a href="/">Accueil Ecolab</a></p>
+    <p id="accueil" class="fil-ariane-texte"><a href="/">Ecolab</a></p>
       <i class="fas fa-chevron-right"></i>
-    <p class="fil-ariane-texte">Secteur</p>
+    <p class="fil-ariane-texte">Secteurr</p>
       <i class="fas fa-chevron-right"></i>
-    <p class="fil-ariane-texte"><a href="/alimentation">Se nourrir</a>
+    <p class="fil-ariane-texte"><a href="/alimentation">Alimentation</a>
       <i class="fas fa-chevron-right"></i>
     <p class="fil-ariane-texte"><a href="/agribalyse">Agribalyse</a>
     </p>
   </div>
-  <div><%= link_to "ENG", '/agribalyse_eng', class:"btn-eng" %></div>
+  <%= link_to "ENG", '/agribalyse_eng', class:"btn-eng" %>
 </div>
+
+
+
+
 
   <div class="hero" role="banner">
     <div class="hero__container hero__container_alim">
@@ -30,6 +35,7 @@
                   <%= link_to "Informations, conditions d’usages et documentation", "https://ecolab.gitbook.io/documentation-agribalyse/", target: "_blank" %>
                   </div>
               </div>
+
 
             <div class="d-flex flex-column">
               <div>
@@ -54,28 +60,11 @@
             </div>
 
         </div>
+
     </div>
 </div>
 
 
-<!-- //////////////////// LOGO ADEME ET AGRIBALYSE ////////////////////////// -->
-
-<!-- <div class="card-container-logo">
-    <div class="home-container-logo">
-        <%#= link_to "https://www.ademe.fr/", target: "_blank" do %>
-        <div>
-          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%#= image_path('ademe-logo.jpg') %>)">
-          </div>
-        </div>
-        <%# end %>
-        <%#= link_to "https://agribalyse.fr", target: "_blank" do %>
-        <div>
-          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%#= image_path('Agibalyse-Couleurs.png') %>)">
-          </div>
-        </div>
-        <%# end %>
-    </div>
-</div> -->
 
 
 
