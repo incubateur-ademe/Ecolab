@@ -75,7 +75,7 @@
 
 <!-- temoignages -->
 <div class="reu-container">
-  <p class="reu-title">Ils intègrent NosGEStesClimat</p>
+  <p class="reu-title">Ils intègrent ou mentionnent NosGEStesClimat</p>
   <div class="reu-list d-flex flex-row flex-wrap justify-content-center">
 
     <%= link_to "https://agirpourlatransition.ademe.fr/particuliers/testez-vos-connaissances/connaissez-empreinte-climat", alt: "ADEME - Connaissez-vous votre empreinte sur le climat ?", target: "_blank" do %>
@@ -98,11 +98,41 @@
       </div>
     <% end %>
 
+    <%= link_to "https://www.franceculture.fr/emissions/la-transition/bilan-carbone-en-dessous-de-la-moyenne", alt: "France Culture - Bilan carbone en dessous de la moyenne", target: "_blank" do %>
+      <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Climat/reutilisateurs/franceculture.png') %>); background-size: contain !important; background-repeat: no-repeat;">
+      </div>
+    <% end %>
+    
+    <%= link_to "https://www.franceinter.fr/emissions/le-debat-de-midi/le-debat-de-midi-05-aout-2020", alt: "France Inter - Débat de midi 5 août 2020", target: "_blank" do %>
+      <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Climat/reutilisateurs/franceinter.png') %>); background-size: contain !important; background-repeat: no-repeat;">
+      </div>
+    <% end %>
+
+    <%= link_to "https://www.grenoble.fr/1973-gestes-eco-citoyens-comment-agir-au-quotidien.htm", alt: "Grenoble - Gestes éco-citoyens", target: "_blank" do %>
+      <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/grenoble.png') %>); background-size: contain !important; background-repeat: no-repeat;">
+      </div>
+    <% end %>
+
+    <%= link_to "https://www.lemonde.fr/planete/article/2020/09/14/comment-calculer-et-surtout-reduire-son-empreinte-carbone_6052039_3244.html", alt: "Le Monde - Calculer et réduire son empreinte carbone", target: "_blank" do %>
+      <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Climat/reutilisateurs/lemonde.png') %>); background-size: contain !important; background-repeat: no-repeat;">
+      </div>
+    <% end %>
+ 
+    <%= link_to "https://www.nicematin.com/environnement/combien-je-pese-en-equivalent-carbone-et-comment-faire-pour-perdre-un-peu-de-poids-578029", alt: "Nice Matin - Combien je pèse en équivalent carbone", target: "_blank" do %>
+      <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Climat/reutilisateurs/nicematin.png') %>); background-size: contain !important; background-repeat: no-repeat;">
+      </div>
+    <% end %>
+    
     <%= link_to "https://save4planet.com/bilan-carbone", alt: "Save4Planet - EMPREINTE CARBONE", target: "_blank" do %>
       <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('transport/save4plan.png') %>); background-size: contain !important; background-repeat: no-repeat;">
       </div>
     <% end %>
 
+    <%= link_to "https://www.varmatin.com/environnement/combien-je-pese-en-equivalent-carbone-et-comment-faire-pour-perdre-un-peu-de-poids-578029", alt: "Var Matin - Combien je pèse en équivalent carbone", target: "_blank" do %>
+      <div class="reu-category" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Climat/reutilisateurs/varmatin.png') %>); background-size: contain !important; background-repeat: no-repeat;">
+      </div>
+    <% end %>
+ 
   </div>
 </div>
 
