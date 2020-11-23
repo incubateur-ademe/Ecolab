@@ -10,48 +10,36 @@
   <p class="fil-ariane-texte"><a href="/batiment">Se loger</a></p>
 </div>
 
-
-
 <div class="hero" role="banner">
-    <div class="hero__container hero__container_landing p-5" style="background: linear-gradient(0deg, white, #FF647C);">
-
-      <%#= image_tag("data.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
-      <img class="images-banner" id="trotti" src="<%= image_path('Seloger/buildings') %>"/>
-
-
-        <div class="texts-banner">
-          <h1 class="banner_title-trans">L'impact de la consommation énergétique des logements</h1>
-          <%#= render '/shared/search-bar' %>
-          <p class="banner_subtitle">Faciliter par les données, la rénovation et la décarbonation du secteur du bâtiment.</p>
-
-          <div class="how">
-            <%#= link_to "👷   Page encore en construction", '', target: "_blank" %>
-          </div>
-        </div>
-      <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
-      <img class="images-banner" src="<%= image_path('Seloger/wip') %>"/>
+  <div class="hero__container hero__container_landing p-5" style="background: linear-gradient(0deg, white, #FF647C);">
+    <%#= image_tag("data.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
+    <img class="images-banner" id="trotti" src="<%= image_path('Seloger/buildings') %>"/>
+    <div class="texts-banner">
+      <h1 class="banner_title-trans">L'impact de la consommation énergétique des logements</h1>
+      <%#= render '/shared/search-bar' %>
+      <p class="banner_subtitle">Faciliter par les données, la rénovation et la décarbonation du secteur du bâtiment.</p>
+      <div class="how">
+        <%#= link_to "👷   Page encore en construction", '', target: "_blank" %>
+      </div>
     </div>
+    <img class="images-banner" src="<%= image_path('Seloger/wip') %>"/>
+  </div>
 </div>
 
 <!-- Section integrer le simulateur -->
-
 <div class="d-flex flex-column">
-  <div class="section-trans section-trans-droite section-demandeur">
-    <div class="text-p d-flex flex-column align-items-center justofy-content-end mr-5 ml-5">
-      <p><strong>Exemple de cas d'usage de la donnée : les diagnostics de performance énergétique (DPE) pour les logements</strong></p>
-        <span></span>
+  <div class="section-bat section-droite section-demandeur d-flex flex-column align-items-center justify-content-center pt-5 pb-5">
+    <div class="text-p d-flex flex-column align-items-center justofy-content-end">
+      <h4>Exemple de cas d'usage de la donnée : les diagnostics de performance énergétique (DPE) pour les logements</h4>
       <p>Utilisez ces données pour apporter de nouvelles informations à vos utilisateurs !
       </p>
       <p>A noter : les données du DPE réalisé ne reflètent pas nécessairement la qualité énergétique du bien actuellement. Entre la date de réalisation du DPE et aujourd’hui, des travaux d’amélioration ont pu être réalisés.
       </p>
-
-
-        <%= link_to "Voir toutes les données sur data.ademe.fr", 'https://data.ademe.fr/reuses/diagnostics-de-performance-energetique-pour-les-logements-par-habitation', target: "_blank", class:"btn btn-grey mt-3" %>
+      <%= link_to "Voir toutes les données sur data.ademe.fr", 'https://data.ademe.fr/reuses/diagnostics-de-performance-energetique-pour-les-logements-par-habitation', target: "_blank", class:"btn btn-grey mt-3" %>
     </div>
-       <div>
-          <iframe src="https://koumoul.com/s/data-fair/app/relation-entre-classes-energetiques-et-ges-2?embed=true" width="100%" height="500px" style="background-color: transparent; border: none;"></iframe>
-       </div>
+    <iframe src="https://koumoul.com/s/data-fair/app/relation-entre-classes-energetiques-et-ges-2?embed=true" width="100%" height="500px" style="background-color: transparent; border: none;"></iframe>
   </div>
+</div>
 
 <%= render '/shared/newsletter' %>
 <%= render '/shared/twitter' %>
