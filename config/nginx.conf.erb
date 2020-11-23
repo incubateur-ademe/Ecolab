@@ -67,21 +67,22 @@ http {
 
     # app climat on Netlify
     location ~* ^/apps/(?:climat|nos-gestes-climat)(.*) {
-      set $netlify_app 'ecolab-climat.netlify.app';
+      set $netlify_app 'nosgestesclimat.fr';
       set $url_full '$1';
       if ( $url_full = '' ) {
            set $url_full '/';
       }
+      return 301 https://$netlify_app$url_full;
 
-      proxy_hide_header Set-Cookie;
-      proxy_set_header X-Real-IP $remote_addr;
-      proxy_set_header X-Forwarded-For $host;
-      proxy_set_header Host $netlify_app;
-      proxy_ignore_headers "Set-Cookie";
-      proxy_buffering off;
-      proxy_intercept_errors on;
-      proxy_redirect off;
-      proxy_pass https://$netlify_app$url_full;
+      # proxy_hide_header Set-Cookie;
+      # proxy_set_header X-Real-IP $remote_addr;
+      # proxy_set_header X-Forwarded-For $host;
+      # proxy_set_header Host $netlify_app;
+      # proxy_ignore_headers "Set-Cookie";
+      # proxy_buffering off;
+      # proxy_intercept_errors on;
+      # proxy_redirect off;
+      # proxy_pass https://$netlify_app$url_full;
     }
 
 		location / {
