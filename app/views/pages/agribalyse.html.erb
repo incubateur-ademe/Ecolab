@@ -2,19 +2,21 @@
 <% content_for :meta_description, "Agribalyse, du champ à l’assiette, améliorons nos pratiques" %>
 <% content_for :meta_image, image_path("Agribalyse/ecolab-agribalyse.PNG") %>
 
+
 <div class="d-flex flex-row justify-content-between" style="background-color: #F8F8F8;">
   <div class="fil-ariane-bar">
-    <p id="accueil" class="fil-ariane-texte"><a href="/">Accueil Ecolab</a></p>
+    <p id="accueil" class="fil-ariane-texte"><a href="/">Ecolab</a></p>
       <i class="fas fa-chevron-right"></i>
-    <p class="fil-ariane-texte">Secteur</p>
+    <p class="fil-ariane-texte">Secteurr</p>
       <i class="fas fa-chevron-right"></i>
-    <p class="fil-ariane-texte"><a href="/alimentation">Se nourrir</a>
+    <p class="fil-ariane-texte"><a href="/alimentation">Alimentation</a>
       <i class="fas fa-chevron-right"></i>
     <p class="fil-ariane-texte"><a href="/agribalyse">Agribalyse</a>
     </p>
   </div>
-  <div><%= link_to "ENG", '/agribalyse_eng', class:"btn-eng" %></div>
+  <%= link_to "ENG", '/agribalyse_eng', class:"btn-eng" %>
 </div>
+
 
 
 
@@ -25,58 +27,44 @@
       <%#= image_tag("data.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
 
         <div class="text-banner-agri">
-            <p class="search_title mt-5">Découvrez l’impact environnemental de votre assiette</p>
-              <%#= render '/shared/search-bar' %>
+            <p class="search_title mt-4">Découvrez l’impact environnemental de votre assiette</p>
 
-              <div class="place-du-button-et-lien agrib">
+            <div class="place-du-button-et-lien agrib">
                 <%= link_to "Parcourir les données", 'https://app.agribalyse.fr/', target: "_blank", class:"btn btn-yellow mt-3" %>
                  <div class="how">
-
                   <%= link_to "Informations, conditions d’usages et documentation", "https://ecolab.gitbook.io/documentation-agribalyse/", target: "_blank" %>
                   </div>
               </div>
 
-              <div class="logo-container d-flex flex-row mt-4">
 
-              <div class="" style="height: 105px; width: 100px; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/repufrançaise.jpg') %>);">
+            <div class="d-flex flex-column">
+              <div>
+                <div class="d-flex flex-row mt-4">
+
+                  <div class="" style="height: 105px; width: 100px; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/repufrançaise.jpg') %>);">
+                  </div>
+
+                  <div class="" style="height: 91px; width: 87px; margin-right: 3em; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/logoademe.jpg') %>);">
+                  </div>
+
+                  <div class="" style="height: 100px; width: 150px; margin-right: 3em; margin-top: 20px; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/INRAE') %>);">
+                  </div>
+                </div>
+
+                <div>
+                  <div class="" style="height: 135px; width: 160px; margin-left: 8.5em; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/Agibalyse-Couleurs') %>);">
+                  </div>
+                </div>
+
               </div>
-
-              <div class="" style="height: 91px; width: 87px; margin-right: 3em; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/logoademe.jpg') %>);">
-              </div>
-
-              <div class="" style="height: 100px; width: 150px; margin-right: 3em; margin-top: 20px; background-repeat: no-repeat; background-size: contain; background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%= image_path('Agribalyse/INRAE') %>);">
-              </div>
-
             </div>
 
-
-        <!-- <p class="mt-2" style="font-size: 14px; padding-bottom: 150px;">Les données sont <strong>actuellement</strong> disponibles via les logiciels d’analyses du cycle de vie (<span><a href="https://simapro.com/products/agribalyse-agricultural-database/" class="how" target="_blank">SimaPro</a></span> et <span><a href="https://nexus.openlca.org/database/Agribalyse"  class="how" target="_blank">openLCA</a></span>) et sur la <span><a href="https://www.globallcadataaccess.org/" class="how" target="_blank">plateforme GLAD</a></span>. Les données au <strong>format simplifié, en accès libre</strong>, disponibles le <strong>29 septembre</strong> jour du <span><a href="https://agribalyse3.site.ademe.fr/" class="how" target="_blank">colloque de présentation AGRIBALYSE</a></span>.</p> -->
-
-        <!-- <p class="badge-beta"><span><a href="https://airtable.com/shrjo0sWG49AupVhL" class="how">Nous contacter</a></span></p> -->
         </div>
 
-      <%#= image_tag("empreinte.svg", {:style => "width:70vh; margin: 10px; height: 70vh;"}) %>
     </div>
 </div>
 
-<!-- //////////////////// LOGO ADEME ET AGRIBALYSE ////////////////////////// -->
 
-<!-- <div class="card-container-logo">
-    <div class="home-container-logo">
-        <%#= link_to "https://www.ademe.fr/", target: "_blank" do %>
-        <div>
-          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%#= image_path('ademe-logo.jpg') %>)">
-          </div>
-        </div>
-        <%# end %>
-        <%#= link_to "https://agribalyse.fr", target: "_blank" do %>
-        <div>
-          <div class="card-category-logo" style="background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)), url(<%#= image_path('Agibalyse-Couleurs.png') %>)">
-          </div>
-        </div>
-        <%# end %>
-    </div>
-</div> -->
 
 
 
