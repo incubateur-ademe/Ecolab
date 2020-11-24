@@ -5,6 +5,10 @@ class PagesController < ApplicationController
   def agribalyse_eng
   end
 
+  def redirect_to_agribalyse
+    redirect_to "https://app.agribalyse.fr"
+  end
+
   def courses
   end
 
