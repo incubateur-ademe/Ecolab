@@ -6,7 +6,7 @@ class PagesController < ApplicationController
   end
 
   def redirect_to_agribalyse
-    redirect_to "https://app.agribalyse.fr"
+    redirect_to "https://agribalyse.fr"
   end
 
   def courses
