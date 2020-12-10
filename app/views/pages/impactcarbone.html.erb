@@ -141,6 +141,20 @@
   </div>
 </div>
 
+
+<!-- Section données lien vers github -->
+<div class="d-flex flex-column">
+  <div class="section-trans section-gauche section-demandeur d-flex align-items-center justify-content-center pt-5 pb-5">
+    <img src="<%= image_path('Climat/data2') %>"/>
+    <div class="text-p d-flex flex-column align-items-center">
+      <h4>Enrichissez vos produits avec les données ouvertes</h4>
+      <p>La Base Carbone® est une base de données publique de facteurs d'émissions, nécessaires à la réalisation d’un bilan d’émissions de gaz à effet de serre (GES) et plus généralement tout exercice de comptabilité carbone.
+      </p>
+      <%= link_to "Base Carbone® (Open Data)", 'https://data.ademe.fr/datasets/base-carbone(r)', target: "_blank", class: "btn btn-yellow mt-3" %>
+    </div>
+  </div>
+</div>
+
 <div class="reu-container reu-bc">
   <p class="reu-title">Ils intègrent et réutilisent les données de la Base Carbone</p>
   <div class="reu-list d-flex flex-row flex-wrap justify-content-center">
@@ -163,19 +177,6 @@
   </div>
 </div>
 
-
-<!-- Section données lien vers github -->
-<div class="d-flex flex-column">
-  <div class="section-trans section-gauche section-demandeur d-flex align-items-center justify-content-center pt-5 pb-5">
-    <img src="<%= image_path('Climat/data2') %>"/>
-    <div class="text-p d-flex flex-column align-items-center">
-      <h4>Enrichissez vos produits avec les données ouvertes</h4>
-      <p>La Base Carbone® est une base de données publique de facteurs d'émissions, nécessaires à la réalisation d’un bilan d’émissions de gaz à effet de serre (GES) et plus généralement tout exercice de comptabilité carbone.
-      </p>
-      <%= link_to "Base Carbone® (Open Data)", 'https://data.ademe.fr/datasets/base-carbone(r)', target: "_blank", class: "btn btn-yellow mt-3" %>
-    </div>
-  </div>
-</div>
 
 <%= render '/shared/newsletter' %>
 <%= render '/shared/twitter' %>
