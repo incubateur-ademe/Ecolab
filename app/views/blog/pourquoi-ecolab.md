@@ -30,7 +30,7 @@ Pour faciliter et accélérer le passage à l’acte vers de nouveaux modes de v
 
 > *Exemple 1* : Notre [calculateur transport](https://ecolab.ademe.fr/transport) permet de quantifier et comparer l’impact CO2 de différents moyens de transport pour une distance donnée.
 
-> *Exemple 2* : Le [simulateur d’empreinte carbone personnel Nos Gestes Climat](https://ecolab.ademe.fr/impactcarbone) interroge l’utilisateur sur ses habitudes quotidiennes (déplacements, alimentation, logement, etc) afin de lui indiquer son impact carbone et de le mettre en parallèle avec la moyenne française et l’objectif à atteindre pour respecter les Accords de Paris. Sont ensuites proposées des fiches personnalisés à l’utilisateur afin de lui permettre d’identifier les actions qu’il peut mettre en place pour réduire son impact carbone.
+> *Exemple 2* : Le [simulateur d’empreinte carbone personnel Nos Gestes Climat](http://nosgestesclimat.fr/) interroge l’utilisateur sur ses habitudes quotidiennes (déplacements, alimentation, logement, etc) afin de lui indiquer son impact carbone et de le mettre en parallèle avec la moyenne française et l’objectif à atteindre pour respecter les Accords de Paris. Sont ensuites proposées des fiches personnalisés à l’utilisateur afin de lui permettre d’identifier les actions qu’il peut mettre en place pour réduire son impact carbone.
 
 - Par ailleurs, tout au long de l’année, Ecolab propose de bénéficier de l’expertise des membres de l’ADEME et de son équipe, notamment constituée de développeurs, via l’organisation d’**ateliers en petits groupes pour répondre aux questions et besoins des participants, ou de webinaires plus large** rassemblant jusqu'à plusieurs centaines d’intéressés.
 
