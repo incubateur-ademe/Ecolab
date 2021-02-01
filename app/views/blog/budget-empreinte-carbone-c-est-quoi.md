@@ -31,7 +31,7 @@ Mais quel est exactement notre objectif ? Nous devons baisser nos émissions de 
 
 Le *e* de CO₂e n'est vraiment pas un détail : un voyage en avion Paris-New York émet 1 tonne de CO₂, mais 2 tonnes de CO₂e !
 
-📗 *Lisez [notre lexique](https://ecolab.gitbook.io/documentation-ecolab/lexique-environnemental-et-changement-climat#lequivalent-co2-ou-co2-equivalent-co-2-e) pour aller plus loin.*
+📗 *Lisez [notre lexique](https://datagir.gitbook.io/documentation/lexique-environnemental-et-changement-climat#lequivalent-co2-ou-co2-equivalent-co-2-e) pour aller plus loin.*
 
 
 Pourquoi se soucie-t-on de ces gaz ? Plus nous en rejetons, plus ils s'accumulent dans l'atmosphère et réchauffent la Terre. Aujourd'hui, sa température moyenne a déjà grimpé de [plus de 1,2 degrés](https://www.lemonde.fr/blog/huet/2020/04/14/pas-de-repit-pour-le-climat-durant-la-covid-19) par rapport aux années 1900.
