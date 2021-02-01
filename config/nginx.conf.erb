@@ -44,12 +44,12 @@ http {
   server {
  	  listen <%= ENV["PORT"] %>;
     server_name    ecolab.ademe.fr;
-    return         301 https://datagir.ademe.fr/$request_uri;
+    return         301 https://datagir.ademe.fr$request_uri;
   }
 
 	server {
 		listen <%= ENV["PORT"] %>;
-		server_name _;
+		server_name datagir.ademe.fr;
 		keepalive_timeout 5;
 
     # app transport on Netlify
