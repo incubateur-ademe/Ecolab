@@ -41,6 +41,12 @@ http {
 		server unix:/tmp/nginx.socket fail_timeout=0;
  	}
 
+  server {
+ 	  listen <%= ENV["PORT"] %>;
+    server_name    ecolab.ademe.fr;
+    return         301 https://datagir.ademe.fr/$request_uri;
+  }
+
 	server {
 		listen <%= ENV["PORT"] %>;
 		server_name _;
